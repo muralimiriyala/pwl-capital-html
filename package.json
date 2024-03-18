@@ -5,5 +5,8 @@
     "grunt-contrib-uglify": "^5.2.2",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-w3c-html-validation": "^0.1.9"
+  },
+  "dependencies": {
+    "grunt": "^1.6.1"
   }
 }

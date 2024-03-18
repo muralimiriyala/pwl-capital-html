@@ -1,0 +1,11 @@
+
+.footer-section{background-color: #013;}
+.footer-main{padding: 122.5px 0 73px;}
+.footer-logos{gap: 20px;}
+
+
+@media screen and (min-width: 1024px) {
+    .footer-top{gap: 236px;}
+    .footer-top-left{flex: 0 0 477px;}
+    .footer-top-right{flex: 0 0 calc(100% - 716px);}
+}
