@@ -2,7 +2,8 @@
 .banner-section{background: var(--french-navy, #013);}
 ul.main-menu{margin: 0;}
 
-
+.home-banner-image{max-width: 600px; top: 0; right: 0; position: absolute;}
+.home-banner-text{max-width: 588px; padding: 200px 0;}
 
 
 

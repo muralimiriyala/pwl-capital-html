@@ -8,9 +8,9 @@ a{color: var(--accent);text-decoration: none; transition: all 0.5s ease;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--navy);}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; letter-spacing: 0; color: var(--navy); font-weight: 800; font-family: "brother-1816", sans-serif; text-transform: none;}
-.h1, h1{font-size: 3rem; line-height: 3.5rem; margin-bottom: 1.563rem;}
-.h2, h2{font-size: 2.5rem; line-height: 3rem; margin-bottom: 30px;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; letter-spacing: 0; color: var(--navy); font-weight: 800; font-family: 'Century Gothic', sans-serif; text-transform: none;}
+.h1, h1{font-size: 62px; line-height: 70px; letter-spacing: -0.62px; margin-bottom: 1.563rem;}
+.h2, h2{font-size: 44px; line-height: 50px; margin-bottom: 30px;}
 .h3, h3{font-size: 2rem; line-height: 2.5rem; margin-bottom: 1.125rem;}
 .h4, h4{font-size: 1.5rem; line-height: 2rem; margin-bottom: 0.938rem;}
 .h5, h5{font-size: 1.25rem; line-height: 1.75rem; margin-bottom: 12px;}
@@ -80,9 +80,6 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 /* Buttons */
 .button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 14px; font-weight: bold; line-height: 1.07; padding: 15px 25px 13px 16px; font-family: "brother-1816", sans-serif; display: inline-block; background: #0894d3; color: #fff; border: 0; border-radius: 0; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: uppercase; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover{ background: #fff; color:#0894d3; }
-/* .button.back::before, .button::after, button::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]::after{transform: translateX(8px); top: 0px; position: relative; display: inline-flex; content: "\f054"; color: var(--accent); font-size: 0.875rem; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all 0.5s ease;}
-.button.btn-green::after, button.btn-green::after, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{color: var(--navy);}
-.button:hover::after, button:hover::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover::after{transform: translateX(16px); color: var(--white);} */
 
 .button.btn-md{padding: 11px 32px 11px 16px; font-size: 1rem;}
 .button.btn-md.btn-transparent{padding: 10px 32px 9px 16px;}
@@ -183,7 +180,7 @@ img.aligncenter{margin: 25px auto;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -0.36px; font-weight: 400; font-family: 'Univers', sans-serif; overflow-x: hidden; position: relative; color: var(--foreground); background-color: transparent;}
+body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -0.36px; font-weight: 400; font-family: 'Univers', sans-serif; position: relative; color: var(--foreground); background-color: transparent;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 24px; font-size: 1.125rem; line-height: 1.375rem; letter-spacing: 0; font-weight: 800; color: var(--foreground-light); display: block; text-transform: none; font-family: "brother-1816", sans-serif;}
 span.optional-text.muted{margin-bottom: 10px; color: var(--accent-light);}
@@ -284,7 +281,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .bg-dark{background-color: var(--foreground);}
 .bg-white{background-color: var(--white);}
 .bg-navy{background-color: var(--navy); color: var(--white);}
-
+.bg-blue{background: var(--Capri-Ocean, #0894D3);;}
 
 div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 1.25rem; line-height: 1.25rem; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease;}
 div.slick-arrow::after{display: none;}

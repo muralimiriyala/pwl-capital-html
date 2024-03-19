@@ -1,4 +1,4 @@
 
 jQuery(function($){
-    alert("tes")
+
 });
