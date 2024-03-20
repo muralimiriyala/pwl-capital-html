@@ -2,7 +2,7 @@
 
 
 
-
+.short-intro-main{padding: 84px 0 0;}
 .short-intro-head{gap: 80px;}
 .short-intro-title{flex: 0 0 442px;}
 .short-intro-desc{flex: 1;}
@@ -10,4 +10,7 @@
 .short-intro-list{flex: 1;}
 
 .short-intro-desc{color: var(--midnight);}
-span.number{font-size: 100px; line-height: 100px; font-family: 'Century Gothic',sans-serif;}
+span.number{font-size: 100px; line-height: 100px; margin-bottom: 21px; display: block; font-family: 'Century Gothic',sans-serif;}
+.short-intro-list h2{margin-bottom: 8px; font-size: 23px; line-height: 27px; letter-spacing: -0.23px;}
+
+/* media css starts here */
