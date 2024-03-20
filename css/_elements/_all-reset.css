@@ -136,6 +136,7 @@ span.optional-text.f-dark{color: var(--foreground-dark);}
 .fs-14{font-size: 0.875rem; line-height: 1.25rem; letter-spacing: -0.28px;}
 .fs-15{font-size: 15px; line-height: 25px;}
 .fs-16{font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.32px;}
+.fs-17{font-size: 17px; line-height: 30px; letter-spacing: -0.17px;}
 .fs-18{font-size: 1.125rem; line-height: 2rem; letter-spacing: -0.36px;}
 .fs-20{font-size: 1.25rem; line-height: 1.75rem;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
@@ -290,4 +291,6 @@ ul.slick-dots li button{display: none;}
 
     div.slick-arrow{bottom: -16px; left: 0;}
     .slick-arrow.slick-next{left: auto; right: 0;}
+    
+    .button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"], button{font-size: 14px; line-height: 1.07; padding: 11px 7px 10px 6px; letter-spacing: 0.28px;}
 }
