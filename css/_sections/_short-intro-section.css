@@ -8,3 +8,5 @@
 .short-intro-desc{flex: 1;}
 .short-intro-row{gap: 50px;}
 .short-intro-list{flex: 1;}
+
+.short-intro-desc{color: var(--midnight);}
