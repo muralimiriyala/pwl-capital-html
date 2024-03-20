@@ -8,9 +8,9 @@ a{color: var(--accent);text-decoration: none; transition: all 0.5s ease;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--navy);}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; letter-spacing: 0; color: var(--navy); font-weight: 800; font-family: "brother-1816", sans-serif; text-transform: none;}
-.h1, h1{font-size: 3rem; line-height: 3.5rem; margin-bottom: 1.563rem;}
-.h2, h2{font-size: 2.5rem; line-height: 3rem; margin-bottom: 30px;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; letter-spacing: 0; color: var(--navy); font-weight: 800; font-family: 'brother-1816', sans-serif; text-transform: none;}
+.h1, h1{font-size: 62px; line-height: 70px; letter-spacing: -0.62px; margin-bottom: 14px; font-family: 'Century Gothic', sans-serif;}
+.h2, h2{font-size: 44px; line-height: 50px; margin-bottom: 30px;}
 .h3, h3{font-size: 2rem; line-height: 2.5rem; margin-bottom: 1.125rem;}
 .h4, h4{font-size: 1.5rem; line-height: 2rem; margin-bottom: 0.938rem;}
 .h5, h5{font-size: 1.25rem; line-height: 1.75rem; margin-bottom: 12px;}
@@ -78,80 +78,13 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 ::-moz-selection {background-color: var(--black); color: var(--white);}
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 14px; font-weight: bold; line-height: 1.07; padding: 15px 25px 13px 16px; font-family: "brother-1816", sans-serif; display: inline-block; background: #0894d3; color: #fff; border: 0; border-radius: 0; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: uppercase; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; z-index: 1; margin: 0;}
-.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover{ background: #fff; color:#0894d3; }
-/* .button.back::before, .button::after, button::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]::after{transform: translateX(8px); top: 0px; position: relative; display: inline-flex; content: "\f054"; color: var(--accent); font-size: 0.875rem; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all 0.5s ease;}
-.button.btn-green::after, button.btn-green::after, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::after{color: var(--navy);}
-.button:hover::after, button:hover::after, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover::after{transform: translateX(16px); color: var(--white);} */
-
-.button.btn-md{padding: 11px 32px 11px 16px; font-size: 1rem;}
-.button.btn-md.btn-transparent{padding: 10px 32px 9px 16px;}
-.button.btn-md::after{font-size: 0.813rem;}
-
-.button.btn-sm{font-size: 0.875rem; line-height: 0.875rem; padding: 10px 17px 9px 10px; border-radius: 10px;}
-.button.btn-sm::after{transform: translateX(7px); top: 0px;}
-.button.btn-sm:hover::after{transform: translateX(10px);}
-.button.btn-green, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{color: var(--white); background-color: var(--accent);}
-.button.btn-green:hover, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--navy);}
-.button.btn-light-green{color: var(--drab); background-color: var(--accent-light);}
-.button.btn-light-green:hover{color: var(--white); background-color: var(--accent);}
-.button.btn-transparent,  body .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page{color: #fff; border: 2px solid #0894d3; background: transparent;}
-.button.btn-transparent:hover, body .frm_forms .frm_form_fields .frm_submit button[type="submit"].frm_prev_page:hover{background: #0894d3; color: #fff; border-color: #0894d3;}
-.button.btn-outline{padding: 14px 29px 12px 16px; color: var(--drab); border: 1px solid var(--accent); background: transparent;}
-.button.btn-outline:hover{background: var(--accent); color: var(--white);}
-.button.btn-gray{background: var(--elevated); color: var(--foreground);}
-.button.btn-gray:hover{background: var(--accent); color: var(--white);}
-.button.btn-white{background: var(--white); color: var(--foreground);}
-.button.btn-white:hover{background: var(--accent); color: var(--white);}
-.btn-transparent.yellow{border-color: var(--accent-yellow); color: var(--foreground-dark);}
-.btn-transparent.yellow::after{color: var(--accent-yellow);}
-.btn-transparent.yellow:hover{ background: var(--foreground-dark);}
-
-.button.text-white{color: var(--white);}
-.button.down-arrow::after{content: "\f078";}
-
-.button.btn-hover-white:hover, body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-hover-white:hover{background-color: var(--white); color: var(--foreground);}
-.button.btn-hover-white:hover::after{color: var(--accent);}
-body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-hover-white::after{color: var(--white);}
-body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-hover-white:hover::after{color: var(--navy);}
-
-
-.button.no-arrow::after, button.no-arrow::after{display: none;}
-.button.no-arrow, button.no-arrow{padding-right: 16px;}
-.button.btn-sm.no-arrow{padding-right: 10px;}
-
-.btn-tel{padding: 9px 12px; border: 1px solid var(--accent-light); background-color: var(--accent-light); display: inline-flex; align-items: center; gap: 8px; color: var(--accent-dark); font-size: 0.875rem; line-height: 0.875rem; letter-spacing: 0; font-weight: 800; font-family: "brother-1816", sans-serif; text-transform: capitalize;}
-.btn-tel span:not(.hide-mobile){color: var(--accent);}
-.btn-tel:hover{border-color: var(--foreground-light); background-color: transparent; color: var(--drab);}
-.btn-email{padding: 9px 12px; border: 1px solid var(--foreground-light); display: inline-flex; align-items: center; gap: 8px; color: var(--drab); font-size: 0.875rem; line-height: 0.875rem; letter-spacing: 0; font-weight: 800; font-family: "brother-1816", sans-serif; text-transform: capitalize;}
-.btn-email span:not(.hide-mobile){color: var(--accent);}
-.btn-email:hover{background-color: var(--accent-light); border-color: var(--accent-light); color: var(--accent-dark);}
-
-.button.back{padding: 15px 16px 13px 29px;}
-.button.md.back{padding: 10px 16px 10px 32px;}
-.button.back::after{display: none;}
-.button.back::before{content: "\f053"; transform: translateX(-13px);}
-.button.back:hover::before{transform: translateX(-16px); color: var(--white);}
-.button.disabled{pointer-events: none; opacity: 0.5;}
-
-.button.btn-md.yellow::after{color: var(--accent-yellow);}
-.button.btn-md.yellow:hover::after{color: var(--white);}
-
-.solar-btn .button::after{color: #ffbf0d;}
-.solar-btn .button:hover{background-color: #ffbf0d;}
-.solar-btn .button:hover::after{color: var(--white);}
-.ev-charging-btn .button::after{color: #02b5dc;}
-.ev-charging-btn .button:hover{background-color: #02b5dc;}
-.ev-charging-btn .button:hover::after{color: var(--white);}
-.ev-heating-btn .button::after{color: #F8971D;}
-.ev-heating-btn .button:hover{background-color: #F8971D;}
-.ev-heating-btn .button:hover::after{ color: #fff;}
-.battery-storage-btn .button::after{color: #71A341;}
-.battery-storage-btn .button:hover{background-color: #71A341;}
-.battery-storage-btn .button:hover::after{color: var(--white);}
-
-.button.btn-transparent.white-border{border-color: var(--accent-light); color: var(--white);}
-
+.button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 15px; line-height: 15px; letter-spacing: 0.3px; padding: 14px 16px 15px; font-family: "brother-1816", sans-serif; font-weight: 700; display: inline-block; background: #0894d3; color: #fff; border: 2px solid transparent; border-radius: 0; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: uppercase; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; margin: 0;}
+.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover{ background: var(--green-pear); color:var(--white); }
+.button.btn-transparent{background: transparent; border-color: var(--capri-ocean); color: var(--capri-ocean);}
+.button.btn-transparent:hover{background: var(--green-pear); border-color: var(--green-pear); color:var(--white);}
+.btn-green.btn-transparent{border-color: var(--green-pear);}
+.btn-green.btn-transparent:hover{background: var(--green-pear); color:var(--white);}
+.btn-green.white-text{color: var(--white);}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
@@ -183,9 +116,9 @@ img.aligncenter{margin: 25px auto;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -0.36px; font-weight: 400; font-family: 'Univers', sans-serif; overflow-x: hidden; position: relative; color: var(--foreground); background-color: transparent;}
+body{font-size: 1.125rem; line-height: 1.625rem; letter-spacing: -0.36px; font-weight: 400; font-family: 'brother-1816', sans-serif;  position: relative; color: var(--foreground); background-color: transparent;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 24px; font-size: 1.125rem; line-height: 1.375rem; letter-spacing: 0; font-weight: 800; color: var(--foreground-light); display: block; text-transform: none; font-family: "brother-1816", sans-serif;}
+span.optional-text{margin-bottom: 12px; font-size: 12px; line-height: 21px; letter-spacing: 1.2px; font-weight: 500; display: block; font-family: "brother-1816", sans-serif; text-transform: uppercase; }
 span.optional-text.muted{margin-bottom: 10px; color: var(--accent-light);}
 span.optional-text.green{margin-bottom: 0; color: var(--accent);}
 span.optional-text.dark{color: var(--foreground);}
@@ -284,7 +217,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .bg-dark{background-color: var(--foreground);}
 .bg-white{background-color: var(--white);}
 .bg-navy{background-color: var(--navy); color: var(--white);}
-
+.bg-blue{background: var(--Capri-Ocean, #0894D3);;}
 
 div.slick-arrow{width: 48px; height: 48px; padding: 0; font-size: 1.25rem; line-height: 1.25rem; border-radius: 13.553px; position: absolute; z-index: 1; cursor: pointer; transition: all 0.5s ease;}
 div.slick-arrow::after{display: none;}
@@ -300,6 +233,11 @@ ul.slick-dots li button{display: none;}
 
 .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
 .w-100{width: 100%;}
+.f-700{font-weight: 700;}
+.muted-light{color: var(--muted---light);}
+.aquamarine{color: var(--aquamarine);}
+.capri-ocean{color: var(--capri-ocean);}
+.bright-Spring{color: var(--bright-Spring);}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 740px){
@@ -308,6 +246,7 @@ ul.slick-dots li button{display: none;}
 }
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
+    .container.x-md{max-width: 1130px;}
     .container.sm{max-width: 960px;}
 
     .hide-desktop{display: none;}
