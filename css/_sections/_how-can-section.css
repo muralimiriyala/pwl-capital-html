@@ -2,8 +2,10 @@
 .how-can-section{background: var(--Ice-Blue---Light, rgba(217, 238, 247, 0.65));}
 .how-can-main{gap: 96px; padding: 100px 0;}
 .how-can-text{text-align: right;}
-
-
+ul.how-can-links{margin: 0; padding-top: 30px;}
+ul.how-can-links li{margin: 0 0 29px;}
+ul.how-can-links li a{color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; font-size: 22px; font-weight: 400; line-height: 31px; letter-spacing: -0.44px;}
+ul.how-can-links li a:hover{ color: var(--capri-ocean, #0894D3); }
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){

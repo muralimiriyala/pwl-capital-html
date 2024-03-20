@@ -28,6 +28,9 @@
 .footer-share-desc ul > li a{color: #fff;}
 .footer-share-desc ul > li a:hover{color: #0894d3;}
 
+.footer-bg-one{right: -175px; top: -80px; opacity: 0.09;}
+.footer-bg-two{right: 66px; top: 317px; opacity: 0.09;}
+
 
 @media screen and (min-width: 1024px) {
     .footer-top{gap: 236px; margin-bottom: 90px;}
@@ -41,3 +44,6 @@
     .footer-top-right{flex: 0 0 calc(100% - 450px);}
     .footer-share-icon{flex: 0.5;}
 }
+
+.footer-btn { gap: 13px; }
+.button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"], button { font-size: 14px; line-height: 1.07; padding: 11px 7px 10px 6px; letter-spacing: 0.28px;}
