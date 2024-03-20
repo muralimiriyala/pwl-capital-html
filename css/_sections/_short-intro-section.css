@@ -10,3 +10,4 @@
 .short-intro-list{flex: 1;}
 
 .short-intro-desc{color: var(--midnight);}
+span.number{font-size: 100px; line-height: 100px; font-family: 'Century Gothic',sans-serif;}

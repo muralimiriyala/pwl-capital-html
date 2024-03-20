@@ -233,7 +233,11 @@ ul.slick-dots li button{display: none;}
 
 .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
 .w-100{width: 100%;}
+.f-700{font-weight: 700;}
 .muted-light{color: var(--muted---light);}
+.aquamarine{color: var(--aquamarine);}
+.capri-ocean{color: var(--capri-ocean);}
+.bright-Spring{color: var(--bright-Spring);}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 740px){
@@ -242,6 +246,7 @@ ul.slick-dots li button{display: none;}
 }
 @media only screen and (min-width: 1024px){
     .container{max-width: 1280px; width: 100%; margin: 0 auto;}
+    .container.x-md{max-width: 1130px;}
     .container.sm{max-width: 960px;}
 
     .hide-desktop{display: none;}
