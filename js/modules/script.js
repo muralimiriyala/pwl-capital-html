@@ -6,17 +6,12 @@ jQuery(function($){
         _scroll >= 4 ? header.addClass("sticky") : header.removeClass("sticky");
     }
 
+    $('.footer-nav').click(function() {     
+        $(this).toggleClass("open");
+        $(this).siblings('.footer-nav').removeClass("open");
+        $(this).find('.footer-nav-cont').slideToggle(900);
+        $(this).siblings('.footer-nav').find('.footer-nav-cont').slideUp(900);  
+     })
+
 });
-
-// jQuery(function($){
-//     $('.footer-nav span').click(function() {      
-//        $('.footer-nav-cont').toggle();
-//     })
-// });
-
-// jQuery(document).ready(function(){
-//     jQuery(".test").on("click", function(){
-//         jQuery("ul.footer-nav-cont").addClass("open");
-//     });
-// });
 
