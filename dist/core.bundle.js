@@ -1,1 +1,1 @@
-jQuery(function(n){const o=n(".header-main");window.onscroll=function(){4<=window.scrollY?o.addClass("sticky"):o.removeClass("sticky")}});
+jQuery(function(o){const n=o(".header-main");window.onscroll=function(){4<=window.scrollY?n.addClass("sticky"):n.removeClass("sticky")},o(".footer-nav").click(function(){o(this).toggleClass("open"),o(this).siblings(".footer-nav").removeClass("open"),o(this).find(".footer-nav-cont").slideToggle(900),o(this).siblings(".footer-nav").find(".footer-nav-cont").slideUp(900)})});

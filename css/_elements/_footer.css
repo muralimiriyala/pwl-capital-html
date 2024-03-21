@@ -6,7 +6,7 @@
 .footer-btn{gap: 11px;}
 
 .footer-top-right{gap: 30px;}
-.footer-nav span{font-size: 16px; line-height: 1.19; letter-spacing: 0.32px; font-weight: bold; color: #0894d3; display: block; margin-bottom: 30px;}
+.footer-nav-title{font-size: 16px; line-height: 1.19; letter-spacing: 0.32px; font-weight: bold; color: #0894d3; display: block; margin-bottom: 30px;}
 .footer-nav ul{margin: 0;}
 .footer-nav ul > li{margin: 0 0 19px 0; font-size: 16px; line-height: 1;}
 .footer-nav ul > li a{color: #fff;}
@@ -65,17 +65,20 @@
     .footer-desc{margin-bottom: 15px;}
     .footer-btn{gap: 13px;}
     .footer-top-right{gap: 0; margin-bottom: 57px;}
-    .footer-nav{width: 100%;}
-    .footer-nav span{margin-bottom: 19px; border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding-bottom: 15px; color: #fff; position: relative; cursor: pointer;}
-    .footer-nav:last-child span{border-bottom: none; padding: 0; margin: 0;}
-    .footer-nav span::after{content: "\f107"; position: absolute; right: 0; top: 0; font-family: "Font Awesome 6 Pro"; font-weight: 300; font-size: 18px; color: #0894d3;}
+    .footer-nav{width: 100%; border-bottom: 1px solid rgba(255,255,255,.2); margin-bottom: 13px;}
+    .footer-nav-title{padding-bottom: 15px; margin: 0; color: #fff; position: relative; cursor: pointer;}
+    .footer-nav:last-child{border-bottom: none; margin: 0;}
+    .footer-nav-title::after{content: "\f107"; position: absolute; right: 0; top: 0; font-family: "Font Awesome 6 Pro"; font-weight: 300; font-size: 18px; color: #0894d3; transition: all .5s ease;}
     .footer-nav ul{display: none;}
+    .footer-nav.open .footer-nav-title::after{transform: rotate(180deg);}
 
     .footer-bottom{flex-direction: column-reverse; }
     .footer-copywrites{flex: 100%; font-size: 12px; line-height: 1.5; letter-spacing: .24px;}
     .footer-copywrites ul{gap: 11px 20px; margin-bottom: 16px;}
     .footer-copywrites ul > li{font-size: 12px; line-height: 18px;}
     .footer-share-icon{flex: 100%; justify-content: start; margin-bottom: 33px;}
+
+    .footer-bg-three{top: 612px; right: 40px; opacity: 0.09;}
 }
 
 
