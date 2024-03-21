@@ -1,6 +1,6 @@
 
 .how-can-section{background: var(--Ice-Blue---Light, rgba(217, 238, 247, 0.65));}
-.how-can-main{gap: 96px; padding: 100px 0;}
+.how-can-main{gap: 96px; padding: 100px 0 126px;}
 .how-can-text{text-align: right;}
 ul.how-can-links{margin: 0; padding-top: 30px;}
 ul.how-can-links li{margin: 0 0 29px;}
