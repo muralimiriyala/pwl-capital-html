@@ -14,6 +14,9 @@ ul.how-can-links li a:hover{ color: var(--capri-ocean, #0894D3); }
 @media screen and (min-width: 1024px){
     .how-can-text{flex: 0 0 304px;}
     .how-can-right{flex: 1;}
+
+    .how-can-image{flex: 0 0 326px;}
+    .how-can-desc{flex: 1;}
 }
 
 
