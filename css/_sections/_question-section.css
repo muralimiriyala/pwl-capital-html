@@ -15,6 +15,8 @@
 .accordion-content{display: none; padding-bottom: 19px;}
 .accordion-item.open::after{content: "\f068";}
 
+
+
 @media screen and (min-width: 1024px) {
     .question-main{gap: 111px;}
     .question-left{flex: 0 0 449px;}
@@ -22,4 +24,10 @@
     .question-title{gap: 34px;}
     .question-icon{flex: 0 0 54px;}
     .question-title-name{flex: 0 0 calc(100% - 88px);}
+}
+
+@media screen and (min-width:1024px) and (max-width: 1299px){
+    .question-main{gap: 80px;}
+    .question-left{flex: 0 0 430px;}
+    .question-right{flex: 0 0 calc(100% - 510px);}
 }
