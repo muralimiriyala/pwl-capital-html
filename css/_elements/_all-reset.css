@@ -136,6 +136,7 @@ span.optional-text.f-dark{color: var(--foreground-dark);}
 .fs-14{font-size: 0.875rem; line-height: 1.25rem; letter-spacing: -0.28px;}
 .fs-15{font-size: 15px; line-height: 25px;}
 .fs-16{font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.32px;}
+.fs-17{font-size: 17px; line-height: 30px; letter-spacing: -0.17px;}
 .fs-18{font-size: 1.125rem; line-height: 2rem; letter-spacing: -0.36px;}
 .fs-20{font-size: 1.25rem; line-height: 1.75rem;}
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
@@ -235,7 +236,8 @@ ul.slick-dots li button{display: none;}
 .fluid-container{width: 100vw; left: -50vw; margin-left: 50%;}
 .w-100{width: 100%;}
 .f-700{font-weight: 700;}
-.muted-light{color: var(--muted---light);}
+.muted-light{color: var(--muted-light);}
+.muted-dark-2{color: var(--muted-dark-2);}
 .aquamarine{color: var(--aquamarine);}
 .capri-ocean{color: var(--capri-ocean);}
 .bright-Spring{color: var(--bright-Spring);}
