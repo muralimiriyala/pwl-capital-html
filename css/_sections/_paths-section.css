@@ -1,9 +1,5 @@
 
 
-.paths-text p{margin-bottom: 1rem;}
-.paths-text ul{margin-bottom: 1.9rem;}
-.paths-list .fit-img{margin-bottom: 2rem;}
-.paths-list-svg{top: -38px; right: -80px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -17,18 +13,12 @@
 
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .paths-wrap{padding: 4.875rem 0 6.55rem;}
+
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .paths-wrap{padding: 2.75rem 0 4.313rem;}
+
 
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .paths-wrap{padding: 3.75rem 0 4.313rem;}
 
-    .paths-text h2{}
-    .paths-list:not(:last-child){margin-bottom: 4.313rem;}
-    
-    .paths-list .fit-img{margin-bottom: 1.6rem;}
-    .paths-text ul{margin: 24px 0 1.9rem 22px;}
 }
