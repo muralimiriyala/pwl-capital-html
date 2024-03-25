@@ -1,4 +1,7 @@
 
+.paths-img{max-width: 286px; margin-bottom: 45px;}
+.paths-bg{opacity: 0.3; background-color: var(--capri-ocean);}
+.paths-thumb{transform: translate(20px, -20px);}
 
 
 /*-- media css starts here --*/
