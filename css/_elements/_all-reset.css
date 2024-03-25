@@ -85,6 +85,7 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .btn-transparent.white-text{color: var(--white);}
 .btn-green.btn-transparent{border-color: var(--green-pear);}
 .btn-green.btn-transparent:hover{background: var(--green-pear); color:var(--white);}
+.btn-green.green-text{color: var(--green-pear);}
 .btn-white.btn-transparent{border-color: var(--white);}
 .btn-white.btn-transparent:hover{background: var(--green-pear); color:var(--white);}
 
@@ -93,6 +94,9 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 
 .button.btn-sm{font-size: 14px; line-height: 14px; letter-spacing: 0.18px; padding: 11px 16px 11px;}
 .button.btn-lg{padding: 14px 29px 15px;}
+
+.btn-link.green-text{color: var(--green-pear);}
+.btn-link.green-text::after{background-image: url('../images/arrow-right-green.svg');}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
@@ -124,7 +128,7 @@ img.aligncenter{margin: 25px auto;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 17px; line-height: 30px; letter-spacing: -0.17px; font-weight: 400; font-family: 'brother-1816', sans-serif;  position: relative; color: var(--foreground); background-color: transparent;}
+body{font-size: 17px; line-height: 30px; letter-spacing: -0.17px; font-weight: 400; font-family: 'brother-1816', sans-serif;  position: relative; color: var(--midnight, #121321); background-color: transparent;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 12px; font-size: 12px; line-height: 21px; letter-spacing: 1.2px; font-weight: 500; display: block; font-family: "brother-1816", sans-serif; text-transform: uppercase; }
 span.optional-text.muted{margin-bottom: 8px; color: var(--muted-dark-2, rgba(33, 82, 131, 0.60));}

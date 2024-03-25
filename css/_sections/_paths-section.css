@@ -1,17 +1,18 @@
 
 .paths-img{max-width: 286px; margin-bottom: 45px;}
 .paths-bg{opacity: 0.3; background-color: var(--capri-ocean);}
+.paths-bg.green{background-color: var(--green-pear);}
 .paths-thumb{transform: translate(20px, -20px);}
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .paths-wrap{padding: 5.875rem 0 6.55rem;}
-    .paths-list{flex: 50%;}
+    .paths-wrap{padding: 5.875rem 0 110px;}
+    .paths-list{flex: 50%; padding-bottom: 10px;}
     .paths-list:nth-child(odd){padding-right: 143px;}
-    .paths-list:nth-child(even){padding-left: 143px;}
+    .paths-list:nth-child(even){padding-left: 143px; border-left: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14));;}
 
-    .paths-text h2{margin-bottom: 26px;}
+    .paths-text h2{margin-bottom: 23px;}
     .custom-btns{gap: 30px;}
 
 }
