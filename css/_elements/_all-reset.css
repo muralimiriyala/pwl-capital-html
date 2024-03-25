@@ -49,8 +49,8 @@ dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: va
 blockquote dl dt::before{background-color: var(--white);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 27px;}
-ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before { top: 10px; left: -17px; width: 7px; height: 7px; border-radius: 50%; opacity: 1; background-color: var(--foreground); content: ""; position: absolute;} 
+ul > li {counter-increment: li; position: relative; margin-bottom: 15px;}
+ul > li:before { top: 10px; left: -17px; width: 7px; height: 7px; border-radius: 0; opacity: 1; background: var(--bermuda, #A1CFBD); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 29px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
@@ -127,7 +127,7 @@ img.aligncenter{margin: 25px auto;}
 body{font-size: 17px; line-height: 30px; letter-spacing: -0.17px; font-weight: 400; font-family: 'brother-1816', sans-serif;  position: relative; color: var(--foreground); background-color: transparent;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 12px; font-size: 12px; line-height: 21px; letter-spacing: 1.2px; font-weight: 500; display: block; font-family: "brother-1816", sans-serif; text-transform: uppercase; }
-span.optional-text.muted{margin-bottom: 10px; color: var(--accent-light);}
+span.optional-text.muted{margin-bottom: 8px; color: var(--muted-dark-2, rgba(33, 82, 131, 0.60));}
 span.optional-text.green{margin-bottom: 0; color: var(--accent);}
 span.optional-text.dark{color: var(--foreground);}
 span.optional-text.no_margin{margin-bottom: 0;}
