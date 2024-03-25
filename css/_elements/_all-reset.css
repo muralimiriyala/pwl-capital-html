@@ -74,11 +74,11 @@ caption, th, td {text-align: left;}
 del {color: var(--black);}
 hr{margin: 0 0 31px; height: 4px; width: 96px; background-color: var(--accent); border-radius: 2px; display: block; border: none;}
 hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-gradient(to right,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x; border: none; border-radius: 0; background-color: transparent; opacity: 0.5;}
-::selection {background-color: var(--black); color: var(--white);}
-::-moz-selection {background-color: var(--black); color: var(--white);}
+::selection {background-color: var(--french-navy); color: var(--white);}
+::-moz-selection {background-color: var(--french-navy); color: var(--white);}
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 15px; line-height: 15px; letter-spacing: 0.3px; padding: 14px 16px 15px; font-family: "brother-1816", sans-serif; font-weight: 700; display: inline-block; background: #0894d3; color: #fff; border: 2px solid transparent; border-radius: 0; cursor: pointer; vertical-align: middle; letter-spacing: normal; text-decoration: none; text-transform: uppercase; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; margin: 0;}
+.button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 15px; line-height: 15px; letter-spacing: 0.3px; padding: 14px 16px 15px; font-family: "brother-1816", sans-serif; font-weight: 700; display: inline-block; background: #0894d3; color: #fff; border: 2px solid transparent; border-radius: 0; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: uppercase; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; margin: 0;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover{ background: var(--green-pear); color:var(--white); }
 .button.btn-transparent{background: transparent; border-color: var(--capri-ocean); color: var(--capri-ocean);}
 .button.btn-transparent:hover{background: var(--green-pear); border-color: var(--green-pear); color:var(--white);}
@@ -88,6 +88,11 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .btn-white.btn-transparent{border-color: var(--white);}
 .btn-white.btn-transparent:hover{background: var(--green-pear); color:var(--white);}
 
+.btn-aquamarine.btn-transparent{border-color: var(--aquamarine); color: var(--aquamarine);}
+.btn-aquamarine.btn-transparent:hover{background: var(--green-pear); color:var(--white);}
+
+.button.btn-sm{font-size: 14px; line-height: 14px; letter-spacing: 0.18px; padding: 11px 16px 11px;}
+.button.btn-lg{padding: 14px 29px 15px;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
@@ -272,7 +277,7 @@ ul.slick-dots li button{display: none;}
     div.slick-arrow.slick-prev{right: 58px;}
 }
 @media only screen and (min-width: 1440px){
-    .container.lg{max-width: 1360px;}
+    .container.lg{max-width: 1700px; padding: 0 70px;}
     .container{max-width: 1366px;}
 }
 @media only screen and (max-width: 1330px) and (min-width: 1024px){

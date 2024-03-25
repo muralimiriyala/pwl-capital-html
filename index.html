@@ -29,10 +29,9 @@
 <header class="header-main">
 <div class="container lg">
 <div class="header flex flex-vcenter">
-    <div class="logo">
-        <a href="index.html">
-            <img src="images/logo.svg" alt="logo">
-        </a>
+    <div class="logo relative">
+        <span class="logo-white"><a href="index.html"><img src="images/logo.svg" alt="logo"> </a></span>
+        <span class="logo-black"><a href="index.html"><img src="images/logo-black.svg" alt="logo"> </a></span>
     </div>
     <div class="header-right flex relative">
         <ul class="main-menu flex">
@@ -41,8 +40,10 @@
             <li><a href="">Learn</a></li>
             <li><a href="">Find your Financial Goals</a></li>
         </ul>
-        <div class=""><a class="button" href="">MEET WITH US</a></div>
-        <div class=""><a class="button white-text btn-transparent" href="">SIGN IN</a></div>
+        <div class="header-btns flex">
+            <div class=""><a class="button" href="">MEET WITH US</a></div>
+            <div class=""><a class="button white-text btn-transparent" href="">SIGN IN</a></div>
+        </div>
     </div>
 </div>
 </div>
@@ -50,10 +51,18 @@
 <section class="banner-section relative">
 <div class="container">
     <div class="home-banner-main">
-        <div class="home-banner-text inverted">
-            <span class="optional-text muted-light">Wealth Management Services</span>
-            <h1>Simplifying Wealth for Canadians</h1>
-            <a href="#" class="button btn-green white-text btn-transparent">Learn More</a>
+        <div class="home-banner-left">
+            <div class="home-banner-text inverted">
+                <span class="optional-text muted-light">Wealth Management Services</span>
+                <h1>Simplifying Wealth for Canadians</h1>
+                <a href="#" class="button btn-green white-text btn-transparent">Learn More</a>
+            </div>
+            <div class="regulated-by hide-mobile">
+                <span>Regulated by</span>
+                <figure class="regulated-img object-fit">
+                    <img src="images/CIRO_Logo_English_All-White.svg" alt="">
+                </figure>
+            </div>
         </div>
         <div class="home-banner-image">
             <picture class="object-fit">
@@ -97,7 +106,6 @@
 </div>
 </div>
 </section>
-
 <section class="how-can-section">
 <div class="container">
     <div class="how-can-main flex">
@@ -112,9 +120,14 @@
                 <li><a href="">Diversification</a></li>
             </ul>
         </div>
-        <div class="how-can-right bg-white flex">
+        <div class="how-can-right flex flex-vcenter relative">
+            <div class="bg-white background-bg"></div>
+            <div class="bg-white background-bg"></div>
+            <div class="bg-white background-bg"></div>
             <div class="how-can-image">
-                <picture><img src="images/coaching@2x.png" alt="coaching"></picture>
+                <picture class="how-can-thumb aligncenter">
+                    <img src="images/coaching@2x.png" alt="coaching">
+                </picture>
             </div>
             <div class="how-can-desc fs-17">
                 <h2>Behavioural Coaching</h2>
@@ -128,14 +141,18 @@
 <section class="cta-section relative">
 <div class="cta-bg cta-blue"></div>
 <div class="container">
-    <div class="cta-main flex flex-vcenter">
-        <div class="cta-image absolute">
-            <div class="cta-image-bg background-bg"></div>
-            <picture class="cta-thumb object-fit">
-                <img src="images/cta-image@2x.jpg" alt="cta-image">
-            </picture>
-        </div>
+    <div class="cta-main flex flex-vcenter relative">
         <div class="cta-text inverted flex">
+            <div class="cta-desc relative">
+                <div class="cta-desc-icon absolute">
+                    <svg width="182" height="210" viewBox="0 0 182 210" fill="none">
+                        <path opacity="1" d="M154.016 13.9219L167.18 13.9219L167.276 27.0889L168.153 146.678L168.381 177.768L146.092 155.648L126.398 136.104L26.8348 136.104L13.5739 136.104L13.5739 122.841L13.574 26.661L13.574 13.9219L26.3117 13.9219L154.016 13.9219Z" stroke="white" stroke-width="26"/>
+                    </svg>
+                </div>
+                <h2>Customizable Call to Action Panel Title</h2>
+                <p>Helping you frame financial decisions through the lens of living a good life and more text that would naturally flow here.</p>
+                <a href="#" class="button white-text btn-white btn-transparent">Learn More</a>
+            </div>
             <div class="cta-stats-col">
                 <div class="cta-stats">
                     <span class="cta-stat-num">54</span>
@@ -150,11 +167,12 @@
                     <p>Net worth</p>
                 </div>
             </div>
-            <div class="cta-desc relative">
-                <h2>Customizable Call to Action Panel Title</h2>
-                <p>Helping you frame financial decisions through the lens of living a good life and more text that would naturally flow here.</p>
-                <a href="#" class="button white-text btn-white btn-transparent">Learn More</a>
-            </div>
+        </div>
+        <div class="cta-image absolute">
+            <div class="cta-image-bg background-bg"></div>
+            <picture class="cta-thumb object-fit">
+                <img src="images/cta-image@2x.jpg" alt="cta-image">
+            </picture>
         </div>
     </div>
 </div>
@@ -176,7 +194,7 @@
                             <li>CATEGORY</li>
                         </ul>
                         <h2>Prof. Scott Cederburg: Challenging the Status Quo on Lifecycle Asset Allocation</h2>
-                        <a href="#" class="button btn-green btn-transparent">Read More</a>
+                        <a href="#" class="button btn-sm btn-aquamarine btn-transparent">Read More</a>
                     </div>
                 </div>
                 <div class="featured-insights-bg background-text"></div>
@@ -209,7 +227,63 @@
     </div>
 </div>
 </section>
-
+<section class="meat-our-section relative">
+<picture class="meat-our-thumb object-fit">
+    <source srcset="images/two-happy-businessmen-reading@2x.png" media="(min-width: 740px)">
+    <img src="images/home-banner@2x.jpg" alt="home-banner">
+</picture>
+<div class="container meat-our-main">
+    <div class="meat-our-text inverted">
+        <h2>Meet Our Team</h2>
+        <div class="meat-our-desc">
+            <p>Helping you frame financial decisions through the lens of living a good life</p>
+        </div>
+        <div class="meat-our-btns flex">
+            <a href="#" class="button btn-lg white-text btn-transparent">Learn More</a>
+            <a href="#" class="btn-link">Optional Link</a>
+        </div>
+    </div>
+</div>
+</section>
+<section class="cta-section cta-reverse relative">
+<div class="cta-bg cta-green"></div>
+<div class="container">
+    <div class="cta-main flex flex-vcenter relative">
+        <div class="cta-text inverted flex">
+            <div class="cta-desc relative">
+                <div class="cta-desc-icon absolute">
+                    <svg width="182" height="210" viewBox="0 0 182 210" fill="none">
+                        <path opacity="1" d="M154.016 13.9219L167.18 13.9219L167.276 27.0889L168.153 146.678L168.381 177.768L146.092 155.648L126.398 136.104L26.8348 136.104L13.5739 136.104L13.5739 122.841L13.574 26.661L13.574 13.9219L26.3117 13.9219L154.016 13.9219Z" stroke="white" stroke-width="26"/>
+                    </svg>
+                </div>
+                <h2>Customizable Call to Action Panel Title</h2>
+                <p>Helping you frame financial decisions through the lens of living a good life and more text that would naturally flow here.</p>
+                <a href="#" class="button white-text btn-white btn-transparent">Learn More</a>
+            </div>
+            <div class="cta-stats-col">
+                <div class="cta-stats">
+                    <span class="cta-stat-num">54</span>
+                    <p>Age</p>
+                </div>
+                <div class="cta-stats">
+                    <span class="cta-stat-num">16</span>
+                    <p>Assets</p>
+                </div>
+                <div class="cta-stats">
+                    <span class="cta-stat-num">2.1M</span>
+                    <p>Net worth</p>
+                </div>
+            </div>
+        </div>
+        <div class="cta-image absolute">
+            <div class="cta-image-bg background-bg"></div>
+            <picture class="cta-thumb object-fit">
+                <img src="images/cta-image-one@2x.jpg" alt="cta-image">
+            </picture>
+        </div>
+    </div>
+</div>
+</section>
 <section class="question-section">
     <div class="container">
         <div class="question-main flex">

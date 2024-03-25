@@ -6,8 +6,10 @@ ul.how-can-links{margin: 0; padding-top: 30px;}
 ul.how-can-links li{margin: 0 0 29px;}
 ul.how-can-links li a{color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; font-size: 22px; font-weight: 400; line-height: 31px; letter-spacing: -0.44px;}
 ul.how-can-links li a:hover{ color: var(--capri-ocean, #0894D3); }
-.how-can-desc h2{ color: var(--capri-ocean, #0894D3); font-family: "Century Gothic", sans-serif; font-weight: 400; letter-spacing: -0.44px; }
-.how-can-desc{}
+.how-can-right{padding: 0 43px;}
+.how-can-desc{padding-left: 68px;}
+.how-can-desc h2{margin-bottom: 15px; color: var(--capri-ocean, #0894D3); font-family: "Century Gothic", sans-serif; font-weight: 400; letter-spacing: -0.44px; }
+.how-can-desc p{margin-bottom: 17px;}
 
 
 /*-- media css starts here --*/
@@ -15,7 +17,8 @@ ul.how-can-links li a:hover{ color: var(--capri-ocean, #0894D3); }
     .how-can-text{flex: 0 0 304px;}
     .how-can-right{flex: 1;}
 
-    .how-can-image{flex: 0 0 326px;}
+    .how-can-image{flex: 0 0 435px;}
+    .how-can-thumb img{max-width: 325px;}
     .how-can-desc{flex: 1;}
 }
 

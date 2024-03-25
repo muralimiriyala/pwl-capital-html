@@ -4,22 +4,29 @@
 
 .cta-bg{width: 100%; height: calc(100%); top: 50%; transform: translateY(-50%); left: 0; position: absolute; z-index: -1;}
 .cta-blue{background-color: var(--capri-ocean, #0894D3);}
+.cta-green{background-color: var(--aquamarine, #10B596);}
 .cta-stats{padding-bottom: 14px; margin-bottom: 13px; border-bottom: 1px solid var(--muted-light); color: var(--muted-light, rgba(217, 238, 247, 0.60)); font-family: "Century Gothic", sans-serif; font-size: 16px; font-weight: 400; line-height: 20px; letter-spacing: -0.32px;text-align: right;}
 .cta-stats:last-child{border-bottom: none; padding-bottom: 0; margin-bottom: 0;}
 .cta-stat-num{color: var(--white, #FFF); font-family: "Century Gothic", sans-serif; font-size: 42px; font-weight: 400; line-height: 38px; letter-spacing: 0.84px;}
-.cta-desc{padding-left: 88px;}
-.cta-desc::before{width: 1px; height: 100%; top: 0; left: 0; background-color: var(--white); display: block; content: ""; position: absolute;}
 .cta-desc h2{margin-bottom: 17px;}
 .cta-desc p{margin-bottom: 22px;}
 .cta-image-bg{background-color: var(--french-navy, #013);; transform: translate(-20px, 20px);}
+.cta-reverse .cta-image-bg{transform: translate(20px, 20px);}
+.cta-desc-icon{top: -47px; right: -76px; opacity: 0.2; z-index: -1;}
+.cta-reverse .cta-desc-icon{top: -39px; left: -72px; right: auto; transform: scaleX(-1);}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .cta-main{gap: 75px; padding: 92px 0 100px;}
-    .cta-image{flex: 0 0 425px; max-width: 425px;}
-    .cta-text{flex: 1; gap: 91px; padding-left: 425px;}
+    .cta-image{left: 0; top: -43px; max-width: 425px;}
+    .cta-reverse .cta-image{left: auto; right: 0;}
+    .cta-text{flex: 1; gap: 91px; padding-left: 503px; flex-direction: row-reverse;}
+    .cta-reverse .cta-text{padding-right: 503px; padding-left: 0; flex-direction: row;}
     .cta-stats-col{flex: 0 0 97px;}
-    .cta-desc{flex: 1;}
+    .cta-desc{flex: 1; padding-left: 88px;}
+    .cta-reverse .cta-desc{padding-right: 88px; padding-left: 0;}
+    .cta-reverse .cta-desc::before{left: auto; right: 0;}
+    .cta-desc::before{width: 1px; height: 100%; top: 0; left: 0; background-color: var(--white); display: block; content: ""; position: absolute;}
 }
 
 
