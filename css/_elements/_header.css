@@ -1,7 +1,9 @@
 
 header.header-main{top: 0; left: 0; right: 0; width: 100%; height: auto; position: fixed; z-index: 700; transition-delay: 0.25s; transition-duration: .5s; transition-property: transform; transition-timing-function: cubic-bezier(.075,.82,.165,1); }
 header.sticky{background-color: var(--white);}
-
+.logo-black{top: 0; left: 0; opacity: 0; position: absolute;}
+header.sticky .logo-white{opacity: 0;}
+header.sticky .logo-black{opacity: 1;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
