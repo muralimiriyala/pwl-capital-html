@@ -7,7 +7,7 @@ header.sticky .logo-black{opacity: 1;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-    .site-main-cover{padding-top: 88px;}
+    .site-main-cover{padding-top: 150px;}
     .header{gap: 12px; padding: 16px 0; min-height: 88px;}
     .logo{flex: 0 0 294px; position: relative;}
     .logo a img{max-width: 100%;}

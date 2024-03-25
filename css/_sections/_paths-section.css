@@ -7,7 +7,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .paths-wrap{padding: 5.875rem 0 110px;}
+    .paths-main{padding: 110px 0 110px;}
     .paths-list{flex: 50%; padding-bottom: 10px;}
     .paths-list:nth-child(odd){padding-right: 143px;}
     .paths-list:nth-child(even){padding-left: 143px; border-left: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14));;}

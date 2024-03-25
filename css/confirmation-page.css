@@ -1,0 +1,23 @@
+
+
+
+
+.confirmation-main{max-width: 890px; margin: 0 auto; gap: 52px; padding-bottom: 50px;}
+.confirmation-watermark{left: 8px; min-height: 372px;}
+.confirmation-watermark svg:not(:first-child){top: 244px; left: -31px; position: absolute; }
+.confirmation-text{flex: 1; }
+.confirmation-text h1{color: var(--midnight); margin-bottom: 18px;}
+.confirmation-desc{max-width: 421px; margin-bottom: 26px; color: var(--muted-dark, rgba(16, 42, 70, 0.60)); font-family: 'Century Gothic', sans-serif; letter-spacing: 0;}
+.confirmation-icons{flex: 0 0 273px;}
+.confirmation-tick{top: 50%; left: 50%; transform: translate(-50%, -50%);}
+
+
+
+
+
+
+
+
+
+
+
