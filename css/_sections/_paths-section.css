@@ -1,0 +1,24 @@
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .paths-wrap{padding: 5.875rem 0 6.55rem;}
+    .paths-list{flex: 50%;}
+    .paths-list:nth-child(odd){padding-right: 143px;}
+    .paths-list:nth-child(even){padding-left: 143px;}
+
+    .paths-text h2{margin-bottom: 26px;}
+    .custom-btns{gap: 30px;}
+
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+
+}
