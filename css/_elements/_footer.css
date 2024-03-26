@@ -14,22 +14,24 @@
 .footer-list ul > li a:hover{color: #0894d3;}
 
 
-.copyright-text ul{margin: 0 0 10px 0; gap: 25px;}
-.copyright-text ul > li{font-size: 14px; line-height: 20px; letter-spacing: 0.28px; color: #fff; margin: 0;}
-.copyright-text ul > li a{color: #fff;}
-.copyright-text ul > li a:hover{color: #0894d3;}
+ul.copyright-links{margin: 0 0 10px 0; gap: 25px;}
+ul.copyright-links > li{font-size: 14px; line-height: 20px; letter-spacing: 0.28px; color: #fff; margin: 0;}
+ul.copyright-links > li::before{display: none;}
+ul.copyright-links > li a{color: #fff;}
+ul.copyright-links > li a:hover{color: #0894d3;}
 .copyrights{justify-content: space-between;}
 .copyright-text{font-size: 13px; color: rgba(217, 238, 247, 0.6); line-height: 1.54; letter-spacing: 0.26px; flex: 1;}
 .follow-us{flex: 1; justify-content: end;}
 .follow-us{display: flex;}
-.follow-us > span{font-size: 14px; line-height: 20px; letter-spacing: 0.14px; color: rgba(217, 238, 247, 0.6); width: 130px; display: flex; align-items: center;}
-.follow-us ul{margin: 0; gap: 24px; align-items: center;}
-.follow-us ul > li{margin: 0;}
-.follow-us ul > li a{color: #fff;}
-.follow-us ul > li a:hover{color: #0894d3;}
+.follow-us > span{font-size: 14px; line-height: 20px; letter-spacing: 0.14px; color: rgba(217, 238, 247, 0.6); width: 77px; display: flex; align-items: center;}
+ul.social-share-icons{margin: 0; gap: 24px; align-items: center; justify-content: end; width: 100px;}
+ul.social-share-icons > li{margin: 0;}
+ul.social-share-icons > li::before{display: none;}
+ul.social-share-icons > li a{color: #fff;}
+ul.social-share-icons > li a:hover{color: #0894d3;}
 
-.footer-bg-one{right: -175px; top: -80px; opacity: 0.09;}
-.footer-bg-two{right: 66px; top: 317px; opacity: 0.09;}
+.footer-bg-1{right: -175px; top: -80px; opacity: 0.09;}
+.footer-bg-2{right: 66px; top: 317px; opacity: 0.09;}
 
 
 @media screen and (min-width: 1024px) {
@@ -55,7 +57,7 @@
 
     .copyrights{flex-direction: column-reverse;}
     .copyright-text{text-align: center;}
-    .copyright-text ul{justify-content: center; margin-bottom: 20px;}
+    ul.copyright-links{justify-content: center; margin-bottom: 20px;}
     .follow-us{justify-content: center; margin-bottom: 30px;}
 }
 
@@ -75,11 +77,11 @@
 
     .copyrights{flex-direction: column-reverse; }
     .copyright-text{flex: 100%; font-size: 12px; line-height: 1.5; letter-spacing: .24px;}
-    .copyright-text ul{gap: 11px 20px; margin-bottom: 16px;}
-    .copyright-text ul > li{font-size: 12px; line-height: 18px;}
+    ul.copyright-links{gap: 11px 20px; margin-bottom: 16px;}
+    ul.copyright-links > li{font-size: 12px; line-height: 18px;}
     .follow-us{flex: 100%; justify-content: start; margin-bottom: 33px;}
 
-    .footer-bg-three{top: 612px; right: 40px; opacity: 0.09;}
+    .footer-bg-3{top: 612px; right: 40px; opacity: 0.09;}
 }
 
 
