@@ -6,11 +6,11 @@ jQuery(function($){
         _scroll >= 4 ? header.addClass("sticky") : header.removeClass("sticky");
     }
 
-    $('.footer-nav').click(function() {     
+    $('.footer-list').click(function() {     
         $(this).toggleClass("open");
-        $(this).siblings('.footer-nav').removeClass("open");
-        $(this).find('.footer-nav-cont').slideToggle(900);
-        $(this).siblings('.footer-nav').find('.footer-nav-cont').slideUp(900);  
+        $(this).siblings('.footer-list').removeClass("open");
+        $(this).find('.footer-links').slideToggle(900);
+        $(this).siblings('.footer-list').find('.footer-links').slideUp(900);  
      })
 
     $('.accordion-item').click(function() {     
