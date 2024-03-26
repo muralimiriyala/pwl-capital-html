@@ -1,5 +1,5 @@
 
-.footer-main{background-color: #013;}
+.footer-main{background-color: #013; overflow: hidden;}
 .footer{padding: 122.5px 0 73px;}
 .footer-logos{gap: 20px; margin-bottom: 36px;}
 .footer-desc{color: rgba(217, 238, 247, 0.6); font-size: 12px; line-height: 1.67; max-width: 430px; margin-bottom: 22px;}
