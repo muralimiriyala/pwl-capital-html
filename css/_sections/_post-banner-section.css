@@ -1,0 +1,19 @@
+
+.post-banner-main{padding: 0 0 128px;}
+ul.post-banner-list{margin: 0; gap: 32px; color: rgba(16, 42, 70, 0.60); font-family: "Century Gothic", sans-serif;}
+ul.post-banner-list li::before{display: none;}
+
+.post-banner-text{flex: 1;}
+.post-banner-image{flex: 0 0 540px;}
+.post-banner-thumb img{box-shadow: 20px 20px 0 0 var(--capri-ocean, #0894D3);}
+
+
+
+
+
+
+
+
+
+
+
