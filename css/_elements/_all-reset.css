@@ -97,6 +97,9 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 
 .btn-link.green-text{color: var(--green-pear);}
 .btn-link.green-text::after{background-image: url('../images/arrow-right-green.svg');}
+.btn-link.back{flex-direction: row-reverse;}
+.btn-link.back::after{transform: scaleX(-1); margin-right: 5px; margin-left: auto;}
+
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
@@ -287,7 +290,7 @@ ul.slick-dots li button{display: none;}
 @media only screen and (min-width: 1024px){
     .container{width: 100%; margin: 0 auto;}
 
-    .container.x-md{max-width: 1130px;}
+    .container.md{max-width: 1130px;}
     .container.sm{max-width: 960px;}
 
     .hide-desktop{display: none;}
