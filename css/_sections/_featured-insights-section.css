@@ -16,6 +16,7 @@
 
 .featured-insights-list:not(:last-child){padding-bottom: 24px; margin-bottom: 27px; border-bottom: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14));}
 .featured-insights-list p{margin-bottom: 10px;}
-ul.ul-categorys{margin: 0; gap: 10px;}
-ul.ul-categorys li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--aguamarine-light, rgba(16, 181, 150, 0.12)); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--aquamarine, #10B596); text-align: center; font-family: "Brother 1816", sans-serif; text-transform: uppercase; }
+ul.categorys {margin: 0; gap: 10px;}
+ul.categorys li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--aguamarine-light, rgba(16, 181, 150, 0.12)); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--aquamarine, #10B596); text-align: center; font-family: "Brother 1816", sans-serif; text-transform: uppercase; }
+ul.categorys li::before{display: none;}
 
