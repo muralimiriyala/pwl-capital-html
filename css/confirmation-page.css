@@ -2,7 +2,7 @@
 
 
 
-.confirmation-main{max-width: 1225px; gap: 52px; padding: 0 0 50px 335px;}
+.confirmation-main{max-width: 1225px; gap: 52px; padding: 0 0 50px 335px; flex-direction: row-reverse;}
 .confirmation-watermark{left: 8px; min-height: 372px;}
 .confirmation-watermark svg:not(:first-child){top: 244px; left: -31px; position: absolute; }
 .confirmation-text{flex: 1; }

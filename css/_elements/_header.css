@@ -22,3 +22,4 @@ header.sticky .logo-black{opacity: 1;}
 
     header.sticky ul.main-menu > li > a{color: var(--midnight);}
 }
+.header-right{display: none;}
