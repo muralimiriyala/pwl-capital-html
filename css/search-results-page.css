@@ -25,8 +25,8 @@ ul.content-type{margin: 0; gap: 10px;}
 ul.content-type li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--aguamarine-light, rgba(16, 181, 150, 0.12)); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--capri-ocean); text-align: center; font-family: "Brother 1816", sans-serif; text-transform: uppercase; }
 ul.content-type li::before{display: none;}
 
-#load-more .button { min-width: 200px; }
-.load-more-btn { margin-left: 117px; }
+#load-more .button{min-width: 200px;}
+.load-more-btn{margin: 102px 0 0 117px;}
 
 
 
