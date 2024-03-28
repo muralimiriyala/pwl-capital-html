@@ -1,6 +1,7 @@
 
 .srch-results-wrap{padding: 0 0 107px;}
-.srch-results-main{gap: 118px; padding: 100px 0 0;}
+.srch-results-wrap h1{margin-bottom: 22px;}
+.srch-results-main{gap: 118px; padding: 84px 0 0;}
 .srch-results-filter{flex: 0 0 235px;}
 .srch-results-filter h2{font-weight: 500;}
 .srch-results-form{margin-bottom: 23px;}
@@ -15,7 +16,7 @@ ul.srch-results-links li a{padding: 11px 22px 10px; display: block; color: var(-
 ul.srch-results-links li a:hover, ul.srch-results-links li.active a{font-weight: 700; color: var(--capri-ocean, #0894D3);}
 ul.srch-results-links li a svg{left: 0; top: 50%; transform: translateY(-50%); position: absolute;}
 
-.srch-results-row{flex: 1;}
+.srch-results-row{flex: 1; margin-top: 8px;}
 .srch-results-list{gap: 38px; margin-bottom: 40px;}
 .srch-results-thumb{flex: 0 0 162px; box-shadow: -10px 10px 0px 0px var(--ice-blue, #D9EEF7);}
 .srch-results-text{flex: 1;}
@@ -23,6 +24,9 @@ ul.srch-results-links li a svg{left: 0; top: 50%; transform: translateY(-50%); p
 ul.content-type{margin: 0; gap: 10px;}
 ul.content-type li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--aguamarine-light, rgba(16, 181, 150, 0.12)); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--capri-ocean); text-align: center; font-family: "Brother 1816", sans-serif; text-transform: uppercase; }
 ul.content-type li::before{display: none;}
+
+#load-more .button { min-width: 200px; }
+.load-more-btn { margin-left: 117px; }
 
 
 
