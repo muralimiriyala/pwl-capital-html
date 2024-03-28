@@ -4,12 +4,25 @@
 
 .open-positions-section{background: var(--ice-blue-light, rgba(217, 238, 247, 0.65));}
 
-.open-positions-main{gap: 50px;}
 .open-positions-intro{flex: 0 0 422px;}
 .open-positions-right{flex: 1;}
+.open-positions-list{padding: 25px 30px; margin-bottom: 30px; box-shadow: -5px 5px 0 var(--capri-ocean-light, rgba(8, 148, 211, 0.10));}
+.open-positions-text h2{margin-bottom: 0;}
 
+.open-positions-form{gap: 52px; margin-bottom: 34px;}
 
+ul.positions-category{margin: 0; gap: 28px;}
+ul.positions-category li{margin: 0; font-size: 13px; line-height: 22px; font-family: "Century Gothic", sans-serif; color: var(--muted-dark, rgba(16, 42, 70, 0.60));}
+ul.positions-category li::before{width: 3px; height: 3px;}
+ul.positions-category li:first-child::before{display: none;}
 
+/*-- media css starts here --*/
+@media screen and (min-width: 1024px){
+    .open-positions-main{padding: 109px 0 85px; gap: 45px;}
+    .open-positions-list{gap: 32px;}
+    .open-positions-text{flex: 1;}
+    .open-positions-btn{flex: 0 0 130px;}
+}
 
 
 
