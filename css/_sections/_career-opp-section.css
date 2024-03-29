@@ -1,0 +1,14 @@
+
+.career-opp-section{background: rgba(217, 238, 247, 0.65);}
+.career-opp-content h2{margin-bottom: 18px;}
+.career-opp-content p{max-width: 415px;}
+.career-opp-bg{right: 8px; top: 60px; z-index: -1;}
+.career-opp-thumb{top: -20px;}
+.career-opp-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: #0894d3; z-index: -2; left: 20px; top: 20px;}
+
+
+@media screen and (min-width: 1024px) {
+    .career-opp-main{gap: 105px; max-width: 1130px; margin: 0 auto;}
+    .career-opp-content{flex: 0 0 600px; padding: 104px 0 100px;}
+    .career-opp-image{flex: 0 0 calc(100% - 705px); z-index: 2;}
+}
