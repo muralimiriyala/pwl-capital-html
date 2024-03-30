@@ -3,7 +3,7 @@ jQuery(function($){
     const header = $(".header-main");
     window.onscroll = function(){
         const _scroll = window.scrollY;
-        _scroll >= 4 ? header.addClass("sticky") : header.removeClass("sticky");
+        _scroll >= 4 ? header.addClass("sticky-header") : header.removeClass("sticky-header");
     }
 
     $('.footer-list').click(function() {     

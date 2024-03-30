@@ -2,13 +2,14 @@
 
 
 
-.confirmation-main{max-width: 1225px; gap: 52px; padding: 0 0 50px 335px; flex-direction: row-reverse;}
-.confirmation-watermark{left: 8px; min-height: 372px;}
+.confirmation-main{max-width: 1225px; gap: 52px; padding: 96px 0 50px 335px; flex-direction: row-reverse;}
+.confirmation-watermark{left: 8px; top: 56px; min-height: 372px;}
 .confirmation-watermark svg:not(:first-child){top: 244px; left: -31px; position: absolute; }
 .confirmation-text{flex: 1; }
 .confirmation-text h1{color: var(--midnight); margin-bottom: 18px;}
+
 .confirmation-desc{max-width: 421px; margin-bottom: 26px; color: var(--muted-dark, rgba(16, 42, 70, 0.60)); font-family: 'Century Gothic', sans-serif; letter-spacing: 0;}
-.confirmation-icons{flex: 0 0 196px;}
+.confirmation-icons{flex: 0 0 196px; margin-top: 24px;}
 .confirmation-box{width: 196px; height: 196px; top: 0; left: 0; position: absolute;}
 .confirmation-box::after{clip-path: polygon(0 0, 100% 0, 53% 50%, 0% 100%); width: 27px; height: 27px; bottom: -27px; left: 0; position: absolute; content: ""; display: block;}
 
@@ -23,9 +24,8 @@
 .confirmation-box.green-pear::after{background-color:  var(--green-pear); }
 
 
-.confirmation-tick{top: 50%; left: 65%; transform: translate(-50%, -50%); width: 196px; height: 196px;}
-
-.confirmation-tick svg{width: 127px; height: 106px;}
+.confirmation-tick{top: 50%; left: 50%; transform: translate(-50%, -50%); width: 196px; height: 192px;}
+.confirmation-tick svg{width: 127px; height: 106px; top: calc(50% + 3px); left: 50%; transform: translate(-50%, -50%); position: absolute;}
 
 
 

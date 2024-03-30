@@ -13,7 +13,10 @@
     .paths-list:nth-child(even){padding-left: 143px; border-left: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14));;}
 
     .paths-text h2{margin-bottom: 23px;}
-    .custom-btns{gap: 30px;}
+    .path-btns{gap: 39px;}
+    .paths-text ul{margin: 0 0 33px 23px;}
+    .paths-text ul li{margin-bottom: 11px;}
+    .paths-text ul li::before{left: -23px;}
 
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){

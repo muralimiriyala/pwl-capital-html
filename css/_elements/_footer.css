@@ -33,7 +33,7 @@ ul.social-share-icons > li a:hover{color: #0894d3;}
 .footer-bg-1{right: -175px; top: -80px; opacity: 0.09;}
 .footer-bg-2{right: 66px; top: 317px; opacity: 0.09;}
 
-
+/* media css starts here */
 @media screen and (min-width: 1024px) {
     .footer{max-width: 1380px; margin: 0 auto;}
     .footer-row{gap: 272px; margin-bottom: 90px;}
@@ -43,14 +43,12 @@ ul.social-share-icons > li a:hover{color: #0894d3;}
     .footer-list:nth-child(2){flex: 0.5;}
     .footer-list{flex: 0.8;}
 }
-
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .footer-row{gap: 50px;}
     .footer-text{flex: 0 0 400px;}
     .footer-nav{flex: 0 0 calc(100% - 450px);}
     .follow-us{flex: 0.5;}
 }
-
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .footer{padding: 100px 0 80px;}
     .footer-text{width: 100%; margin-bottom: 40px;}

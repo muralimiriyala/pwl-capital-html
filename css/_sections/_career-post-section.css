@@ -1,13 +1,6 @@
 
 
-.career-post-article > p:first-child > span {
-	font-size: 20px;
-	line-height: 31px;
-	font-weight: 400;
-    letter-spacing: 0;
-    font-family: "Century Gothic", sans-serif;
-}
-
+.career-post-article > p:first-child > span { font-size: 20px; line-height: 31px; letter-spacing: 0; font-weight: 400; font-family: "Century Gothic", sans-serif; }
 .career-post-form{padding: 32px; background-color: var(--ice-blue);}
 
 .career-post-main{gap: 90px; padding: 0 0 100px;}
