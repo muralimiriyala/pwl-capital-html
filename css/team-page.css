@@ -4,7 +4,7 @@
 .team-heading-inner{max-width: 661px; margin: 0 auto;}
 .team-heading .optional-text{color: rgba(16, 42, 70, 0.6); margin-bottom: 3px;}
 .team-heading h1{font-size: 90px; line-height: 1.22; letter-spacing: -0.9px; margin-bottom: 8px;}
-.team-desc{font-size: 20px; line-height: 1.55; color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic'; display: block; margin-bottom: 30px;}
+.team-desc{font-size: 20px; line-height: 1.55; color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic'; display: block; letter-spacing: normal; margin-bottom: 30px;}
 .team-form{margin-bottom: 30px;}
 .team-form input{padding: 10px 17px; width: calc(100% - 58px); height: auto; font-size: 18px; line-height: 18px; letter-spacing: 0; border: 1px solid var(--line-dark,rgba(45,87,130,.14)); background-color: var(--white,#fff);}
 .team-form input::placeholder{color: rgba(16, 42, 70, 0.6);}
@@ -21,12 +21,12 @@
 .team-filter{justify-content: space-between; margin-bottom: 60px;}
 .team-filter-title h2{font-size: 34px; line-height: 1.24; margin-bottom: 0;}
 .team-filter-form{gap: 46px;}
-.team-all{min-width: 27px; line-height: normal; border-bottom: 2px solid rgba(45, 87, 130, 0.14);}
-.team-role{min-width: 95px; line-height: normal; border-bottom: 2px solid rgba(45, 87, 130, 0.14);}
-.team-location{min-width: 137px; line-height: normal; border-bottom: 2px solid rgba(45, 87, 130, 0.14);}
-.team-department{min-width: 171px; line-height: normal; border-bottom: 2px solid rgba(45, 87, 130, 0.14);}
-.team-all .selectBox-dropdown, .team-role .selectBox-dropdown, .team-location .selectBox-dropdown, .team-department .selectBox-dropdown{padding: 0 24px 0 0; line-height: normal;}
-.team-all .selectBox-dropdown .selectBox-arrow, .team-role .selectBox-dropdown .selectBox-arrow,  .team-location .selectBox-dropdown .selectBox-arrow, .team-department .selectBox-dropdown .selectBox-arrow{right: 0;}
+.team-dropdown .selectBox-dropdown{font-size: 20px; line-height: 1.55; padding: 0 24px 0 0; border-bottom: 2px solid #d9eef7; border-radius: 0;}
+.team-all{min-width: 27px; line-height: normal;}
+.team-role{min-width: 95px; line-height: normal;}
+.team-location{min-width: 137px; line-height: normal;}
+.team-department{min-width: 171px; line-height: normal;}
+.team-dropdown .selectBox-dropdown .selectBox-arrow{right: 0;}
 
 .team-lists{gap: 51px;}
 .team-item{flex: 0 0 calc(25% - 39px);}
@@ -38,7 +38,42 @@
 .team-details h3{font-size: 26px; font-weight: 500; line-height: 1.23; letter-spacing: -0.78px; margin-bottom: 8px;}
 .team-details > span{font-size: 14px; display: block; line-height: 1.57; letter-spacing: -0.42px; color: rgba(16, 42, 70, 0.6);}
 
-.load-more-btn{margin: 50px auto 100px;}
+.team-lists .load-more-btn{margin: 50px auto 100px;}
+
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .team-filter-title{width: 100%; margin-bottom: 30px;}
+    .team-filter-category{width: 100%;}
+    .team-dropdown{flex: 0 0 calc(25% - 35px);}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 740px) {
+    .career-right-mob{right: 13px; top: -59px;}
+    .career-left-mob{top: 68px; left: 9px;}
+    .team-filter{margin-bottom: 40px;}
+    .team-filter-title{margin-bottom: 25px;}
+    .team-filter-form{gap: 18px 46px;}
+    .team-lists{gap: 40px 25px;}
+    .team-item{flex: 0 0 calc(50% - 13px);}
+}
+
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .team-section-main{margin-top: 155px;}
+    .career-right-mob{right: 13px; top: -59px;}
+    .career-left-mob{top: 68px; left: 9px;}
+    .team-heading{padding-bottom: 60px;}
+    .team-heading h1{font-size: 64px; line-height: 1.16; letter-spacing: -0.64px;}
+    .team-filter{margin-bottom: 40px;}
+    .team-filter-title{margin-bottom: 25px;}
+    .team-filter-title h2{font-size: 30px; line-height: 1.13; padding-right: 135px;}
+    .team-filter-form{gap: 18px 46px;}
+    .team-lists{gap: 20px;}
+    .team-item{flex: 0 0 100%; display: flex; gap: 20px; padding-bottom: 20px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
+    .team-image{margin-bottom: 0; flex: 0 0 100px;}
+    .team-details{text-align: left; padding: 12px 0 0 0; flex: 0 0 calc(100% - 120px);}
+    .team-details h3{font-size: 22px; line-height: 1.45; letter-spacing: -0.66px; margin-bottom: 0;}
+    .team-details > span{line-height: 1.43;}
+    .team-lists .load-more-btn{margin: 75px auto 100px;}
+}
 
 
 

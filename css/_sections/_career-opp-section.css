@@ -17,4 +17,27 @@
     .career-opp-content{flex: 0 0 450px;}
     .career-opp-thumb img{max-height: 469px;}
     .career-opp-image{flex: 0 0 calc(100% - 505px); display: flex; justify-content: end;}
+<<<<<<< HEAD
 }
+=======
+}
+
+@media screen and (max-width: 1023px) and (min-width: 740px) {
+    .career-opp-main{flex-direction: column-reverse; padding-bottom: 80px;}
+    .career-opp-image{margin-bottom: 60px;}
+    .career-opp-thumb{top: -20px; margin-right: 20px; position: relative;}
+    .career-opp-content h2{margin-bottom: 16px; font-size: 36px; line-height: 1.22; letter-spacing: -0.36px;}
+    .career-opp-content p{max-width: 100%;}
+    .career-opp-bg-mob{bottom: -69px; right: 17px; z-index: -1;}
+}
+
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .career-opp-main{flex-direction: column-reverse; padding-bottom: 80px;}
+    .career-opp-image{margin-bottom: 60px;}
+    .career-opp-thumb{top: -20px; margin-right: 20px; position: relative;}
+    .career-opp-content h2{margin-bottom: 16px; font-size: 36px; line-height: 1.22; letter-spacing: -0.36px;}
+    .career-opp-content p{max-width: 100%;}
+    .career-opp-bg-mob{bottom: -69px; right: 17px; z-index: -1;}
+}
+
+>>>>>>> a3458b82caf98e45322279f4e327232a2c795c8a
