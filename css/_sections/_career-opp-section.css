@@ -12,3 +12,11 @@
     .career-opp-content{flex: 0 0 600px; padding: 104px 0 100px;}
     .career-opp-image{flex: 0 0 calc(100% - 705px); z-index: 2;}
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1299px) {
+    .career-opp-main{gap: 55px;}
+    .career-opp-content{flex: 0 0 450px;}
+    .career-opp-thumb img{max-height: 469px;}
+    .career-opp-image{flex: 0 0 calc(100% - 505px); display: flex; justify-content: end;}
+}
+
