@@ -1,10 +1,18 @@
 
 jQuery(function($){
     const header = $(".header-main");
-    window.onscroll = function(){
+
+    window.onscroll = function() {
         const _scroll = window.scrollY;
-        _scroll >= 4 ? header.addClass("sticky-header") : header.removeClass("sticky-header");
-    }
+        if (_scroll >= 4) {
+            header.addClass("sticky-header");
+            header.removeClass("black-header");
+        } else {
+            header.removeClass("sticky-header");
+            header.addClass("black-header");
+        }
+    };
+    
 
     $('.footer-list').click(function() {     
         $(this).toggleClass("open");
