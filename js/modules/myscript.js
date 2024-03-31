@@ -32,6 +32,7 @@ jQuery(function($){
      $(".humburger-btn").on("click", function(e){
         e.preventDefault();
         $(this).toggleClass("active");
+        $("header.header-main").removeClass("black-header");
         $(".header-right").toggleClass("open");
 
      });
