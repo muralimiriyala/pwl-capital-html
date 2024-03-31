@@ -6,34 +6,50 @@ header.header-main{top: 0; left: 0; right: 0; width: 100%; height: auto; positio
 .sticky-header .logo-black{opacity: 1;}
 
 /* media css starts here */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px){
     .site-main-cover{padding-top: 150px;}
     .header{gap: 12px; padding: 48px 0; min-height: 88px; transition: all 0.5s ease;}
     .logo{flex: 0 0 294px; position: relative;}
     .logo a img{max-width: 100%;}
-    .header-right{flex: 1; margin-left: auto; gap: 64px; align-items: center; justify-content: flex-end;}
-    .header-btns{gap: 10px; width: fit-content;}
+    .header-btns{gap: 10px; width: fit-content; order: 3;}
     .header-btns .button{padding: 14px 20px 15px 19px; font-family: "Century Gothic";}
     .header-btns .button.btn-transparent{min-width: 115px; color: var(--midnight);}
-    ul.main-menu{gap: 0 46px; width: fit-content; justify-content: flex-end; font-family: 'Century Gothic', sans-serif;}
     ul.main-menu > li{margin: 0;}
     ul.main-menu > li::before{display: none;}
     ul.main-menu > li > a{color: var(--midnight); display: block; font-size: 18px; line-height: 20px; letter-spacing: 0.36px; font-weight: 700;}
     ul.main-menu > li.current_page_item > a, ul.main-menu > li > a:hover{color: var(--green-pear);}
     ul.main-menu > li > ul{display: none;}
     
-    .header-lng{width: fit-content; gap: 26px;}
-    .languages{flex: 1; gap: 10px; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
+    .humburger-btn{display: none;}
+    .header-right{flex: 1;}
+    .header-srch{width: fit-content; gap: 26px;}
+    
+    .languages{flex: 1; order: 1; gap: 10px; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
     .languages a{width: 32px; height: 32px; background-color: var(--white);}
+    
+    .header-right{flex: 1; margin-left: auto; gap: 64px; align-items: center; justify-content: flex-end;}
+    ul.main-menu{gap: 0 46px; order: 2; width: fit-content; justify-content: flex-end; font-family: 'Century Gothic', sans-serif;}
 
     .sticky-header .header{padding: 31px 0 30px;}
     header.black-header{background-color: transparent;}
     header.black-header .logo-black{opacity: 0;}
-    header.black-header .header-lng svg{fill: #fff;}
+    header.black-header header-srch svg{fill: #fff;}
     header.black-header .languages a{opacity: 0.35; background-color: transparent; color: var(--white);}
     header.black-header .languages a.active{opacity: 1; background-color: var(--white-10);}
     header.black-header ul.main-menu > li > a{color: var(--white);}
 }
-@media only screen and (max-width: 739px) and (min-width: 200px){
+@media only screen and (max-width: 1439px) and (min-width: 1300px){
+    .logo { flex: 0 0 264px; }
+    .header-right{gap: 32px;}
+    ul.main-menu{gap: 24px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 200px){
+    .header{display: block; position: relative;}
     .header-right{display: none;}
+    ul.main-menu{display: block;}
+    .header-srch{right: 40px; width: 16px; top: 50%; transform: translateY(-50%); position: absolute;}
+    .humburger-btn { width: 23px; height: 23px; right: 0; top: 50%; transform: translateY(-50%); cursor: pointer; display: block; position: absolute; }
+    .humburger-btn span{width: 23px; height: 2px; margin: 6px 0; display: block; background-color: #001133;}
+    .humburger-btn span:first-child{margin-top: 0;}
+    .humburger-btn span:last-child{margin-bottom: 0;}
 }
