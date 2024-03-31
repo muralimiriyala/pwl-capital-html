@@ -1,12 +1,15 @@
 
 header.header-main{top: 0; left: 0; right: 0; width: 100%; height: auto; position: fixed; z-index: 1800;  transition: all 0.5s ease-in-out; background-color: var(--white);}
 .sticky-header{box-shadow: 0px 6px 10px 0px rgba(0, 17, 51, 0.05); }
+header.black-header{background-color: transparent;}
+header.black-header .logo-black{opacity: 0;}
+
 .logo-black{top: 0; left: 0; opacity: 1; position: absolute;}
 .sticky-header .logo-white{opacity: 0;}
 .sticky-header .logo-black{opacity: 1;}
 
 /* media css starts here */
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1300px){
     .site-main-cover{padding-top: 150px;}
     .header{gap: 12px; padding: 48px 0; min-height: 88px; transition: all 0.5s ease;}
     .logo{flex: 0 0 294px; position: relative;}
@@ -21,30 +24,32 @@ header.header-main{top: 0; left: 0; right: 0; width: 100%; height: auto; positio
     ul.main-menu > li > ul{display: none;}
     
     .humburger-btn{display: none;}
-    .header-right{flex: 1;}
-    .header-srch{width: fit-content; gap: 26px;}
+    .header-srch{width: fit-content; margin-left: 72px;}
     
     .languages{flex: 1; order: 1; gap: 10px; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
     .languages a{width: 32px; height: 32px; background-color: var(--white);}
     
-    .header-right{flex: 1; margin-left: auto; gap: 64px; align-items: center; justify-content: flex-end;}
+    .header-right{flex: 1; margin-left: 14px; gap: 64px; align-items: center; justify-content: flex-end;}
     ul.main-menu{gap: 0 46px; order: 2; width: fit-content; justify-content: flex-end; font-family: 'Century Gothic', sans-serif;}
 
     .sticky-header .header{padding: 31px 0 30px;}
-    header.black-header{background-color: transparent;}
-    header.black-header .logo-black{opacity: 0;}
-    header.black-header header-srch svg{fill: #fff;}
+
+    header.black-header .header-srch svg{fill: #fff;}
     header.black-header .languages a{opacity: 0.35; background-color: transparent; color: var(--white);}
     header.black-header .languages a.active{opacity: 1; background-color: var(--white-10);}
     header.black-header ul.main-menu > li > a{color: var(--white);}
 }
-@media only screen and (max-width: 1439px) and (min-width: 1300px){
+@media only screen and (max-width: 1599px) and (min-width: 1300px){
     .logo { flex: 0 0 264px; }
     .header-right{gap: 32px;}
     ul.main-menu{gap: 24px;}
 }
+@media only screen and (max-width: 1499px) and (min-width: 1300px){
+    .header-srch{margin-left: 12px;}
+}
 @media only screen and (max-width: 1299px) and (min-width: 200px){
-    .header{display: block; position: relative;}
+    .header{padding: 25px 0 26px; display: block; position: relative;}
+    .logo{width: 213px;}
     .header-right{display: none;}
     ul.main-menu{display: block;}
     .header-srch{right: 40px; width: 16px; top: 50%; transform: translateY(-50%); position: absolute;}
