@@ -17,9 +17,6 @@
     .career-opp-content{flex: 0 0 450px;}
     .career-opp-thumb img{max-height: 469px;}
     .career-opp-image{flex: 0 0 calc(100% - 505px); display: flex; justify-content: end;}
-<<<<<<< HEAD
-}
-=======
 }
 
 @media screen and (max-width: 1023px) and (min-width: 740px) {
@@ -40,4 +37,3 @@
     .career-opp-bg-mob{bottom: -69px; right: 17px; z-index: -1;}
 }
 
->>>>>>> a3458b82caf98e45322279f4e327232a2c795c8a

@@ -60,6 +60,8 @@ ul.social-share-icons > li a:hover{color: #0894d3;}
     .copyright-text{text-align: center;}
     ul.copyright-links{justify-content: center; margin-bottom: 20px;}
     .follow-us{justify-content: center; margin-bottom: 30px;}
+
+    .footer-bg-3{top: 612px; right: 40px; opacity: 0.09;}
 }
 
 @media screen and (max-width: 739px) and (min-width: 200px) {
