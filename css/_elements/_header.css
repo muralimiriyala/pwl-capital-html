@@ -18,6 +18,7 @@ header.black-header .logo-black{opacity: 0;}
     .header-btns{gap: 10px; width: fit-content; order: 3;}
     .header-btns .button{padding: 14px 20px 15px 19px; font-family: "Century Gothic";}
     .header-btns .button.btn-transparent{min-width: 115px; color: var(--midnight);}
+    .header-btns .button:hover{color: var(--white);}
     ul.main-menu{margin: 0;}
     ul.main-menu > li{margin: 0;}
     ul.main-menu > li::before{display: none;}
