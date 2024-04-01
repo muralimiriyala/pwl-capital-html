@@ -82,6 +82,8 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover{ background: var(--green-pear); color:var(--white); }
 .button.btn-transparent{background: transparent; border-color: var(--capri-ocean); color: var(--capri-ocean);}
 .button.btn-transparent:hover{background: var(--green-pear); border-color: var(--green-pear); color:var(--white);}
+
+
 .btn-transparent.white-text{color: var(--white);}
 .btn-green.btn-transparent{border-color: var(--green-pear);}
 .btn-green.btn-transparent:hover{background: var(--green-pear); color:var(--white);}
