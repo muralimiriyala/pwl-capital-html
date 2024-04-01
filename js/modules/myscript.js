@@ -34,7 +34,14 @@ jQuery(function($){
         $(this).toggleClass("active");
         $("header.header-main").removeClass("black-header");
         $(".header-right").toggleClass("open");
-
+        $(".header-overlay").toggleClass("open")
+     });
+     $("body").on("click", function(e){
+        if(!$(e.target).closest(".header-right, .humburger-btn").length){
+            $(".humburger-btn").removeClass("active");
+            $(".header-right").removeClass("open");
+            $(".header-overlay").removeClass("open")
+        }
      });
 
 });
