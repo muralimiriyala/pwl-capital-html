@@ -6,10 +6,8 @@ jQuery(function($){
         const _scroll = window.scrollY;
         if (_scroll >= 4) {
             header.addClass("sticky-header");
-            // header.addClass("black-header");
         } else {
             header.removeClass("sticky-header");
-            header.removeClass("black-header");
         }
     };
     

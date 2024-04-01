@@ -1,12 +1,12 @@
 
 header.header-main{top: 0; left: 0; right: 0; width: 100%; height: auto; position: fixed; z-index: 1800;  transition: all 0.5s ease-in-out; background-color: var(--white);}
-.sticky-header{box-shadow: 0px 6px 10px 0px rgba(0, 17, 51, 0.05); }
-header.black-header{background-color: transparent;}
-header.black-header .logo-black{opacity: 0;}
+header.black-header:not(.sticky-header){background-color: transparent;}
+header.black-header:not(.sticky-header) .logo-black{opacity: 0;}
+header.sticky-header{background-color: var(--white); box-shadow: 0px 6px 10px 0px rgba(0, 17, 51, 0.05); }
 
 .logo-black{top: 0; left: 0; opacity: 1; position: absolute;}
-.sticky-header .logo-white{opacity: 0;}
-.sticky-header .logo-black{opacity: 1;}
+header.sticky-header .logo-white{opacity: 0;}
+header.sticky-header .logo-black{opacity: 1;}
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
@@ -37,10 +37,12 @@ header.black-header .logo-black{opacity: 0;}
 
     .sticky-header .header{padding: 31px 0 30px;}
 
-    header.black-header .header-srch svg{fill: #fff;}
-    header.black-header .languages a{opacity: 0.35; background-color: transparent; color: var(--white);}
-    header.black-header .languages a.active{opacity: 1; background-color: var(--white-10);}
-    header.black-header ul.main-menu > li > a{color: var(--white);}
+    header.black-header:not(.sticky-header) .header-srch svg{fill: #fff;}
+    header.black-header:not(.sticky-header) .languages a{opacity: 0.35; background-color: transparent; color: var(--white);}
+    header.black-header:not(.sticky-header) .languages a.active{opacity: 1; background-color: var(--white-10);}
+    header.black-header:not(.sticky-header) ul.main-menu > li > a{color: var(--white);}
+
+    
 }
 @media only screen and (max-width: 1599px) and (min-width: 1300px){
     .logo { flex: 0 0 264px; }
