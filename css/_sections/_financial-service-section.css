@@ -1,4 +1,13 @@
 
+.financial-item{flex: 0 0 406px; border-left: 1px solid rgba(45, 87, 130, 0.14); border-top: 1px solid rgba(45, 87, 130, 0.14); padding: 50px;}
+.financial-item:nth-child(3n + 1){ border-left: none;}
+.financial-item:nth-child(1), .financial-item:nth-child(2), .financial-item:nth-child(3){border-top: none;}
+.financial-content{font-size: 15px; line-height: 1.67;}
+.financial-content p{margin-bottom: 1.3rem;}
+.financial-content h3{font-size: 33px; font-weight: 500; line-height: 1.03;}
+.financial-item:nth-child(6) .financial-content{max-width: 236px;}
+.financial-item:nth-child(6) .financial-content h3{font-size: 33px; font-weight: 500; line-height: 1.03;}
+.financial-content .optional-text { color: var(--aquamarine); }
 
 
 @media screen and (min-width: 1024px) {
