@@ -13,10 +13,10 @@
 .link-btn > span{position: absolute; right: 0; top: 3px; transition: all .5s ease;}
 .link-btn:hover > span{right: -10px;}
 
-.career-right-bg{right: -92px; top: 90px;}
-.career-right-sm{right: 144px; top: 17px;}
-.career-left-bg{left: 111px; top: 10px;}
-.career-left-sm{left: -98px; top: 153px;}
+.team-right-bg{right: -92px; top: 90px;}
+.team-right-sm{right: 144px; top: 17px;}
+.team-left-bg{left: 111px; top: 10px;}
+.team-left-sm{left: -98px; top: 153px;}
 
 .team-filter{justify-content: space-between; margin-bottom: 60px;}
 .team-filter-title h2{font-size: 34px; line-height: 1.24; margin-bottom: 0;}
@@ -58,8 +58,8 @@
 
 @media screen and (max-width: 739px) and (min-width: 200px) {
     .team-section-main{margin-top: 155px;}
-    .career-right-mob{right: 13px; top: -59px;}
-    .career-left-mob{top: 68px; left: 9px;}
+    .team-right-mob{right: 13px; top: -59px;}
+    .team-left-mob{top: 68px; left: 9px;}
     .team-heading{padding-bottom: 60px;}
     .team-heading h1{font-size: 64px; line-height: 1.16; letter-spacing: -0.64px;}
     .team-filter{margin-bottom: 40px;}

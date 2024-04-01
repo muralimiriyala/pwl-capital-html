@@ -40,8 +40,8 @@ ul.social-share-icons > li a:hover{color: #0894d3;}
     .footer-text{flex: 0 0 445px;}
     .footer-nav{flex: 0 0 calc(100% - 717px);}
     .footer-list:first-child{flex: .78;}
-    .footer-list:nth-child(2){flex: 0.5;}
-    .footer-list{flex: 0.8;}
+    .footer-list:nth-child(2){flex: 0.48;}
+    .footer-list{flex: 0.5;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .footer-row{gap: 50px;}
