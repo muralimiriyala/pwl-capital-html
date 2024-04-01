@@ -28,6 +28,33 @@
 .confirmation-tick svg{width: 127px; height: 106px; top: calc(50% + 3px); left: 50%; transform: translate(-50%, -50%); position: absolute;}
 
 
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .confirmation-main{padding: 96px 0 50px 100px; gap: 92px;}
+}
+
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .confirmation-wrap{padding-top: 52px;}
+    .confirmation-main{max-width: 100%; padding: 0 0 79px 0; gap: 77px; margin-bottom: 80px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
+    .confirmation-icons{flex: 100%; margin: 24px 0 0 20px;}
+    .confirmation-box{width: 55px; height: 53px;}
+    .confirmation-box::after{width: 10px; height: 10px; bottom: -9px;}
+    .confirmation-box.pacific-blue{top: -7px; left: -13px;}
+    .confirmation-box.capri-ocean{transform: rotate(-9deg); top: -4px; left: -6px;}
+    .confirmation-tick svg{width: 35px; height: 30px; top: calc(50% + 0px);}
+    .confirmation-text h1{font-size: 43px; line-height: 1.19; letter-spacing: -0.43px; padding-right: 5px; margin-bottom: 30px;}
+
+    .confirmation-watermark{width: 100%;}
+    .confirmation-watermark svg:first-child{width: 155px; height: 181px; right: 0; position: absolute;}
+
+    .paths-main{margin-bottom: 80px;}
+    .paths-img{max-width: 206px; margin-bottom: 38px;}
+    .paths-text h2{font-size: 36px; line-height: 44px; letter-spacing: -0.36px; margin-bottom: 23px;}
+    .path-btns{gap: 39px;}
+    .paths-list{margin-bottom: 100px;}
+    .paths-list:last-child{margin-bottom: 0;}
+}
+
+
 
 
 
