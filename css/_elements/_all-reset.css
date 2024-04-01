@@ -98,6 +98,14 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.btn-sm{font-size: 14px; line-height: 14px; letter-spacing: 0.18px; padding: 11px 16px 11px;}
 .button.btn-lg{padding: 14px 29px 15px;}
 
+.btn-link{color: var(--capri-ocean, #0894D3); font-family: "Brother 1816", sans-serif; font-size: 15px; font-weight: 500; line-height: 15px; letter-spacing: 0.3px; text-transform: uppercase; display: inline-flex; align-items: center;}
+.btn-link::after{width: 13px; height: 14.5px; margin-left: 8px; top: 2px; position: relative; background-image: url('./images/arrow-right.svg'); background-repeat: no-repeat; background-position: center; content: ""; display: block;}
+
+.btn-link.sm{ font-size: 14px; letter-spacing: 0.28px;}
+.btn-link.green{color: var(--aquamarine, #10B596);}
+.btn-link.green::after{width: 11.431px; height: 12.75px; margin-left: 5px; top: 1px; position: relative; background-image: url('./images/arrow-right-green.svg'); background-repeat: no-repeat; background-position: center; content: ""; display: block;}
+
+
 .btn-link.green-text{color: var(--green-pear);}
 .btn-link.green-text::after{background-image: url('./images/arrow-right-green.svg');}
 .btn-link.green-text:hover{color: var(--green-pear);}
@@ -266,12 +274,6 @@ ul.slick-dots li button{display: none;}
 .capri-ocean{color: var(--capri-ocean);}
 .bright-Spring{color: var(--bright-Spring);}
 
-.btn-link{color: var(--capri-ocean, #0894D3); font-family: "Brother 1816", sans-serif; font-size: 15px; font-weight: 700; line-height: 15px; letter-spacing: 0.3px; text-transform: uppercase; display: inline-flex; align-items: center;}
-.btn-link::after{width: 13px; height: 14.5px; margin-left: 8px; top: 2px; position: relative; background-image: url('./images/arrow-right.svg'); background-repeat: no-repeat; background-position: center; content: ""; display: block;}
-
-.btn-link.sm{ font-size: 14px; letter-spacing: 0.28px;}
-.btn-link.green{color: var(--aquamarine, #10B596);}
-.btn-link.green::after{width: 11.431px; height: 12.75px; margin-left: 5px; top: 1px; position: relative; background-image: url('./images/arrow-right-green.svg'); background-repeat: no-repeat; background-position: center; content: ""; display: block;}
 
 ::-webkit-input-placeholder { 
     font-family: "Century Gothic";

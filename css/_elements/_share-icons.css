@@ -1,0 +1,28 @@
+
+.social-share-icons{margin-bottom: 3.75rem; gap: 21px; position: relative;}
+.post-template-default .social-share-icons{margin-bottom: 2rem;}
+.share-text{flex: 0 0 77px; gap: 10px; text-transform: uppercase; color: var(--muted); }
+.share-text span{font-size: 1.1rem;}
+.social-share-icons #st-1.st-animated{width: 100%; flex: 1; gap: 0 34px; display: flex; flex-wrap: wrap; justify-content: space-between; z-index: 1;}
+.social-share-icons #st-1.st-animated .st-btn{padding: 0; margin: 0; width: 2rem; height: 2rem; min-width: 2rem; font-size: 1rem; line-height: normal; border-radius: 0%; background-color: #ccddef; color: var(--white); position: relative; z-index: 1; font-family: "Font Awesome 6 Brands"; font-weight: 400; display: flex !important; align-items: center; justify-content: center; transition: all 0s ease-in-out !important;}
+.social-share-icons #st-1.st-animated .st-btn::before { width: 100%; height: 100%; top: 0; left: 0; opacity: 1; background-color: var(--amar-blue); content: ""; position: absolute; z-index: -1; transition: all 0.45s ease-in-out;}
+.social-share-icons #st-1.st-animated .st-btn:hover::before{transform: scale(0.1); opacity: 0; border-radius: 50%;} 
+.social-share-icons #st-1.st-animated .st-btn:hover{background: var(--amar-orange) !important; color: var(--white) !important; opacity: 1; top: 0; transition: all 0.45s ease-in-out;}
+.social-share-icons #st-1.st-animated span.st-label{display: none;}
+.social-share-icons #st-1.st-animated .st-btn[data-network="sharethis"]::after {content: "\f1e0"; font-family: "Font Awesome 6 Pro"; } 
+.social-share-icons #st-1.st-animated .st-btn[data-network="facebook"]::after {content: "\f09a"; } 
+.social-share-icons #st-1.st-animated .st-btn[data-network="twitter"]::after {content: "\e61b"; } 
+.social-share-icons #st-1.st-animated .st-btn[data-network="linkedin"]::after{content: "\f0e1"; }
+.social-share-icons #st-1.st-animated .st-btn[data-network="email"]::after{content: "\f0e0"; font-family: "Font Awesome 6 Pro"; font-weight: 900;}
+.social-share-icons #st-1.st-animated img{display: none;}
+.social-share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 2rem;}
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .social-share-icons{margin-bottom: 3rem;}
+    .social-share-icons #st-1.st-animated {gap: 20px; justify-content: flex-start;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .social-share-icons{margin-bottom: 3rem;}
+    .social-share-icons #st-1.st-animated{ gap: 0 44px; display: none;}
+}
