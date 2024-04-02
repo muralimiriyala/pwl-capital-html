@@ -1,3 +1,23 @@
 
 .meet-with-banner{background-color: var(--french-navy);}
-.meet-with-main{padding: 80px 0 100px;}
+.meet-with-title span.optional-text{color: rgba(217, 238, 247, 0.6); font-weight: 500; margin-bottom: 22px;}
+.meet-with-title h1{color: var(--white); margin-bottom: 20px;}
+.meet-with-desc{display: block; font-size: 20px; line-height: 1.55; color: rgba(217, 238, 247, 0.6); font-family: 'Century Gothic'; margin-bottom: 22px;}
+ul.meet-with-call{margin: 0;}
+ul.meet-with-call > li{margin-bottom: 5px; line-height: 1.76;}
+ul.meet-with-call > li::before{display: none;}
+ul.meet-with-call > li > a{align-items: center; gap: 10px; color: var(--white);}
+ul.meet-with-call > li:hover > a{color: var(--green-pear);}
+.meet-watermark{top: 223px; right: 0;}
+.meet-watermark svg:first-child{top: 0; right: -67px; position: absolute;}
+.meet-watermark svg:not(:first-child){top: 150px; right: 192px; position: absolute;}
+
+ol.meet-form-step > li{font-size: 18px; font-weight: bold; color: var(--capri-ocean); line-height: 1; letter-spacing: -0.54px; font-family: 'Century Gothic'; flex: 1;}
+ol.meet-form-step > li::before{top: -5px; left: -45px; width: 32px; height: 32px; font-size: 18px; line-height: 18px; letter-spacing: -.54px; background-color: var(--capri-ocean);}
+
+
+@media screen and (min-width: 1024px) {
+    .meet-with-main{padding: 80px 0 100px; gap: 170px;}
+    .meet-with-title{flex: 0 0 422px;}
+    .meet-with-form{flex: 0 0 calc(100% - 592px);}
+}
