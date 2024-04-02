@@ -18,7 +18,7 @@ ul.srch-results-links li a svg{left: 0; top: 50%; transform: translateY(-50%); p
 .srch-results-list{gap: 38px; margin-bottom: 40px;}
 .srch-results-thumb{flex: 0 0 162px; box-shadow: -10px 10px 0px 0px var(--ice-blue, #D9EEF7);}
 .srch-results-text{flex: 1;}
-.srch-results-text h2{font-weight: 500;}
+.srch-results-text h2{font-weight: 600;}
 .srch-results-text h2 a{color: var(--midnight);}
 .srch-results-text h2 a:hover{color: var(--green-pear);}
 ul.content-type{margin: 0; gap: 10px;}
