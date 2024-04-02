@@ -1,6 +1,4 @@
 
-.financial-item{border-left: 1px solid rgba(45, 87, 130, 0.14); border-top: 1px solid rgba(45, 87, 130, 0.14); padding: 50px;}
-.financial-item:nth-child(1), .financial-item:nth-child(2), .financial-item:nth-child(3){border-top: none;}
 .financial-content{font-size: 15px; line-height: 1.67;}
 .financial-content p{margin-bottom: 1.3rem;}
 .financial-content h3{font-size: 33px; font-weight: 500; line-height: 1.03;}
@@ -21,20 +19,26 @@
 .financial-item:hover .financial-image{opacity: 1; visibility: visible; } 
 
 
-@media screen and (max-width: 1299px) and (min-width: 1024px) {
-    .financial-item{flex: 0 0 33%; padding: 40px;}
-    .financial-image{width: 108%; height: 108%;}
-}
-
-@media screen and (min-width: 1024px) {
+/*-- media css starts here --*/
+@media only screen and (min-width: 1300px) {
     .financial-main{max-width: 1230px; margin: 0 auto; padding: 121px 0 113px;}
-    .financial-heading{max-width: 776px; margin: 0 0 77px 50px;}
-    .financial-item{flex: 0 0 421px;}
-    .financial-item:nth-child(3n + 1){border-left: none; flex: 0 0 404px;}
-    .financial-item:nth-child(3n + 3){flex: 0 0 404px;}
+    .financial-heading{max-width: 776px; padding: 0 0 77px 50px;}
+    .financial-item{flex: 0 0 421px; padding: 50px; border-left: 1px solid rgba(45, 87, 130, 0.14); border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
+    .financial-item:nth-last-child(-n+3){border-bottom: none;}
+    .financial-item:nth-child(3n + 1){flex: 0 0 404px; border-left: none;}
+    .financial-item:nth-child(3n + 3){flex: 0 0 404px; }
+    .financial-item{border-left: 1px solid rgba(45, 87, 130, 0.14); }
 }
-
-@media screen and (max-width: 739px) and (min-width: 200px) {
+@media only screen and (max-width: 1299px) and (min-width: 1024px) {
+    .financial-main{ padding: 121px 0 113px;}
+    .financial-heading{max-width: 776px; padding: 0 0 77px;}
+    .financial-item{flex: 0 0 50%; padding: 40px;}
+    .financial-image{width: 108%; height: 108%;}
+    .financial-item{border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
+    .financial-item:nth-last-child(-n+2){border-bottom: none;}
+    .financial-item:nth-child(even){border-left: 1px solid rgba(45, 87, 130, 0.14);}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px) {
     .financial-main{padding: 90px 0 80px;}
     .financial-heading h2{font-size: 36px; line-height: 1.22; letter-spacing: -0.36px;}
 }
