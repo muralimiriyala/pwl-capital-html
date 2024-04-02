@@ -1,7 +1,9 @@
 
 
-.meat-our-section{background: var(--french-navy, #013);}
+.meat-our-section{background: var(--french-navy, #013); box-shadow: 20px 20px 0 0 rgba(8, 148, 211, 0.5);}
 .meat-our-thumb{max-width: 920px;}
+
+.meet-our-polygon{content: ""; width: 111px; height: 111px; bottom: -111px; right: 0; clip-path: polygon(0% 0,100% 0,100% 100%,100% 100%); background-color: var(--french-navy, #013); display: block;}
 
 
 .meat-our-main{left: 0; right: 0; top: 50%; transform: translateY(-50%); position: absolute;}
