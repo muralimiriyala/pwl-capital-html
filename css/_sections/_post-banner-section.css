@@ -1,9 +1,8 @@
 
-ul.post-banner-list{margin: 0; gap: 10px 27px; color: rgba(16, 42, 70, 0.60); font-family: "Century Gothic", sans-serif;}
-ul.post-banner-list li::before{content: ""; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); width: 3px; height: 3px; background-color: rgba(45, 87, 130, 0.14);}
-ul.post-banner-list li{margin: 0;}
-
-
+.post-categorys{gap: 10px 27px; font-size: 18px; line-height: 22px; color: rgba(16, 42, 70, 0.60); font-family: "Century Gothic", sans-serif;}
+ul.post-department{margin: 0; gap: 10px 27px; width: fit-content; }
+ul.post-department li::before{content: ""; position: absolute; left: auto; right: -15px; top: 50%; transform: translateY(-50%); width: 3px; height: 3px; background-color: rgba(45, 87, 130, 0.24);}
+ul.post-department li{margin: 0;}
 .post-banner-thumb img{box-shadow: 20px 20px 0 0 var(--capri-ocean, #0894D3);}
 
 /*-- media css starts here --*/
