@@ -150,7 +150,7 @@ img.aligncenter{margin: 25px auto;}
 /*-- custom css starts here --*/
 body{font-size: 17px; line-height: 30px; letter-spacing: -0.17px; font-weight: 400; font-family: 'brother-1816', sans-serif;  position: relative; color: var(--midnight, #121321); background-color: transparent; overflow-x: hidden;}
 .d-block{display: block;}
-span.optional-text{margin-bottom: 12px; font-size: 12px; line-height: 21px; letter-spacing: 1.2px; font-weight: 500; display: block; font-family: "brother-1816", sans-serif; text-transform: uppercase; }
+span.optional-text{margin-bottom: 12px; font-size: 12px; line-height: 21px; letter-spacing: 1.2px; font-weight: 600; display: block; font-family: "brother-1816", sans-serif; text-transform: uppercase; }
 span.optional-text.muted{margin-bottom: 8px; color: var(--muted-dark-2, rgba(33, 82, 131, 0.60));}
 span.optional-text.green{margin-bottom: 0; color: var(--accent);}
 span.optional-text.dark{margin-bottom: 20px; color: var(--midnight);}

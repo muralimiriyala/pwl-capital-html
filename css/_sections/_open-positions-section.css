@@ -10,8 +10,7 @@
 .positions-categorys{gap: 0 28px;}
 ul.positions-category{margin: 0; gap: 0 28px; width: fit-content;} 
 ul.positions-category li{margin: 0; }
-ul.positions-category li::before{width: 3px; height: 3px;}
-ul.positions-category li:first-child::before{display: none;}
+ul.positions-category li::before{width: 3px; height: 3px; right: -17px; left: auto;}
 
 .open-positions-field .selectBox-dropdown{padding: 0 24px 0 0; border-bottom: 1px solid rgba(45, 87, 130, 0.14); border-radius: 0; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; font-size: 20px; font-weight: 400; line-height: 31px; }
 .open-positions-field .selectBox-dropdown .selectBox-arrow{right: 0;}
@@ -45,12 +44,11 @@ ul.positions-category li:first-child::before{display: none;}
     .open-positions-text{margin-bottom: 17px;}
     .open-positions-text h2{margin-bottom: 4px;}
     .open-positions-btn{gap: 20px; justify-content: space-between; align-items: center; display: flex; flex-wrap: wrap;}
+    ul.positions-category li:last-child::before{display: none;}   
 }
 @media screen and (max-width: 413px) and (min-width: 200px){
     .open-positions-form{display: block;}
     .open-positions-field:not(:last-child){margin-bottom: 20px;}
-
-    
 }
 
 

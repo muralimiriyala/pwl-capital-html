@@ -40,7 +40,7 @@
 .team-details h3 a:hover{color: var(--green-pear);}
 .team-details > span{font-size: 14px; display: block; line-height: 1.57; letter-spacing: -0.42px; color: rgba(16, 42, 70, 0.6);}
 
-.team-lists .load-more-btn{margin: 50px auto 100px;}
+.load-more-btn{margin: 50px auto 100px;}
 
 .team-content{padding: 79px 100px 78px 89px; background-color: rgba(137, 203, 62, 0.1);}
 .team-content::before{content: ""; position: absolute; top: 442px; left: 473px; background-image: url("./images/up-arrow.svg"); background-size: cover; background-repeat: no-repeat; width: 33px; height: 23px;}
@@ -101,7 +101,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-details{text-align: left; padding: 12px 0 0 0; flex: 0 0 calc(100% - 120px);}
     .team-details h3{font-size: 22px; line-height: 1.45; letter-spacing: -0.66px; margin-bottom: 0;}
     .team-details > span{line-height: 1.43;}
-    .team-lists .load-more-btn{margin: 75px auto 100px;}
+    .load-more-btn{margin: 75px auto 100px;}
 }
 
 

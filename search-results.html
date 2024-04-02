@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="./style.css" media="all">
         <link rel="stylesheet" href="./core.bundle.css" media="all">
     </head>
-<body>
+<body class="search-results-page">
 <header class="header-main">
     <div class="container lg">
         <div class="header flex flex-vcenter">
@@ -93,12 +93,20 @@
     <div class="srch-results-main flex">
         <div class="srch-results-filter">
             <h2 class="h5">Filter by Content Type</h2>
-            <ul class="srch-results-links">
-                <li><a href="#"> <svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/> </svg>Pages (1)</a></li>
-                <li><a href=""><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/> </svg>Topics (10)</a></li>
-                <li><a href="#"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/> </svg>Resources (2)</a></li>
-                <li><a href=""><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/> </svg>Research (1)</a></li>
-            </ul>
+            <div class="srch-results-mobile">
+                <div class="srch-results-btn flex relative">
+                    <span class="srch-results-btn-text">Content Type (20)</span>
+                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none">
+                        <path d="M13 0.591797L7 6.40848C5 4.46958 1 0.591796 1 0.591796" stroke="#0894D3" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <ul class="srch-results-links">
+                    <li><a href="#"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/></svg>Pages (1)</a></li>
+                    <li><a href=""><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/></svg>Topics (10)</a></li>
+                    <li><a href="#"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/></svg>Resources (2)</a></li>
+                    <li><a href=""><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/></svg>Research (1)</a></li>
+                </ul>
+            </div>
         </div>
         <div class="srch-results-row">
             <div class="srch-results-list flex flex-vcenter">
@@ -198,7 +206,7 @@
                     <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
                 </div>
             </div>
-            <div id="load-more" class="load-more-btn">
+            <div id="load-more" class="srch-load-more-btn">
                 <span class="loader"></span>
                 <span class="button"> Show More</span>
             </div>           
