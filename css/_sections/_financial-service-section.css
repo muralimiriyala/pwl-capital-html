@@ -29,7 +29,7 @@
     .financial-item:nth-child(3n + 3){flex: 0 0 404px; }
     .financial-item{border-left: 1px solid rgba(45, 87, 130, 0.14); }
 }
-@media only screen and (max-width: 1299px) and (min-width: 1024px) {
+@media only screen and (max-width: 1299px) and (min-width: 740px) {
     .financial-main{ padding: 121px 0 113px;}
     .financial-heading{max-width: 776px; padding: 0 0 77px;}
     .financial-item{flex: 0 0 50%; padding: 40px;}
