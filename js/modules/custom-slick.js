@@ -10,6 +10,7 @@ jQuery(document).ready(function($){
             speed: 1500,
             infinite: false,
             autoplay: false,
+            variableWidth: true,
           });
         } else {
           if ($('.financial-lists').hasClass('slick-initialized')) {
