@@ -1,5 +1,5 @@
 
-.srch-results-wrap{padding: 0 0 107px;}
+.srch-results-wrap{padding: 41px 0 107px;}
 .srch-results-wrap h1{margin-bottom: 22px;}
 .srch-results-main{gap: 118px; padding: 84px 0 0;}
 .srch-results-filter{flex: 0 0 235px;}
@@ -21,8 +21,10 @@ ul.srch-results-links li a svg{left: 0; top: 50%; transform: translateY(-50%); p
 .srch-results-thumb{flex: 0 0 162px; box-shadow: -10px 10px 0px 0px var(--ice-blue, #D9EEF7);}
 .srch-results-text{flex: 1;}
 .srch-results-text h2{font-weight: 500;}
+.srch-results-text h2 a{color: var(--midnight);}
+.srch-results-text h2 a:hover{color: var(--green-pear);}
 ul.content-type{margin: 0; gap: 10px;}
-ul.content-type li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--aguamarine-light, rgba(16, 181, 150, 0.12)); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--capri-ocean); text-align: center; font-family: "Brother 1816", sans-serif; text-transform: uppercase; }
+ul.content-type li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--capri-ocean-light); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--capri-ocean); text-align: center; font-family: "Brother 1816", sans-serif; text-transform: uppercase; }
 ul.content-type li::before{display: none;}
 
 #load-more .button{min-width: 200px;}
