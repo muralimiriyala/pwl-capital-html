@@ -25,6 +25,28 @@ ul.content-type{margin: 0; gap: 10px;}
 ul.content-type li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--capri-ocean-light); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--capri-ocean); text-align: center; font-family: "Brother 1816", sans-serif; text-transform: uppercase; }
 ul.content-type li::before{display: none;}
 
+.srch-results-list:nth-child(n+9) .srch-results-thumb{
+    background-image: linear-gradient(to bottom, red, blue);
+    box-shadow: none;
+}
+.srch-results-list:nth-child(n+9) .srch-results-thumb img{opacity: 0;}
+
+.srch-results-list:nth-child(n+9) .srch-results-text {
+    position: relative;
+    z-index: 0;
+}
+
+.srch-results-list:nth-child(n+9) .srch-results-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+.srch-results-list:nth-child(n+9)  ul.content-type{opacity: 0;}
+
 #load-more .button{min-width: 200px;}
 
 /* media css starts here */
@@ -37,6 +59,7 @@ ul.content-type li::before{display: none;}
     .srch-results-filter{flex: 0 0 236px;}
     .srch-results-row{flex: 1; margin-top: 8px; padding-right: 38px;}
     .srch-load-more-btn{margin: 102px 0 0 117px;}
+    .srch-results-btn{display: none;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .srch-results-watermark svg:nth-child(1){top: -34px; right: 62px;}
@@ -45,9 +68,12 @@ ul.content-type li::before{display: none;}
 
     .srch-results-main{padding: 84px 0 0; display: block;}
     .srch-results-filter{margin-bottom: 4rem;}
+    .srch-results-btn{display: none;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    body.search-results-page {}
+    body.search-results-page header.header-main{background-color: transparent;}
+    body.search-results-page header.sticky-header{background-color: var(--white);}
+
     .srch-results-wrap { padding: 51px 0 80px; }
     .srch-results-watermark svg{top: -61px; right: 0;}
     .srch-results-watermark svg:nth-child(n+2){display: none;}
