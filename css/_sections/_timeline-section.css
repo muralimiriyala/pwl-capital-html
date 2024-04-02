@@ -1,0 +1,23 @@
+
+
+
+.timeline-section{background-color: var(--ice-blue-light, rgba(217, 238, 247, 0.65));}
+.timeline-main{padding: 106px 0 85px;}
+.timeline-head{padding-bottom: 27px;}
+.timeline-slider .slick-list{overflow: inherit;}
+.timeline-slider .slick-list::before { width: 1000vw; height: 2px; top: 44px; left: -100vw; content: ""; display: block; background-color: var(--white); position: absolute; }
+.timeline-slide{width: 304px; margin-right: 50px;}
+.timeline-date{ padding: 4px 23px 8px 18px; left: 25px; top: 0; font-size: 20px; font-weight: 700; line-height: 36px; text-align: center; font-family: "Century Gothic", sans-serif; box-shadow: -5px 5px 0 var(--capri-ocean); background: var(--pacific-blue, #0654A3); color: var(--white, #FFF); }
+.timeline-slide-text{padding: 28px 20px; font-size: 15px; line-height: 25px;}
+.timeline-slide-text h2{font-weight: 500;}
+.timeline-slide-image{max-width: 210px; padding-top: 25px;}
+
+
+
+
+
+
+
+
+
+

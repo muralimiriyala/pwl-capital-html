@@ -52,4 +52,16 @@ jQuery(document).ready(function($){
       });
 
 
+      $('.timeline-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        speed: 1500,
+        infinite: false,
+        autoplay: false,
+        variableWidth: true,
+        focusOnSelect: true,
+      });
+
 });
