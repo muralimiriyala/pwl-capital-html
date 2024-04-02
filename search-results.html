@@ -10,7 +10,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
         <!-- Title -->
-        <title>Pwl-Capital: Home Page</title>
+        <title>Pwl-Capital: Search Results Page</title>
          <!-- Favicons -->
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
@@ -20,13 +20,13 @@
         <link rel="icon" type="image/png" sizes="180x180" href="images/apple-touch-icon.png">
     
          <!-- CSS Base -->
-         <link rel="stylesheet" href="https://use.typekit.net/ieg1yqa.css">
-         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-         <script src="https://kit.fontawesome.com/8918ceb0b7.js" crossorigin="anonymous"></script>
-         <link rel="stylesheet" href="./style.css" media="all">
-         <link rel="stylesheet" href="./core.bundle.css" media="all">
+        <link rel="stylesheet" href="https://use.typekit.net/ieg1yqa.css" media="all">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8918ceb0b7.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css" media="all">
+        <link rel="stylesheet" href="./core.bundle.css" media="all">
     </head>
-<body>
+<body class="search-results-page">
 <header class="header-main">
     <div class="container lg">
         <div class="header flex flex-vcenter">
@@ -66,10 +66,20 @@
 <div class="site-main-cover">
 <section class="srch-results-section">
 <div class="container md">
-<div class="srch-results-wrap">
-    
+<div class="srch-results-wrap relative">
+    <div class="srch-results-watermark relative">
+        <svg class="absolute" width="120" height="153" viewBox="0 0 120 153" fill="none">
+            <path d="M10 10H110V97.9503H39.8544L10 128V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+        </svg>
+        <svg class="absolute" width="194" height="239" viewBox="0 0 194 239" fill="none">
+            <path d="M184 10H10V162.05H132.053L184 214V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+        </svg>
+        <svg class="absolute" width="149" height="186" viewBox="0 0 149 186" fill="none">
+            <path d="M139 10H10V122.547H100.488L139 161V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+        </svg>
+    </div>
     <h1>Search Results</h1>
-    <form action="" class="srch-results-form flex">
+    <form action="" class="srch-results-form flex relative">
         <input type="search" placeholder="Portfolio Management">
         <button type="submit">
             <svg width="58" height="58" viewBox="0 0 58 58" fill="none">
@@ -83,12 +93,20 @@
     <div class="srch-results-main flex">
         <div class="srch-results-filter">
             <h2 class="h5">Filter by Content Type</h2>
-            <ul class="srch-results-links">
-                <li><a href="#"> <svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/> </svg>Pages (1)</a></li>
-                <li><a href=""><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/> </svg>Topics (10)</a></li>
-                <li><a href="#"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/> </svg>Resources (2)</a></li>
-                <li><a href=""><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/> </svg>Research (1)</a></li>
-            </ul>
+            <div class="srch-results-mobile">
+                <div class="srch-results-btn flex relative">
+                    <span class="srch-results-btn-text">Content Type (20)</span>
+                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none">
+                        <path d="M13 0.591797L7 6.40848C5 4.46958 1 0.591796 1 0.591796" stroke="#0894D3" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <ul class="srch-results-links">
+                    <li><a href="#"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/></svg>Pages (1)</a></li>
+                    <li><a href=""><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/></svg>Topics (10)</a></li>
+                    <li><a href="#"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/></svg>Resources (2)</a></li>
+                    <li><a href=""><svg width="8" height="14" viewBox="0 0 8 14" fill="none"> <path d="M1 1.40045L6.81668 7.40045C4.87779 9.40045 1 13.4005 1 13.4005" stroke="#0894D3" stroke-width="1.5"/></svg>Research (1)</a></li>
+                </ul>
+            </div>
         </div>
         <div class="srch-results-row">
             <div class="srch-results-list flex flex-vcenter">
@@ -188,7 +206,7 @@
                     <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
                 </div>
             </div>
-            <div id="load-more" class="load-more-btn">
+            <div id="load-more" class="srch-load-more-btn">
                 <span class="loader"></span>
                 <span class="button"> Show More</span>
             </div>           

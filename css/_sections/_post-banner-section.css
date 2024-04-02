@@ -25,6 +25,7 @@ ul.post-department li{margin: 0;}
     .post-banner-text{margin-bottom: 68px;}
     .post-banner-image{padding-right: 20px;}
     .career-nt-bg{right: 20px; top: 19px;}
+    ul.post-department li:last-child:before{display: none;}
 }
 
 
