@@ -69,11 +69,14 @@
 <div class="container md">
     <div class="post-banner-main flex flex-vcenter relative">
         <figure class="career-nt-bg absolute">
-            <svg width="294" height="355" viewBox="0 0 294 355" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="hide-desktop" width="167" height="207" viewBox="0 0 167 207" fill="none">
+                <path d="M157 10H10V138.199H113.114L157 182V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+            </svg>
+            <svg class="hide-mobile hide-tablet" width="294" height="355" viewBox="0 0 294 355" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M284 10H10V248.509H202.199L284 330V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
             </svg>
         </figure>
-        <figure class="career-nt-sm absolute">
+        <figure class="career-nt-sm hide-mobile hide-tablet absolute">
             <svg width="145" height="181" viewBox="0 0 145 181" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9.99999 10H135V118.82H47.318L9.99999 156V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
             </svg>                
@@ -87,7 +90,7 @@
             </ul>
         </div>
         <div class="post-banner-image">
-            <picture class="post-banner-thumb">
+            <picture class="post-banner-thumb object-fit">
                 <img src="images/career-post@2x.jpg" alt="">
             </picture>
         </div>
@@ -117,29 +120,31 @@
             </ol>
             <a href="#" class="btn-link back">Back to Careers</a>
         </article>
-        <aside class="career-post-aside relative">
-            <div class="career-post-icon">
-                <svg width="47" height="47" viewBox="0 0 47 47" fill="none">
-                    <path d="M18.0636 42.1765L47.0002 42.1662V9.11621H13.1504L13.1677 47L18.0636 42.1765Z" fill="#89CB3E"/>
-                    <path d="M39.367 13.4901H34.9375V30.8747H39.367V13.4901Z" fill="white"/>
-                    <path d="M32.2498 17.7521H27.8203V30.7896H32.2498V17.7521Z" fill="white"/>
-                    <path d="M25.1287 22.1637H20.6992V30.8543H25.1287V22.1637Z" fill="white"/>
-                    <path d="M39.3745 33.4481H25.1152V37.7951H39.3745V33.4481Z" fill="white"/>
-                    <path d="M13.1499 9.11616H40.7425L39.8096 3.90454L6.47461 9.69485L13.1672 47L13.1499 9.11616Z" fill="#0894D3"/>
-                    <path d="M13.1499 9.11616H40.7425L39.8096 3.90454L6.47461 9.69485L13.1672 47L13.1499 9.11616Z" fill="#0894D3"/>
-                    <path d="M6.4749 9.69477L33.646 4.97674L31.8078 0L0 11.407L13.1675 46.9999L6.4749 9.69477Z" fill="#0654A3"/>
-                </svg>
+        <aside class="career-post-aside">
+            <div class="career-post-bg relative">
+                <div class="career-post-icon">
+                    <svg width="47" height="47" viewBox="0 0 47 47" fill="none">
+                        <path d="M18.0636 42.1765L47.0002 42.1662V9.11621H13.1504L13.1677 47L18.0636 42.1765Z" fill="#89CB3E"/>
+                        <path d="M39.367 13.4901H34.9375V30.8747H39.367V13.4901Z" fill="white"/>
+                        <path d="M32.2498 17.7521H27.8203V30.7896H32.2498V17.7521Z" fill="white"/>
+                        <path d="M25.1287 22.1637H20.6992V30.8543H25.1287V22.1637Z" fill="white"/>
+                        <path d="M39.3745 33.4481H25.1152V37.7951H39.3745V33.4481Z" fill="white"/>
+                        <path d="M13.1499 9.11616H40.7425L39.8096 3.90454L6.47461 9.69485L13.1672 47L13.1499 9.11616Z" fill="#0894D3"/>
+                        <path d="M13.1499 9.11616H40.7425L39.8096 3.90454L6.47461 9.69485L13.1672 47L13.1499 9.11616Z" fill="#0894D3"/>
+                        <path d="M6.4749 9.69477L33.646 4.97674L31.8078 0L0 11.407L13.1675 46.9999L6.4749 9.69477Z" fill="#0654A3"/>
+                    </svg>
+                </div>
+                <h3 class="h5">A short headline driving more user applications.</h3>
+                <form action="" class="career-post-form">
+                    <div class="post-form-field"><input type="text" placeholder="First Name"></div>
+                    <div class="post-form-field"><input type="text" placeholder="Last Name"></div>
+                    <div class="post-form-field"><input type="email" placeholder="Email Address"></div>
+                    <div class="post-form-field"><input type="file" placeholder="Attach your CV"></div>
+                    <button type="submit">Apply Now</button>
+                </form>
+                <div class="post-box-shadow background-bg"></div>
+                <div class="career-post-polygon absolute"></div>
             </div>
-            <h3 class="h5">A short headline driving more user applications.</h3>
-            <form action="" class="career-post-form">
-                <div class="post-form-field"><input type="text" placeholder="First Name"></div>
-                <div class="post-form-field"><input type="text" placeholder="Last Name"></div>
-                <div class="post-form-field"><input type="email" placeholder="Email Address"></div>
-                <div class="post-form-field"><input type="file" placeholder="Attach your CV"></div>
-                <button type="submit">Apply Now</button>
-            </form>
-            <div class="career-post-boxshadow background-bg"></div>
-            <div class="career-post-polygon absolute"></div>
             <div class="social-share-icons">
                 <div class="sharethis-inline-share-buttons"></div>
             </div>
@@ -147,28 +152,29 @@
     </div>
 </div>
 </section>
-
 <section class="open-positions-section">
 <div class="container">
     <div class="open-positions-main flex">
         <div class="open-positions-intro">
-            <svg width="54" height="55" viewBox="0 0 54 55" fill="none">
-                <path d="M20.7533 49.4001L53.9997 49.3883V11.3394H15.1084L15.1282 54.9532L20.7533 49.4001Z" fill="#89CB3E"/>
-                <path d="M45.2308 16.375H40.1416V36.389H45.2308V16.375Z" fill="white"/>
-                <path d="M37.053 21.2815H31.9639V36.291H37.053V21.2815Z" fill="white"/>
-                <path d="M28.8714 26.3604H23.7822V36.3654H28.8714V26.3604Z" fill="white"/>
-                <path d="M45.2385 39.3516H28.8555V44.3561H45.2385V39.3516Z" fill="white"/>
-                <path d="M15.1089 11.3392H46.811L45.7392 5.33936L7.43945 12.0055L15.1288 54.9531L15.1089 11.3392Z" fill="#0894D3"/>
-                <path d="M15.1089 11.3392H46.811L45.7392 5.33936L7.43945 12.0055L15.1288 54.9531L15.1089 11.3392Z" fill="#0894D3"/>
-                <path d="M7.43924 12.0054L38.657 6.57372L36.5452 0.844238L0 13.9766L15.1286 54.953L7.43924 12.0054Z" fill="#0654A3"/>
-            </svg>
+            <div class="positions-intro-icon">
+                <svg width="54" height="55" viewBox="0 0 54 55" fill="none">
+                    <path d="M20.7533 49.4001L53.9997 49.3883V11.3394H15.1084L15.1282 54.9532L20.7533 49.4001Z" fill="#89CB3E"/>
+                    <path d="M45.2308 16.375H40.1416V36.389H45.2308V16.375Z" fill="white"/>
+                    <path d="M37.053 21.2815H31.9639V36.291H37.053V21.2815Z" fill="white"/>
+                    <path d="M28.8714 26.3604H23.7822V36.3654H28.8714V26.3604Z" fill="white"/>
+                    <path d="M45.2385 39.3516H28.8555V44.3561H45.2385V39.3516Z" fill="white"/>
+                    <path d="M15.1089 11.3392H46.811L45.7392 5.33936L7.43945 12.0055L15.1288 54.9531L15.1089 11.3392Z" fill="#0894D3"/>
+                    <path d="M15.1089 11.3392H46.811L45.7392 5.33936L7.43945 12.0055L15.1288 54.9531L15.1089 11.3392Z" fill="#0894D3"/>
+                    <path d="M7.43924 12.0054L38.657 6.57372L36.5452 0.844238L0 13.9766L15.1286 54.953L7.43924 12.0054Z" fill="#0654A3"/>
+                </svg>
+            </div>
             <span class="optional-text dark">Open Positions</span>
             <h2 class="h3">Intro about open positions appears in this spot here</h2>
             <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a. Cras dictumst sit etiam augue.</p>
         </div>
         <div class="open-positions-right">
             <div class="open-positions-form flex flex-justify-end">
-                <div class="career-location">
+                <div class="open-positions-field career-location">
                     <select name="" id="">
                         <option value="By Location">By Location</option>
                         <option value="value1">Value 1</option>
@@ -178,7 +184,7 @@
                         <option value="value1">Value 1</option>
                     </select>
                 </div>
-                <div class="career-department">
+                <div class="open-positions-field career-department">
                     <select name="" id=""> 
                         <option value="By Department">By Department</option>
                         <option value="value1">Value 1</option>

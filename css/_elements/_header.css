@@ -8,9 +8,10 @@ header.sticky-header{background-color: var(--white); box-shadow: 0px 6px 10px 0p
 header.sticky-header .logo-white{opacity: 0;}
 header.sticky-header .logo-black{opacity: 1;}
 
+body.home .site-main-cover{padding-top: 0;}
+
 /* media css starts here */
 @media screen and (min-width: 1300px){
-    body.home .site-main-cover{padding-top: 0;}
     .site-main-cover{padding-top: 150px;}
     .header{gap: 12px; padding: 48px 0; min-height: 88px; transition: all 0.5s ease;}
     .logo{flex: 0 0 294px; position: relative;}

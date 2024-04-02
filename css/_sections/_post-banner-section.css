@@ -1,22 +1,32 @@
 
-.post-banner-main{padding: 0 0 128px;}
-ul.post-banner-list{margin: 0; gap: 27px; color: rgba(16, 42, 70, 0.60); font-family: "Century Gothic", sans-serif;}
+ul.post-banner-list{margin: 0; gap: 10px 27px; color: rgba(16, 42, 70, 0.60); font-family: "Century Gothic", sans-serif;}
 ul.post-banner-list li::before{content: ""; position: absolute; left: -15px; top: 50%; transform: translateY(-50%); width: 3px; height: 3px; background-color: rgba(45, 87, 130, 0.14);}
+ul.post-banner-list li{margin: 0;}
 
-.career-nt-bg{left: -141px; top: 37px; z-index: -1;}
-.career-nt-sm{left: -203px; bottom: -34px; z-index: -1;}
 
-.post-banner-text{flex: 1;}
-.post-banner-image{flex: 0 0 540px;}
 .post-banner-thumb img{box-shadow: 20px 20px 0 0 var(--capri-ocean, #0894D3);}
 
-.career-location{min-width: 137px; line-height: normal; border-bottom: 2px solid rgba(45, 87, 130, 0.14);}
-.career-location .selectBox-dropdown, .career-department .selectBox-dropdown{padding: 0 24px 0 0; line-height: normal;}
-.career-location .selectBox-dropdown .selectBox-arrow, .career-department .selectBox-dropdown .selectBox-arrow{right: 0;}
-
-.career-department{min-width: 171px; line-height: normal; border-bottom: 2px solid rgba(45, 87, 130, 0.14);}
-
-
+/*-- media css starts here --*/
+@media screen and (min-width: 1024px){
+    .post-banner-main{padding: 0 0 128px;}
+    .post-banner-text{flex: 1;}
+    .post-banner-image{flex: 0 0 540px;}
+    
+    .career-nt-bg{left: -141px; top: 37px; z-index: -1;}
+    .career-nt-sm{left: -203px; bottom: -34px; z-index: -1;}
+}
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .post-banner-main{padding: 59px 0 100px; display: block;}
+    .post-banner-text{margin-bottom: 68px; padding-right: 192px;}
+    .post-banner-image{padding-right: 20px;}
+    .career-nt-bg{right: 20px; top: 19px;}
+}
+@media screen and (max-width: 739px) and (min-width: 200px){
+    .post-banner-main{padding: 59px 0 100px; display: block;}
+    .post-banner-text{margin-bottom: 68px;}
+    .post-banner-image{padding-right: 20px;}
+    .career-nt-bg{right: 20px; top: 19px;}
+}
 
 
 
