@@ -25,6 +25,7 @@ jQuery(document).ready(function($){
           $('.values-main').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
+            variableWidth: true,
             arrows: false,
             dots: true,
             speed: 1500,
