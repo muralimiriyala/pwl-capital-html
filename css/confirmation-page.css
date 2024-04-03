@@ -8,7 +8,7 @@
 .confirmation-text{flex: 1; }
 .confirmation-text h1{color: var(--midnight); margin-bottom: 18px;}
 
-.confirmation-desc{max-width: 421px; margin-bottom: 26px; color: var(--muted-dark, rgba(16, 42, 70, 0.60)); font-family: 'Century Gothic', sans-serif; letter-spacing: 0;}
+.confirmation-desc{max-width: 421px; margin-bottom: 24px; line-height: 31px; letter-spacing: 0; color: var(--muted-dark, rgba(16, 42, 70, 0.60)); font-family: 'Century Gothic', sans-serif; letter-spacing: 0;}
 .confirmation-icons{flex: 0 0 196px; margin-top: 24px;}
 .confirmation-box{width: 196px; height: 196px; top: 0; left: 0; position: absolute;}
 .confirmation-box::after{clip-path: polygon(0 0, 100% 0, 53% 50%, 0% 100%); width: 27px; height: 27px; bottom: -27px; left: 0; position: absolute; content: ""; display: block;}
