@@ -38,9 +38,13 @@ body.home .site-main-cover, body.page-template-with-us .site-main-cover{padding-
 
     .sticky-header .header{padding: 31px 0 30px;}
 
-    header.black-header:not(.sticky-header) .header-srch svg{fill: #fff;}
-    header.black-header:not(.sticky-header) .languages a{opacity: 0.35; background-color: transparent; color: var(--white);}
-    header.black-header:not(.sticky-header) .languages a.active{opacity: 1; background-color: var(--white-10);}
+    body.page-template-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent{color: #0894d3;}
+    body.page-template-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover{color: var(--white);}
+
+    header.black-header:not(.sticky-header) .header-btns .button{color: var(--white);}
+    header.black-header:not(.sticky-header) .header-srch svg path{fill: #fff;}
+    header.black-header:not(.sticky-header) .languages a{opacity: 0.35; background-color: var(--white-10); color: var(--white);}
+    header.black-header:not(.sticky-header) .languages a.active{opacity: 1; background-color: var(--white-10); color: var(--white);}
     header.black-header:not(.sticky-header) ul.main-menu > li > a{color: var(--white);}
 }
 @media only screen and (max-width: 1599px) and (min-width: 1300px){
