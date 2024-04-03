@@ -20,4 +20,5 @@ span.number.bright-Spring::before{background-color: var(--bright-Spring);}
     .short-intro-desc{flex: 1;}
     .short-intro-row{gap: 109px;}
     .short-intro-list{flex: 1; }
+    .short-about-watermark{top: 92px; left: -254px; position: absolute;}
 }

@@ -18,7 +18,7 @@ form.career-post-form button{width: 100%;}
     .career-post-aside{flex: 0 0 304px;}
     .career-post-icon{margin-bottom: 7px;}
     .career-post-article ol > li{margin-bottom: 11px;}
-    .career-post-article .btn-link{margin-top: 30px;}
+    .career-post-article .text-link{margin-top: 30px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
 	.career-post-main{padding: 0 0 70px; display: block;}

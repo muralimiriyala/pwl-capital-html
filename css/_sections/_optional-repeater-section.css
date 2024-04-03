@@ -1,0 +1,29 @@
+
+
+
+.optional-repeater-text span.optional-text{margin-bottom: 10px;}
+.optional-repeater-text ul{margin-bottom: 33px;}
+.optional-repeater-bg{transform: translate(-20px, 20px); opacity: 0.3; background: var(--Capri-Ocean, #0894D3);}
+ 
+
+/* media css starts here */
+@media only screen and (min-width: 1024px){
+    .optional-repeater-main{padding: 118px 0 115px;}
+    .optional-repeater-row{gap: 168px; flex-direction: row-reverse;}
+    .optional-repeater-row:not(:last-child){margin-bottom: 162px;}
+    .optional-repeater-row:nth-child(even){flex-direction: row;}
+    .optional-repeater-text{flex: 0 0 422px;}
+    .optional-repeater-image{flex: 1;}
+    .optional-repeater-btns{gap: 39px;}
+}
+
+
+
+
+
+
+
+
+
+
+
