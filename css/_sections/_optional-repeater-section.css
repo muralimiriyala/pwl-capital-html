@@ -6,7 +6,7 @@
 .optional-repeater-bg{transform: translate(-20px, 20px); opacity: 0.3; background: var(--capri-ocean, #0894D3);}
 .optional-repeater-bg.aquamarine{background-color: var(--aquamarine);}
 .optional-repeater-btns{gap: 39px;}
-.optional-box-bg{width: 230px; min-height: 100px; opacity: 0.75; background-color: var(--french-navy); z-index: 2;}
+.optional-box-bg{width: 230px; min-height: 100px; gap: 16px; background-color: color(srgb 0 0.07 0.2 / 0.75); z-index: 2;}
 .optional-box-bg.top-right{right: -96px; top: -36px;}
 .optional-box-bg::after{width: 24px; height: 24px; position: absolute; background-color: var(--french-navy); content: ""; display: block;}
 .optional-box-bg.top-right::after{left: 0; bottom: -24px; clip-path: polygon(0 1%, 100% 0, 1% 100%, 0% 100%);}
@@ -16,7 +16,9 @@
 .optional-box-bg.top-left::after{right: 0; bottom: -24px; clip-path: polygon(0 0, 99% 0, 100% 100%, 100% 100%);}
 .optional-box-bg.bottom-right{right: -96px; bottom: 26px;}
 .optional-box-bg.bottom-right::after{left: 0; top: -23px; clip-path: polygon(0 0, 100% 100%, 0 100%);}
-.optional-count{font-size: 16px; line-height: 20px; letter-spacing: -0.32px; color: var(--white-55);}
+
+.optional-circle{width: 58px; color: var(--white, #FFF); font-size: 14px; font-weight: 700; line-height: 15px; }
+.optional-count{flex: 1; font-size: 16px; line-height: 20px; letter-spacing: -0.32px; color: var(--white-55);}
 .optional-count span{color: var(--white, #FFF); font-size: 19px; font-weight: 700; line-height: 20px; letter-spacing: 0.38px;}
 
 /* media css starts here */
