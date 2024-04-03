@@ -21,9 +21,7 @@ ol.meet-form-step > li::after{ content: ""; width: 100%; height: 4px; background
 .meet-with-polygon{content: ""; width: 111px; height: 111px; bottom: -110px; left: 0; clip-path: polygon(0% 0,100% 0,100% 0%,0 100%); background-color: var(--french-navy,#013); display: block;}
 body .meet-with-form .frm_forms .frm_form_fields .frm_submit button[type="submit"], button {padding: 14px 43px 15px;}
 
-.meet-location-list{gap: 68px;}
-.meet-location-list::before{content: ""; position: absolute; left: -88px; top: 0; width: 1px; height: calc(100% + 20px); background-color: rgba(45, 87, 130, 0.14);}
-.meet-location-list:nth-child(2n + 2)::before{display: none;}
+
 .meet-location-thumb{box-shadow: -20px 20px 0 0 rgba(8, 148, 211, 0.3);}
 .meet-location-text h2{font-size: 23px; font-weight: 500; line-height: 1.17; letter-spacing: -0.23px; margin-bottom: 10px;}
 .meet-location-text > span{font-size: 15px; line-height: 1.67; font-weight: normal; font-family: 'Century Gothic'; display: block; margin-bottom: 10px;}
@@ -39,17 +37,18 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
 .meet-location-watermark  svg:first-child{top: 0; right: -50px; position: absolute;}
 .meet-location-watermark  svg:not(:first-child){top: 154px; right: -277px; position: absolute;}
 
+/* media css starts here */
 @media screen and (min-width: 1024px) {
-    .meet-with-main{padding: 85px 0 100px; gap: 170px;}
+    .meet-with-main{padding: 232px 0 100px; gap: 170px;}
     .meet-with-title{flex: 0 0 422px;}
     .meet-with-form{flex: 0 0 calc(100% - 592px);}
-    .meet-location-main{padding: 130px 0 119px; gap: 166px;}
+    .meet-location-main{padding: 130px 0 119px;}
     .meet-location-image{flex: 0 0 216px;}
     .meet-location-text{flex: 0 0 calc(100% - 284px); padding-top: 31px;}
-    .meet-location-list:nth-child(odd){flex: 0 0 493px;}
-    .meet-location-list:nth-child(even){flex: 0 0 calc(100% - 709px);}
+    .meet-location-list{gap: 68px;}
+    .meet-location-list:nth-child(odd){flex: 0 0 583px; padding-right: 90px;}
+    .meet-location-list:nth-child(even){flex: 1; max-width: 655px; padding-left: 90px; border-left: 1px solid rgba(45, 87, 130, 0.14);}
 }
-
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .meet-location-main{ gap: 66px;}
     .meet-location-list:nth-child(odd), .meet-location-list:nth-child(even){flex: 0 0 46%;}
