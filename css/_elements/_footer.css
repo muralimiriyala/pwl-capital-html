@@ -35,7 +35,6 @@ ul.social-share-icons > li a:hover{color: #0894d3;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-    .footer{max-width: 1380px; margin: 0 auto;}
     .footer-row{gap: 272px; margin-bottom: 90px;}
     .footer-text{flex: 0 0 445px;}
     .footer-nav{flex: 0 0 calc(100% - 717px);}
