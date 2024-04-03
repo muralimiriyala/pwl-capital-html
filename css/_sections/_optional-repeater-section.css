@@ -6,6 +6,17 @@
 .optional-repeater-bg{transform: translate(-20px, 20px); opacity: 0.3; background: var(--capri-ocean, #0894D3);}
 .optional-repeater-bg.aquamarine{background-color: var(--aquamarine);}
 .optional-repeater-btns{gap: 39px;}
+.optional-box-bg{width: 230px; min-height: 100px; opacity: 0.75; background-color: var(--french-navy); z-index: 2;}
+.optional-box-bg.top-right{right: -96px; top: -36px;}
+.optional-box-bg::after{width: 24px; height: 24px; position: absolute; background-color: var(--french-navy); content: ""; display: block;}
+.optional-box-bg.top-right::after{left: 0; bottom: -24px; clip-path: polygon(0 1%, 100% 0, 1% 100%, 0% 100%);}
+.optional-box-bg.bottom-left{left: -92px; bottom: 26px;}
+.optional-box-bg.bottom-left::after{right: 0; top: -24px;clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);}
+.optional-box-bg.top-left{left: -90px; top: 20px;}
+.optional-box-bg.top-left::after{right: 0; bottom: -24px; clip-path: polygon(0 0, 99% 0, 100% 100%, 100% 100%);}
+.optional-box-bg.bottom-right{right: -96px; bottom: 26px;}
+.optional-box-bg.bottom-right::after{left: 0; top: -23px; clip-path: polygon(0 0, 100% 100%, 0 100%);}
+.optional-count{font-size: 16px; line-height: 20px; letter-spacing: -0.32px; color: var(--white-55);}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
@@ -14,7 +25,7 @@
     .optional-repeater-row:not(:last-child){margin-bottom: 162px;}
     .optional-repeater-row:nth-child(even){flex-direction: row;}
     .optional-repeater-text{flex: 0 0 422px;}
-    .optional-repeater-image{flex: 1;}
+    .optional-repeater-image{flex: 1; max-width: 520px;}
 }
 @media only screen and (min-width: 1300px){
     .optional-repeater-row{gap: 168px;}
