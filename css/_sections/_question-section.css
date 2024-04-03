@@ -15,8 +15,7 @@
 .accordion-content{display: none; padding-bottom: 19px;}
 .accordion-item.open::after{content: "\f068";}
 
-
-
+/* media css starts here */
 @media screen and (min-width: 1024px) {
     .question-main{gap: 111px; max-width: 1218px; margin-left: 30px;} 
     .question-left{flex: 0 0 449px;}
@@ -25,8 +24,7 @@
     .question-icon{flex: 0 0 54px;}
     .question-title-name{flex: 0 0 calc(100% - 88px);}
 }
-
-@media screen and (min-width:1024px) and (max-width: 1299px){
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
     .question-main{gap: 80px; margin-left: 0;}
     .question-left{flex: 0 0 430px;}
     .question-right{flex: 0 0 calc(100% - 510px);}

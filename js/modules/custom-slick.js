@@ -40,6 +40,27 @@ jQuery(document).ready(function($){
       }
       valuesSlider();
 
+      function shortintroSlider() {
+        if (_windowWidth <= 1023) {
+          $(' .short-intro-row').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            variableWidth: true,
+            arrows: false,
+            dots: true,
+            speed: 1500,
+            infinite: false,
+            autoplay: false,
+          });
+        } else {
+          if ($('.short-intro-row').hasClass('slick-initialized')) {
+            $('.short-intro-row').slick('unslick');
+          }
+        }
+      }
+      shortintroSlider();
+
+     
       
 
       $(window).on('resize load', function () {
@@ -48,6 +69,7 @@ jQuery(document).ready(function($){
           _windowWidth = newScreenWidth;
           financialSlider();
           valuesSlider();
+          shortintroSlider();
         }
       });
 

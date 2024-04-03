@@ -1,22 +1,26 @@
 
 
+.values-icon{margin-bottom: 8px;}
 .values-text{font-size: 15px; line-height: 25px;}
 .values-text h2{ margin-bottom: 19px; color: var(--capri-ocean, #0894D3); font-family: "Brother 1816", sans-serif; font-size: 33px; font-weight: 500; line-height: 34px; }
 
 
 
-
 /* media css starts here */
+@media screen and (min-width: 1300px){
+    .values-main{gap: 50px;}
+    .values-list{flex: 0 0 calc(25% - 38px); padding-right: 24px;}
+}
 @media screen and (min-width: 1024px){
-    .values-main{gap: 50px; padding: 0 0 89px;}
-    .values-list{flex: 1; padding-right: 24px;}
+    .values-main{padding: 0 0 89px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-
+    .values-main{gap: 32px;}
+    .values-list{flex: 0 0 calc(25% - 24px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
-
-
+    .values-main{gap: 40px; padding: 0 0 80px;}
+    .values-list{flex: 0 0 calc(50% - 20px);}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .values-main{display: block; padding: 0 0 82px;}
