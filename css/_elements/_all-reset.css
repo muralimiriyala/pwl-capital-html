@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 html.js{margin-top: 0 !important;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
-html { overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
+html { overflow-y: scroll;  -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
 a{color: var(--capri-ocean);text-decoration: none; transition: all 0.5s ease;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
@@ -78,7 +78,7 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 ::-moz-selection {background-color: var(--french-navy); color: var(--white);}
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 15px; line-height: 15px; letter-spacing: 0.3px; padding: 14px 16px 15px; font-family: "brother-1816", sans-serif; font-weight: 700; display: inline-block; background: #0894d3; color: #fff; border: 2px solid transparent; border-radius: 0; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: uppercase; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; margin: 0;}
+.button, button, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{ font-size: 15px; line-height: 15px; letter-spacing: 0.3px; padding: 14px 16px 15px; font-family: "brother-1816", sans-serif; font-weight: 700; display: inline-block; background: #0894d3; color: #fff; border: 2px solid transparent; border-radius: 0; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: uppercase; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; -webkit-box-shadow: none; box-shadow: none; transition: all 0.5s ease; margin: 0;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover{ background: var(--green-pear); color:var(--white); }
 .button.btn-transparent{background: transparent; border-color: var(--capri-ocean); color: var(--capri-ocean);}
 .button.btn-transparent:hover{background: var(--capri-ocean); border-color: var(--capri-ocean); color:var(--white);}
@@ -139,8 +139,8 @@ img.aligncenter{margin: 25px auto;}
 /*-- flex css starts here --*/
 .flex{display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; flex-wrap: wrap; width: 100%; }
 .flex-vcenter{-webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
-.flex-content-center{-ms-justify-content: center; -moz-justify-content: center; -webkit-justify-content: center; justify-content: center; }
-.flex-center{-webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -ms-justify-content: center; -moz-justify-content: center; -webkit-justify-content: center; justify-content: center; }
+.flex-content-center{-ms-justify-content: center; -webkit-justify-content: center; justify-content: center; }
+.flex-center{-webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -ms-justify-content: center; -webkit-justify-content: center; justify-content: center; }
 .flex-nowrap{flex-wrap: nowrap; }
 .flex-end{align-items: flex-end;}
 .flex-start{align-items: flex-start;}
@@ -273,7 +273,6 @@ ul.slick-dots li button{display: none;}
 
 ::-webkit-input-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 400; }
 ::-moz-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 400; opacity: 1; }
-:-ms-input-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 400; }
 :-moz-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 400; }
   
 /*-- media css starts here --*/
