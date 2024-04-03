@@ -8,7 +8,7 @@ a{color: var(--capri-ocean);text-decoration: none; transition: all 0.5s ease;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--green-pear);}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; letter-spacing: 0; color: var(--midnight); font-weight: 700; font-family: 'brother-1816', sans-serif; text-transform: none;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; letter-spacing: 0; color: var(--midnight); font-weight: 700; font-family: "Brother 1816", sans-serif; text-transform: none;}
 .h1, h1{font-size: 62px; line-height: 70px; letter-spacing: -0.62px; margin-bottom: 14px; font-family: 'Century Gothic', sans-serif;}
 .h2, h2{font-size: 44px; line-height: 50px; margin-bottom: 30px;}
 .h3, h3{font-size: 34px; line-height: 42px; margin-bottom: 1.125rem;}
@@ -148,7 +148,7 @@ img.aligncenter{margin: 25px auto;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 17px; line-height: 30px; letter-spacing: -0.17px; font-weight: 400; font-family: 'brother-1816', sans-serif;  position: relative; color: var(--midnight, #121321); background-color: transparent; overflow-x: hidden;}
+body{font-size: 17px; line-height: 30px; letter-spacing: -0.17px; font-weight: 400; font-family: "Brother 1816", sans-serif;  position: relative; color: var(--midnight, #121321); background-color: transparent; overflow-x: hidden;}
 
 .d-block{display: block;}
 span.optional-text{margin-bottom: 12px; font-size: 12px; line-height: 21px; letter-spacing: 1.2px; font-weight: 600; display: block; font-family: "brother-1816", sans-serif; text-transform: uppercase; }

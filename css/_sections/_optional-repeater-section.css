@@ -3,8 +3,8 @@
 
 .optional-repeater-text span.optional-text{margin-bottom: 10px;}
 .optional-repeater-text ul{margin-bottom: 33px;}
-.optional-repeater-bg{transform: translate(-20px, 20px); opacity: 0.3; background: var(--Capri-Ocean, #0894D3);}
- 
+.optional-repeater-bg{transform: translate(-20px, 20px); opacity: 0.3; background: var(--capri-ocean, #0894D3);}
+ .optional-repeater-bg.aquamarine{background-color: var(--aquamarine);}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
