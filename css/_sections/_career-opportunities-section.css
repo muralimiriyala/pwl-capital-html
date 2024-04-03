@@ -1,17 +1,19 @@
 
 
 
-.career-opps-section{background-color: var(--ice-blue-light, rgba(217, 238, 247, 0.65));}
+.career-opps-section{  box-shadow: -20px 20px 0 0 rgba(8, 148, 211, 0.2); background-color: var(--ice-blue-light, rgba(217, 238, 247, 0.65));}
 .career-opps-text{line-height: 31px; letter-spacing: 0.4px; color: rgba(16, 42, 70, 0.60);}
 .career-opps-text h1{margin-bottom: 17px;}
 .career-opps-text p{margin-bottom: 23px;}
 .career-opps-thumb{box-shadow: -20px 20px 0 var( --capri-ocean);}
 
+
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .career-opps-main{gap: 147px; padding: 150px 0 0;}
+    .career-opps-main{gap: 147px; padding: 141px 0 0;}
+    .career-opps-watermark{bottom: -10px; left: -302px;}
     .career-opps-text{flex: 1; max-width: 423px; margin-left: auto;}
-    .career-opps-image{flex: 0 0 425px;}
+    .career-opps-image{flex: 0 0 425px; transform: translateY(9px);}
 }
 
 
