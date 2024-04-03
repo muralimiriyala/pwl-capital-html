@@ -17,6 +17,7 @@
 .optional-box-bg.bottom-right{right: -96px; bottom: 26px;}
 .optional-box-bg.bottom-right::after{left: 0; top: -23px; clip-path: polygon(0 0, 100% 100%, 0 100%);}
 .optional-count{font-size: 16px; line-height: 20px; letter-spacing: -0.32px; color: var(--white-55);}
+.optional-count span{color: var(--white, #FFF); font-size: 19px; font-weight: 700; line-height: 20px; letter-spacing: 0.38px;}
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
