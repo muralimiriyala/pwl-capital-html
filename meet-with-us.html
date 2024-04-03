@@ -174,12 +174,22 @@
 
     <section class="meet-location-section">
         <div class="container">
-            <div class="meet-location-main flex">
+            <div class="meet-location-main flex relative">
+                <div class="meet-location-watermark absolute hide-mobile hide-tablet">
+                    <svg width="142" height="178" viewBox="0 0 142 178" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M132 10H10V116.584H95.5777L132 153V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                    </svg>
+                    <svg width="209" height="256" viewBox="0 0 209 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M199 10H10V174.72H142.575L199 231V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                    </svg>
+                </div>
                 <div class="meet-location-list flex">
                     <div class="meet-location-image">
-                        <figure class="object-fit meet-location-thumb">
-                            <img src="images/ottawa@2x.jpg" alt="ottawa">
-                        </figure>
+                        <div class="meet-location-thumb">
+                            <figure class="object-fit">
+                                <img src="images/ottawa@2x.jpg" alt="ottawa">
+                            </figure>
+                        </div> 
                     </div>
                     <div class="meet-location-text">
                         <h2>Ottawa</h2>
@@ -197,11 +207,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="meet-location-list flex">
+                <div class="meet-location-list flex relative">
                     <div class="meet-location-image">
-                        <figure class="object-fit meet-location-thumb">
-                            <img src="images/montreal@2x.jpg" alt="montreal">
-                        </figure>
+                        <div class="meet-location-thumb">
+                            <figure class="object-fit">
+                                <img src="images/montreal@2x.jpg" alt="montreal">
+                            </figure>
+                        </div>
                     </div>
                     <div class="meet-location-text">
                         <h2>Montreal</h2>
