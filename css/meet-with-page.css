@@ -6,7 +6,7 @@
 ul.meet-with-call{margin: 0;}
 ul.meet-with-call > li{margin-bottom: 5px; line-height: 1.76;}
 ul.meet-with-call > li::before{display: none;}
-ul.meet-with-call > li > a{align-items: center; gap: 10px; color: var(--white);}
+ul.meet-with-call > li > a{align-items: center; gap: 10px; color: var(--white); font-family: 'Century Gothic';}
 ul.meet-with-call > li:hover > a{color: var(--green-pear);}
 .meet-watermark{top: 223px; right: 0;}
 .meet-watermark svg:first-child{top: 0; right: -67px; position: absolute;}
@@ -18,11 +18,27 @@ ol.meet-form-step > li:last-child{opacity: 0.4;}
 ol.meet-form-step > li::before{top: -5px; left: 0; width: 32px; height: 32px; font-size: 18px; line-height: 18px; letter-spacing: -.54px; background-color: var(--capri-ocean);}
 ol.meet-form-step > li::after{ content: ""; width: 100%; height: 4px; background-color: var(--capri-ocean); bottom: 0; left: 0; position: absolute;} 
 
-.meet-with-polygon{content: ""; width: 111px; height: 111px; bottom: -111px; right: 0; clip-path: polygon(0% 0,100% 0,100% 100%,100% 100%); background-color: var(--french-navy,#013); display: block;}
+.meet-with-polygon{content: ""; width: 111px; height: 111px; bottom: -111px; left: 0; clip-path: polygon(0% 0,100% 0,100% 0%,0 100%); background-color: var(--french-navy,#013); display: block;}
 body .meet-with-form .frm_forms .frm_form_fields .frm_submit button[type="submit"], button {padding: 14px 43px 15px;}
+
+.meet-location-list{gap: 68px;}
+.meet-location-list:nth-child(odd){max-width: 493px; width: 100%;}
+.meet-location-list:nth-child(even){max-width: 563px; width: 100%;}
+.meet-location-thumb{box-shadow: -20px 20px 0 0 rgba(8, 148, 211, 0.3);}
+.meet-location-text h2{font-size: 23px; font-weight: 500; line-height: 1.17; letter-spacing: -0.23px; margin-bottom: 6px;}
+.meet-location-text > span{font-size: 15px; line-height: 1.67; font-weight: normal; font-family: 'Century Gothic';}
+ul.meet-location-call{margin: 0;}
+ul.meet-location-call > li{margin-bottom: 5px; line-height: 1.76;}
+ul.meet-location-call > li::before{display: none;}
+ul.meet-location-call > li > a{align-items: center; gap: 10px; color: var(--midnight); font-family: 'Century Gothic';}
+ul.meet-location-call > li:hover > a{color: var(--green-pear);}
+ul.meet-location-call > li > svg > path{fill: var(--capri-ocean);}
 
 @media screen and (min-width: 1024px) {
     .meet-with-main{padding: 85px 0 100px; gap: 170px;}
     .meet-with-title{flex: 0 0 422px;}
     .meet-with-form{flex: 0 0 calc(100% - 592px);}
+    .meet-location-main{padding: 130px 0 119px; gap: 166px;}
+    .meet-location-image{flex: 0 0 216px;}
+    .meet-location-text{flex: 0 0 calc(100% - 284px);}
 }
