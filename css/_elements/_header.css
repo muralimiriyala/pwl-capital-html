@@ -31,7 +31,8 @@ body.home .site-main-cover, body.page-template-with-us .site-main-cover{padding-
     .header-srch{width: fit-content; margin-left: 72px;}
     
     .languages{flex: 1; order: 1; gap: 10px; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
-    .languages a{width: 32px; height: 32px; background-color: var(--white); color: var(--midnight);}
+    .languages a{width: 32px; height: 32px; opacity: 0.35; background-color: var(--white); color: var(--midnight);}
+    .languages a.active{opacity: 1;}
     
     .header-right{flex: 1; margin-left: 14px; gap: 64px; align-items: center; justify-content: flex-end;}
     ul.main-menu{gap: 0 46px; order: 2; width: fit-content; justify-content: flex-end; font-family: 'Century Gothic', sans-serif;}

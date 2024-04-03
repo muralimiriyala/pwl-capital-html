@@ -55,7 +55,7 @@
                     <a class="button btn-transparent" href="">SIGN IN</a>
                 </div>
                 <div class="languages flex">
-                    <a class="radius-50 flex flex-center" href="#">EN</a>
+                    <a class="radius-50 flex flex-center active" href="#">EN</a>
                     <a class="radius-50 flex flex-center" href="#">FR</a>
                 </div>
             </div>
@@ -311,9 +311,9 @@
         <div class="optional-repeater-row repeater-capri flex flex-start">
             <div class="optional-repeater-image relative">
                 <div class="optional-box-bg top-right absolute flex flex-vcenter">
-                    <div class="optional-circle ui ui-oval-chart" data-animation>
+                    <div class="optional-circle relative ui ui-oval-chart" data-animation>
                         <div class="oval-chart radius-50 flex flex-center" data-value="38" data-ui-el="value"><span data-ui-el="counter">38</span>%</div>
-                        <svg class="absolute" width="56" height="56" viewBox="0 0 56 56" fill="none" data-ui-el="chart">
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" data-ui-el="chart">
                             <path d="M3 28.4354C3 14.1117 14.6117 2.5 28.9354 2.5C37.827 2.5 45.6735 6.97442 50.3461 13.7945" stroke="#269ABD" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
                             <path opacity="0.2" d="M28.9355 54.3709C43.2593 54.3709 54.871 42.7592 54.871 28.4354C54.871 24.2208 53.8657 20.241 52.0818 16.7227" stroke="white" stroke-width="2"/>
                             <path opacity="0.2" d="M3.33594 32.6187C5.13782 43.7307 14.0004 52.4753 25.171 54.0997" stroke="white" stroke-width="2"/>
@@ -324,7 +324,20 @@
                         <p>Net Worth</p>
                     </div>
                 </div>
-                <div class="optional-box-bg bottom-left absolute">
+                <div class="optional-box-bg bottom-left absolute flex flex-vcenter">
+                    <div class="ui ui-line-chart"  data-animation>
+                        <div class="oval-graph relative" data-ui-el="chart">
+                            <div class="oval-lines flex absolute" data-ui-el="lines">
+                                <span class="oval-line"></span>
+                                <span class="oval-line"></span>
+                                <span class="oval-line"></span>
+                                <span class="oval-line"></span>    
+                            </div>
+                            <svg width="58" height="30" viewBox="0 0 58 30" fill="none">
+                                <path d="M2.5 28L20.3721 9.5L37.6279 18L55.5 2" stroke="#89CB3E" stroke-width="5" stroke-linecap="round" data-ui-el="progress" />
+                            </svg>    
+                          </div>
+                    </div>
                     <div class="optional-count inverted font-gothic">
                         <span>+300k</span>
                         <p>Net Worth</p>
@@ -363,16 +376,35 @@
         <div class="optional-repeater-row repeater-aquamarine flex flex-start">
             <div class="optional-repeater-image relative">
                 <div class="optional-box-bg top-left absolute flex flex-vcenter">
-                    <div class="">
-
+                    <div class="optional-circle relative ui ui-oval-chart" data-animation>
+                        <div class="oval-chart radius-50 flex flex-center" data-value="81" data-ui-el="value"><span data-ui-el="counter">81</span>%</div>
+                        <svg width="59" height="59" viewBox="0 0 59 59" fill="none" data-ui-el="chart">
+                            <circle opacity="0.2" cx="29.292" cy="29.292" r="26.292" stroke="white" stroke-width="2"/>
+                            <path d="M29.292 55.584C14.7713 55.584 3 43.8127 3 29.292C3 14.7713 14.7713 3 29.292 3C43.8127 3 55.584 14.7713 55.584 29.292C55.584 32.365 55.0569 35.3148 54.088 38.056" stroke="#10B596" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
+                        </svg>
                     </div>
                     <div class="optional-count">
                         <span>+300k</span>
                         <p>Net Worth</p>
                     </div>
                 </div>
-                <div class="optional-box-bg bottom-right absolute">
-            
+                <div class="optional-box-bg bottom-right absolute flex flex-vcenter ui-bar-chart" data-animation="">
+                    <div class="oval-graph relative" data-ui-el="chart">
+                        <div class="oval-lines center flex" data-ui-el="lines">
+                            <span class="oval-line" data-ui-el="bar"></span>
+                            <span class="oval-line" data-ui-el="bar"></span>
+                            <span class="oval-line" data-ui-el="bar"></span>
+                        </div>
+                        <span class="graph-lines flex" data-ui-el="lines">
+                            <span class="graph-line"></span>
+                            <span class="graph-line"></span>
+                            <span class="graph-line"></span>
+                        </span>
+                    </div>
+                    <div class="optional-count inverted font-gothic">
+                        <span>+300k</span>
+                        <p>Net Worth</p>
+                    </div>
                 </div>
                 <picture class="optional-repeater-thumb object-fit">
                     <img src="images/optional-thumb2@2x.jpg" alt="optional-thumb1">

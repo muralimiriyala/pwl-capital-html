@@ -1,14 +1,13 @@
 
 
-
 .optional-repeater-text span.optional-text{margin-bottom: 10px;}
 .optional-repeater-text ul{margin-bottom: 33px;}
 .optional-repeater-bg{transform: translate(-20px, 20px); opacity: 0.3; background: var(--capri-ocean, #0894D3);}
 .optional-repeater-bg.aquamarine{background-color: var(--aquamarine);}
 .optional-repeater-btns{gap: 39px;}
-.optional-box-bg{width: 230px; min-height: 100px; gap: 16px; background-color: color(srgb 0 0.07 0.2 / 0.75); z-index: 2;}
+.optional-box-bg{width: 230px; min-height: 100px; padding: 0 22px; gap: 16px; background-color: color(srgb 0 0.07 0.2 / 0.75); color: var(--white, #FFF); font-size: 14px; font-weight: 700; line-height: 15px; font-family: "Century Gothic", sans-serif; z-index: 2; }
 .optional-box-bg.top-right{right: -96px; top: -36px;}
-.optional-box-bg::after{width: 24px; height: 24px; position: absolute; background-color: var(--french-navy); content: ""; display: block;}
+.optional-box-bg::after{width: 24px; height: 24px; opacity: 0.75; position: absolute; background-color: var(--french-navy); content: ""; display: block;}
 .optional-box-bg.top-right::after{left: 0; bottom: -24px; clip-path: polygon(0 1%, 100% 0, 1% 100%, 0% 100%);}
 .optional-box-bg.bottom-left{left: -92px; bottom: 26px;}
 .optional-box-bg.bottom-left::after{right: 0; top: -24px;clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);}
@@ -17,10 +16,23 @@
 .optional-box-bg.bottom-right{right: -96px; bottom: 26px;}
 .optional-box-bg.bottom-right::after{left: 0; top: -23px; clip-path: polygon(0 0, 100% 100%, 0 100%);}
 
-.optional-circle{width: 58px; color: var(--white, #FFF); font-size: 14px; font-weight: 700; line-height: 15px; }
-.optional-circle svg{z-index: -1;}
-.optional-count{flex: 1; font-size: 16px; line-height: 20px; letter-spacing: -0.32px; color: var(--white-55);}
-.optional-count span{color: var(--white, #FFF); font-size: 19px; font-weight: 700; line-height: 20px; letter-spacing: 0.38px;}
+.optional-circle{width: 58px; height: 58px; display: flex; flex-wrap: wrap; align-items: center; color: var(--white, #FFF); font-size: 14px; font-weight: 700; line-height: 15px; }
+.optional-circle svg{top: 0; left: 0; z-index: -1; position: absolute;}
+.optional-count{flex: 1; font-size: 16px; line-height: 20px; font-weight: 300; letter-spacing: -0.32px; color: var(--white-55);}
+.optional-count span{margin-bottom: 5px; color: var(--white, #FFF); display: block; font-size: 19px; font-weight: 700; line-height: 20px; letter-spacing: 0.38px;}
+
+.oval-graph{display: flex; align-items: center; justify-content: center;}
+.oval-lines{gap: 16px; top: -8px; left: 2px;}
+.oval-line{width: 1px; height: 48px; background-color: var(--white); opacity: 0.2; display: block;}
+
+.center.oval-lines{gap: 11px;}
+.center .oval-line{width: 6px; height: 14px; opacity: 1; background-color: var(--aquamarine);} 
+.center .oval-line:nth-child(1){height: 16px; margin-top: 6px;}
+.center .oval-line:nth-child(2){height: 24px; margin-top: 14px;}
+.center .oval-line:nth-child(3){height: 14px; margin-top: 22px;}
+.graph-lines{gap: 16px; left: 2px; position: absolute;}
+.graph-line{width: 1px; height: 48px; background-color: var(--white); opacity: 0.2; display: block;}
+
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
