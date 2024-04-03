@@ -161,6 +161,7 @@ span.optional-text.dark{margin-bottom: 20px; color: var(--midnight);}
 .font-semibold{font-weight: 600;}
 .font-bold{font-weight: 700;}
 .f-800{font-weight: 800;}
+.font-gothic{font-family: "Century Gothic", sans-serif;}
 .fs-14{font-size: 0.875rem; line-height: 1.25rem; letter-spacing: -0.28px;}
 .fs-15{font-size: 15px; line-height: 25px;}
 .fs-16{font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.32px;}
@@ -270,24 +271,10 @@ ul.slick-dots li button{display: none;}
 .capri-ocean{color: var(--capri-ocean);}
 .bright-Spring{color: var(--bright-Spring);}
 
-
-::-webkit-input-placeholder { 
-    font-family: "Century Gothic";
-
-  }
-  ::-moz-placeholder {
-    font-family: "Century Gothic";
-
-    opacity: 1;
-  }
-  :-ms-input-placeholder {
-    font-family: "Century Gothic";
-
-  }
-  :-moz-placeholder { 
-    font-family: "Century Gothic";
-
-  }
+::-webkit-input-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 400; }
+::-moz-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 400; opacity: 1; }
+:-ms-input-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 400; }
+:-moz-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 400; }
   
 /*-- media css starts here --*/
 @media screen and (min-width: 740px){
