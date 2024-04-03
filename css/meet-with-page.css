@@ -18,12 +18,12 @@ ol.meet-form-step > li:last-child{opacity: 0.4;}
 ol.meet-form-step > li::before{top: -5px; left: 0; width: 32px; height: 32px; font-size: 18px; line-height: 18px; letter-spacing: -.54px; background-color: var(--capri-ocean);}
 ol.meet-form-step > li::after{ content: ""; width: 100%; height: 4px; background-color: var(--capri-ocean); bottom: 0; left: 0; position: absolute;} 
 
-.meet-with-polygon{content: ""; width: 111px; height: 111px; bottom: -111px; left: 0; clip-path: polygon(0% 0,100% 0,100% 0%,0 100%); background-color: var(--french-navy,#013); display: block;}
+.meet-with-polygon{content: ""; width: 111px; height: 111px; bottom: -110px; left: 0; clip-path: polygon(0% 0,100% 0,100% 0%,0 100%); background-color: var(--french-navy,#013); display: block;}
 body .meet-with-form .frm_forms .frm_form_fields .frm_submit button[type="submit"], button {padding: 14px 43px 15px;}
 
 .meet-location-list{gap: 68px;}
-.meet-location-list:nth-child(odd){max-width: 493px; width: 100%;}
-.meet-location-list:nth-child(even){max-width: 563px; width: 100%;}
+.meet-location-list::before{content: ""; position: absolute; left: -88px; top: 0; width: 1px; height: calc(100% + 20px); background-color: rgba(45, 87, 130, 0.14);}
+.meet-location-list:nth-child(2n + 2)::before{display: none;}
 .meet-location-thumb{box-shadow: -20px 20px 0 0 rgba(8, 148, 211, 0.3);}
 .meet-location-text h2{font-size: 23px; font-weight: 500; line-height: 1.17; letter-spacing: -0.23px; margin-bottom: 10px;}
 .meet-location-text > span{font-size: 15px; line-height: 1.67; font-weight: normal; font-family: 'Century Gothic'; display: block; margin-bottom: 10px;}
@@ -33,15 +33,11 @@ ul.meet-location-call > li::before{display: none;}
 ul.meet-location-call > li > a{align-items: center; gap: 10px; color: var(--midnight); font-family: 'Century Gothic'; line-height: normal;}
 ul.meet-location-call > li:hover > a{color: var(--capri-ocean);}
 ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
-.meet-location-list::before {
-    content: "";
-    position: absolute;
-    left: -88px;
-    top: 0;
-    width: 1px;
-    height: calc(100% + 20px);
-    background-color: rgba(45, 87, 130, 0.14);
-  }
+
+
+.meet-location-watermark{right: 0; top: 82px;}
+.meet-location-watermark  svg:first-child{top: 0; right: -50px; position: absolute;}
+.meet-location-watermark  svg:not(:first-child){top: 154px; right: -277px; position: absolute;}
 
 @media screen and (min-width: 1024px) {
     .meet-with-main{padding: 85px 0 100px; gap: 170px;}
@@ -50,4 +46,36 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     .meet-location-main{padding: 130px 0 119px; gap: 166px;}
     .meet-location-image{flex: 0 0 216px;}
     .meet-location-text{flex: 0 0 calc(100% - 284px); padding-top: 31px;}
+    .meet-location-list:nth-child(odd){flex: 0 0 493px;}
+    .meet-location-list:nth-child(even){flex: 0 0 calc(100% - 709px);}
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .meet-location-main{ gap: 66px;}
+    .meet-location-list:nth-child(odd), .meet-location-list:nth-child(even){flex: 0 0 46%;}
+    .meet-location-list{gap: 30px;}
+    .meet-location-text{flex: 0 0 calc(100% - 246px);}
+    .meet-location-list::before{left: -48px;}
+    .meet-with-form{flex: 0 0 100%;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+    .meet-with-main{padding: 57px 0;}
+    .meet-with-title{margin-bottom: 83px;}
+    .meet-with-title span.optional-text{margin-bottom: 16px;}
+    .meet-with-title h1{margin-bottom: 16px;}
+    ol.meet-form-step > li::before{top: 0;}
+    ol.meet-form-step > li{font-size: 16px; font-weight: 700; line-height: 1.13; letter-spacing: -.48px; align-items: center; display: flex; padding: 0 0 13px 45px;}
+
+    .meet-location-main{padding: 80px 0 72px;}
+    .meet-location-list{gap: 33px; margin-bottom: 40px;}
+    .meet-location-list:last-child{margin-bottom: 0;}
+    .meet-location-image{flex: 0 0 132px;}
+    .meet-location-thumb{box-shadow: -10px 10px 0 0 rgba(8, 148, 211, 0.3);}
+    .meet-location-text{flex: 0 0 calc(100% - 165px); padding-top: 25px;}
+
+    .meet-watermark{top: 0; right: 0;}
+    .meet-watermark svg:first-child{top: -57px; right: 3px;}
+    .meet-watermark svg:not(:first-child){top: 146px; right: 153px;}
+    .meet-with-polygon{width: 50px; height: 50px; bottom: -49px;}
 }
