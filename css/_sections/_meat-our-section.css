@@ -1,20 +1,41 @@
 
 
 .meat-our-section{background: var(--french-navy, #013); box-shadow: 20px 20px 0 0 rgba(8, 148, 211, 0.5);}
-.meat-our-thumb{max-width: 920px;}
 
 .meet-our-polygon{content: ""; width: 111px; height: 111px; bottom: -111px; right: 0; clip-path: polygon(0% 0,100% 0,100% 100%,100% 100%); background-color: var(--french-navy, #013); display: block;}
 
 
-.meat-our-main{left: 0; right: 0; top: 50%; transform: translateY(-50%); position: absolute;}
-.meat-our-text{max-width: 420px; margin-left: auto;}
 .meat-our-text h2{margin-bottom: 18px;}
 .meat-our-desc{ font-size: 20px; line-height: 31px; letter-spacing: 0; font-weight: 400; font-family: "Century Gothic", sans-serif; }
 .meat-our-desc p{margin-bottom: 24px;}
 .meat-our-btns{gap: 30px;}
 
+/* media css starts here */
+@media screen and (min-width: 1024px){
+    .meat-our-main{left: 0; right: 0; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1;}
+    .meat-our-thumb{max-width: 920px;}
+    .meat-our-thumb::after { width: 100%; height: 100%; bottom: 0; left: 0; content: ""; position: absolute; background-image: linear-gradient(to left,#013 6%,rgba(11,0,65,0) 50%); }
+    .meat-our-thumb img{max-height: 440px; object-position: left top; overflow: hidden;}
+    .meat-our-text{max-width: 420px; margin-left: auto;}
+}
+@media screen and (min-width: 1440px){
+    .meat-our-text{margin-right: 120px;}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
 
-
+}
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .meat-our-thumb::after { width: 100%; height: 100%; bottom: 0; left: 0; transform: scaleY(-1); content: ""; position: absolute; background-image: linear-gradient(179deg,#013 10%,rgba(11,0,65,0) 50%); }
+    .meat-our-text { padding: 0 0 80px; margin-top: -87px; position: relative; z-index: 1; }
+    .meat-our-text h2{margin-bottom: 15px; color: var(--white, #FFF); font-size: 36px; line-height: 44px; letter-spacing: -0.36px;}
+    .meet-our-polygon { width: 64px; height: 64px; bottom: -63px; }
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .meat-our-thumb::after { width: 100%; height: 100%; bottom: 0; left: 0; transform: scaleY(-1); content: ""; position: absolute; background-image: linear-gradient(179deg,#013 10%,rgba(11,0,65,0) 50%); }
+    .meat-our-text { padding: 0 0 80px; margin-top: -87px; position: relative; z-index: 1; }
+    .meat-our-text h2{margin-bottom: 15px; color: var(--white, #FFF); font-size: 36px; line-height: 44px; letter-spacing: -0.36px;}
+    .meet-our-polygon { width: 64px; height: 64px; bottom: -64px; }
+}
 
 
 
