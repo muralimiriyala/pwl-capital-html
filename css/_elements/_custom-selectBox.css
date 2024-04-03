@@ -7,6 +7,10 @@ body .selectBox-dropdown .selectBox-arrow{right: 13px; top: 50%; transform: tran
 body .selectBox-dropdown .selectBox-arrow::after{content: "\f078";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: "\f077";}
 
+body.page-template-with-us .selectBox-dropdown{padding: 16px 34px 14px 14px; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; height: auto; border: none; background-color: var(--white); border-radius: 0; color: rgba(16,42,70,.6); font-family: 'Century Gothic'; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+body.page-template-with-us ul.selectBox-dropdown-menu li a{font-family: 'Century Gothic';}
+body.page-template-with-us .selectBox-dropdown .selectBox-arrow{color: var(--capri-ocean);}
+
 body .btn-style-select.md .selectBox-dropdown{ padding: 11px 38px 11px 16px; font-size: 1rem; }
 body .btn-style-select.md.navy .selectBox-dropdown{background-color: var(--midnight); color: var(--white); }
 body .btn-style-select.md.navy .selectBox-dropdown .selectBox-arrow{color: var(--accent-yellow);}
