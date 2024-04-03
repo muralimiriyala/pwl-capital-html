@@ -13,10 +13,10 @@ ul.meet-with-call > li:hover > a{color: var(--green-pear);}
 .meet-watermark svg:not(:first-child){top: 150px; right: 192px; position: absolute;}
 
 ol.meet-form-step{gap: 20px; margin: 0 0 26px 0;}
-ol.meet-form-step > li{font-size: 18px; font-weight: bold; color: var(--capri-ocean); line-height: 1; letter-spacing: -0.54px; font-family: 'Century Gothic'; flex: 1; padding: 0 0 26px 45px;}
+ol.meet-form-step > li{font-size: 18px; font-weight: bold; color: var(--capri-ocean); line-height: 1; letter-spacing: -0.54px; font-family: 'Century Gothic'; flex: 1; padding: 0 0 22px 45px; border-bottom: 4px solid var(--capri-ocean);}
 ol.meet-form-step > li:last-child{opacity: 0.4;}
-ol.meet-form-step > li::before{top: -5px; left: 0; width: 32px; height: 32px; font-size: 18px; line-height: 18px; letter-spacing: -.54px; background-color: var(--capri-ocean);}
-ol.meet-form-step > li::after{ content: ""; width: 100%; height: 4px; background-color: var(--capri-ocean); bottom: 0; left: 0; position: absolute;} 
+ol.meet-form-step > li::before{top: -5px; left: 0; width: 32px; height: 32px; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: -.54px; background-color: var(--capri-ocean);}
+/* ol.meet-form-step > li::after{ content: ""; width: 100%; height: 4px; background-color: var(--capri-ocean); bottom: 0; left: 0; position: absolute;}  */
 
 .meet-with-polygon{content: ""; width: 111px; height: 111px; bottom: -110px; left: 0; clip-path: polygon(0% 0,100% 0,100% 0%,0 100%); background-color: var(--french-navy,#013); display: block;}
 body .meet-with-form .frm_forms .frm_form_fields .frm_submit button[type="submit"], button {padding: 14px 43px 15px;}
@@ -50,21 +50,25 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     .meet-location-list:nth-child(even){flex: 1; max-width: 655px; padding-left: 90px; border-left: 1px solid rgba(45, 87, 130, 0.14);}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
-    .meet-location-main{ gap: 66px;}
-    .meet-location-list:nth-child(odd), .meet-location-list:nth-child(even){flex: 0 0 46%;}
+    .meet-location-list:nth-child(odd), .meet-location-list:nth-child(even){flex: 0 0 48%;}
+    .meet-location-list:nth-child(odd){padding-right: 60px;}
+    .meet-location-list:nth-child(even){padding-left: 60px;}
     .meet-location-list{gap: 30px;}
-    .meet-location-text{flex: 0 0 calc(100% - 246px);}
+    .meet-location-image { flex: 0 0 185px;}
+    .meet-location-text{flex: 0 0 calc(100% - 215px);}
     .meet-location-list::before{left: -48px;}
-    .meet-with-form{flex: 0 0 100%;}
+    .meet-with-main{gap: 50px;}
+    .meet-with-title {flex: 0 0 385px;}
+    .meet-with-form {flex: 0 0 calc(100% - 435px);}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {
-    .meet-with-main{padding: 57px 0;}
+    .meet-with-main{padding: 147px 0 97px;}
     .meet-with-title{margin-bottom: 83px;}
     .meet-with-title span.optional-text{margin-bottom: 16px;}
     .meet-with-title h1{margin-bottom: 16px;}
     ol.meet-form-step > li::before{top: 0;}
-    ol.meet-form-step > li{font-size: 16px; font-weight: 700; line-height: 1.13; letter-spacing: -.48px; align-items: center; display: flex; padding: 0 0 13px 45px;}
+    ol.meet-form-step > li{font-size: 16px; font-weight: 700; line-height: 1.13; letter-spacing: -.48px; align-items: center; display: flex; padding: 0 0 13px 45px; min-height: 53px;}
 
     .meet-location-main{padding: 80px 0 72px;}
     .meet-location-list{gap: 33px; margin-bottom: 40px;}
