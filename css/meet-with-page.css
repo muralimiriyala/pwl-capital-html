@@ -54,7 +54,7 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     .meet-location-list:nth-child(odd){padding-right: 60px;}
     .meet-location-list:nth-child(even){padding-left: 60px;}
     .meet-location-list{gap: 30px;}
-    .meet-location-image { flex: 0 0 185px;}
+    .meet-location-image { flex: 0 0 185px; padding-left: 20px;}
     .meet-location-text{flex: 0 0 calc(100% - 215px);}
     .meet-location-list::before{left: -48px;}
     .meet-with-main{gap: 50px;}
@@ -81,4 +81,9 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     .meet-watermark svg:first-child{top: -57px; right: 3px;}
     .meet-watermark svg:not(:first-child){top: 146px; right: 153px;}
     .meet-with-polygon{width: 50px; height: 50px; bottom: -49px;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 740px) {
+    .meet-location-main{padding: 97px 0;}
+    .meet-location-text{padding-top: 0;}
 }
