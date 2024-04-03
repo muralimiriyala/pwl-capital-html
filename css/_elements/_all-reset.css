@@ -50,7 +50,7 @@ blockquote dl dt::before{background-color: var(--white);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 27px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 15px;}
-ul > li:before { top: 10px; left: -17px; width: 7px; height: 7px; border-radius: 0; opacity: 1; background: var(--bermuda, #A1CFBD); content: ""; position: absolute;} 
+ul > li:before { top: 12px; left: -17px; width: 7px; height: 7px; border-radius: 0; opacity: 1; background: var(--bermuda, #A1CFBD); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 40px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
