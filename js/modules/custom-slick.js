@@ -60,6 +60,26 @@ jQuery(document).ready(function($){
       }
       shortintroSlider();
 
+      function testimonialSlider() {
+        if (_windowWidth <= 1299) {
+          $('.testimonial-main').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            variableWidth: true,
+            arrows: false,
+            dots: true,
+            speed: 1500,
+            infinite: false,
+            autoplay: false,
+          });
+        } else {
+          if ($('.short-intro-row').hasClass('slick-initialized')) {
+            $('.short-intro-row').slick('unslick');
+          }
+        }
+      }
+      testimonialSlider();
+
      
       
 
