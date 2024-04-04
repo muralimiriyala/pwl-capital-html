@@ -86,7 +86,7 @@ jQuery(document).ready(function($){
         focusOnSelect: true,
         responsive: [
           {
-            breakpoint: 739,
+            breakpoint: 1023,
             settings: {
               dots: true
             }

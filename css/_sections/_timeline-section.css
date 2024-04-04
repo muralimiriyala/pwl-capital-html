@@ -16,10 +16,12 @@
     .timeline-main{padding: 106px 0 85px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
-    .timeline-main{padding: 70px 0 54px;}
+    .timeline-main{padding: 77px 0 80px;}
+    .timeline-slider ul.slick-dots{margin-top: 32px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .timeline-main{padding: 77px 0 80px;}
+    .timeline-slide{margin-right: 20px;}
     .timeline-slider ul.slick-dots{margin-top: 16px;}
 }
 
