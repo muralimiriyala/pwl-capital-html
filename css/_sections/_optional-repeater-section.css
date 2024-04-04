@@ -71,6 +71,11 @@
     .optional-repeater-main{padding: 0 0 120px;}
     .optional-repeater-row{display: block;}
     .optional-repeater-row:not(:last-child){margin-bottom: 101px;}
+    body.page-template-careers  .optional-repeater-main{padding: 0 0 100px;}
+    body.page-template-careers .optional-repeater-row{display: flex; flex-direction: column-reverse;}
+    body.page-template-careers .optional-repeater-row .optional-repeater-image{margin-bottom: 0;}
+    body.page-template-careers .optional-repeater-row .optional-repeater-text{margin-bottom: 104px;}
+    body.page-template-careers .optional-repeater-row.reverse .optional-repeater-text{margin-bottom: 74px;}
     .optional-repeater-image{margin: 0 20px 77px;}
     .optional-repeater-text h2{margin-bottom: 21px;}
     .optional-box-bg.top-right{right: -20px; top: -21px;}

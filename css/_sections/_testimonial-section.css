@@ -21,3 +21,12 @@
     .testimonial-list{width: 422px; margin-right: 50px;}
     .testimonial-list:last-child{margin-right: 0;}
 }
+
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+    .testimonial-wrap{padding: 80px 0; margin-bottom: 85px;}
+    .testimonial-list{width: 309px; margin-right: 30px;}
+    .testimonial-list:last-child{margin-right: 0;}
+    .testimonial-text{padding: 46px 41px 135px 48px; font-size: 17px; line-height: 1.53;}
+    .testimonial-main ul.slick-dots{margin-top: 43px;}
+    .testimonial-main ul.slick-dots li::before{background-color: var(--white);}
+}

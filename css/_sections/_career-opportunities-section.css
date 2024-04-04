@@ -23,11 +23,11 @@
     
 }
 
-@media screen and (max-width: 739px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
     .career-opps-main{padding: 150px 0 0; max-height: 754px;}
     .career-opps-watermark svg{top: -60px; left: 194px; position: absolute;}
     .career-opps-text{margin-bottom: 70px;}
-    .career-opps-image{margin-left: 20px;}
+    .career-opps-image{padding-left: 20px; max-width: 354px; margin: 0 auto;}
 }
 
 

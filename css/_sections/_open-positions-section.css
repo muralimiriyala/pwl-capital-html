@@ -38,8 +38,8 @@ ul.positions-category li::before{width: 3px; height: 3px; right: -17px; left: au
 @media screen and (max-width: 739px) and (min-width: 200px){
     .open-positions-main{padding: 80px 0 60px; display: block;}
     .open-positions-intro{margin-bottom: 2rem;}
-    .open-positions-form{margin-bottom: 40px;}
-    .open-positions-field{flex: 0 0 calc(50% - 32px);}
+    .open-positions-form{margin-bottom: 40px; justify-content: flex-start;}
+    .open-positions-field{flex: 0 0 calc(50% - 36px);}
     .open-positions-list{display: block; padding: 21px 30px;}
     .open-positions-text{margin-bottom: 17px;}
     .open-positions-text h2{margin-bottom: 4px;}

@@ -71,6 +71,23 @@ jQuery(document).ready(function($){
             speed: 1500,
             infinite: false,
             autoplay: false,
+            responsive: [
+              {
+                breakpoint: 1023,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 1,
+                    }
+                },
+              {
+              breakpoint: 739,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                  }
+              }
+            ]
           });
         } else {
           if ($('.short-intro-row').hasClass('slick-initialized')) {
@@ -79,6 +96,46 @@ jQuery(document).ready(function($){
         }
       }
       testimonialSlider();
+
+      function perkSlider() {
+        if (_windowWidth <= 1023) {
+          $('.perk-subhead-main').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            variableWidth: true,
+            arrows: false,
+            dots: true,
+            speed: 1500,
+            infinite: false,
+            autoplay: false,
+          });
+        } else {
+          if ($('.short-intro-row').hasClass('slick-initialized')) {
+            $('.short-intro-row').slick('unslick');
+          }
+        }
+      }
+      perkSlider();
+
+      function benefitSlider() {
+        if (_windowWidth <= 1023) {
+          $('.benefit-lists').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            variableWidth: true,
+            arrows: false,
+            dots: true,
+            speed: 1500,
+            infinite: false,
+            autoplay: false,
+          });
+        } else {
+          if ($('.short-intro-row').hasClass('slick-initialized')) {
+            $('.short-intro-row').slick('unslick');
+          }
+        }
+      }
+      benefitSlider();
 
      
       
