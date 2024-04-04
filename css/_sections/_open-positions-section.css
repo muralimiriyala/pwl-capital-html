@@ -12,7 +12,7 @@ ul.positions-category{margin: 0; gap: 0 28px; width: fit-content;}
 ul.positions-category li{margin: 0; }
 ul.positions-category li::before{width: 3px; height: 3px; right: -17px; left: auto;}
 
-.open-positions-field .selectBox-dropdown{padding: 0 24px 0 0; border-bottom: 1px solid rgba(45, 87, 130, 0.14); border-radius: 0; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; font-size: 20px; font-weight: 400; line-height: 31px; }
+.open-positions-field .selectBox-dropdown{padding: 0 24px 0 0; border-bottom: 1px solid rgba(45, 87, 130, 0.14); border-radius: 0; color: var(--midnight, #121321); background-color: transparent; border: none; font-family: "Century Gothic", sans-serif; font-size: 20px; font-weight: 400; line-height: 31px; }
 .open-positions-field .selectBox-dropdown .selectBox-arrow{right: 0;}
 
 

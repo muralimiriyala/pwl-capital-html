@@ -11,13 +11,13 @@
 .testimonial-main .slick-list::before{content: ""; position: absolute; top: 0; right: -40px; width: 52px; height: 100%; background-image: linear-gradient(to left ,#10B596 25%,transparent 100%); z-index: 1;}
 
 @media screen and (min-width: 1300px) {
-    .testimonial-wrap{padding: 110px 0 226px;}
+    .testimonial-wrap{padding: 110px 0 109px;}
     .testimonial-main{gap: 50px;}
     .testimonial-list{flex: 0 0 calc(33% - 30px);}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
-    .testimonial-wrap{padding: 110px 0 226px;}
+    .testimonial-wrap{padding: 110px 0 109px;}
     .testimonial-list{width: 422px; margin-right: 50px;}
     .testimonial-list:last-child{margin-right: 0;}
 }
