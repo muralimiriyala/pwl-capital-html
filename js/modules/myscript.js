@@ -55,5 +55,21 @@ jQuery(function($){
         }
      });
 
+     $(".flyout_btn").on("click", function(e){
+        e.preventDefault();
+        $(".flyout-bg-overlay").toggleClass("open");
+        $(".flyout-overlay").toggleClass("open");
+     });
+     $(".flyout_close").on("click", function(e){
+        e.preventDefault();
+        $(".flyout-bg-overlay").removeClass("open");
+        $(".flyout-overlay").removeClass("open");
+     });
+     $("body").on("click", function(e){
+        if(!$(e.target).closest(".flyout_btn, .flyout-overlay").length){
+            $(".flyout-bg-overlay").removeClass("open");
+            $(".flyout-overlay").removeClass("open");
+        }
+     });
 });
 
