@@ -5,7 +5,7 @@
 .benefit-title h2{margin-bottom: 15px;}
 .benefit-icon{margin-bottom: 8px;}
 .benefit-text{font-size: 15px; line-height: 25px;}
-.benefit-text h2{ margin-bottom: 19px; color: var(--capri-ocean, #0894D3);font-family:"brother-1816", sans-serif; font-size: 33px; font-weight: 500; line-height: 34px; }
+.benefit-text h2{ margin-bottom: 19px; color: var(--pacific-blue);font-family:"brother-1816", sans-serif; font-size: 33px; font-weight: 500; line-height: 34px; }
 
 .benefit-watermark{left: 0; top: 0; width: 100%;}
 
@@ -16,8 +16,7 @@
     .benefit-title{max-width: 658px; margin-left: 119px;}
 }
 @media screen and (min-width: 1024px){
-    .benefit-lists{padding: 0 0 89px;}
-    .benefit-main{padding: 16px 0 50px;}
+    .benefit-main{padding: 16px 0 90px;}
     .benefit-watermark svg:first-child{position: absolute; left: 841px; top: 18px;}
     .benefit-watermark svg:not(:first-child){position: absolute; left: 1076px; top: 138px;}
     
