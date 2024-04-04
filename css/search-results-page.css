@@ -22,7 +22,7 @@ ul.srch-results-links li a svg{left: 0; top: 50%; transform: translateY(-50%); p
 .srch-results-text h2 a{color: var(--midnight);}
 .srch-results-text h2 a:hover{color: var(--green-pear);}
 ul.content-type{margin: 0; gap: 10px;}
-ul.content-type li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--capri-ocean-light); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--capri-ocean); text-align: center; font-family: "Brother 1816", sans-serif; text-transform: uppercase; }
+ul.content-type li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--capri-ocean-light); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--capri-ocean); text-align: center;font-family:"brother-1816", sans-serif; text-transform: uppercase; }
 ul.content-type li::before{display: none;}
 
 .srch-results-list:nth-child(n+9) .srch-results-thumb{

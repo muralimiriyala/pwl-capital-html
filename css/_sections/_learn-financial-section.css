@@ -1,14 +1,20 @@
 
 
-.learn-financial-main{padding: 37px 0 0;}
+.learn-financial-main{padding: 37px 0 110px;}
 .learn-financial-intro{color: rgba(16, 42, 70, 0.60);}
 .learn-financial-intro h1{margin-bottom: 21px;}
 .learn-financial-desc{max-width: 660px;}
+.learn-financial-form{margin-bottom: 20px;}
+.learn-financial-form input{padding: 10px 17px; width: calc(100% - 58px); height: auto; font-size: 18px; line-height: 18px; letter-spacing: 0; color: rgba(16, 42, 70, 0.60); border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)); background-color: var(--white, #FFF); text-transform: capitalize;}
+.learn-financial-form button[type="submit"]{padding: 0; width: 58px; background-color: var(--aquamarine); border-radius: 0; border: none;}
+.learn-financial-form button[type="submit"] svg{width: 100%; height: 100%; display: block;}
 
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
-    .learn-financial-intro{max-width: 1130px; margin: auto;}
+    .learn-financial-intro{margin-bottom: 42px;}
+    .browse-all-form{gap: 10px;}
+    .browse-field{flex: 0 0 calc(33.3333% - 7px);}
 }
 
 
