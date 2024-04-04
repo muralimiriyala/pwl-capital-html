@@ -1,7 +1,5 @@
 
-
-
-
+.confirmation-main.no_icon{max-width: 100%;}
 .confirmation-main{max-width: 1225px; gap: 52px; padding: 96px 0 50px 335px; flex-direction: row-reverse;}
 .confirmation-watermark{left: 8px; top: 56px; min-height: 372px;}
 .confirmation-watermark svg:not(:first-child){top: 244px; left: -31px; position: absolute; }
@@ -30,8 +28,6 @@
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .confirmation-main{padding: 96px 0 50px 100px; gap: 92px;}
-    .paths-list:nth-child(2n+1){padding-right: 50px;}
-    .paths-list:nth-child(2n){padding-left: 50px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px) {
     .confirmation-text{padding-right: 100px;}
@@ -50,12 +46,6 @@
     .confirmation-watermark svg:first-child{right: 0; top: 15px; position: absolute;}
     .confirmation-watermark svg:last-child{right: 108px; top: 200px; position: absolute; left: auto;}
 
-    .paths-main{margin-bottom: 80px;}
-    .paths-img{max-width: 206px; margin-bottom: 38px;}
-    .paths-text h2{font-size: 36px; line-height: 44px; letter-spacing: -0.36px; margin-bottom: 23px;}
-    .path-btns{gap: 39px;}
-    .paths-list{margin-bottom: 100px;}
-    .paths-list:last-child{margin-bottom: 0;}
 }
 
 
