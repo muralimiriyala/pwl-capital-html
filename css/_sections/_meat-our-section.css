@@ -28,7 +28,7 @@
     .meet-our-polygon { width: 64px; height: 64px; bottom: -63px; }
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    .meat-our-thumb::after { width: 100%; height: 100%; bottom: 0; left: 0; transform: scaleY(-1); content: ""; position: absolute; background-image: linear-gradient(179deg,#013 10%,rgba(11,0,65,0) 50%); }
+    .meat-our-thumb::after { width: 100%; height: 100%; bottom: -2px; left: 0; transform: scaleY(-1); content: ""; position: absolute; background-image: linear-gradient(179deg,#013 10%,rgba(11,0,65,0) 50%); }
     .meat-our-text { padding: 0 0 80px; margin-top: -87px; position: relative; z-index: 1; }
     .meat-our-text h2{margin-bottom: 15px; color: var(--white, #FFF); font-size: 36px; line-height: 44px; letter-spacing: -0.36px;}
     .meet-our-polygon { width: 64px; height: 64px; bottom: -64px; }
