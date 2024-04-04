@@ -10,6 +10,10 @@
 }
 
 
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .pwl-intro-main{padding: 183px 0;}
+}
+
 
 
 
