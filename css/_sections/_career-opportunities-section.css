@@ -16,6 +16,12 @@
     .career-opps-image{flex: 0 0 425px; transform: translateY(9px);}
 }
 
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .career-opps-main{gap: 70px;}
+    .career-opps-watermark{left: -260px;}
+    
+}
+
 
 
 
