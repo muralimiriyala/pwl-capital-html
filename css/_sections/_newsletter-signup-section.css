@@ -1,9 +1,19 @@
 
 
 
-.newsletter-signup-section{background-color: var(--french-navy); box-shadow: 0 20px 0 var(--green-pear);}
-.newsletter-signup-main{padding: 100px 0; margin-bottom: 400px;}
+.newsletter-section{background-color: var(--french-navy); box-shadow: 0 20px 0 var(--green-pear);}
+.newsletter-main{padding: 100px 0; margin-bottom: 400px;}
 
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .newsletter-main{gap: 168px;}
+    .newsletter-text{flex: 0 0 540px;}
+    .newsletter-signup{flex: 1;}
+    .newsletter-field{width: calc(50% - 10px); margin: 0 10px 20px; float: left;}
+    .newsletter-field.frm_first{margin-left: 0;}
+    .newsletter-field.frm_last{margin-right: 0;}
+    .newsletter-submit{position: absolute;}
+}
 
 
 
