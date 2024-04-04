@@ -1,0 +1,42 @@
+
+
+.benefit-title{margin-bottom: 88px;}
+.benefit-title span.optional-text{color: rgba(33, 82, 131, 0.6);}
+.benefit-title h2{margin-bottom: 15px;}
+.benefit-icon{margin-bottom: 8px;}
+.benefit-text{font-size: 15px; line-height: 25px;}
+.benefit-text h2{ margin-bottom: 19px; color: var(--capri-ocean, #0894D3);font-family:"brother-1816", sans-serif; font-size: 33px; font-weight: 500; line-height: 34px; }
+
+.benefit-watermark{left: 0; top: 0; width: 100%;}
+
+/* media css starts here */
+@media screen and (min-width: 1300px){
+    .benefit-lists{gap: 50px;}
+    .benefit-item{flex: 0 0 calc(25% - 38px); padding-right: 24px;}
+    .benefit-title{max-width: 658px; margin-left: 119px;}
+}
+@media screen and (min-width: 1024px){
+    .benefit-lists{padding: 0 0 89px;}
+    .benefit-main{padding: 16px 0 50px;}
+    .benefit-watermark svg:first-child{position: absolute; left: 841px; top: 18px;}
+    .benefit-watermark svg:not(:first-child){position: absolute; left: 1076px; top: 138px;}
+    
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .benefit-lists{gap: 32px;}
+    .benefit-item{flex: 0 0 calc(25% - 24px);}
+    .benefit-title{max-width: 658px; margin-left: 0;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+    .benefit-lists{gap: 40px; padding: 0 0 82px;}
+    .benefit-item{flex: 0 0 calc(50% - 20px);}
+}
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .benefit-lists{display: block; padding: 0 0 82px;}
+    .benefit-lists.slick-slider .slick-list{overflow: inherit;}
+    .benefit-lists .slick-list::before{content: ""; position: absolute; top: 0; right: -20px; width: 85px; height: 100%; background-image: linear-gradient(to left, var(--white) 5%, transparent 100%); z-index: 1;}
+    .benefit-lists.slick-slider ul.slick-dots{gap: 22px; margin-top: 38px;}
+    .benefit-item{width: 307px; margin-right: 30px; border-top: 8px solid rgba(8, 148, 211, 0.20);; padding-top: 21px;}
+    .benefit-text p{margin-bottom: 17px;}
+    .benefit-text h2{font-size: 28px; line-height: 34px; margin-bottom: 11px;}
+}
