@@ -30,6 +30,10 @@ span.number.bright-Spring::before{background-color: var(--bright-Spring);}
     .short-intro-head{gap: 40px;}
     .short-intro-desc{padding-right: 20px;}
     .short-intro-row{gap: 54px;}
+    .short-about-watermark {
+        top: 52px;
+        left: -54px;
+    }
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .short-intro-main { padding: 73px 0 98px; }

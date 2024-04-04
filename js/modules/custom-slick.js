@@ -84,6 +84,14 @@ jQuery(document).ready(function($){
         autoplay: false,
         variableWidth: true,
         focusOnSelect: true,
+        responsive: [
+          {
+            breakpoint: 739,
+            settings: {
+              dots: true
+            }
+          },
+        ]
       });
 
 });
