@@ -99,9 +99,9 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.btn-lg{padding: 14px 29px 15px;}
 
 .text-link{color: var(--capri-ocean, #0894D3);font-family:"brother-1816", sans-serif; font-size: 15px; font-weight: 500; line-height: 15px; letter-spacing: 0.3px; text-transform: uppercase; display: inline-flex; align-items: center;}
-.text-link::after{width: 14px; height: 16px; margin-left: 5px; top: 2px; position: relative; background-image: url('./images/arrow-right.svg'); background-repeat: no-repeat; background-position: center; content: ""; display: block;}
+.text-link::after{width: 14px; height: 16px; margin-left: 5px; top: 1px; position: relative; background-image: url('./images/arrow-right.svg'); background-repeat: no-repeat; background-position: center; content: ""; display: block;}
 
-.text-link.sm{ font-size: 14px; letter-spacing: 0.28px;}
+.text-link.sm{ font-size: 14px; line-height: 14px; letter-spacing: 0.28px;}
 .text-link.btn-aquamarine{color: var(--aquamarine, #10B596);}
 .text-link.btn-aquamarine::after{background-image: url('./images/arrow-right-aquamarine.svg');}
 .text-link.btn-aquamarine:hover{color: var(--aquamarine, #10B596);}
