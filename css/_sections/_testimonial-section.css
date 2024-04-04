@@ -1,14 +1,23 @@
 
 .testimonial-section{background-color: var(--aquamarine);}
-.testimonial-text{padding: 56px 68px 36px; font-size: 18px; line-height: 1.56; color: var(--white); font-weight: normal; font-family: 'Century Gothic';}
+.testimonial-text{padding: 56px 68px 152px; font-size: 18px; line-height: 1.56; color: var(--white); font-weight: normal; font-family: 'Century Gothic';}
 .testimonial-thumb{width: 53px; margin-bottom: 26px; box-shadow: -4px 4px 0 0 var(--pacific-blue);}
-.testimonial-author{left: 68px; bottom: -118px; position: absolute;}
+.testimonial-author{left: 68px; bottom: 0; position: absolute;}
 .testimonial-name > span{font-size: 18px; font-weight: 500; line-height: 1; color: var(--white); display: block; letter-spacing: normal; margin-bottom: 2px;}
 .testimonial-name > span:not(:first-child){font-size: 14px; font-weight: normal; line-height: 1.29; color: var(--white); display: block; letter-spacing: normal; opacity: 0.7;}
+.testimonial-watermater svg{width: 100%; height: 100%;}
 
+.testimonial-main .slick-list{overflow: visible;}
+.testimonial-main .slick-list::before{content: ""; position: absolute; top: 0; right: -40px; width: 52px; height: 100%; background-image: linear-gradient(to left ,#10B596 25%,transparent 100%); z-index: 1;}
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1300px) {
     .testimonial-wrap{padding: 110px 0 226px;}
-    .testimonial-list{flex: 0 0 422px; margin-right: 50px;}
+    .testimonial-main{gap: 50px;}
+    .testimonial-list{flex: 0 0 calc(33% - 30px);}
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .testimonial-wrap{padding: 110px 0 226px;}
+    .testimonial-list{width: 422px; margin-right: 50px;}
     .testimonial-list:last-child{margin-right: 0;}
 }
