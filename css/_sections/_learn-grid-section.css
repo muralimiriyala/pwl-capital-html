@@ -1,9 +1,11 @@
 
 .learn-grid-thumb{margin-bottom: 30px;}
 .learn-grid-content{font-size: 21px; line-height: 1.43; letter-spacing: -0.42px; font-weight: 300; font-family: 'Century Gothic';}
-.learn-grid-content p{max-width: 300px; margin-bottom: 9px;}
+.learn-grid-content p a{color: var(--midnight);}
+.learn-grid-content p a:hover{color: var(--aquamarine);}
 
 @media screen and (min-width: 1024px) {
-    .learn-grid-main{gap: 76px 50px;}
+    .learn-grid-main{gap: 76px 50px; padding: 120px 0 0;}
     .learn-grid-list{flex: 0 0 calc(33% - 30.5px);}
+    .learn-grid-content p{max-width: 300px; margin-bottom: 9px;}
 }

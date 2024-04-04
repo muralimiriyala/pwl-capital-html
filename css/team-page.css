@@ -10,7 +10,7 @@
 .team-form input::placeholder{color: rgba(16, 42, 70, 0.6);}
 .team-form button[type="submit"]{padding: 0; width: 58px; border-radius: 0; border: none;}
 .link-btn{font-size: 14px; font-family: 'Century Gothic'; line-height: 1.29; letter-spacing: -0.14px; color: rgba(16, 42, 70, 0.6); position: relative; padding-right: 18px;}
-.link-btn > span{position: absolute; right: 0; top: 3px; transition: all .5s ease;}
+.link-btn > span{position: absolute; right: 0; top: 3px; transition: all .4s ease-in-out;}
 .link-btn:hover > span{right: -10px;}
 
 .team-right-bg{right: -92px; top: 90px;}

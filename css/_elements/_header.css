@@ -9,6 +9,11 @@ header.sticky-header{background-color: var(--white); box-shadow: 0px 6px 10px 0p
 header.sticky-header .logo-white{opacity: 0;}
 header.sticky-header .logo-black{opacity: 1;}
 
+
+
+body.page-template-learn header.header-main:not(.sticky-header){background-color: transparent;}
+
+
 body.page-template-careers header.header-main:not(.sticky-header){background-color: transparent;}
 body.home .site-main-cover, body.page-template-careers .site-main-cover, body.page-template-with-us .site-main-cover{padding-top: 0;}
 

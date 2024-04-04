@@ -2,7 +2,7 @@
 
 
 .newsletter-section{background-color: var(--french-navy); box-shadow: 0 20px 0 var(--green-pear);}
-.newsletter-main{padding: 100px 0; margin-bottom: 400px;}
+.newsletter-main{padding: 100px 0;}
 .newsletter-field-wrap{clear: both;}
 .newsletter-submit button{width: 100%; height: 100%; background-color: var(--green-pear);}
 .newsletter-submit button:hover{background-color: var(--capri-ocean);}

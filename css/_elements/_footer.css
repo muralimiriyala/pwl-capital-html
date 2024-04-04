@@ -75,7 +75,7 @@ ul.social-share-icons > li a:hover{color: #0894d3;}
     .footer-list{width: 100%; border-bottom: 1px solid rgba(255,255,255,.2); margin-bottom: 13px;}
     .footer-title{padding-bottom: 15px; margin: 0; color: #fff; position: relative; cursor: pointer;}
     .footer-list:last-child{border-bottom: none; margin: 0;}
-    .footer-title::after{content: "\f107"; position: absolute; right: 0; top: 0; font-family: "Font Awesome 6 Pro"; font-weight: 300; font-size: 18px; color: #0894d3; transition: all .5s ease;}
+    .footer-title::after{content: "\f107"; position: absolute; right: 0; top: 0; font-family: "Font Awesome 6 Pro"; font-weight: 300; font-size: 18px; color: #0894d3; transition: all .4s ease-in-out;}
     .footer-list ul{display: none;}
     .footer-list.open .footer-title::after{transform: rotate(180deg);}
 

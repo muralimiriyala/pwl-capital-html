@@ -26,7 +26,7 @@
          <link rel="stylesheet" href="./style.css" media="all">
          <link rel="stylesheet" href="./core.bundle.css" media="all">
     </head>
-<body>
+<body class="page-template-learn">
 <header class="header-main">
     <div class="container lg">
         <div class="header flex flex-vcenter">
@@ -67,11 +67,19 @@
 <section class="learn-financial-section">
 <div class="container md">
     <div class="learn-financial-main">
-        <div class="learn-financial-intro fs-20 font-gothic">
+        <div class="learn-financial-intro fs-20 font-gothic relative">
             <span class="optional-text muted">Learn</span>
             <h1>Financial Insights & Resources</h1>
             <div class="learn-financial-desc">
                 <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt.</p>
+            </div>
+            <div class="learn-watermarks absolute">
+                <svg width="183" height="226" viewBox="0 0 183 226" fill="none">
+                    <path d="M173 10H10V152.36H124.337L173 201V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                </svg>
+                <svg width="142" height="178" viewBox="0 0 142 178" fill="none">
+                    <path d="M10 10H132V116.584H46.4223L10 153V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                </svg>
             </div>
         </div>
         <form action="" class="learn-financial-form flex relative">
@@ -222,15 +230,25 @@
                     <ul class="categorys flex">
                         <li>CATEGORY</li>
                     </ul>
-                    <p>Prof. Scott Cederburg: Challenging the Status Quo on Lifecycle Asset Allocation</p>
+                    <p><a href="#">Prof. Scott Cederburg: Challenging the Status Quo on Lifecycle Asset Allocation</a></p>
                     <a href="#" class="text-link btn-aquamarine sm">Read More</a>
                 </div>
             </div>
             <div class="learn-grid-list">
-                <div class="learn-grid-thumb">
+                <div class="learn-grid-thumb relative">
                     <figure class="object-fit">
                         <img src="images/insights-two@2x.jpg" alt="insights-two">
                     </figure>
+                    <div class="play-btn-main flex flex-center ">
+                        <div class="play-btn relative">
+                            <a href="https://www.youtube.com/watch?v=NI3I3eem714" class="popup-youtube play-btn-bg flex flex-center">
+                                <span class="btn-circle"></span>
+                                <span></span>
+                                <span></span>
+                                video
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="learn-grid-content">
                     <ul class="categorys flex">
