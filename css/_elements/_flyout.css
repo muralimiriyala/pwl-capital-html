@@ -1,11 +1,11 @@
 
 .flyout-blue-overlay{ opacity: 0.5; visibility: visible; backdrop-filter: blur(6px); background-color: var(--french-navy); width: 100%; height: 100%; top: 0; left: 0; position: fixed; z-index: 2800; transition: all 0.5s ease;}
 .flyout-blue-overlay.open{opacity: 0.75; visibility: visible;}
-.flyout-overlay{padding: 40px; max-width: 430px; width: 100%; height: 100%; min-height: 100vh; top: 0; right: 0; transform: translateX(0%); position: fixed; z-index: 2850; overflow-x: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: transform 0.4s ease;
-box-shadow: -10px 10px 0 var(--pacific-blue);
-    background-color: var(--capri-occean, #0894D3);
-
-}
+.flyout-overlay{padding: 34px 30px 39px; max-width: 385px; width: 100%; height: 100%; min-height: 100vh; top: 0; right: 0; transform: translateX(0%); position: fixed; z-index: 2850; overflow-x: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; transition: transform 0.4s ease; box-shadow: -10px 10px 0 var(--pacific-blue); background-color: var(--capri-occean, #0894D3); }
 .flyout-overlay.open{transform: translateX(0);}
-.flyout-close{width: 21px; height: 22px; top: 0; right: 0; cursor: pointer; transition: all 0.5s ease;}
+.flyout-overlay .frm_forms{padding-top: 17px;}
+.flyout-close{width: 21px; height: 22px; top: 18px; right: 19px; cursor: pointer; transition: all 0.5s ease;}
 .flyout-close:hover{background-color: var(--accent); color: var(--white);}
+body .flyout-overlay .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 20px;}
+body .frm_forms .frm_form_fields .frm_submit button[type="submit"]{width: 100%; border-color: var(--white); background-color: transparent;}
+body .frm_forms .frm_form_fields .frm_submit button[type="submit"]:hover{border-color: var(--green-pear);}
