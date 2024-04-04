@@ -41,6 +41,7 @@
 @media only screen and (min-width: 1024px){
     .optional-repeater-main{padding: 118px 0 115px;}
     .optional-repeater-row{flex-direction: row-reverse; align-items: center;}
+    .optional-repeater-row.reverse{flex-direction: row;}
     .optional-repeater-row:not(:last-child){margin-bottom: 124px;}
     .optional-repeater-row:nth-child(even){flex-direction: row;}
     .optional-repeater-text{flex: 0 0 422px; margin-right: auto;}
