@@ -14,7 +14,7 @@ jQuery(function($){
     $(".humburger-btn").on("click", function(e){
         e.preventDefault();
         $(this).toggleClass("active");
-        $("header.header-main").removeClass("black-header");
+        $("header.header-main").toggleClass("nav-open");
         $(".header-right").toggleClass("open");
         $(".header-overlay").toggleClass("open")
      });
