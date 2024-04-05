@@ -22,7 +22,7 @@
     .learn-grid-list:nth-child(10n+4) .learn-grid-text p{margin-bottom: 11px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .learn-grid-list:nth-child(4n) .learn-grid-text{padding: 60px 50px;}
+    .learn-grid-list:nth-child(10n+4) .learn-grid-text{padding: 60px 50px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .learn-grid-wrap{padding: 120px 0 66px;}
@@ -30,11 +30,11 @@
     .learn-grid-list{flex: 0 0 calc(33.33333% - 20px);}
     .learn-grid-thumb img{min-height: 180px;}
     .learn-grid-text { font-size: 18px; line-height: 28px; letter-spacing: -.42px; }
-    .learn-grid-list:nth-last-child(-n+2)::after { height: 155px; width: 100%; top: calc(100% + 76px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light), #fff); position: absolute; z-index: -1; }
+    .learn-grid-list:nth-last-child(-n+3)::after { height: 155px; width: 100%; top: calc(100% + 76px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light), #fff); position: absolute; z-index: -1; }
 
-    .learn-grid-list:nth-child(4){ left: -40px; flex: 0 0 calc(100% + 80px); width: calc(100% + 80px); }
-    .learn-grid-list:nth-child(4) .learn-grid-text{padding: 54px; font-size: 38px; font-weight: 400; line-height: 49px; letter-spacing: -0.76px; }
-    .learn-grid-list:nth-child(4) .learn-grid-text p{margin-bottom: 11px;}
+    .learn-grid-list:nth-child(10n+4){ left: -40px; flex: 0 0 calc(100% + 80px); width: calc(100% + 80px); }
+    .learn-grid-list:nth-child(10n+4) .learn-grid-text{padding: 54px; font-size: 38px; font-weight: 400; line-height: 49px; letter-spacing: -0.76px; }
+    .learn-grid-list:nth-child(10n+4) .learn-grid-text p{margin-bottom: 11px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .learn-grid-wrap{padding: 90px 0 54px;}
@@ -44,7 +44,7 @@
     .learn-grid-list:nth-last-child(-n+1)::after { height: 155px; width: 100%; top: calc(100% + 17px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light), #fff); position: absolute; z-index: -1; }
 
 
-    .learn-grid-list:nth-child(4){ left: -20px; flex: 0 0 calc(100% + 40px); width: calc(100% + 40px); }
-    .learn-grid-list:nth-child(4) .learn-grid-text{padding: 36px; font-size: 26px; font-weight: 400; line-height: 36px; letter-spacing: -0.52px; }
-    .learn-grid-list:nth-child(4) .learn-grid-text p{margin-bottom: 23px;}
+    .learn-grid-list:not(:nth-child(10n+4)) { left: -20px; flex: 0 0 calc(100% + 40px); width: calc(100% + 40px); }
+    .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-text{padding: 36px; font-size: 26px; font-weight: 400; line-height: 36px; letter-spacing: -0.52px; }
+    .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-text p{margin-bottom: 23px;}
 }
