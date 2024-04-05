@@ -6,8 +6,8 @@
 ul.meet-with-call{margin: 0;}
 ul.meet-with-call > li{margin-bottom: 5px; line-height: 1.76;}
 ul.meet-with-call > li::before{display: none;}
-ul.meet-with-call > li > a{align-items: center; gap: 10px; color: var(--white); font-family: 'Century Gothic';}
-ul.meet-with-call > li:hover > a{color: var(--green-pear);}
+ul.meet-with-call > li > a{align-items: center; gap: 10px; color: var(--white); font-family: 'Century Gothic'; width: fit-content;}
+ul.meet-with-call > li > a:hover{color: var(--green-pear);}
 .meet-watermark{top: 223px; right: 0;}
 .meet-watermark svg:first-child{top: 0; right: -67px; position: absolute;}
 .meet-watermark svg:not(:first-child){top: 150px; right: 192px; position: absolute;}
@@ -28,8 +28,8 @@ body .meet-with-form .frm_forms .frm_form_fields .frm_submit button[type="submit
 ul.meet-location-call{margin: 0;}
 ul.meet-location-call > li{margin-bottom: 5px; line-height: 1.76;}
 ul.meet-location-call > li::before{display: none;}
-ul.meet-location-call > li > a{align-items: center; gap: 10px; color: var(--midnight); font-family: 'Century Gothic'; line-height: normal;}
-ul.meet-location-call > li:hover > a{color: var(--capri-ocean);}
+ul.meet-location-call > li > a{align-items: center; gap: 10px; color: var(--midnight); font-family: 'Century Gothic'; line-height: normal; width: fit-content;}
+ul.meet-location-call > li > a:hover {color: var(--capri-ocean);}
 ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
 
 
@@ -42,7 +42,7 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     .meet-with-main{padding: 232px 0 148px; gap: 170px;}
     .meet-with-title{flex: 0 0 422px;}
     .meet-with-form{flex: 0 0 calc(100% - 592px);}
-    .meet-location-main{padding: 130px 0 119px;}
+    .meet-location-main{padding: 130px 0 139px;}
     .meet-location-image{flex: 0 0 216px; margin-left: 20px;}
     .meet-location-text{flex: 0 0 calc(100% - 304px); padding-top: 31px;}
     .meet-location-list{gap: 68px;}
