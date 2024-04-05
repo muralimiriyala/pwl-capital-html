@@ -85,6 +85,8 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-filter-form{gap: 18px 46px;}
     .team-lists{gap: 40px 25px;}
     .team-item{flex: 0 0 calc(50% - 13px);}
+    .team-item:nth-last-child(-n + 2)::after{height: 155px; width: 100%; top: calc(100% + 23px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
+    .team-lists-main{padding-bottom: 107px;}
 }
 
 @media screen and (max-width: 739px) and (min-width: 200px) {
@@ -97,13 +99,13 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-filter-title{margin-bottom: 25px;}
     .team-filter-title h2{font-size: 30px; line-height: 1.13; padding-right: 135px;}
     .team-filter-form{gap: 18px 46px;}
-    .team-lists{gap: 20px;}
+    .team-lists-main{padding-bottom: 100px;}
+    .team-lists{gap: 20px; padding-bottom: 95px;}
     .team-item{flex: 0 0 100%; display: flex; gap: 20px; padding-bottom: 20px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     .team-image{margin-bottom: 0; flex: 0 0 100px;}
     .team-details{text-align: left; padding: 12px 0 0 0; flex: 0 0 calc(100% - 120px);}
     .team-details h3{font-size: 22px; line-height: 1.45; letter-spacing: -0.66px; margin-bottom: 0;}
     .team-details > span{line-height: 1.43;}
-    .load-more-btn{margin: 75px auto 100px;}
 }
 
 
