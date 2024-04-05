@@ -44,7 +44,7 @@
     .learn-grid-list:nth-last-child(-n+1)::after { height: 155px; width: 100%; top: calc(100% + 17px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light), #fff); position: absolute; z-index: -1; }
 
 
-    .learn-grid-list:not(:nth-child(10n+4)) { left: -20px; flex: 0 0 calc(100% + 40px); width: calc(100% + 40px); }
-    .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-text{padding: 36px; font-size: 26px; font-weight: 400; line-height: 36px; letter-spacing: -0.52px; }
-    .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-text p{margin-bottom: 23px;}
+    .learn-grid-list:nth-child(10n+4) { left: -20px; flex: 0 0 calc(100% + 40px); width: calc(100% + 40px); }
+    .learn-grid-list:nth-child(10n+4) .learn-grid-text{padding: 36px; font-size: 26px; font-weight: 400; line-height: 36px; letter-spacing: -0.52px; }
+    .learn-grid-list:nth-child(10n+4) .learn-grid-text p{margin-bottom: 23px;}
 }
