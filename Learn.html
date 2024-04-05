@@ -125,10 +125,12 @@
         <div class="news-blog-row flex">
             <div class="news-blog-image relative">
                 <picture class="news-blog-thumb object-fit">
-                    <img src="images/feature-insight1@2x.jpg" alt="feature-insight">
+                    
+                    <source srcset="images/feature-insight1@2x.jpg" media="(min-width: 740px)">
+                    <img src="images/feature-insight-mobile1@2x.jpg" alt="feature-insight">
                 </picture>
-                <div class="inverted background-text flex flex-end">
-                    <div class="news-image-text">
+                <div class="inverted news-image-text background-text flex flex-end">
+                    <div class="news-image-desc">
                         <ul class="categorys flex">
                             <li>CATEGORY</li>
                         </ul>
