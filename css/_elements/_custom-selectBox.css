@@ -1,6 +1,6 @@
 
 select.selectBox{display: none;}
-body .selectBox-dropdown{padding: 16px 34px 14px 14px; width: 100%; font-family: "Century Gothic", sans-serif; font-size: 15px; line-height: 15px; letter-spacing: 0; height: auto; border: none; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)); background-color: var(--white, #FFF); color: var(--midnight, #121321);}
+body .selectBox-dropdown{padding: 16px 34px 15px 14px; width: 100%; font-family: "Century Gothic", sans-serif; font-size: 15px; line-height: 15px; letter-spacing: 0; height: auto; border: none; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)); background-color: var(--white, #FFF); color: var(--midnight, #121321);}
 body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 8px 8px 0 0;}
 body .selectBox-dropdown .selectBox-arrow{right: 13px; top: 50%; transform: translateY(-50%); font-size: 1rem; color: var(--aquamarine); font-weight: normal; font-family: "Font Awesome 6 pro"; position: absolute;}
@@ -10,8 +10,8 @@ body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: 
 body.page-template-with-us .selectBox-dropdown{padding: 16px 34px 14px 14px; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; height: auto; border: none; background-color: var(--white); border-radius: 0; color: rgba(16,42,70,.6); font-family: 'Century Gothic'; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 body.page-template-with-us .selectBox-dropdown .selectBox-arrow{color: var(--capri-ocean);}
 
-ul.selectBox-dropdown-menu::before{}
-ul.selectBox-dropdown-menu{margin: 0; padding: 10px 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; display: block; border-radius: 0 0 5px 5px; background-color: var(--white); position: absolute; z-index: 99999; border-top: none; box-shadow: 0 4px 120px 0 rgb(207, 234, 247); white-space: nowrap; text-overflow: ellipsis; overflow: auto;}
+ul.selectBox-dropdown-menu{margin: 8px 0 0; padding: 10px 0; top: 100%; left: 0; max-height: 213px; min-height: 1em; display: block; border-radius: 0 0 5px 5px; background-color: var(--white); position: absolute; z-index: 99999; border-top: none; box-shadow: 0 4px 120px 0 rgb(207, 234, 247); white-space: nowrap;}
+ul.selectBox-dropdown-menu::before { width: 0; height: 0; top: -4px; right: 15px; border-radius: 0; border: 5px solid transparent; border-top: 5px solid var(--white); border-left: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; }
 ul.selectBox-dropdown-menu li.selectBox-selected a{color: var(--accent);}
 ul.selectBox-dropdown-menu li.selectBox-disabled{display: none;}
 ul.selectBox-dropdown-menu li{display: block; margin-bottom: 0; padding: 0; white-space: normal;}

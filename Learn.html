@@ -92,13 +92,10 @@
         </form>
         <form action="" class="browse-all-form flex">
             <div class="browse-field">
-                <select name="" id="">
-                    <option value="Browse All">Browse All</option>
-                    <option value="Topic One">Topic One</option>
-                    <option value="Topic Two">Topic Two</option>
-                    <option value="Topic Three">Topic Three</option>
-                    <option value="Topic Four">Topic Four</option>
-                </select>
+                <div class="browse-news-btn active relative font-gothic f-700">
+                    <input type="radio" class="browse-news-input background-text" id="news" name="category" value="" onclick="this.form.submit()">
+                    <span>Browse All</span>
+                </div>
             </div>
             <div class="browse-field">
                 <select name="" id="">
@@ -142,10 +139,20 @@
             </div>
             <div class="news-blog-row">
                 <div class="news-blog-list flex flex-vcenter">
-                    <div class="news-post-image">
+                    <div class="news-post-image relative">
                         <picture class="object-fit">
                             <img src="images/news-blog-thumb1@2x.jpg" alt="object-fit">
                         </picture>
+                        <div class="play-btn-main flex flex-center ">
+                            <div class="play-btn sm relative">
+                                <a href="https://www.youtube.com/watch?v=NI3I3eem714" class="popup-youtube play-btn-bg flex flex-center">
+                                    <span class="btn-circle aquamarine"></span>
+                                    <span></span>
+                                    <span></span>
+                                    video
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="news-post-text fs-20 font-gothic">
                         <ul class="categorys flex">
@@ -240,9 +247,9 @@
                         <img src="images/insights-two@2x.jpg" alt="insights-two">
                     </figure>
                     <div class="play-btn-main flex flex-center ">
-                        <div class="play-btn relative">
+                        <div class="play-btn md relative">
                             <a href="https://www.youtube.com/watch?v=NI3I3eem714" class="popup-youtube play-btn-bg flex flex-center">
-                                <span class="btn-circle"></span>
+                                <span class="btn-circle aquamarine"></span>
                                 <span></span>
                                 <span></span>
                                 video
