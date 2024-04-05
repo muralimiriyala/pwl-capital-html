@@ -3,9 +3,13 @@
 .learn-grid-content{font-size: 21px; line-height: 1.43; letter-spacing: -0.42px; font-weight: 300; font-family: 'Century Gothic';}
 .learn-grid-content p a{color: var(--midnight);}
 .learn-grid-content p a:hover{color: var(--aquamarine);}
+.learn-more-btn{position: relative; z-index: 2;}
 
 @media screen and (min-width: 1024px) {
-    .learn-grid-main{gap: 76px 50px; padding: 120px 0 0;}
+    .learn-grid-wrap{padding: 120px 0 66px;}
+    .learn-grid-main{gap: 76px 50px; padding: 0 0 128px;}
     .learn-grid-list{flex: 0 0 calc(33% - 30.5px);}
-    .learn-grid-content p{max-width: 300px; margin-bottom: 9px;}
+    
+    .learn-grid-list:nth-last-child(-n+3)::after { height: 155px; width: 100%; top: calc(100% + 76px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light), #fff); position: absolute; z-index: -1; }
+    .learn-grid-content p{max-width: 300px; margin-bottom: 9px;}   
 }
