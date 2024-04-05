@@ -71,7 +71,7 @@ body .with_frm_style .frm_loading_prev .frm_prev_page{opacity: 1 !important; col
 body .frm_forms .frm_verify{display: none;}
 body .with_frm_style .frm_form_field.frm_html_container{font-size: 1.125rem; line-height: 1.5rem; letter-spacing: -.18px;}
 .frm-g-recaptcha{height: 78px; overflow: hidden;}
-.frm_form_field_wrapper{ width: 100%; gap: 20px 40px; align-items: center; display: flex; flex-wrap: wrap; float: left;}
+.frm_form_field_wrapper{ width: 100%; gap: 30px 40px; align-items: center; display: flex; flex-wrap: wrap; float: left;}
 body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 38px; margin-top: 34px; width: 100%; float: left; border-top: 1px solid var(--white-20);}
 body .frm_forms .frm_form_fields .frm_form_field.client-info .contact-head{margin-bottom: 7px;}
 legend.frm_screen_reader{display: none;}

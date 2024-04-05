@@ -13,8 +13,8 @@ ul.meet-with-call > li > a:hover{color: var(--green-pear);}
 .meet-watermark svg:not(:first-child){top: 150px; right: 192px; position: absolute;}
 
 ol.meet-form-step{gap: 20px; margin: 0 0 26px 0;}
-ol.meet-form-step > li{font-size: 18px; font-weight: bold; color: var(--capri-ocean); line-height: 1; letter-spacing: -0.54px; font-family: 'Century Gothic'; flex: 1; padding: 0 0 22px 45px; border-bottom: 4px solid var(--capri-ocean);}
-ol.meet-form-step > li:last-child{opacity: 0.4;}
+ol.meet-form-step > li{font-size: 18px; font-weight: bold; color: var(--capri-ocean); line-height: 1; letter-spacing: -0.54px; font-family: 'Century Gothic'; flex: 1; padding: 0 0 22px 45px; border-bottom: 4px solid var(--capri-ocean); opacity: 0.4;}
+ol.meet-form-step > li.active{opacity: 1;}
 ol.meet-form-step > li::before{top: -5px; left: 0; width: 32px; height: 32px; font-size: 18px; font-weight: 700; line-height: 18px; letter-spacing: -.54px; background-color: var(--capri-ocean);}
 /* ol.meet-form-step > li::after{ content: ""; width: 100%; height: 4px; background-color: var(--capri-ocean); bottom: 0; left: 0; position: absolute;}  */
 
@@ -47,12 +47,12 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     .meet-location-text{flex: 0 0 calc(100% - 304px); padding-top: 31px;}
     .meet-location-list{gap: 68px;}
     .meet-location-list:nth-child(odd){flex: 0 0 585px; padding-right: 77px;}
-    .meet-location-list:nth-child(even){flex: 1; max-width: 655px; padding-left: 68px; border-left: 1px solid rgba(45, 87, 130, 0.14);}
+    .meet-location-list:nth-child(even){flex: 1; max-width: 655px; min-width: 655px; padding-left: 68px; border-left: 1px solid rgba(45, 87, 130, 0.14);}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .meet-location-list:nth-child(odd), .meet-location-list:nth-child(even){flex: 0 0 48%;}
     .meet-location-list:nth-child(odd){padding-right: 60px;}
-    .meet-location-list:nth-child(even){padding-left: 60px;}
+    .meet-location-list:nth-child(even){padding-left: 60px; min-width: auto;}
     .meet-location-list{gap: 30px;}
     .meet-location-image { flex: 0 0 185px;}
     .meet-location-text{flex: 0 0 calc(100% - 235px);}
