@@ -7,7 +7,8 @@ body .selectBox-dropdown .selectBox-arrow{right: 13px; top: 50%; transform: tran
 body .selectBox-dropdown .selectBox-arrow::after{content: "\f078";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: "\f077";}
 
-body.page-template-meet-with-us .selectBox-dropdown{padding: 16px 34px 14px 14px; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; height: auto; border: none; background-color: var(--white); border-radius: 0; color: var(--midnight); font-family: 'Century Gothic'; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+body.page-template-meet-with-us .selectBox-dropdown{padding: 16px 34px 14px 14px; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; height: auto; border: none; background-color: var(--white); border-radius: 0; color: rgba(16,42,70,.6); font-family: 'Century Gothic'; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+body.page-template-meet-with-us .selectBox-dropdown::placeholder{color: rgba(16,42,70,.6); font-family: 'Century Gothic';}
 body.page-template-meet-with-us .selectBox-dropdown .selectBox-arrow{color: var(--capri-ocean);}
 body.page-template-meet-with-us ul.selectBox-dropdown-menu{margin: 0;}
 body.page-template-meet-with-us ul.selectBox-dropdown-menu::before{display: none;}
