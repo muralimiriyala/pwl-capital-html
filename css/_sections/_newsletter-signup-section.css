@@ -20,6 +20,15 @@
     .newsletter-field.frm_last{margin-right: 0;}
     .newsletter-submit{right: 0; top: 0; max-width: 140px; height: 100%; position: absolute;}
 }
+@media only screen and (max-width: 1024px) and (min-width: 740px){
+    .newsletter-main{display: block; padding: 80px 0;} 
+    .newsletter-text{margin-bottom: 3rem;}
+    .newsletter-watermark{right: -107px; top: -22px;}
+    .newsletter-field{width: calc(50% - 10px); margin: 0 10px 20px; float: left;}
+    .newsletter-field.frm_first{margin-left: 0;}
+    .newsletter-field.frm_last{margin-right: 0;}
+    .newsletter-submit{right: 0; top: 0; max-width: 140px; height: 100%; position: absolute;}
+}
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .newsletter-main{padding: 77px 0 82px; display: block;}
     .newsletter-text{padding-bottom: 12px;}
