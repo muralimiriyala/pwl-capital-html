@@ -320,4 +320,5 @@ ul.slick-dots li button{display: none;}
   .h1, h1{font-size: 43px; line-height: 51px; letter-spacing: -0.43px;}
   .h2, h2{font-size: 36px; line-height: 44px; letter-spacing: -0.36px; margin-bottom: 20px;}
   .h3, h3{font-size: 30px; line-height: 34px;}
+  .play-btn-main .play-btn.sm{width: 36px; height: 36px;}
 }
