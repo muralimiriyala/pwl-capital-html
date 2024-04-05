@@ -28,7 +28,7 @@
 .team-department{min-width: 171px; line-height: normal;}
 .team-dropdown .selectBox-dropdown .selectBox-arrow{right: 0;}
 
-.team-lists{gap: 51px;}
+.team-lists{gap: 51px; padding-bottom: 75px;}
 .team-item{flex: 0 0 calc(25% - 39px);}
 .team-item.ocean-light .team-image{background-color: rgba(8, 148, 211, 0.1);}
 .team-item.pear-light .team-image{background-color: rgba(137, 203, 62, 0.1);}
@@ -40,7 +40,7 @@
 .team-details h3 a:hover{color: var(--green-pear);}
 .team-details > span{font-size: 14px; display: block; line-height: 1.57; letter-spacing: -0.42px; color: rgba(16, 42, 70, 0.6);}
 
-.load-more-btn{margin: 50px auto 100px;}
+.load-more-btn{position: relative; z-index: 2;}
 
 .team-content{padding: 79px 100px 78px 89px; background-color: rgba(137, 203, 62, 0.1);}
 .team-content::before{content: ""; position: absolute; top: 442px; left: 473px; background-image: url("./images/up-arrow.svg"); background-size: cover; background-repeat: no-repeat; width: 33px; height: 23px;}
@@ -67,6 +67,8 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-content{gap: 120px;}
     .team-cont-left{flex: 0 0 330px;}
     .team-cont-right{flex: 0 0 calc(100% - 456px);}
+    .team-item:nth-last-child(-n + 4)::after{height: 155px; width: 100%; top: calc(100% + 23px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
+    .team-lists-main{padding-bottom: 107px;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
