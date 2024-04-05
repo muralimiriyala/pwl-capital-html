@@ -13,3 +13,9 @@
     .learn-grid-list:nth-last-child(-n+3)::after { height: 155px; width: 100%; top: calc(100% + 76px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light), #fff); position: absolute; z-index: -1; }
     .learn-grid-content p{max-width: 300px; margin-bottom: 9px;}   
 }
+@media only screen and (max-width: 739px) and (min-width: 200px){
+    .learn-grid-wrap{padding: 90px 0;}
+    .learn-grid-main{display: block;}
+    .learn-grid-list:not(:last-child){margin-bottom: 66px;}
+    .learn-grid-content p{margin-bottom: 9px;}
+}
