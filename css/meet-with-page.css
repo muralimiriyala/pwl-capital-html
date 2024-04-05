@@ -42,12 +42,12 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     .meet-with-main{padding: 232px 0 148px; gap: 170px;}
     .meet-with-title{flex: 0 0 422px;}
     .meet-with-form{flex: 0 0 calc(100% - 592px);}
-    .meet-location-main{padding: 130px 0 139px;}
+    .meet-location-main{padding: 130px 0 139px; gap: 80px 0;}
     .meet-location-image{flex: 0 0 216px; margin-left: 20px;}
     .meet-location-text{flex: 0 0 calc(100% - 304px); padding-top: 31px;}
     .meet-location-list{gap: 68px;}
     .meet-location-list:nth-child(odd){flex: 0 0 585px; padding-right: 77px;}
-    .meet-location-list:nth-child(even){flex: 1; max-width: 655px; min-width: 655px; padding-left: 68px; border-left: 1px solid rgba(45, 87, 130, 0.14);}
+    .meet-location-list:nth-child(even){flex: 1; max-width: 655px; min-width: 635px; padding-left: 68px; border-left: 1px solid rgba(45, 87, 130, 0.14);}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .meet-location-list:nth-child(odd), .meet-location-list:nth-child(even){flex: 0 0 48%;}
