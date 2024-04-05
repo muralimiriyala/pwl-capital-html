@@ -20,6 +20,7 @@ body .gated-post-form .frm_forms .frm_form_fields .frm_form_field .frm_primary_l
 body .gated-post-form .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{background-color: var(--white);}
 body .gated-post-form .frm_forms .frm_form_fields .frm_submit{margin-top: 32px;}
 body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; margin: 0;}
+body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field #field_s9ekf_label{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 16px; line-height:  0.94; font-weight: bold; font-family: 'Century Gothic'; color: var(--white); text-transform: none; padding: 0 0 9px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
@@ -34,9 +35,9 @@ body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholde
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
 body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic'; opacity: 1;}
 .vertical_radio .frm_opt_container{margin-top: 0;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 6px;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding-left: 41px; cursor: pointer; display: block; font-size: 1rem; line-height: 2rem; letter-spacing: normal; text-indent: 0; color: #5e6783; position: relative;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 28px; height: 28px; left: 0; padding: 0; cursor: pointer; position: absolute; margin: 2px 0 0; border: none;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 0;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding: 9px 13px 12px 35px; cursor: pointer; display: block; font-size: 1rem; line-height: 1.13; letter-spacing: normal; text-indent: 0; color: var(--white); position: relative; font-family: 'Century Gothic';}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 20px; height: 20px; left: 0; padding: 0; cursor: pointer; position: absolute; margin:0; border: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 9px 13px 12px 35px; margin: 0; text-indent: 0; border-radius: 8px; background-color: var(--gray-lt); font-size: 16px; line-height: 1.13; font-weight: normal; display: block; cursor: pointer; color: var(--white); font-family: 'Century Gothic'; letter-spacing: normal;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: var(--accent-light);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{display: block;}
@@ -47,14 +48,14 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox in
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{border: solid 1px rgba(94, 103, 131, 0.25); border-radius: 50%;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 3px 0 0 3px; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: auto; left: auto; transform: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: 50%; position: relative; transform: translate(-50% , -50%); left: 50%;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked{background-color: var(--accent);}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked{background-color: var(--capri-ocean);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 4px 0 0 3px; box-shadow: inset 8px 8px var(--white); top: auto; left: auto; transform: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--capri-ocean); border-color: var(--capri-ocean); box-shadow: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before{box-shadow: inset 10px 10px var(--white);}
-body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1;}
+body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1; justify-content: space-between; width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{display: none;}
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: fit-content;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background: url("./images/calendar-icon.svg") no-repeat 95% 19px; background-size: 14px 14px;}
 body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--aecon-red); position: absolute;}
 body .with_frm_style .frm_message, .frm_success_style{color: var(--foreground); padding: 0; font-size: 1rem; line-height: 1.5; text-align: left; border: none; background: none; text-align: left; font-weight: 700;} 
@@ -90,6 +91,7 @@ body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field label small{font-
 body .frm_forms .frm_form_fields .frm_submit button span{font-size: 1rem;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field  div.frm_primary_label{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: transparent;}
+body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wrapper #frm_field_13_container{margin-left: 0;}
 
 
 /*-- media css starts here --*/
@@ -97,7 +99,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertica
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
-    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
+    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 0 0 100%;}
 
     body .frm_forms .frm_form_fields .frm_form_field.frm5{width: calc(20% - 16px); margin-left: 10px; margin-right: 10px; float: left; clear: none;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_first.frm5{margin-left: 0;}
