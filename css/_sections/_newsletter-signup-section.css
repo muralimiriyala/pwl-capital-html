@@ -3,6 +3,7 @@
 
 .newsletter-section{background-color: var(--french-navy); box-shadow: 0 20px 0 var(--green-pear);}
 .newsletter-field-wrap{clear: both;}
+.newsletter-form input{color: rgba(16, 42, 70, 0.60);}
 .newsletter-submit button{width: 100%; height: 100%; background-color: var(--green-pear);}
 .newsletter-submit button:hover{background-color: var(--capri-ocean);}
 .newsletter-disclaimer{padding: 19px 0 0 28px; color: var(--muted-light);}
