@@ -20,7 +20,7 @@ body.home .site-main-cover, body.page-template-careers .site-main-cover, body.pa
 /* media css starts here */
 @media screen and (min-width: 1300px){
     .site-main-cover{padding-top: 150px;}
-    .header{gap: 12px; min-height: 88px; transition: all 0.4s ease;}
+    .header{gap: 12px; padding: 20px 0; min-height: 88px; transition: all 0.4s ease;}
     .logo{flex: 0 0 294px; position: relative;}
     .logo a img{max-width: 100%;}
     .header-btns{gap: 10px; width: fit-content; order: 3;}
@@ -30,20 +30,32 @@ body.home .site-main-cover, body.page-template-careers .site-main-cover, body.pa
     ul.main-menu{margin: 0;}
     ul.main-menu > li{margin: 0;}
     ul.main-menu > li::before{display: none;}
-    ul.main-menu > li > a{padding: 48px 0; color: var(--midnight); display: block; font-size: 18px; line-height: 20px; letter-spacing: 0.36px; font-weight: 700;}
+    ul.main-menu > li > a{padding: 45px 0; color: var(--midnight); display: block; font-size: 18px; line-height: 20px; letter-spacing: 0.36px; font-weight: 700;}
     ul.main-menu > li.current_page_item > a, ul.main-menu > li > a:hover{color: var(--green-pear);}
 
     ul.main-menu > li > ul{visibility: hidden; opacity: 0; top: 100%; margin: 0; position: absolute; background-color: var(--white); transition: all 0.4s ease-in;}
-    ul.main-menu > li > ul::before{ width: 0; height: 0; top: -4px; left: 20px; border-radius: 0; border: 5px solid transparent; border-top-width: 5px; border-top-style: solid; border-top-color: transparent; border-left-width: 5px; border-left-style: solid; border-left-color: transparent; border-top: 5px solid var(--white); border-left: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; }
     ul.main-menu > li:hover > ul{opacity: 1; visibility: visible;}
-
+    
     ul.main-menu > li:not(.nav-services) > ul{min-width: 280px; padding: 22px 32px; box-shadow: 0 5px 40px 0 rgba(0,17,51,.15); border-radius: 2px;}
+    ul.main-menu > li:not(.nav-services) > ul::before{ width: 0; height: 0; top: -4px; left: 20px; border-radius: 0; border: 5px solid transparent; border-top-width: 5px; border-top-style: solid; border-top-color: transparent; border-left-width: 5px; border-left-style: solid; border-left-color: transparent; border-top: 5px solid var(--white); border-left: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; }
     ul.main-menu > li:not(.nav-services) > ul > li::before{display: none;}
     ul.main-menu > li:not(.nav-services) > ul > li{margin: 0 0 20px;}
     ul.main-menu > li:not(.nav-services) > ul > li:last-child{margin-bottom: 0;}
     ul.main-menu > li:not(.nav-services) > ul > li > a{color: var(--midnight); display: block; font-size: 16px; line-height: 20px; letter-spacing: 0.36px; font-weight: 500;}
     ul.main-menu > li:not(.nav-services) > ul > li > a:hover{color: var(--capri-ocean);}
     
+    /*-- nav-services --*/
+    ul.main-menu > li.nav-services{position: static;}
+    ul.main-menu > li.nav-services > ul{width: 100vw; left: 0; display: flex; flex-wrap: wrap;}
+    ul.main-menu > li.nav-services > ul > li{margin: 0; padding: 0 0 72px 80px; flex: 0 0 calc(33.3333% - 0px);}
+    ul.main-menu > li.nav-services > ul > li::before{display: none;}
+    ul.main-menu > li.nav-services > ul > li > a{display: block; color: var(--muted-dark, rgba(16, 42, 70, 0.60)); font-family: "Brother 1816", sans-serif; font-size: 12px; font-weight: 500; line-height: 21px; letter-spacing: 1.2px; text-transform: uppercase; }
+    
+    /*-- nav-services --*/
+
+
+
+    .sticky-header .header{padding: 0;}
     .sticky-header ul.main-menu > li > a{padding: 41px 0 45px;}
 
     .humburger-btn{display: none;}

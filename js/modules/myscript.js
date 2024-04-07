@@ -1,7 +1,6 @@
 
 jQuery(function($){
     const header = $(".header-main");
-
     $(window).on("scroll load", function(){
         const _scroll = window.scrollY;
         if (_scroll >= 4) {
