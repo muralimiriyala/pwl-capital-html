@@ -61,16 +61,16 @@ figure {margin: 0;}
 fieldset {border: none; margin: 0; padding: 0;}
 legend {white-space: normal;}
 
-table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
-table {border-collapse: separate; border-spacing: 0; border-width: 1px; margin: 0 0 30px; max-width: 100%; width: 100%;}
-table tr td:first-child {text-align: left;}
-th {font-family: "brother-1816", sans-serif; font-weight: 800; border-width: 0; padding: 14px 15px 13px; background-color: var(--accent); color: var(--white); border-radius: 0;}
+table{border: none;}
+th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
+table {border-collapse: separate; border-spacing: 0; border-width: 1px; margin: 60px 0; max-width: 100%; width: 100%;}
+table tr td:first-child,table tr th:first-child {text-align: left;}
+th {font-family: 'Century Gothic'; font-weight: 800; border-width: 0; padding: 16px 22px; background-color: rgba(217, 238, 247, 0.65); color: var(--pacific-blue); border-radius: 0; font-size: 18px; line-height: 1.22;}
 th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
-td {border-width: 0; padding: 13px 15px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1.05rem; line-height: 1.5rem;}
-table tr:nth-child(even) td{background-color: rgba(0,0,0, 0.02);}
-table tr:last-child td{border-bottom: none;}
+td {border-width: 0; padding: 13px 15px 11px; text-align: right; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1.05rem; line-height: 1.5rem; font-family: 'Century Gothic';}
+table tr:nth-child(odd) td{background-color: rgba(217, 238, 247, 0.65);}
 
-caption, th, td {text-align: left;}
+caption, th, td {text-align: right;}
 del {color: var(--black);}
 hr{margin: 0 0 31px; height: 1px; width: 100%; background-color: var(--line-dark); border-radius: 2px; display: block; border: none;}
 hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-gradient(to right,var(--accent) 25%,rgba(255,255,255,0) 0); background-position: bottom; background-size: 8px 2px; background-repeat: repeat-x; border: none; border-radius: 0; background-color: transparent; opacity: 0.5;}

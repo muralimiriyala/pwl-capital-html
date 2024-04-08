@@ -1,0 +1,12 @@
+
+.learn-article > p:first-child{font-size: 20px; line-height: 1.55; font-weight: normal; font-family: 'Century Gothic'; margin-bottom: 54px;}
+.short-subhead-image{margin: 60px 0 80px;}
+.short-subhead-thumb{margin-bottom: 40px;}
+.short-subhead-bg{background-color: var(--green-pear); transform: translate(-20px,20px); opacity: 0.3;}
+.short-subhead-caption{font-size: 14px; line-height: 1.43; color: rgba(16, 42, 70, 0.6); margin-bottom: 20px;}
+
+@media screen and (min-width: 1024px) {
+    .learn-main{gap: 167px; margin-bottom: 112px;}
+    .learn-article{flex: 0 0 894px;}
+    .learn-sidebar{flex: 0 0 calc(100% - 1061px);}
+}

@@ -1,0 +1,7 @@
+.note-section{margin: 70px 0 60px;}
+.note-main{background-color: rgb(217, 238, 247); padding: 53px 63px 56px 43px; gap: 44px; transform: translate(10px, -10px);}
+.note-main-bg{background-color: var(--capri-ocean);}
+.note-icon{flex: 0 0 54px;}
+.note-text{flex: 0 0 calc(100% - 98px);}
+.note-text{font-size: 20px; line-height: 31px; font-weight: 300; letter-spacing: normal;}
+.note-text > p > span{font-weight: bold;}
