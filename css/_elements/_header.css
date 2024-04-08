@@ -15,7 +15,7 @@ body.page-template-learn header.header-main:not(.sticky-header){background-color
 
 
 body.page-template-careers header.header-main:not(.sticky-header){background-color: transparent;}
-body.home .site-main-cover, body.page-template-careers .site-main-cover, body.page-template-meet-with-us .site-main-cover{padding-top: 0;}
+body.home .site-main-cover, body.page-template-careers .site-main-cover, body.page-template-meet-with-us .site-main-cover, body.page-template-learn-default .site-main-cover{padding-top: 0;}
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
@@ -77,8 +77,8 @@ body.home .site-main-cover, body.page-template-careers .site-main-cover, body.pa
     ul.main-menu{gap: 0 46px; order: 2; width: fit-content; justify-content: flex-end; font-family: 'Century Gothic', sans-serif;}
 
 
-    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent{color: #0894d3;}
-    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover{color: var(--white);}
+    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent, body.page-template-learn-default header.black-header:not(.sticky-header) .header-btns .btn-transparent {color: #0894d3;}
+    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover, body.page-template-learn-default header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover{color: var(--white);}
 
     header.black-header:not(.sticky-header) .header-btns .button{color: var(--white);}
     header.black-header:not(.sticky-header) .header-srch svg path{fill: #fff;}

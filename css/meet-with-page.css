@@ -67,6 +67,7 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     .meet-with-title{margin-bottom: 83px;}
     .meet-with-title span.optional-text{margin-bottom: 16px;}
     .meet-with-title h1{margin-bottom: 16px;}
+    .meet-with-form{width: 100%;}
     ol.meet-form-step > li::before{top: 0;}
     ol.meet-form-step > li{font-size: 16px; font-weight: 700; line-height: 1.13; letter-spacing: -.48px; align-items: center; display: flex; padding: 0 0 13px 45px; min-height: 53px;}
 
