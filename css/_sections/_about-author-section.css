@@ -1,0 +1,14 @@
+
+.about-author{margin-bottom: 60px;}
+.about-author-main{gap: 25px; align-items: flex-start;}
+.about-author-text{font-size: 14px; line-height: 1.43;}
+.about-author h5{margin-bottom: 35px;}
+.about-author-text span{font-size: 17px; font-weight: 500; line-height: 1; letter-spacing: -0.17px; display: block; margin-bottom: 13px;}
+.about-author-polygon{background-color: var(--capri-ocean);}
+.about-author-thumb{transform: translate(4px, -4px);}
+
+@media screen and (min-width: 1024px) {
+    .about-author-image{flex: 0 0 48.5px;}
+    .about-author-text{flex: 0 0 calc(100% - 73.5px); margin-top: -8px;}
+    
+}

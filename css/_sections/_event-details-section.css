@@ -1,0 +1,21 @@
+.event-details{background-color: var(--ice-blue-light); padding: 40px; box-shadow: 10px 10px 0 0 var(--ice-blue); margin-bottom: 70px;}
+.event-details span.optional-text{color: rgba(16, 42, 70, 0.6); font-weight: 500; margin-bottom: 7px;}
+.event-details h4{margin-bottom: 10px;}
+.date-time{margin-bottom: 21px;}
+.date-time ul{margin: 0;}
+.date-time ul > li{margin: 0;}
+.date-time ul > li::before{display: none;}
+.date-time ul > li{font-size: 14px; line-height: 20px; letter-spacing: normal;}
+.date-time ul > li > span{font-weight: 600; margin-right: 3px; letter-spacing: normal;}
+.location-details{font-size: 14px; line-height: 20px; letter-spacing: normal; padding-right: 45px; margin-bottom: 20px;}
+.location-details > span {font-weight: 600;}
+.contact-details{margin-bottom: 20px;}
+.contact-details ul{margin: 0;}
+.contact-details ul > li{margin: 0;}
+.contact-details ul > li::before{display: none;}
+.contact-details ul > li{font-size: 14px; line-height: 20px; letter-spacing: normal;}
+.contact-details ul > li a{color: var(--midnight);}
+.contact-details ul > li a:hover{color: var(--capri-ocean);}
+.optional-details{font-size: 14px; line-height: 20px; letter-spacing: normal; margin-bottom: 30px;}
+.optional-details > span{font-weight: 600;}
+.event-details .button{width: 100%;}

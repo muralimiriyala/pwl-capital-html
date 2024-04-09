@@ -8,4 +8,7 @@
 .learn-banner-text span.optional-text{font-size: 17px; line-height: 31px; letter-spacing: normal; font-weight: normal; text-transform: capitalize; font-family: 'Century Gothic';}
 .learn-banner-text h1{margin-bottom: 25px;}
 
-.learn-banner-polygon{content: ""; width: 130px; height: 130px; bottom: -129px; left: 0; clip-path: polygon(0 100%,0 0,100% 0,0% 100%); background-color: var(--french-navy,#013); display: block;}
+@media screen and (min-width: 1024px) {
+    .learn-banner-polygon{content: ""; width: 130px; height: 130px; bottom: -129px; left: 0; clip-path: polygon(0 100%,0 0,100% 0,0% 100%); background-color: var(--french-navy,#013); display: block;}
+}
+

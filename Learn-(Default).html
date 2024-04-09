@@ -65,7 +65,7 @@
 </header>
 <div class="site-main-cover"><!-- site-main-cover starts here -->
     <section class="learn-banner-section relative">
-        <div class="learn-banner-polygon absolute"></div>
+        <div class="learn-banner-polygon absolute hide-mobile hide-tablet"></div>
         <div class="container">
             <div class="learn-banner-main">
                 <div class="learn-banner-left">
@@ -192,7 +192,7 @@
                                 <h4>Optional Download CTA</h4>
                             </div>
                             <div class="optional-cta-btn">
-                                <a href="#" class="button white-text btn-transparent">Learn More</a>
+                                <a href="#" class="button white-text btn-white btn-transparent">Learn More</a>
                             </div>
                         </div>
                     </section>
@@ -318,9 +318,10 @@
                     <div class="about-author">
                         <h5>About the Author</h5>
                         <div class="about-author-main flex">
-                            <div class="about-author-image">
-                                <figure class="object-fit">
-                                    <img src="images/mark" alt="">
+                            <div class="about-author-image relative">
+                                <div class="about-author-polygon background-bg absolute"></div>
+                                <figure class="object-fit about-author-thumb">
+                                    <img src="images/mark-johnson@2x.jpg" alt="mark-johnson">
                                 </figure>
                             </div>
                             <div class="about-author-text">
@@ -334,9 +335,10 @@
                         <h5>Meet the Authors</h5>
                         <div class="authors-lists-main flex">
                             <div class="authors-lists-item flex">
-                                <div class="authors-lists-image">
-                                    <figure class="object-fit">
-                                        <img src="" alt="">
+                                <div class="authors-lists-image relative">
+                                    <div class="authors-lists-polygon background-bg absolute"></div>
+                                    <figure class="object-fit authors-lists-thumb">
+                                        <img src="images/monica-roberts@2x.jpg" alt="monica-roberts">
                                     </figure>
                                 </div>
                                 <div class="authors-lists-name">
@@ -344,88 +346,162 @@
                                 </div>
                             </div>
                             <div class="authors-lists-item flex">
-                                <div class="authors-lists-image">
-                                    <figure class="object-fit">
-                                        <img src="" alt="">
+                                <div class="authors-lists-image relative">
+                                    <div class="authors-lists-polygon background-bg absolute"></div>
+                                    <figure class="object-fit authors-lists-thumb">
+                                        <img src="images/mark-johnson@2x.jpg" alt="mark-johnson">
                                     </figure>
                                 </div>
                                 <div class="authors-lists-name">
-                                    <h6><a href="#">Monica Roberts</a></h6>
+                                    <h6><a href="#">Robert Smith</a></h6>
                                 </div>
                             </div>
                             <div class="authors-lists-item flex">
-                                <div class="authors-lists-image">
-                                    <figure class="object-fit">
-                                        <img src="" alt="">
+                                <div class="authors-lists-image relative">
+                                    <div class="authors-lists-polygon background-bg absolute"></div>
+                                    <figure class="object-fit authors-lists-thumb">
+                                        <img src="images/angelina-tables@2x.jpg" alt="angelina-tables">
                                     </figure>
                                 </div>
                                 <div class="authors-lists-name">
-                                    <h6><a href="#">Monica Roberts</a></h6>
+                                    <h6><a href="#">Angelina Tables</a></h6>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="download-module relative">
-                            <span class="optional-text">Download Heading</span>
-                            <h4>Download Module</h4>
-                            <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc.</p>
-                            <a href="#" class="button btn-transparent">DownLOAD PDF</a>
+                    <div class="download-module relative">
+                        <span class="optional-text">Download Heading</span>
+                        <h4>Download Module</h4>
+                        <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc.</p>
+                        <a href="#" class="button white-text btn-white btn-transparent">DownLOAD PDF</a>
+                    </div>
+
+                    <div class="short-cta relative">
+                        <span class="optional-text">Optional Heading</span>
+                        <h4>A short CTA headline appears right here.</h4>
+                        <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc.</p>
+                        <a href="#" class="button white-text btn-white btn-transparent">Learn More</a>
+                    </div>
+
+                    <div class="event-details">
+                        <span class="optional-text">Optional Heading</span>
+                        <h4>Event Details</h4>
+                        <div class="date-time">
+                            <ul>
+                                <li><span>Date:</span>Jan 31, 2023 – Feb 9, 2023</li>
+                                <li><span>Time:</span>9am to 5pm</li>
+                            </ul>
                         </div>
-
-                        <div class="short-cta relative">
-                            <span class="optional-text">Optional Heading</span>
-                            <h4>A short CTA headline appears right here.</h4>
-                            <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc.</p>
-                            <a href="#" class="button btn-transparent">Learn More</a>
+                        <div class="location-details flex">
+                            <span>Location:</span>
+                            <p>Venue Name or Title 123 Somestreet, Cityname M5M 5M5</p>
                         </div>
-
-                        <div class="event-details">
-                            <span class="optional-text">Optional Heading</span>
-                            <h4>Event Details</h4>
-                            <div class="date-time">
-                                <ul>
-                                    <li><span>Date:</span>Jan 31, 2023 – Feb 9, 2023</li>
-                                    <li><span>Time:</span>9am to 5pm</li>
-                                </ul>
-                            </div>
-                            <div class="location-details flex">
-                                <span>Location:</span>
-                                <p>Venue Name or Title 123 Somestreet, Cityname M5M 5M5</p>
-                            </div>
-                            <div class="contact-details">
-                                <ul>
-                                    <li><a href="#">555-555-55555</a></li>
-                                    <li><a href="#">www.venuename.com</a></li>
-                                </ul>
-                            </div>
-                            <div class="optional-details">
-                                <span>Optional Text:</span>
-                                <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. </p>
-                            </div>
-                            <a href="#" class="button btn-transparent">Learn More</a>
+                        <div class="contact-details">
+                            <ul>
+                                <li><a href="#">555-555-55555</a></li>
+                                <li><a href="#">www.venuename.com</a></li>
+                            </ul>
                         </div>
+                        <div class="optional-details">
+                            <span>Optional Text:</span>
+                            <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. </p>
+                        </div>
+                        <a href="#" class="button btn-transparent">Learn More</a>
+                    </div>
 
-                        <div class="popular-insights">
-                            <h5>Popular Insights</h5>
-                            <div class="popular-insights-main">
-                                <div class="popular-insights-list flex">
-                                    <div class="popular-insights-image">
-                                        <figure>
-                                            <img src="" alt="">
-                                        </figure>
+                    <div class="popular-insights">
+                        <h5>Popular Insights</h5>
+                        <div class="popular-insights-main">
+                            <div class="popular-insights-list flex">
+                                <div class="popular-insights-image relative">
+                                    <figure class="object-fit">
+                                        <img src="images/popular-insight1@2x.jpg" alt="popular-insight">
+                                    </figure>
+                                    <div class="play-btn-main flex flex-center ">
+                                        <div class="play-btn relative">
+                                            <a href="https://www.youtube.com/watch?v=NI3I3eem714" class="popup-youtube play-btn-bg flex flex-center">
+                                                <span class="btn-circle"></span>
+                                                <span></span>
+                                                <span></span>
+                                                video
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="popular-insights-cont">
-                                        <p>Prof. Scott Cederburg: Challenging the Status Quo on Lifecycle</p>
-                                    </div>
+                                </div>
+                                <div class="popular-insights-cont">
+                                    <p><a href="#">Prof. Scott Cederburg: Challenging the Status Quo on Lifecycle</a></p>
+                                </div>
+                            </div>
+                            <div class="popular-insights-list flex">
+                                <div class="popular-insights-image">
+                                    <figure class="object-fit">
+                                        <img src="images/popular-insight2@2x.jpg" alt="popular-insight">
+                                    </figure>
+                                </div>
+                                <div class="popular-insights-cont">
+                                    <p><a href="#">Prof. Scott Cederburg: Challenging the Status Quo on Lifecycle</a></p>
+                                </div>
+                            </div>
+                            <div class="popular-insights-list flex">
+                                <div class="popular-insights-image">
+                                    <figure class="object-fit">
+                                        <img src="images/popular-insight3@2x.jpg" alt="popular-insight">
+                                    </figure>
+                                </div>
+                                <div class="popular-insights-cont">
+                                    <p><a href="#">Prof. Scott Cederburg: Challenging the Status Quo on Lifecycle</a></p>
                                 </div>
                             </div>
                         </div>
-
+                        <a href="#" class="text-link btn-aquamarine">More Insights</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+<section class="newsletter-section inverted relative">
+    <div class="container">
+        <div class="newsletter-main flex flex-vcenter">
+            <div class="newsletter-text relative">
+                <span class="optional-text light">Newsletter Signup</span>
+                <h2 class="h3">A short but persuasive headline aimed at driving signup conversions.</h2>
+                <div class="newsletter-watermark absolute">
+                    <svg width="226" height="276" viewBox="0 0 226 276" fill="none">
+                        <path d="M216 10H10V190H154.5L216 251.5V10Z" stroke="white" stroke-opacity="0.07" stroke-width="20"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="newsletter-signup">
+                <form action="" class="newsletter-form">
+                    <div class="newsletter-field frm_first">
+                        <input type="text" name="" id="" placeholder="First Name">
+                    </div>
+                    <div class="newsletter-field frm_last">
+                        <input type="text" name="" id="" placeholder="Last Name">
+                    </div>
+                    <div class="newsletter-field-wrap relative">
+                        <div class="newsletter-field-email">
+                            <input type="text" name="" id="" placeholder="Your E-mail Address">
+                        </div>
+                        <div class="newsletter-submit">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="newsletter-disclaimer f-300 fs-14 relative">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M9 0C4.02571 0 0 4.02525 0 9C0 13.9742 4.02525 18 9 18C13.9743 18 18 13.9747 18 9C18 4.02578 13.9747 0 9 0ZM9 16.7442C4.72985 16.7442 1.25582 13.2702 1.25582 9C1.25582 4.72982 4.72985 1.25582 9 1.25582C13.2701 1.25582 16.7442 4.72982 16.7442 9C16.7442 13.2702 13.2701 16.7442 9 16.7442Z" fill="#D9EEF7" fill-opacity="0.6"/>
+                        <path d="M9.00009 7.50171C8.46698 7.50171 8.08789 7.72685 8.08789 8.05855V12.5721C8.08789 12.8565 8.46698 13.1407 9.00009 13.1407C9.5095 13.1407 9.9241 12.8565 9.9241 12.5721V8.05848C9.9241 7.72681 9.5095 7.50171 9.00009 7.50171Z" fill="#D9EEF7" fill-opacity="0.6"/>
+                        <path d="M9.0007 4.7179C8.45574 4.7179 8.0293 5.10883 8.0293 5.55901C8.0293 6.00922 8.45578 6.41201 9.0007 6.41201C9.53381 6.41201 9.96032 6.00922 9.96032 5.55901C9.96032 5.10883 9.53377 4.7179 9.0007 4.7179Z" fill="#D9EEF7" fill-opacity="0.6"/>
+                    </svg>
+                    <p>A short disclaimer can appear here if neessary at netus elit convallis nibh donec in feugiat.</p>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter-polygon absolute"></div>
+    </div>
+</section>
 <footer class="footer-main relative">
     <div class="container">
         <div class="footer relative">

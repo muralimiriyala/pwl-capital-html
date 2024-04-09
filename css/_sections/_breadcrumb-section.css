@@ -6,3 +6,8 @@ ul.breadcrumb-list > li:first-child::before{display: none;}
 .breadcrumb-list > li{margin-bottom: 0;}
 .breadcrumb-list > li > a{font-size: 14px; line-height: 1.43; font-family: 'Century Gothic'; color: rgba(16, 42, 70, 0.6); font-weight: normal;}
 .breadcrumb-list > li > a.active{color: var(--midnight);}
+
+
+@media screen and (max-width: 1499px) and (min-width: 1024px) {
+    .breadcrumb{padding: 45px 0 45px 60px;}
+}

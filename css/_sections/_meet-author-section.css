@@ -1,0 +1,15 @@
+
+.authors-lists{margin-bottom: 60px;}
+.authors-lists h5{margin-bottom: 27px;}
+.authors-lists-item{padding-bottom: 9px; border-bottom: 1px solid rgba(45, 87, 130, 0.14); margin-bottom: 14px;}
+.authors-lists-item:last-child{padding-bottom: 0; border-bottom: none; margin-bottom: 0;}
+.authors-lists-polygon{background-color: var(--capri-ocean);}
+.authors-lists-thumb{transform: translate(4px, -4px);}
+.authors-lists-name h6{font-size: 17px; line-height: 1.76; letter-spacing: -0.17px; font-weight: 500; margin-bottom: 0;}
+.authors-lists-name h6 a{color: var(--midnight);}
+.authors-lists-name h6 a:hover{color: var(--capri-ocean);}
+
+@media screen and (min-width: 1024px) {
+    .authors-lists-item{gap: 25px;}
+    .authors-lists-image{width: 48.5px;}
+}
