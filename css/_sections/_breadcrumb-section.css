@@ -11,3 +11,6 @@ ul.breadcrumb-list > li:first-child::before{display: none;}
 @media screen and (max-width: 1499px) and (min-width: 1024px) {
     .breadcrumb{padding: 45px 0 45px 60px;}
 }
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .breadcrumb{padding: 32px 0;}
+}

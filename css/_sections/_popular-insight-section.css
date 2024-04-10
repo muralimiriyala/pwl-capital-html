@@ -1,15 +1,10 @@
 .popular-insights h5{margin-bottom: 24px; font-weight: 500;}
 .popular-insights-main{margin-bottom: 20px;}
-.popular-insights-list{align-items: flex-start; padding-bottom: 19px; margin-bottom: 20px; border-bottom: 1px solid rgba(45, 87, 130, 0.14); }
+.popular-insights-list{gap: 18px; align-items: flex-start; padding-bottom: 19px; margin-bottom: 20px; border-bottom: 1px solid rgba(45, 87, 130, 0.14); }
 .popular-insights-list:last-child{padding-bottom: 0; margin-bottom: 0; border-bottom: none; }
-.popular-insights-cont{font-size: 15px; line-height: 1.4; letter-spacing: -0.3px; padding-top: 4px;}
+.popular-insights-cont{flex: 0 0 calc(100% - 111px); font-size: 15px; line-height: 1.4; letter-spacing: -0.3px; padding-top: 4px;}
 .popular-insights-cont a{color: var(--midnight);}
 .popular-insights-cont a:hover{color: var(--capri-ocean);}
+.popular-insights-image{flex: 0 0 93px;}
 .popular-insights-image .play-btn-main .play-btn{width: 40px; height: 40px;}
 .popular-insights-image .play-btn-bg > span.btn-circle::after {margin-left: 1px; font-size: .7rem; line-height: .7rem;}
-
-@media screen and (min-width: 1024px) {
-    .popular-insights-list{gap: 18px;}
-    .popular-insights-image{flex: 0 0 93px;}
-    .popular-insights-cont{flex: 0 0 calc(100% - 111px);}
-}

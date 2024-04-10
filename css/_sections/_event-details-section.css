@@ -19,3 +19,8 @@
 .optional-details{font-size: 14px; line-height: 20px; letter-spacing: normal; margin-bottom: 30px;}
 .optional-details > span{font-weight: 600;}
 .event-details .button{width: 100%;}
+
+
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .event-details{margin-bottom: 50px; width: 97%;}
+}

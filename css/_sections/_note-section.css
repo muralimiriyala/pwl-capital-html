@@ -3,5 +3,12 @@
 .note-main-bg{background-color: var(--capri-ocean);}
 .note-icon{flex: 0 0 54px;}
 .note-text{flex: 0 0 calc(100% - 98px);}
-.note-text{font-size: 20px; line-height: 31px; font-weight: 300; letter-spacing: normal;}
+.note-text{font-size: 20px; line-height: 31px; font-weight: 300; letter-spacing: normal; font-family: 'Century Gothic';}
 .note-text > p > span{font-weight: bold;}
+
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .note-section{width: 97%; margin: 50px 0 40px;}
+    .note-icon{flex: 0 0 100%;}
+    .note-text{flex: 0 0 100%;}
+    .note-main{padding: 30px 30px 32px; gap: 30px;}
+}

@@ -4,6 +4,7 @@
 .short-subhead-thumb{margin-bottom: 40px;}
 .short-subhead-bg{background-color: var(--green-pear); transform: translate(-20px,20px); opacity: 0.3;}
 .short-subhead-caption{font-size: 14px; line-height: 1.43; color: rgba(16, 42, 70, 0.6); margin-bottom: 20px;}
+.learn-article .accordion-content{font-size: 15px; line-height: 25px; opacity: 0.75; letter-spacing: normal;}
 
 
 @media screen and (min-width: 1024px) {
@@ -13,7 +14,15 @@
 }
 
 @media screen and (max-width: 1399px) and (min-width: 1024px) {
-    .learn-main{gap: 80px;}
+    .learn-main{gap: 80px; margin-bottom: 80px;}
     .learn-article{flex: 0 0 550px;}
     .learn-sidebar{flex: 0 0 calc(100% - 640px);}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 740px) {
+    .learn-main{margin-bottom: 80px;}
+}
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .learn-main{margin-bottom: 80px;}
+    .short-subhead-image{margin: 40px 0;}
 }

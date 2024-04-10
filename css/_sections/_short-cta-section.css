@@ -3,3 +3,7 @@
 .short-cta span.optional-text{color: rgba(217, 238, 247, 0.6); font-weight: 500; margin-bottom: 7px;}
 .short-cta h4{color: var(--white); font-weight: 500; margin-bottom: 9px;}
 .short-cta .button{width: 100%;}
+
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .short-cta{margin-bottom: 50px; margin-left: 10px;}
+}
