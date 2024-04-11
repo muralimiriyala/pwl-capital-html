@@ -171,4 +171,33 @@ jQuery(document).ready(function($){
         ]
       });
 
+      function interestedSlider() {
+        if (_windowWidth <= 1023) {
+        $('.interested-lists').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: false,
+          speed: 1500,
+          infinite: false,
+          autoplay: false,
+          variableWidth: true,
+          focusOnSelect: true,
+          responsive: [
+            {
+              breakpoint: 1023,
+              settings: {
+                dots: true
+              }
+            },
+          ]
+        });
+      } else {
+        if ($('.interested-lists').hasClass('slick-initialized')) {
+          $('.interested-lists').slick('unslick');
+        }
+      }
+      }
+      interestedSlider();
+
 });
