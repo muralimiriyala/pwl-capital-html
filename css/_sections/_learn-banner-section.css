@@ -13,7 +13,8 @@
 }
 
 @media screen and (max-width: 739px) and (min-width: 200px){
-    .learn-banner-left{max-width: 100%; padding: 150px 0 0;}
+    .learn-banner-section .container{padding: 0;}
+    .learn-banner-left{max-width: 100%; padding: 150px 20px 0;}
     .learn-banner-text{padding-bottom: 0;}
     .learn-banner-image{max-width: 100%; position: relative;}
     .learn-banner-image::before{background: linear-gradient(0deg,rgba(11,0,65,0) 45.5%,#013 100.5%);}

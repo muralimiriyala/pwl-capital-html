@@ -5,6 +5,9 @@
 .learn-grid-text p a{color: var(--midnight);}
 .learn-grid-text p a:hover{color: var(--aquamarine);}
 .learn-more-btn{position: relative; z-index: 2;}
+.learn-grid-list:not(:nth-child(10n+4)) .learn-grid-image img{min-height: 206px; max-height: 206px; overflow: hidden;}
+.learn-grid-list:nth-child(10n+4) .learn-grid-text p a{color: var(--white);}
+.learn-grid-list:nth-child(10n+4) .learn-grid-text p a:hover{color: var(--aquamarine);}
 
 
 @media screen and (min-width: 1024px) {

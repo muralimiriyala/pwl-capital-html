@@ -22,11 +22,13 @@
     .interested-btn{top: 8px; right: 0;} 
 }
 
-@media screen and (max-width: 739px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
     .interested-main{margin: 113px 0 81px;}
     .interested-item{width: 309px; margin-left: 30px;}
     .interested-item:first-child{margin-left: 0;}
     .interested-lists .slick-list{overflow: visible;}
-    .interested-lists ul.slick-dots{margin: 40px 0 30px;}
+    .interested-lists ul.slick-dots{margin: 45px 0 20px;}
+    .interested-lists ul.slick-dots li::before{background-color: var(--aquamarine);}
     .interested-title{margin-bottom: 30px;}
+    .interested-btn{position: relative; text-align: center;}
 }

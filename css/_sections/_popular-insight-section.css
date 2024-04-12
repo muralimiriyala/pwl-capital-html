@@ -7,4 +7,5 @@
 .popular-insights-cont a:hover{color: var(--capri-ocean);}
 .popular-insights-image{flex: 0 0 93px;}
 .popular-insights-image .play-btn-main .play-btn{width: 40px; height: 40px;}
+.popular-insights-image .play-btn-bg > span.btn-circle{background-color: var(--green-pear)}
 .popular-insights-image .play-btn-bg > span.btn-circle::after {margin-left: 1px; font-size: .7rem; line-height: .7rem;}

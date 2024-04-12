@@ -5,6 +5,7 @@
 .short-subhead-bg{background-color: var(--green-pear); transform: translate(-20px,20px); opacity: 0.3;}
 .short-subhead-caption{font-size: 14px; line-height: 1.43; color: rgba(16, 42, 70, 0.6); margin-bottom: 20px;}
 .learn-article .accordion-content{font-size: 15px; line-height: 25px; opacity: 0.75; letter-spacing: normal;}
+.color-red{color: #ff0000;}
 
 
 @media screen and (min-width: 1024px) {

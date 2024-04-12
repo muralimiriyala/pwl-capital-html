@@ -163,9 +163,11 @@ jQuery(document).ready(function($){
         focusOnSelect: true,
         responsive: [
           {
-            breakpoint: 1023,
+            breakpoint: 1299,
             settings: {
-              dots: true
+              dots: true,
+              slidesToShow: 1,
+              slidesToScroll: 2,
             }
           },
         ]
