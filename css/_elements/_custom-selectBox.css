@@ -24,7 +24,8 @@ ul.selectBox-dropdown-menu li a{padding: 8px 16px; width: 100%; color: var(--fre
 ul.selectBox-dropdown-menu li:hover a{color: var(--aquamarine); background-color: transparent;}
 ul.selectBox-dropdown-menu li:hover{background-color: transparent; }
 body.page-template-learn ul.selectBox-dropdown-menu{box-shadow: 0 5px 40px 0 rgba(0, 17, 51, 0.15);}
-
+body.page-template-team ul.selectBox-dropdown-menu{min-width: 187px;}
+body.page-template-team ul.selectBox-dropdown-menu li:hover a{color: var(--green-pear); background-color: transparent;}
 
 /* media css starts here */
 @media only screen and (max-width: 767px) and (min-width: 200px){
