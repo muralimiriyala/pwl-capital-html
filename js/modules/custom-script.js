@@ -70,5 +70,6 @@ jQuery(function($){
             $(".flyout-overlay").removeClass("open");
         }
      });
+
 });
 
