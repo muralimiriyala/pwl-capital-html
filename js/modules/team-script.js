@@ -6,8 +6,8 @@ jQuery(document).ready(function($){
         _self.addClass("active");
         _self.siblings().removeClass("active");
         const exploreName = _self.data("name");
-        alert("heelo");
-        console.log(exploreName);
-        $(".team-content[data-value="+ exploreName +"]").fadeIn(100);
+        $(".team-content-main").fadeOut(100);
+        $(".team-content-main[data-value="+ exploreName +"]").fadeIn(600);
     });
+
 });
