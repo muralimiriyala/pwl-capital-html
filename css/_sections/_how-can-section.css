@@ -23,6 +23,13 @@ ul.how-can-links li a:hover{ color: var(--capri-ocean, #0894D3); }
     .how-can-desc{flex: 1;}
 }
 
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .how-can-main{gap: 46px;}
+    .how-can-right{justify-content: center;}
+    .how-can-desc{padding: 30px 0;}
+    
+}
+
 
 
 

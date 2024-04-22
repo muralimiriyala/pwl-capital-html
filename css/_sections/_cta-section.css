@@ -5,6 +5,7 @@
 .cta-bg{width: 100%; height: calc(100%); top: 50%; transform: translateY(-50%); left: 0; position: absolute; z-index: -1;}
 .cta-blue{background-color: var(--capri-ocean, #0894D3);}
 .cta-green{background-color: var(--aquamarine, #10B596);}
+.cta-navy{background-color: var(--french-navy);}
 .cta-stats{padding-bottom: 14px; margin-bottom: 13px; border-bottom: 1px solid var(--muted-light); color: var(--muted-light, rgba(217, 238, 247, 0.60)); font-family: "Century Gothic", sans-serif; font-size: 16px; font-weight: 400; line-height: 20px; letter-spacing: -0.32px;text-align: right;}
 .cta-stats:last-child{border-bottom: none; padding-bottom: 0; margin-bottom: 0;}
 .cta-stat-num{color: var(--white, #FFF); font-family: "Century Gothic", sans-serif; font-size: 42px; font-weight: 400; line-height: 38px; letter-spacing: 0.84px;}

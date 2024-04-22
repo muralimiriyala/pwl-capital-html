@@ -27,6 +27,7 @@
     .financial-item:hover:nth-child(6) .financial-content .text-link{border-color: var(--white);}
     .financial-item:hover:nth-child(6) .financial-content .optional-text{color: var(--white);}
     .financial-item:hover .financial-content{color: var(--white);}
+    .financial-item:hover .financial-content h3{color: var(--white);}
     .financial-item:hover .financial-content .text-link{color: var(--white);}
     .financial-item:hover .financial-content .text-link::after{color: var(--white);}
     .financial-item:hover .financial-image{opacity: 1; visibility: visible; } 
@@ -43,6 +44,7 @@
     .financial-item:hover:nth-child(6) .financial-content .text-link{border-color: var(--white);}
     .financial-item:hover:nth-child(6) .financial-content .optional-text{color: var(--white);}
     .financial-item:hover .financial-content{color: var(--white);}
+    .financial-item:hover .financial-content h3{color: var(--white);}
     .financial-item:hover .financial-content .text-link{color: var(--white);}
     .financial-item:hover .financial-content .text-link::after{color: var(--white);}
     .financial-item:hover .financial-image{opacity: 1; visibility: visible; }
