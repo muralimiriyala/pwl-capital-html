@@ -107,6 +107,10 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .text-link.btn-aquamarine::after{background-image: url('./images/arrow-right-aquamarine.svg');}
 .text-link.btn-aquamarine:hover{color: var(--aquamarine, #10B596);}
 
+.text-link.btn-white{color: var(--white);}
+.text-link.btn-white::after{background-image: url('./images/arrow-right-white.svg');}
+.text-link.btn-white:hover{color: var(--white);}
+
 .text-link.btn-green{color: var(--green-pear);}
 .text-link.btn-green::after{background-image: url('./images/arrow-right-green.svg');}
 .text-link.btn-green:hover{color: var(--green-pear);}

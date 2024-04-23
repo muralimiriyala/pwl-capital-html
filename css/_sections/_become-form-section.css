@@ -1,0 +1,13 @@
+
+
+@media screen and (min-width: 1024px) {
+    .become-form-heading{gap: 52px; padding-top: 109px; margin-bottom: 44px;}
+    .become-form-title{flex: 0 0 656px;}
+    .become-form-desc{flex: 0 0 calc(100% - 708px);}
+    .become-form{padding-bottom: 120px;}
+}
+
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .become-form-title{flex: 0 0 500px;}
+    .become-form-desc{flex: 0 0 calc(100% - 552px);}
+}

@@ -31,4 +31,12 @@
 }
 
 
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .cta-reverse .cta-text{padding-right: 350px;}
+    .cta-text{gap: 50px;}
+    .cta-reverse .cta-desc{padding-right: 48px;}
+    .cta-desc{flex: .8;}
+    .cta-image{max-width: 350px;}
+}
+
 

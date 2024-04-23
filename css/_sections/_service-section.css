@@ -9,3 +9,9 @@
     .service-text{flex: 0 0 540px; padding-right: 115px;}
     .service-accordion{flex: 0 0 calc(100% - 708px);}
 }
+
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .service-main{gap: 100px;}
+    .service-text{flex: 0 0 400px; padding-right: 0;}
+    .service-accordion{flex: 0 0 calc(100% - 500px);}
+}

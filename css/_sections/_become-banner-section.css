@@ -22,3 +22,11 @@
     .become-banner-stats-col{flex: 0 0 calc(100% - 606px);}
 
 }
+
+@media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .become-banner-main{gap: 40px;}
+    .become-banner-text{flex: 0 0 400px;}
+    .become-banner-rt{flex: 0 0 calc(100% - 440px); gap: 30px;}
+    .become-banner-image{max-width: 350px;}
+    .become-banner-stats-col{flex: 0 0 calc(100% - 380px);}
+}
