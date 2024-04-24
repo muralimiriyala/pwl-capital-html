@@ -15,3 +15,12 @@
     .service-text{flex: 0 0 400px; padding-right: 0;}
     .service-accordion{flex: 0 0 calc(100% - 500px);}
 }
+
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+    .service-accordion{width: 100%;}
+    .service-main{padding: 100px 0 64px;}
+    .service-text{margin-bottom: 60px;}
+    .service-icon{margin-bottom: 14px;}
+    .service-text span.optional-text{margin-bottom: 19px;}
+    .service-watermark svg:first-child{top: -30px; right: 28px;}
+}

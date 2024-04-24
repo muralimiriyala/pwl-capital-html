@@ -69,6 +69,7 @@
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .optional-repeater-main{padding: 0 0 120px;}
+    body.page-template-become-a-partner .optional-repeater-main{padding: 0 0 80px;}
     .optional-repeater-row{display: block;}
     .optional-repeater-row:not(:last-child){margin-bottom: 101px;}
     body.page-template-careers  .optional-repeater-main{padding: 0 0 100px;}

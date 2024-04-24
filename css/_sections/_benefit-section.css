@@ -39,11 +39,12 @@
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .benefit-title{margin-bottom: 61px;}
-    .benefit-title h2{ max-width: 307px;}
+    .benefit-title h2{padding-right: 100px;}
     .benefit-lists{display: block; padding: 0 0 78px;}
     .benefit-lists.slick-slider .slick-list{overflow: inherit;}
     .benefit-lists .slick-list::before{content: ""; position: absolute; top: 0; right: -20px; width: 85px; height: 100%; background-image: linear-gradient(to left, var(--white) 5%, transparent 100%); z-index: 1;}
     .benefit-lists.slick-slider ul.slick-dots{gap: 22px; margin-top: 12px;}
+    body.page-template-become-a-partner .benefit-lists.slick-slider ul.slick-dots{gap: 22px; margin-top: 38px;}
     .benefit-lists ul.slick-dots li::before{background-color: var(--pacific-blue);}
     .benefit-item{width: 307px; margin-right: 30px; padding-top: 21px;}
     .benefit-watermark svg{right: 13px; position: absolute; top: -18px;}

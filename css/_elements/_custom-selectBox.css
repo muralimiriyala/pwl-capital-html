@@ -4,6 +4,7 @@ body .selectBox-dropdown{padding: 16px 34px 15px 14px; width: 100%; font-family:
 body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 8px 8px 0 0;}
 body .selectBox-dropdown .selectBox-arrow{right: 13px; top: 50%; transform: translateY(-50%); font-size: 1rem; color: var(--aquamarine); font-weight: normal; font-family: "Font Awesome 6 pro"; position: absolute;}
+body.page-template-become-a-partner .selectBox-dropdown .selectBox-arrow{color: var(--capri-ocean);}
 body .selectBox-dropdown .selectBox-arrow::after{content: "\f078";}
 body.single-career .selectBox-dropdown .selectBox-arrow{color: var(--midnight);}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: "\f077";}

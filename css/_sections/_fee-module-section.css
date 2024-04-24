@@ -24,3 +24,15 @@
     .fee-module-text{flex: 0 0 400px;}
     .fee-module-table{flex: 0 0 calc(100% - 450px);}
 }
+
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+    .fee-module-main{padding: 75px 0 80px;}
+    .fee-module-text{margin-bottom: 90px;}
+    .fee-module-watermark svg:first-child{display: none;}
+    .fee-module-watermark svg:not(first-child){position: absolute; top: 155px; right: 8px; transform: scaleX(-1);}
+    .fee-module-table{width: 100%;}
+    .fee-module-table table tr th:nth-child(n + 2){display: none;}
+    .fee-module-table table td{display: block; padding: 16px 16px 5px;}
+    .fee-module-table table td:first-child{border: none;}
+    .fee-module-table table td:last-child{text-align: left; padding: 5px 16px 16px;}
+}

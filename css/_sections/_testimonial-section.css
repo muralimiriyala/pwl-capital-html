@@ -32,6 +32,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .testimonial-wrap{padding: 80px 0; margin-bottom: 85px;}
+    body.page-template-become-a-partner .testimonial-wrap{margin-bottom: 0;}
     .testimonial-list{width: 309px; margin: 0 30px 77px 0;}
     .testimonial-list:last-child{margin-right: 0;}
     .testimonial-text{padding: 31px 41px 57px 30px; font-size: 17px; line-height: 1.53; border: solid 15px rgba(255, 255, 255, 0.1); border-bottom: none; border-right: none;}

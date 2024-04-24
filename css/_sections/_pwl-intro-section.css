@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .pwl-intro-main{padding: 183px 0 80px;}
+    body.page-template-become-a-partner .pwl-intro-main{padding: 19px 0 80px;}
     .pwl-para-mob{margin-bottom: 30px;}
 }
 
