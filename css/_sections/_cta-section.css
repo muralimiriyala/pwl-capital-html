@@ -1,6 +1,6 @@
 
-
-
+.cta-section.blue-shadow .cta-image-bg{background-color: var(--capri-ocean, #0894D3);}
+.cta-section.blue-shadow .cta-desc::before{ width: 2px; background-color: var(--capri-ocean);}
 
 .cta-bg{width: 100%; height: calc(100%); top: 50%; transform: translateY(-50%); left: 0; position: absolute; z-index: -1;}
 .cta-blue{background-color: var(--capri-ocean, #0894D3);}
@@ -34,7 +34,7 @@ body.page-template-become-a-partner .cta-image-bg, body.page-template-services .
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .cta-reverse .cta-text{padding-right: 350px;}
-    .cta-text{gap: 50px;}
+    .cta-text{gap: 50px; padding-left: 310px;}
     .cta-reverse .cta-desc{padding-right: 48px;}
     .cta-desc{flex: .8;}
     .cta-image{max-width: 350px;}
@@ -49,7 +49,8 @@ body.page-template-become-a-partner .cta-image-bg, body.page-template-services .
     .cta-stats-col{display: flex; width: 100%; gap: 80px;}
     .cta-stats{padding-bottom: 0; margin-bottom: 0; border-bottom: none;}
     .cta-image{position: relative; margin-right: 20px; transform: translate( 0, 20px);}
-    body.page-template-become-a-partner .cta-image-bg{background-color: var(--capri-ocean);}
+    body.page-template-become-a-partner .cta-image-bg, body.page-template-services .cta-section.cta-reverse .cta-image-bg{background-color: var(--capri-ocean);}
+    .cta-section.blue-shadow .cta-image-bg{transform: translate(20px,20px);}
 }
 
 

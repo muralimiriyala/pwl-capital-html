@@ -59,6 +59,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .optional-repeater-main{padding: 0 0 120px;}
+    body.page-template-services .optional-repeater-main{padding: 80px 0 120px;}
     .optional-repeater-row{display: block;}
     .optional-repeater-row:not(:last-child){margin-bottom: 101px;}
     .optional-repeater-image{margin: 0 0 77px 20px;}
@@ -70,6 +71,7 @@
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .optional-repeater-main{padding: 0 0 120px;}
     body.page-template-become-a-partner .optional-repeater-main{padding: 0 0 80px;}
+    body.page-template-services .optional-repeater-main{padding: 32px 0 120px;}
     .optional-repeater-row{display: block;}
     .optional-repeater-row:not(:last-child){margin-bottom: 101px;}
     body.page-template-careers  .optional-repeater-main{padding: 0 0 100px;}

@@ -27,7 +27,7 @@ ul.categorys li::before{display: none;}
     .news-blog-image{flex: 0 0 776px;}
     .news-blog-list{gap: 33px;}
     .news-post-image{flex: 0 0 245px;}
-    .news-blog-thumb img{max-height: 459px; overflow: hidden;}
+    .news-blog-thumb img{height: 100%;} /*max-height: 459px; overflow: hidden;*/
 }
 @media only screen and (max-width: 1439px) and (min-width: 1300px){
     .news-blog-row{gap: 40px;}
