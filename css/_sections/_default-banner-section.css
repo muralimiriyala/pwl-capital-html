@@ -1,0 +1,23 @@
+
+.default-banner-section{background-color: var(--french-navy); box-shadow: -20px 20px 0 0 #d9eef7;}
+.default-banner-text{color: rgba(217, 238, 247, 0.6);}
+.default-banner-text span.optional-text{color: rgba(217, 238, 247, 0.6); font-weight: 500;}
+.default-banner-text h1{color: var(--white);}
+
+.default-banner-watermark{top: 0; right: 0;}
+.default-banner-watermark svg:first-child{position: absolute; top: 155px; right: -45px;}
+.default-banner-watermark svg:not(first-child){position: absolute; top: 269px; right: 176px;}
+
+.default-banner-polygon-main{left: -117px; width: 131px; height: 125.5px; bottom: -125px;}
+.default-banner-polygon-light{width: 131px; height: 137px; left: 0; background-color: var(--french-navy); clip-path: polygon(0 0,100% 0,50% 50%,0% 100%);}
+.default-banner-polygon-dark{width: 20px; height: 155px; background-color: #d9eef7; clip-path: polygon(0 0,100% 0,100% 88%,0% 100%); content: ""; left: -20px;}
+
+@media screen and (min-width: 1024px) {
+    .default-banner-text{padding: 202px 0 115px;}
+}
+
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .default-banner-text{padding: 149px 0 93px;}
+    .default-banner-watermark svg:first-child{position: absolute; top: 95px; right: 16px;}
+    .default-banner-watermark svg:not(first-child){position: absolute; top: 170px; right: 175px;}
+}
