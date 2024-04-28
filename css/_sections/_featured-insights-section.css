@@ -2,7 +2,7 @@
 
 
 
-.featured-insights-section{background: rgba(16, 181, 150, 0.07);}
+.featured-insights-section{background: rgba(16, 181, 150, 0.07); overflow: hidden;}
 .featured-insights-main{padding: 103px 0 134px;}
 .featured-insights-title{padding-bottom: 33px;}
 .featured-insights-row{gap: 50px;}

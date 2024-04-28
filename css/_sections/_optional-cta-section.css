@@ -1,6 +1,9 @@
 
-.optional-cta{background-color: var(--aquamarine);}
-.optional-cta-bg{opacity: 0.2; background-color: var(--aquamarine); transform: translate(10px,10px);}
+.optional-cta-aquamarine{background-color: var(--aquamarine);}
+.optional-cta-green{background-color: var(--green-pear);}
+.optional-cta-aquamarine .optional-cta-bg{background-color: var(--aquamarine);}
+.optional-cta-green .optional-cta-bg{background-color: var(--green-pear);}
+.optional-cta-bg{opacity: 0.2; transform: translate(10px,10px);}
 .optional-cta-main{padding: 24px 27px 25px 34px; justify-content: space-between; align-items: center; margin: 60px 0 70px;}
 .optional-cta-title h4{color: var(--white); margin-bottom: 0; font-weight: 500;}
 

@@ -60,6 +60,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .optional-repeater-main{padding: 0 0 120px;}
     body.page-template-services .optional-repeater-main{padding: 80px 0 120px;}
+    body.page-template-default .optional-repeater-main{padding: 100px 0;}
     .optional-repeater-row{display: block;}
     .optional-repeater-row:not(:last-child){margin-bottom: 101px;}
     .optional-repeater-image{margin: 0 0 77px 20px;}

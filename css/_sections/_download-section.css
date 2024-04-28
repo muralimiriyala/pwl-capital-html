@@ -4,6 +4,15 @@
 .download-content{font-size: 14px; line-height: 1.43; color: rgba(16, 42, 70, 0.6);}
 .download-image-thumb{box-shadow: -10px 10px var(--white);}
 
+.download-btn-main{gap: 10px;}
+.download-btn{padding: 16px 13px 17px 17px; gap: 14px; max-width: 264px; font-size: 12px; font-weight: normal; font-family: 'Century Gothic'; line-height: 1.25; color: var(--white);}
+.download-btn > span{font-size: 15px; font-weight: bold; line-height: 1; flex: 0 0 120px;}
+span.fa-down-to-bracket{font-size: 17px;}
+.download-pdf-rt{gap: 22px; flex: 0 0 calc(100% - 134px);}
+.download-btn.download-capri-ocean{background-color: var(--capri-ocean);}
+.download-btn.download-pacific-blue{background-color: var(--pacific-blue);}
+.download-btn:hover{color: var(--white);}
+
 @media screen and (min-width: 1024px) {
     .download-main{margin: 60px 0;}
     .download-list{gap: 61px; margin-bottom: 20px;}
@@ -18,8 +27,15 @@
     .download-image{flex: 0 0 calc(100% - 380px);}
 }
 
-@media screen and (max-width: 739px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
     .download-main h2{margin-bottom: 60px;}
     .download-list{padding: 0 30px 32px; flex-direction: column-reverse; margin-bottom: 50px;}
     .download-image{max-width: 224px; margin-bottom: 7px; transform: translateY(-30px);}
+    
+}
+
+@media screen and (max-width: 739px) and (min-width: 200px) {
+    .download-btn{max-width: 100%;}
+    .download-btn > span {flex: 1;}
+    .download-pdf-rt {flex: 1; justify-content: end;}
 }

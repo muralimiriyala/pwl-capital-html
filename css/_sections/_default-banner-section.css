@@ -16,7 +16,7 @@
     .default-banner-text{padding: 202px 0 115px;}
 }
 
-@media screen and (max-width: 739px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
     .default-banner-text{padding: 149px 0 93px;}
     .default-banner-watermark svg:first-child{position: absolute; top: 95px; right: 16px;}
     .default-banner-watermark svg:not(first-child){position: absolute; top: 170px; right: 175px;}

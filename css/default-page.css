@@ -22,7 +22,7 @@
     .default-short-sidebar{flex: 0 0 calc(100% - 650px);}
 }
 
-@media screen and (max-width: 739px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
     .default-short-main{flex-direction: column-reverse; padding: 111px 0; gap: 70px;}
     .default-short-content > h2:nth-child(2){font-size: 43px; line-height: 51px; letter-spacing: -0.43px;}
 }
