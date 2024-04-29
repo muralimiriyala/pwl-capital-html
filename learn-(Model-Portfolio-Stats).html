@@ -106,9 +106,10 @@
                 <div class="short-subhead-image">
                     <div class="short-subhead-thumb relative">
                         <div class="short-subhead-bg short-subhead-blue background-bg"></div>
-                        <figure class="object-fit">
-                            <img src="images/short-thumb-two@2x.jpg" alt="short-thumb">
-                        </figure>
+                        <picture class="object-fit">
+                            <source srcset="images/short-thumb-two@2x.jpg" media="(min-width: 740px)">
+                            <img src="images/short-thumb-two-mobile@2x.jpg" alt="short-thumb">
+                        </picture>
                     </div>
                     <div class="short-subhead-caption">
                         <p>Vel tempus at habitasse auctor urna nisi tristique id. Ipsum arcu sociis sollicitudin vel et nunc ullamcorper. Quam vel varius mattis leo consectetur eget quis id.</p>
@@ -266,123 +267,188 @@
         </div>
     </div>
 </section>
+<section class="portfolio-model-section relative">
+    <div class="portfolio-model-polygon absolute"></div>
+    <div class="container">
+        <div class="portfolio-model-main">
+            <div class="portfolio-model-left flex">
+                <div class="portfolio-model-icon">
+                    <figure>
+                        <svg width="62" height="62" viewBox="0 0 54 55" fill="none">
+                            <path d="M20.7533 49.4001L53.9997 49.3883V11.3394H15.1084L15.1282 54.9532L20.7533 49.4001Z" fill="#89CB3E"/>
+                            <path d="M45.2308 16.375H40.1416V36.389H45.2308V16.375Z" fill="white"/>
+                            <path d="M37.053 21.2815H31.9639V36.291H37.053V21.2815Z" fill="white"/>
+                            <path d="M28.8714 26.3604H23.7822V36.3654H28.8714V26.3604Z" fill="white"/>
+                            <path d="M45.2385 39.3516H28.8555V44.3561H45.2385V39.3516Z" fill="white"/>
+                            <path d="M15.1089 11.3392H46.811L45.7392 5.33936L7.43945 12.0055L15.1288 54.9531L15.1089 11.3392Z" fill="#0894D3"/>
+                            <path d="M15.1089 11.3392H46.811L45.7392 5.33936L7.43945 12.0055L15.1288 54.9531L15.1089 11.3392Z" fill="#0894D3"/>
+                            <path d="M7.43924 12.0054L38.657 6.57372L36.5452 0.844238L0 13.9766L15.1286 54.953L7.43924 12.0054Z" fill="#0654A3"/>
+                        </svg>   
+                    </figure>
+                </div>
+                <div class="portfolio-model-text inverted">
+                    <div class="portfolio-model-inner">
+                        <h1>Portfolio Model</h1>
+                        <p>For illustration purposes only. Actual client portfolios may differ. As of October 31, 2023.</p>
+                    </div>
+                    <div class="portfolio-lists flex portfolio-model-slider">
+                        <div class="portfolio-item flex flex-center relative">
+                            <span>40% Stocks</span>
+                            <span>60% Bonds</span>
+                        </div>
+                        <div class="portfolio-item active flex flex-center relative">
+                            <span>50% Stocks</span>
+                            <span>50% Bonds</span>
+                        </div>
+                        <div class="portfolio-item flex flex-center relative">
+                            <span>60% Stocks</span>
+                            <span>40% Bonds</span>
+                        </div>
+                        <div class="portfolio-item flex flex-center relative">
+                            <span>70% Stocks</span>
+                            <span>30% Bonds</span>
+                        </div>
+                        <div class="portfolio-item flex flex-center relative">
+                            <span>80% Stocks</span>
+                            <span>20% Bonds</span>
+                        </div>
+                        <div class="portfolio-item flex flex-center relative">
+                            <span>90% Stocks</span>
+                            <span>10% Bonds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-model-image">
+                <picture class="object-fit">
+                    <source srcset="images/portfolio-model-new@2x.jpg" media="(min-width: 740px)">
+                    <img src="images/portfolio-model-new@2x.jpg" alt="portfolio-model">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="learn-table-section">
     <div class="container">
         <div class="learn-table-main flex">
             <div class="learn-table-lt">
-                <table>
-                    <tr>
-                        <th>Model Portfolio Performance</th>
-                        <th>40% Stocks – 60% Bonds</th>
-                    </tr>
-                    <tr>
-                        <td>YTD Return</td>
-                        <td>3.05%</td>
-                    </tr>
-                    <tr>
-                        <td>1-Year Total Return</td>
-                        <td>5.30%</td>
-                    </tr>
-                    <tr>
-                        <td>3-Year Annualized Return</td>
-                        <td>5.72%</td>
-                    </tr>
-                    <tr>
-                        <td>5-Year Annualized Return</td>
-                        <td>4.86%</td>
-                    </tr>
-                    <tr>
-                        <td>10-Year Annualized Return</td>
-                        <td>5.87%</td>
-                    </tr>
-                    <tr>
-                        <td>Worst Drawdown (05/2007-02/2009)</td>
-                        <td class="color-red">-30.10%</td>
-                    </tr>
-                    <tr>
-                        <td>Drawdown - Time to Recovery (from the bottom)</td>
-                        <td>20 Months</td>
-                    </tr>
-                    <tr>
-                        <td>20-Year Annualized Standard Deviation</td>
-                        <td>8.22%</td>
-                    </tr>
-                </table>
-                <h4>Funds Holdings</h4>
-                <table>
-                    <tr>
-                        <td>
-                            <div class="table-box-main flex">
-                                <div class="table-box table-box-green"></div>DFA Canadian Core Equity
-                            </div>
-                        </td>
-                        <td>23.4%</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="table-box-main flex">
-                                <div class="table-box table-box-blue"></div>BMO Aggregate Bond
-                            </div>
-                        </td>
-                        <td>7.11%</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="table-box-main flex">
-                                <div class="table-box table-box-capri"></div>DFA Global REIT
-                            </div>
-                        </td>
-                        <td>4.26%</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="table-box-main flex">
-                                <div class="table-box table-box-lightblue"></div>DFA Canadian Core Equity
-                            </div>
-                        </td>
-                        <td>8.29%</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="table-box-main flex">
-                                <div class="table-box table-box-lightgreen"></div>iShares S&P/TSX Capped Composite ETF
-                            </div>
-                        </td>
-                        <td>6.04%</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="table-box-main flex">
-                                <div class="table-box table-box-midblue"></div>DFA U.S. Vector Equity
-                            </div>
-                        </td>
-                        <td>8.29%</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="table-box-main flex">
-                                <div class="table-box table-box-lightyellow"></div>Vanguard U.S. Total Market ETF
-                            </div>
-                        </td>
-                        <td>6.04%</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="table-box-main flex">
-                                <div class="table-box table-box-midgreen"></div>DFA International Vector Equity
-                            </div>
-                        </td>
-                        <td>3.12%</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="table-box-main flex">
-                                <div class="table-box table-box-darkblue"></div>iShares Core MSCI EAFE IMI ETF
-                            </div>
-                        </td>
-                        <td>8.40%</td>
-                    </tr>
-                </table>
+                <div class="learn-table">
+                    <table>
+                        <tr>
+                            <th>Model Portfolio Performance</th>
+                            <th>40% Stocks – 60% Bonds</th>
+                        </tr>
+                        <tr>
+                            <td>YTD Return</td>
+                            <td>3.05%</td>
+                        </tr>
+                        <tr>
+                            <td>1-Year Total Return</td>
+                            <td>5.30%</td>
+                        </tr>
+                        <tr>
+                            <td>3-Year Annualized Return</td>
+                            <td>5.72%</td>
+                        </tr>
+                        <tr>
+                            <td>5-Year Annualized Return</td>
+                            <td>4.86%</td>
+                        </tr>
+                        <tr>
+                            <td>10-Year Annualized Return</td>
+                            <td>5.87%</td>
+                        </tr>
+                        <tr>
+                            <td>Worst Drawdown (05/2007-02/2009)</td>
+                            <td class="color-red">-30.10%</td>
+                        </tr>
+                        <tr>
+                            <td>Drawdown - Time to Recovery (from the bottom)</td>
+                            <td>20 Months</td>
+                        </tr>
+                        <tr>
+                            <td>20-Year Annualized Standard Deviation</td>
+                            <td>8.22%</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="learn-table">
+                    <h4>Funds Holdings</h4>
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="table-box-main flex">
+                                    <div class="table-box table-box-green"></div>DFA Canadian Core Equity
+                                </div>
+                            </td>
+                            <td>23.4%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="table-box-main flex">
+                                    <div class="table-box table-box-blue"></div>BMO Aggregate Bond
+                                </div>
+                            </td>
+                            <td>7.11%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="table-box-main flex">
+                                    <div class="table-box table-box-capri"></div>DFA Global REIT
+                                </div>
+                            </td>
+                            <td>4.26%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="table-box-main flex">
+                                    <div class="table-box table-box-lightblue"></div>DFA Canadian Core Equity
+                                </div>
+                            </td>
+                            <td>8.29%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="table-box-main flex">
+                                    <div class="table-box table-box-lightgreen"></div>iShares S&P/TSX Capped Composite ETF
+                                </div>
+                            </td>
+                            <td>6.04%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="table-box-main flex">
+                                    <div class="table-box table-box-midblue"></div>DFA U.S. Vector Equity
+                                </div>
+                            </td>
+                            <td>8.29%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="table-box-main flex">
+                                    <div class="table-box table-box-lightyellow"></div>Vanguard U.S. Total Market ETF
+                                </div>
+                            </td>
+                            <td>6.04%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="table-box-main flex">
+                                    <div class="table-box table-box-midgreen"></div>DFA International Vector Equity
+                                </div>
+                            </td>
+                            <td>3.12%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="table-box-main flex">
+                                    <div class="table-box table-box-darkblue"></div>iShares Core MSCI EAFE IMI ETF
+                                </div>
+                            </td>
+                            <td>8.40%</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="learn-chart-rt"></div>
         </div>
@@ -393,200 +459,208 @@
         <div class="learn-tablefull-main">
             <h3>Income</h3>
             <hr class="lines">
-            <h4>Canadian Fixed Income</h4>
-            <table>
-                <tr>
-                    <th></th>
-                    <th>1 Month</th>
-                    <th>YTD</th>
-                    <th>1 Year</th>
-                    <th>3 Years</th>
-                    <th>5 Years</th>
-                    <th>10 Years</th>
-                    <th>20 Years</th>
-                    <th>30 Years</th>
-                    <th>5 Year STD DEV</th>
-                </tr>
-                <tr>
-                    <td>Inflation (1 Month Lag)</td>
-                    <td class="color-red">-0.13%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-                <tr>
-                    <td>Treasury Bills</td>
-                    <td>3.18%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-                <tr>
-                    <td>Short Term Bonds</td>
-                    <td class="color-red">-0.13%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-                <tr>
-                    <td>Total Bond Market</td>
-                    <td class="color-red">-0.13%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-            </table>
-            <h4>Global Fixed Income</h4>
-            <table>
-                <tr>
-                    <th></th>
-                    <th>1 Month</th>
-                    <th>YTD</th>
-                    <th>1 Year</th>
-                    <th>3 Years</th>
-                    <th>5 Years</th>
-                    <th>10 Years</th>
-                    <th>20 Years</th>
-                    <th>30 Years</th>
-                    <th>5 Year STD DEV</th>
-                </tr>
-                <tr>
-                    <td>Inflation (1 Month Lag)</td>
-                    <td class="color-red">-0.13%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-                <tr>
-                    <td>Treasury Bills</td>
-                    <td>3.18%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-                <tr>
-                    <td>Short Term Bonds</td>
-                    <td class="color-red">-0.13%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-            </table>
+            <div class="learn-tablefull">
+                <h4>Canadian Fixed Income</h4>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>1 Month</th>
+                        <th>YTD</th>
+                        <th>1 Year</th>
+                        <th>3 Years</th>
+                        <th>5 Years</th>
+                        <th>10 Years</th>
+                        <th>20 Years</th>
+                        <th>30 Years</th>
+                        <th>5 Year STD DEV</th>
+                    </tr>
+                    <tr>
+                        <td>Inflation (1 Month Lag)</td>
+                        <td class="color-red">-0.13%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                    <tr>
+                        <td>Treasury Bills</td>
+                        <td>3.18%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                    <tr>
+                        <td>Short Term Bonds</td>
+                        <td class="color-red">-0.13%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                    <tr>
+                        <td>Total Bond Market</td>
+                        <td class="color-red">-0.13%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="learn-tablefull">
+                <h4>Global Fixed Income</h4>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>1 Month</th>
+                        <th>YTD</th>
+                        <th>1 Year</th>
+                        <th>3 Years</th>
+                        <th>5 Years</th>
+                        <th>10 Years</th>
+                        <th>20 Years</th>
+                        <th>30 Years</th>
+                        <th>5 Year STD DEV</th>
+                    </tr>
+                    <tr>
+                        <td>Inflation (1 Month Lag)</td>
+                        <td class="color-red">-0.13%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                    <tr>
+                        <td>Treasury Bills</td>
+                        <td>3.18%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                    <tr>
+                        <td>Short Term Bonds</td>
+                        <td class="color-red">-0.13%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                </table>
+            </div>
             <h3>Equities</h3>
             <hr class="lines">
-            <h4>Canadian Equity</h4>
-            <table>
-                <tr>
-                    <th></th>
-                    <th>1 Month</th>
-                    <th>YTD</th>
-                    <th>1 Year</th>
-                    <th>3 Years</th>
-                    <th>5 Years</th>
-                    <th>10 Years</th>
-                    <th>20 Years</th>
-                    <th>30 Years</th>
-                    <th>5 Year STD DEV</th>
-                </tr>
-                <tr>
-                    <td>Inflation (1 Month Lag)</td>
-                    <td class="color-red">-0.13%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-                <tr>
-                    <td>Treasury Bills</td>
-                    <td>3.18%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-            </table>
-            <h4>US Equity</h4>
-            <table>
-                <tr>
-                    <th></th>
-                    <th>1 Month</th>
-                    <th>YTD</th>
-                    <th>1 Year</th>
-                    <th>3 Years</th>
-                    <th>5 Years</th>
-                    <th>10 Years</th>
-                    <th>20 Years</th>
-                    <th>30 Years</th>
-                    <th>5 Year STD DEV</th>
-                </tr>
-                <tr>
-                    <td>Short Term Bonds</td>
-                    <td class="color-red">-0.13%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-                <tr>
-                    <td>Total Bond Market</td>
-                    <td class="color-red">-0.13%</td>
-                    <td>3.05%</td>
-                    <td>3.18%</td>
-                    <td>3.80%</td>
-                    <td>4.74%</td>
-                    <td>3.89%</td>
-                    <td>2.15%</td>
-                    <td>1.95%</td>
-                    <td>1.53%</td>
-                </tr>
-            </table>
+            <div class="learn-tablefull">
+                <h4>Canadian Equity</h4>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>1 Month</th>
+                        <th>YTD</th>
+                        <th>1 Year</th>
+                        <th>3 Years</th>
+                        <th>5 Years</th>
+                        <th>10 Years</th>
+                        <th>20 Years</th>
+                        <th>30 Years</th>
+                        <th>5 Year STD DEV</th>
+                    </tr>
+                    <tr>
+                        <td>Inflation (1 Month Lag)</td>
+                        <td class="color-red">-0.13%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                    <tr>
+                        <td>Treasury Bills</td>
+                        <td>3.18%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="learn-tablefull">
+                <h4>US Equity</h4>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>1 Month</th>
+                        <th>YTD</th>
+                        <th>1 Year</th>
+                        <th>3 Years</th>
+                        <th>5 Years</th>
+                        <th>10 Years</th>
+                        <th>20 Years</th>
+                        <th>30 Years</th>
+                        <th>5 Year STD DEV</th>
+                    </tr>
+                    <tr>
+                        <td>Short Term Bonds</td>
+                        <td class="color-red">-0.13%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                    <tr>
+                        <td>Total Bond Market</td>
+                        <td class="color-red">-0.13%</td>
+                        <td>3.05%</td>
+                        <td>3.18%</td>
+                        <td>3.80%</td>
+                        <td>4.74%</td>
+                        <td>3.89%</td>
+                        <td>2.15%</td>
+                        <td>1.95%</td>
+                        <td>1.53%</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
 </section>
@@ -596,13 +670,16 @@
             <div class="market-content flex">
                 <div class="market-icon">
                     <figure>
-                        <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M20.7536 48.5558L54 48.5441V10.4951H15.1087L15.1286 54.109L20.7536 48.5558Z" fill="#89CB3E"/>
-                            <path d="M15.1087 10.495H46.8109L45.739 4.49512L7.43927 11.1612L15.1286 54.1088L15.1087 10.495Z" fill="#0894D3"/>
-                            <path d="M15.1087 10.495H46.8109L45.739 4.49512L7.43927 11.1612L15.1286 54.1088L15.1087 10.495Z" fill="#0894D3"/>
-                            <path d="M7.43924 11.1611L38.657 5.72948L36.5452 0L0 13.1324L15.1286 54.1087L7.43924 11.1611Z" fill="#0654A3"/>
-                            <path d="M35.5273 39.3769H30.3527V35.2384H35.5273V39.3769ZM40.4623 26.4978C40.1036 27.2308 39.6272 27.9012 39.0344 28.5091C38.4409 29.1169 37.7855 29.6715 37.0682 30.1733C36.6693 30.4532 36.3624 30.7377 36.1487 31.0268C35.9343 31.3159 35.7873 31.6465 35.7076 32.018C35.6273 32.3894 35.5879 32.8306 35.5879 33.3417H30.3534C30.3534 32.6377 30.4078 32.039 30.5181 31.5471C30.6276 31.0551 30.8046 30.6165 31.0489 30.2299C31.2933 29.844 31.6295 29.4627 32.0583 29.0866C32.4864 28.7106 33.0254 28.2911 33.6733 27.8274C34.0722 27.5475 34.4261 27.2222 34.7351 26.8508C35.0441 26.4793 35.2904 26.0743 35.4756 25.635C35.66 25.1964 35.7519 24.74 35.7519 24.2678C35.7519 23.5539 35.545 22.9895 35.1312 22.5746C34.7174 22.1597 34.1416 21.9523 33.4038 21.9523C32.7954 21.9523 32.272 22.1163 31.8337 22.4442C31.3947 22.7722 31.1708 23.2786 31.1606 23.9636H26.0309L26.0009 23.8766C25.9812 22.6029 26.28 21.5301 26.8979 20.6568C27.5159 19.7836 28.383 19.123 29.4999 18.6745C30.6161 18.226 31.9079 18.0015 33.3732 18.0015C35.756 18.0015 37.6229 18.5566 38.9739 19.6657C40.3248 20.7754 41 22.2611 41 24.1229C41 24.9718 40.8203 25.7628 40.4616 26.4965L40.4623 26.4978Z" fill="white"/>
-                        </svg>    
+                        <svg width="62" height="62" viewBox="0 0 54 55" fill="none">
+                            <path d="M20.7533 49.4001L53.9997 49.3883V11.3394H15.1084L15.1282 54.9532L20.7533 49.4001Z" fill="#89CB3E"/>
+                            <path d="M45.2308 16.375H40.1416V36.389H45.2308V16.375Z" fill="white"/>
+                            <path d="M37.053 21.2815H31.9639V36.291H37.053V21.2815Z" fill="white"/>
+                            <path d="M28.8714 26.3604H23.7822V36.3654H28.8714V26.3604Z" fill="white"/>
+                            <path d="M45.2385 39.3516H28.8555V44.3561H45.2385V39.3516Z" fill="white"/>
+                            <path d="M15.1089 11.3392H46.811L45.7392 5.33936L7.43945 12.0055L15.1288 54.9531L15.1089 11.3392Z" fill="#0894D3"/>
+                            <path d="M15.1089 11.3392H46.811L45.7392 5.33936L7.43945 12.0055L15.1288 54.9531L15.1089 11.3392Z" fill="#0894D3"/>
+                            <path d="M7.43924 12.0054L38.657 6.57372L36.5452 0.844238L0 13.9766L15.1286 54.953L7.43924 12.0054Z" fill="#0654A3"/>
+                        </svg>   
                     </figure>
                 </div>
                 <div class="market-desc relative">
@@ -647,6 +724,47 @@
                         <span class="market-stat-num">+2.15%</span>
                         <p>20 Years</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="newsletter-section blue-dark relative">
+    <div class="container">
+        <div class="newsletter-main flex flex-vcenter">
+            <div class="newsletter-text relative">
+                <span class="optional-text">Newsletter Signup</span>
+                <h2 class="h3">A short but persuasive headline aimed at driving signup conversions.</h2>
+                <div class="newsletter-watermark absolute">
+                    <svg width="226" height="276" viewBox="0 0 226 276" fill="none">
+                        <path d="M216 10H10V190H154.5L216 251.5V10Z" stroke="#D9EEF7" stroke-opacity="0.8" stroke-width="20"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="newsletter-signup">
+                <form action="" class="newsletter-form">
+                    <div class="newsletter-field frm_first">
+                        <input type="text" name="" id="" placeholder="First Name">
+                    </div>
+                    <div class="newsletter-field frm_last">
+                        <input type="text" name="" id="" placeholder="Last Name">
+                    </div>
+                    <div class="newsletter-field-wrap relative">
+                        <div class="newsletter-field-email">
+                            <input type="text" name="" id="" placeholder="Your E-mail Address">
+                        </div>
+                        <div class="newsletter-submit">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="newsletter-disclaimer f-300 fs-14 relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M9 0C4.02571 0 0 4.02525 0 9C0 13.9742 4.02525 18 9 18C13.9743 18 18 13.9747 18 9C18 4.02578 13.9747 0 9 0ZM9 16.7442C4.72985 16.7442 1.25582 13.2702 1.25582 9C1.25582 4.72982 4.72985 1.25582 9 1.25582C13.2701 1.25582 16.7442 4.72982 16.7442 9C16.7442 13.2702 13.2701 16.7442 9 16.7442Z" fill="#2D5782" fill-opacity="0.14"/>
+                        <path d="M9.00009 7.50146C8.46698 7.50146 8.08789 7.72661 8.08789 8.0583V12.5719C8.08789 12.8562 8.46698 13.1405 9.00009 13.1405C9.5095 13.1405 9.9241 12.8562 9.9241 12.5719V8.05823C9.9241 7.72657 9.5095 7.50146 9.00009 7.50146Z" fill="#2D5782" fill-opacity="0.14"/>
+                        <path d="M9.0007 4.71777C8.45574 4.71777 8.0293 5.10871 8.0293 5.55889C8.0293 6.0091 8.45578 6.41188 9.0007 6.41188C9.53381 6.41188 9.96032 6.0091 9.96032 5.55889C9.96032 5.10871 9.53377 4.71777 9.0007 4.71777Z" fill="#2D5782" fill-opacity="0.14"/>
+                    </svg>
+                    <p>A short disclaimer can appear here if neessary at netus elit convallis nibh donec in feugiat.</p>
                 </div>
             </div>
         </div>

@@ -19,4 +19,5 @@ body.page-template-learn-model .learn-banner-image::before{background: linear-gr
     .learn-banner-text{padding-bottom: 0;}
     .learn-banner-image{max-width: 100%; position: relative;}
     .learn-banner-image::before{background: linear-gradient(0deg,rgba(11,0,65,0) 45.5%,#013 100.5%);}
+    body.page-template-learn-model .learn-banner-image::before{background: linear-gradient(0deg,rgba(11,0,65,0) 16.5%,#013 95.5%);}
 }

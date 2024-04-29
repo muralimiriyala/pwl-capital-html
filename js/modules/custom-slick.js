@@ -202,4 +202,35 @@ jQuery(document).ready(function($){
       }
       interestedSlider();
 
+      
+      function portfolioSlider() {
+        if (_windowWidth <= 1023) {
+        $('.portfolio-model-slider').slick({
+          slidesToShow: 1,
+          slidesToScroll: 3,
+          arrows: false,
+          dots: false,
+          speed: 1500,
+          infinite: false,
+          autoplay: false,
+          variableWidth: true,
+          focusOnSelect: true,
+          draggable: true,
+          responsive: [
+            {
+              breakpoint: 1023,
+              settings: {
+                dots: true
+              }
+            },
+          ]
+        });
+      } else {
+        if ($('.portfolio-model-slider').hasClass('slick-initialized')) {
+          $('.portfolio-model-slider').slick('unslick');
+        }
+      }
+      }
+      portfolioSlider();
+
 });

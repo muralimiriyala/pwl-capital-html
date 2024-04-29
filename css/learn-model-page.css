@@ -1,0 +1,12 @@
+
+.learn-table-lt table{margin: 0;}
+.learn-table{margin-bottom: 60px;}
+.learn-table h4{margin-bottom: 22px;}
+.learn-tablefull-main table{margin: 0;}
+.learn-tablefull-main h3{margin-bottom: 10px;}
+.learn-tablefull{margin-bottom: 40px;}
+.learn-tablefull h4{margin-bottom: 20px;}
+
+@media screen and (min-width: 1024px) {
+    .learn-tablefull-main{margin-bottom: 120px;}
+}
