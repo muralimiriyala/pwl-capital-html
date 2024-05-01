@@ -8,21 +8,8 @@
 .career-opps-thumb{box-shadow: -20px 20px 0 var( --capri-ocean);}
 
 .career-polygon-main{left: -104px; width: 151px; height: 151px;}
-.career-polygon-light{
-	width: 131px;
-	height: 137px;
-	left: 0;
-	background-color: #e7f4fa;
-	clip-path: polygon(0 0,100% 0,50% 50%,0% 100%);
-}
-.career-polygon-dark {
-	width: 20px;
-	height: 155px;
-	background-color: #ceeaf6;
-	clip-path: polygon(0 0,100% 0,100% 88%,0% 100%);
-	content: "";
-	left: -20px;
-}
+.career-polygon-light{ width: 131px; height: 137px; left: 0; background-color: #e7f4fa; clip-path: polygon(0 0,100% 0,50% 50%,0% 100%); }
+.career-polygon-dark { width: 20px; height: 155px; background-color: #ceeaf6; clip-path: polygon(0 0,100% 0,100% 88%,0% 100%); content: ""; left: -20px; }
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

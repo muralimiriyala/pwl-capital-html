@@ -27,13 +27,14 @@
     .market-stats-col{flex: 0 0 calc(100% - 340px);}
 }
 
-@media screen and (max-width: 739px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+    .market-section{position: relative; z-index: 2;}
     .market-main{padding: 70px 0 0;}
     .market-content{margin-bottom: 40px;}
     .market-watermark{top: -79px; right: 0;}
     .market-rt{flex-direction: column-reverse;}
-    .market-images{margin-right: 20px;}
-    .market-stats-col{display: flex; width: 100%; flex-wrap: wrap; margin-bottom: 40px;}
-    .market-stats{flex: 0 0 50%;}
-    .market-stats:nth-child(n - 1){border-bottom: none;}
+    .market-images{margin-right: 20px; transform: translateY(20px);}
+    .market-stats-col{display: flex; width: 100%; flex-wrap: wrap; margin-bottom: 20px;}
+    .market-stats{flex: 0 0 50%; padding-bottom: 24px; margin-bottom: 20px;}
+    .market-stats:nth-last-child(-n + 2){border-bottom: none; padding-bottom: 0; margin-bottom: 0;}
 }

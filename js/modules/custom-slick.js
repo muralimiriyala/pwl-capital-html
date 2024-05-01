@@ -220,7 +220,7 @@ jQuery(document).ready(function($){
             {
               breakpoint: 1023,
               settings: {
-                dots: true
+                dots: false
               }
             },
           ]

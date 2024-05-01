@@ -15,7 +15,7 @@ body.page-template-learn header.header-main:not(.sticky-header){background-color
 
 
 body.page-template-careers header.header-main:not(.sticky-header), body.page-template-services header.header-main:not(.sticky-header){background-color: transparent;}
-body.home .site-main-cover, body.page-template-careers .site-main-cover, body.page-template-meet-with-us .site-main-cover, body.page-template-learn-default .site-main-cover, body.page-template-become-a-partner .site-main-cover, body.page-template-services .site-main-cover, body.page-template-default .site-main-cover, body.page-template-learn-model .site-main-cover{padding-top: 0;}
+body.home .site-main-cover, body.page-template-careers .site-main-cover, body.page-template-meet-with-us .site-main-cover, body.page-template-learn-default .site-main-cover, body.page-template-become-a-partner .site-main-cover, body.page-template-services .site-main-cover, body.page-template-default .site-main-cover, body.page-template-learn-model .site-main-cover, body.page-template-financial-goals-survey .site-main-cover{padding-top: 0;}
 
 /* media css starts here */
 @media screen and (min-width: 1300px){

@@ -116,23 +116,55 @@
                 <h1>Simplifying Wealth for Canadians</h1>
                 <a href="#" class="button btn-green white-text btn-transparent">Learn More</a>
             </div>
-            <div class="regulated-by hide-mobile">
+            <div class="regulated-by hide-mobile hide-tablet">
                 <span>Regulated by</span>
                 <figure class="regulated-img object-fit">
                     <img src="images/CIRO_Logo_English_All-White.svg" alt="">
                 </figure>
             </div>
         </div>
-        <div class="home-banner-image">
+        <div class="home-banner-image relative">
+            <div class="optional-box-bg top-right absolute flex flex-vcenter hide-mobile hide-tablet ui-bar-chart" data-animation="">
+                <div class="oval-graph relative" data-ui-el="chart">
+                    <div class="oval-lines center flex" data-ui-el="lines">
+                        <span class="oval-line" data-ui-el="bar"></span>
+                        <span class="oval-line" data-ui-el="bar"></span>
+                        <span class="oval-line" data-ui-el="bar"></span>
+                    </div>
+                    <span class="graph-lines flex" data-ui-el="lines">
+                        <span class="graph-line"></span>
+                        <span class="graph-line"></span>
+                        <span class="graph-line"></span>
+                    </span>
+                </div>
+                <div class="optional-count inverted font-gothic">
+                    <span>+300k</span>
+                    <p>Retirement Plan</p>
+                </div>
+            </div>
+            <div class="optional-box-bg bottom-left absolute flex flex-vcenter">
+                <div class="optional-circle relative ui ui-oval-chart" data-animation>
+                    <div class="oval-chart radius-50 flex flex-center" data-value="38" data-ui-el="value"><span data-ui-el="counter">38</span>%</div>
+                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" data-ui-el="chart">
+                        <path d="M3 28.4354C3 14.1117 14.6117 2.5 28.9354 2.5C37.827 2.5 45.6735 6.97442 50.3461 13.7945" stroke="#269ABD" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
+                        <path opacity="0.2" d="M28.9355 54.3709C43.2593 54.3709 54.871 42.7592 54.871 28.4354C54.871 24.2208 53.8657 20.241 52.0818 16.7227" stroke="white" stroke-width="2"/>
+                        <path opacity="0.2" d="M3.33594 32.6187C5.13782 43.7307 14.0004 52.4753 25.171 54.0997" stroke="white" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="optional-count inverted font-gothic">
+                    <span>Education Fund</span>
+                    <p>Milestone</p>
+                </div>
+            </div>
             <picture class="object-fit">
-                <source srcset="images/home-banner@2x.jpg" media="(min-width: 740px)">
-                <img src="images/home-banner@2x.jpg" alt="home-banner">
+                <source srcset="images/home-banner-new@2x.png" media="(min-width: 740px)">
+                <img src="images/home-banner-new-mobile@2x.jpg" alt="home-banner">
             </picture>
         </div>
-        <div class="home-polygon-main absolute">
-            <div class="home-polygon-light absolute"></div>
-            <div class="home-polygon-dark absolute"></div>
-        </div>
+    </div>
+    <div class="home-banner-polygon-main absolute hide-mobile hide-tablet">
+        <div class="home-banner-polygon-light absolute"></div>
+        <div class="home-banner-polygon-dark absolute"></div>
     </div>
 </div>
 </section>
@@ -241,59 +273,79 @@
 </div>
 </section>
 <section class="featured-insights-section">
-<div class="container">
-    <div class="featured-insights-main">
-        <div class="featured-insights-title">
-            <h2 class="h3">Featured Insights & Resources</h2>
-        </div>
-        <div class="featured-insights-row flex">
-            <div class="featured-insights-image relative">
-                <picture class="featured-insights-thumb object-fit">
-                    <img src="images/feature-insight@2x.jpg" alt="feature-insight">
-                </picture>
-                <div class="inverted background-text flex flex-end">
-                    <div class="featured-image-text">
+    <div class="container">
+        <div class="featured-insights-main relative">
+            <div class="featured-insights-watermark absolute hide-mobile hide-tablet">
+                <svg width="473" height="522" viewBox="0 0 473 522" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.09" d="M437.773 13.0221L450.273 13.0221L450.524 25.5195L459.197 456.567L459.851 489.068L437.586 464.94L364.529 385.77L32.9963 385.77H20.4963L20.2448 373.272L13.2481 25.5195L12.9967 13.0221L25.4967 13.0221L437.773 13.0221Z" stroke="#10B596" stroke-width="25"/>
+                </svg>
+                <svg width="274" height="325" viewBox="0 0 274 325" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.09" d="M27.966 13.3206L15.3074 13.3206L15.2156 25.9821L13.5217 259.624L13.2861 292.123L35.2376 267.72L72.0693 226.774L247 224.539L259.499 224.379L259.591 211.88L260.957 25.6616L261.048 13.3206L248.71 13.3206L27.966 13.3206Z" stroke="#10B596" stroke-width="25"/>
+                </svg>
+            </div>
+            <div class="featured-insights-watermark absolute hide-desktop">
+                <svg width="110" height="140" viewBox="0 0 110 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.6">
+                    <g opacity="0.1">
+                    <path d="M100 10.6133H10.8154V88.4169H73.3745L100 115V10.6133Z" stroke="#10B596" stroke-width="20"/>
+                    </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="featured-insights-title">
+                <h2 class="h3">Featured Insights & Resources</h2>
+            </div>
+            <div class="featured-insights-row flex">
+                <div class="featured-insights-image-main relative">
+                    <div class="featured-insights-image ">
+                        <picture class="featured-insights-thumb object-fit">
+                            <source srcset="images/feature-insight@2x.jpg" media="(min-width:740px)">
+                            <img src="images/insights-resource-thumb-mobile@2x.jpg" alt="feature-insight">
+                        </picture>
+                    </div>
+                    <div class="inverted background-text flex flex-end">
+                        <div class="featured-image-text">
+                            <ul class="categorys  flex">
+                                <li>CATEGORY</li>
+                            </ul>
+                            <h2>Prof. Scott Cederburg: Challenging the Status Quo on Lifecycle Asset Allocation</h2>
+                            <a href="#" class ="button btn-sm btn-aquamarine btn-transparent">Read More</a>
+                        </div>
+                    </div>
+                    <div class="featured-insights-bg background-text hide-mobile hide-tablet"></div>
+                </div>
+                <div class="featured-insights-row">
+                    <div class="featured-insights-list fs-20">
+                        <ul class="categorys  flex">
+                            <li>CATEGORY</li>
+                            <li>CATEGORY</li>
+                        </ul>
+                        <p>Stock Returns in Recessions, and FSRA’s Approach to Regulation</p>
+                        <a href="#" class="text-link btn-aquamarine sm">Read More</a>
+                    </div>
+                    <div class="featured-insights-list fs-20">
                         <ul class="categorys  flex">
                             <li>CATEGORY</li>
                         </ul>
-                        <h2>Prof. Scott Cederburg: Challenging the Status Quo on Lifecycle Asset Allocation</h2>
-                        <a href="#" class ="button btn-sm btn-aquamarine btn-transparent">Read More</a>
+                        <p>Stock Returns in Recessions, and FSRA’s Approach to Regulation</p>
+                        <a href="#" class="text-link btn-aquamarine sm">Read More</a>
                     </div>
-                </div>
-                <div class="featured-insights-bg background-text"></div>
-            </div>
-            <div class="featured-insights-row">
-                <div class="featured-insights-list fs-20">
-                    <ul class="categorys  flex">
-                        <li>CATEGORY</li>
-                        <li>CATEGORY</li>
-                    </ul>
-                    <p>Stock Returns in Recessions, and FSRA’s Approach to Regulation</p>
-                    <a href="#" class="text-link btn-aquamarine sm">Read More</a>
-                </div>
-                <div class="featured-insights-list fs-20">
-                    <ul class="categorys  flex">
-                        <li>CATEGORY</li>
-                    </ul>
-                    <p>Stock Returns in Recessions, and FSRA’s Approach to Regulation</p>
-                    <a href="#" class="text-link btn-aquamarine sm">Read More</a>
-                </div>
-                <div class="featured-insights-list fs-20">
-                    <ul class="categorys  flex">
-                        <li>CATEGORY</li>
-                    </ul>
-                    <p>Stock Returns in Recessions, and FSRA’s Approach to Regulation</p>
-                    <a href="#" class="text-link btn-aquamarine sm">Read More</a>
+                    <div class="featured-insights-list fs-20">
+                        <ul class="categorys  flex">
+                            <li>CATEGORY</li>
+                        </ul>
+                        <p>Stock Returns in Recessions, and FSRA’s Approach to Regulation</p>
+                        <a href="#" class="text-link btn-aquamarine sm">Read More</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </section>
 <section class="meat-our-section relative">
 <picture class="meat-our-thumb object-fit relative">
     <source srcset="images/two-happy-businessmen-reading@2x.jpg" media="(min-width: 740px)">
-    <img src="images/home-banner@2x.jpg" alt="home-banner">
+    <img src="images/meet-our-team-mobile@2x.jpg" alt="team-our-banner">
 </picture>
 <div class="meet-our-polygon absolute"></div>
 <div class="container meat-our-main">
@@ -455,7 +507,7 @@
                         <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et.</p>
                     </div>
                 </div>
-                <div class="question-nt-main relative">
+                <div class="question-nt-main relative hide-mobile hide-tablet">
                     <figure class="question-nt-bg absolute object-fit">
                         <svg width="381" height="378" viewBox="0 0 381 378" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M98.818 269.193H371V10H10V353.86L91.7473 272.121L94.6761 269.193H98.818Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
@@ -554,6 +606,18 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="question-nt-main relative hide-desktop">
+                <div class="question-nt-cont">
+                    <span class="optional-text">Need more answers?</span>
+                    <h4>We Can Help You Find Your Financial Goals.</h4>
+                    <a href="#" class="button btn-transparent">Learn More</a>
+                </div>
+                <figure class="question-nt-sm absolute">
+                    <svg width="141" height="176" viewBox="0 0 141 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M131 10H10V115.093H94.8762L131 151V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                    </svg>
+                </figure>
             </div>
         </div>
     </div>

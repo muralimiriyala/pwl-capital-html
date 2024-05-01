@@ -10,3 +10,15 @@
 @media screen and (min-width: 1024px) {
     .learn-tablefull-main{margin-bottom: 120px;}
 }
+
+@media screen and (max-width: 1023px) and (min-width: 200px){
+    .learn-table-main{padding: 30px 0 0;}
+    .learn-tablefull{overflow-x: scroll;}
+    .learn-tablefull-main{margin-bottom: 70px;}
+    .learn-tablefull-main table{width: 1010px; max-width: inherit;}
+    .learn-tablefull-main table tr td:first-child{font-weight: bold;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 740px){
+    .learn-tablefull-main table { width: 1250px;}
+}
