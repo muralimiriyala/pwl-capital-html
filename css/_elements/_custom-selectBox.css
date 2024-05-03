@@ -3,6 +3,7 @@ select.selectBox{display: none;}
 body .selectBox-dropdown{padding: 16px 34px 15px 14px; width: 100%; font-family: "Century Gothic", sans-serif; font-size: 15px; line-height: 15px; letter-spacing: 0; height: auto; border: none; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)); background-color: var(--white, #FFF); color: var(--midnight, #121321);}
 body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 8px 8px 0 0;}
+body.page-template-financial-goals-survey .selectBox-dropdown.selectBox-menuShowing{border-radius: 0;}
 body .selectBox-dropdown .selectBox-arrow{right: 13px; top: 50%; transform: translateY(-50%); font-size: 1rem; color: var(--aquamarine); font-weight: normal; font-family: "Font Awesome 6 pro"; position: absolute;}
 body.page-template-become-a-partner .selectBox-dropdown .selectBox-arrow, body.page-template-financial-goals-survey .selectBox-dropdown .selectBox-arrow{color: var(--capri-ocean);}
 body .selectBox-dropdown .selectBox-arrow::after{content: "\f078";}

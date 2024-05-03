@@ -44,7 +44,7 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 20p
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{position: relative; padding: 9px 13px 12px 35px; margin: 0; text-indent: 0; border-radius: 8px; background-color: var(--gray-lt); font-size: 16px; line-height: 1.13; font-weight: normal; display: block; cursor: pointer; color: var(--white); font-family: 'Century Gothic'; letter-spacing: normal;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{padding: 9px 13px 12px 40px; border-radius: 0; background-color: rgba(255, 255, 255, 0.07);}
 body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{color: var(--midnight);}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: var(--accent-light);}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: var(--white); color: var(--black);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{display: block;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a{color: var(--accent); position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a::after{width: 100%; height: 1px; left: 0; bottom: 1px; background-color: var(--accent); content: ""; display: block; position: absolute; transition: all .45s ease-in-out;}

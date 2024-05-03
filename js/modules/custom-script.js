@@ -71,5 +71,20 @@ jQuery(function($){
         }
      });
 
+     $("body .financial-goals-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type=checkbox]").on("click", function(e){
+        const _this = $(this);
+        _this.parent().toggleClass('open');
+        // _this.parent().parent().siblings().find("label").removeClass("open");
+     });
+
+     $(".financial-goals-form .frm_forms .frm_form_fields .frm_form_field .frm_checkbox input[type=checkbox]:checked").each(function() {
+        const _this = $(this);
+        let isChecked = $(this).prop("checked");
+        if(isChecked){
+            _this.parent().addClass('open');
+        }
+
+     })
+
 });
 
