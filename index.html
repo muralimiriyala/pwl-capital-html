@@ -27,7 +27,7 @@
     <link rel='stylesheet' id='formidable-css' href='https://aecon.parachutedevelopment.ca/wp-content/plugins/formidable/css/formidableforms.css?ver=1222430' type='text/css' media='all' />
 
 </head>
-<body class="home">
+<body class="page-template-home">
 <header class="header-main black-header">
 <div class="container lg">
 <div class="header flex flex-vcenter">
@@ -171,7 +171,15 @@
 
 <section class="short-intro-section">
 <div class="container md">
-<div class="short-intro-main">
+<div class="short-intro-main relative">
+    <div class="short-intro-watermark absolute hide-mobile hide-tablet">
+        <svg width="209" height="257" viewBox="0 0 209 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M199 10H10V175.466H142.575L199 232V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+        </svg>
+        <svg width="151" height="189" viewBox="0 0 151 189" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 10H141V124.783H49.1092L10 164V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+        </svg>  
+    </div>
     <div class="short-intro-head flex">
         <div class="short-intro-title">
             <h2>A short introduction and success metrics to build trust.</h2>
@@ -246,7 +254,7 @@
                 </div>
                 <h2>Customizable Call to Action Panel Title</h2>
                 <p>Helping you frame financial decisions through the lens of living a good life and more text that would naturally flow here.</p>
-                <a href="#" class="button white-text btn-white btn-transparent">Learn More</a>
+                <a href="#" class="button white-text btn-white btn-lg btn-transparent">Learn More</a>
             </div>
             <div class="cta-stats-col">
                 <div class="cta-stats">
@@ -266,7 +274,8 @@
         <div class="cta-image absolute">
             <div class="cta-image-bg background-bg"></div>
             <picture class="cta-thumb object-fit">
-                <img src="images/cta-image@2x.jpg" alt="cta-image">
+                <source srcset="images/cta-image@2x.jpg" media="(min-width: 740px)">
+                <img src="images/cta-image-mob@2x.jpg" alt="cta-image">
             </picture>
         </div>
     </div>
@@ -356,7 +365,8 @@
         </div>
         <div class="meat-our-btns flex">
             <a href="#" class="button btn-lg white-text btn-transparent">Learn More</a>
-            <a href="#" class="text-link">Optional Link</a>
+            <a href="#" class="text-link hide-mobile hide-tablet">Optional Link</a>
+            <a href="#" class="text-link btn-green hide-desktop">Optional Link</a>
         </div>
     </div>
 </div>
@@ -460,7 +470,7 @@
                 </div>
                 <h2>Customizable Call to Action Panel Title</h2>
                 <p>Helping you frame financial decisions through the lens of living a good life and more text that would naturally flow here.</p>
-                <a href="#" class="button white-text btn-white btn-transparent">Learn More</a>
+                <a href="#" class="button white-text btn-white btn-lg btn-transparent">Learn More</a>
             </div>
             <div class="cta-stats-col">
                 <div class="cta-stats">

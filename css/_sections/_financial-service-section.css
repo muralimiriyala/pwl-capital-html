@@ -25,6 +25,7 @@
     .financial-item{border-left: 1px solid rgba(45, 87, 130, 0.14); }
 
     .financial-item:hover:nth-child(6) .financial-content .text-link{border-color: var(--white);}
+    .financial-item:nth-child(6) .financial-content .text-link:hover{border-color: var(--aquamarine); background-color: var(--aquamarine);}
     .financial-item:hover:nth-child(6) .financial-content .optional-text{color: var(--white);}
     .financial-item:hover .financial-content{color: var(--white);}
     .financial-item:hover .financial-content h3{color: var(--white);}

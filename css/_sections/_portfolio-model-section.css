@@ -13,8 +13,10 @@
 
 .portfolio-lists{gap: 20px 10px;}
 .portfolio-item{width: 180px; min-height: 91px;flex-direction: column; border: 2px solid rgba(255, 255, 255, 0.2);}
+.portfolio-item a{color: var(--white);}
 .portfolio-item span{font-size: 17px; font-weight: bold; line-height: 1.18; display: block; font-family: 'Century Gothic';}
-.portfolio-item.active{background-color: var(--white); color: var(--capri-ocean);}
+.portfolio-item.active{background-color: var(--white);}
+.portfolio-item.active a{color: var(--capri-ocean);}
 .portfolio-item.active::before{content: "\f0d7"; position: absolute; bottom: -19px; left: 50%; transform: translateX(-50%); font-family: "Font Awesome 6 Pro"; font-weight: bold; color: var(--white); font-size: 30px; line-height: normal;}
 
 @media screen and (min-width: 1024px) {

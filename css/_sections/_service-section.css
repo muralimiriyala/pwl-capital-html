@@ -2,6 +2,8 @@
 .service-watermark{top: 0; right: 0;}
 .service-watermark svg:first-child{top: 0; right: -31px; position: absolute;}
 .service-watermark svg:not(first-child){top: 219px; right: -105px; position: absolute;}
+.service-accordion .accordion-item.open::after{color: var(--capri-ocean);}
+.service-accordion .accordion-content ul > li::before{background: var(--capri-ocean);}
 
 
 @media screen and (min-width: 1024px) {

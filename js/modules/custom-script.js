@@ -74,7 +74,6 @@ jQuery(function($){
      $("body .financial-goals-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type=checkbox]").on("click", function(e){
         const _this = $(this);
         _this.parent().toggleClass('open');
-        // _this.parent().parent().siblings().find("label").removeClass("open");
      });
 
      $(".financial-goals-form .frm_forms .frm_form_fields .frm_form_field .frm_checkbox input[type=checkbox]:checked").each(function() {
@@ -83,8 +82,23 @@ jQuery(function($){
         if(isChecked){
             _this.parent().addClass('open');
         }
-
      })
+
+         // Show the first tab and hide the rest
+      $('.portfolio-lists .portfolio-item:first-child').addClass('active');
+      $('.portfolio-table-content').hide();
+      $('.portfolio-table-content:first').show();
+
+      // Click function
+      $('.portfolio-item').click(function(){
+      $('.portfolio-item').removeClass('active');
+      $(this).addClass('active');
+      $('.portfolio-table-content').hide();
+      
+      var activeTab = $(this).find('a').attr('href');
+      $(activeTab).fadeIn();
+      return false;
+      });
 
 });
 

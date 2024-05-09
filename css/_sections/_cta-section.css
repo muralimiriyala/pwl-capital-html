@@ -1,6 +1,7 @@
 
 .cta-section.blue-shadow .cta-image-bg{background-color: var(--capri-ocean, #0894D3);}
 .cta-section.blue-shadow .cta-desc::before{ width: 2px; background-color: var(--capri-ocean);}
+.cta-section.dark-blue .cta-desc-icon{opacity: .1;}
 
 .cta-bg{width: 100%; height: calc(100%); top: 50%; transform: translateY(-50%); left: 0; position: absolute; z-index: -1;}
 .cta-blue{background-color: var(--capri-ocean, #0894D3);}
@@ -45,12 +46,13 @@ body.page-template-become-a-partner .cta-image-bg, body.page-template-services .
     .cta-main{padding: 80px 0 0;} 
     .cta-text{margin-bottom: 16px;}
     .cta-desc{padding-bottom: 80px; border-bottom: solid 2px rgba(255, 255, 255, 0.2); margin-bottom: 33px;}
-    .cta-reverse .cta-desc-icon{top: -39px; left: auto; right: 17px; transform: scaleX(-1); opacity: .1;}
+    .cta-reverse .cta-desc-icon, .cta-desc-icon{top: -39px; left: auto; right: 17px; transform: scaleX(-1); opacity: .1;}
     .cta-stats-col{display: flex; width: 100%; gap: 80px;}
     .cta-stats{padding-bottom: 0; margin-bottom: 0; border-bottom: none;}
     .cta-image{position: relative; margin-right: 20px; transform: translate( 0, 20px);}
     body.page-template-become-a-partner .cta-image-bg, body.page-template-services .cta-section.cta-reverse .cta-image-bg{background-color: var(--capri-ocean);}
     .cta-section.blue-shadow .cta-image-bg{transform: translate(20px,20px);}
+    body.page-template-home .cta-section .cta-image-bg{transform: translate(20px,20px);}
 }
 
 

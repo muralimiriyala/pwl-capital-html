@@ -21,6 +21,10 @@ span.number.bright-Spring::before{background-color: var(--bright-Spring);}
     .short-intro-list{flex: 1; }
     .short-about-watermark{top: 92px; left: -254px;}
     span.number{min-width: 110px;}
+
+    .short-intro-watermark{top: 110px; right: 0;}
+    .short-intro-watermark svg:first-child{position: absolute; right: -273px; top: 0;}
+    .short-intro-watermark svg:not(:first-child){position: absolute; right: -190px; top: 235px;}
 }
 @media only screen and (min-width: 1300px){
     .short-intro-head{gap: 129px;}

@@ -1,9 +1,9 @@
 .become-banner-section{background-color: var(--french-navy); box-shadow: -20px 20px 0 0 #d9eef7;}
 .become-banner-text{color: var(--muted-light); font-size: 20px; line-height: 1.55; font-weight: normal;}
-.become-banner-text span.optional-text{color: rgba(217, 238, 247, 0.6); font-weight: 500;}
+.become-banner-text span.optional-text{color: rgba(217, 238, 247, 0.6); font-weight: 500; margin-bottom: 0;}
 .become-banner-text h1{color: var(--white);}
 .become-banner-text p{max-width: 421px;}
-.become-banner-icon{top: -47px; left: -76px; opacity: .1; z-index: -1;}
+.become-banner-icon{top: -55px; left: -76px; opacity: .07; z-index: -1;}
 
 .become-banner-image-bg{background-color: var(--capri-ocean); transform: translate(-20px,20px);}
 .become-banner-stats{padding-bottom: 14px; margin-bottom: 13px; border-bottom: 1px solid rgba(255, 255, 255, 0.2); color: rgba(255, 255, 255, 0.6); font-family: "Century Gothic",sans-serif; font-size: 16px; font-weight: 400; line-height: 20px; letter-spacing: -.32px; text-align: left;}
@@ -40,7 +40,6 @@
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .become-banner-main{padding: 150px 0 36px; margin-bottom: 100px;}
     .become-banner-text{margin-bottom: 70px; width: 100%;}
-    .become-banner-text span.optional-text{margin-bottom: 0;}
     .become-banner-text p{max-width: 100%;}
     .become-banner-icon{top: -60px; left: auto; opacity: 1; right: 23px;}
     .become-banner-image{margin: 0 0 55px 20px;}
