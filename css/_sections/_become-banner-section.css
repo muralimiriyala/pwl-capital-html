@@ -1,5 +1,5 @@
 .become-banner-section{background-color: var(--french-navy); box-shadow: -20px 20px 0 0 #d9eef7;}
-.become-banner-text{color: var(--muted-light); font-size: 20px; line-height: 1.55; font-weight: normal;}
+.become-banner-text{color: var(--muted-light); font-size: 20px; line-height: 1.55; font-weight: normal; font-family: 'Century Gothic';}
 .become-banner-text span.optional-text{color: rgba(217, 238, 247, 0.6); font-weight: 500; margin-bottom: 0;}
 .become-banner-text h1{color: var(--white);}
 .become-banner-text p{max-width: 421px;}

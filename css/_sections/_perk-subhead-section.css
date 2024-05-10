@@ -20,6 +20,7 @@
     .perk-subhead-main{margin-bottom: 85px;}
     .perk-subhead-list{width: 307px; margin-left: 30px;}
     .perk-subhead-list:first-child{margin-left: 0;}
+    .perk-subhead-list h2{font-size: 28px;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 740px) {
