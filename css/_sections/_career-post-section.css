@@ -1,6 +1,7 @@
 
 
-.career-post-article > p:first-child > span { font-size: 20px; line-height: 31px; letter-spacing: 0; font-weight: 400; font-family: "Century Gothic", sans-serif; }
+.career-post-article > p:first-child > span { font-size: 20px; line-height: 31px; letter-spacing: 0; font-weight: 400; font-family: "Century Gothic", sans-serif;  }
+.career-post-article h3{margin-top: 59px;}
 .career-post-bg{padding: 32px 32px 40px; margin-bottom: 48px; background-color: #e7f4fa; z-index: inherit;}
 .post-box-shadow{transform: translate(10px, 10px); background-color: var(--ice-blue);}
 .post-box-shadow::after { width: 64px; height: 64px; bottom: -64px; right: 0; clip-path: polygon(15% 0,100% 0,100% 100%,100% 100%); background-color: var(--ice-blue); display: block; content: ""; position: absolute; }
@@ -35,12 +36,13 @@ form.career-post-form button{width: 100% !important;}
 	.career-post-bg { padding: 34px 37px 40px; }
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
-	.career-post-main{padding: 0 0 70px; display: block;}
+	.career-post-main{padding: 0 0 32px; display: block;}
 	.career-post-article{padding: 0 0 72px;}
 	.career-post-article > p:first-child{margin-bottom: 37px;}
 	.career-post-article h3{margin-bottom: 26px;}
 	.career-post-icon{margin-bottom: 7px;}
 	.career-post-bg { padding: 34px 37px 40px; }
+	.career-post-article h3{margin-top: 40px;}
 }
 
 

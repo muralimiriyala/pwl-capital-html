@@ -1,7 +1,7 @@
 
 .resource-blog-list:nth-child(10n+7){flex: 0 0 100%; width: 100%; position: relative; background-color: var(--french-navy); color: var(--white);}
 .resource-blog-list:not(:nth-child(10n+7)) .resource-blog-image{margin-bottom: 30px;}
-.resource-blog-list:not(:nth-child(10n+7)) .resource-blog-image img{min-height: 206px; max-height: 206px; overflow: hidden;}
+/* .resource-blog-list:not(:nth-child(10n+7)) .resource-blog-image img{min-height: 206px; max-height: 206px; overflow: hidden; object-position: top;} */
 .resource-blog-text{font-size: 21px; line-height: 1.43; letter-spacing: -0.42px; font-weight: 300; font-family: 'Century Gothic';}
 .resource-blog-text p a{color: var(--midnight);}
 .resource-blog-text p a:hover{color: var(--aquamarine);}

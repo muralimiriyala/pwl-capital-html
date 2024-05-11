@@ -5,7 +5,7 @@
 .learn-grid-text p a{color: var(--midnight);}
 .learn-grid-text p a:hover{color: var(--aquamarine);}
 .learn-more-btn{position: relative; z-index: 2;}
-.learn-grid-list:not(:nth-child(10n+4)) .learn-grid-image img{min-height: 206px; max-height: 206px; overflow: hidden;}
+/* .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-image img{min-height: 206px; max-height: 206px; overflow: hidden; object-position: top;} */
 .learn-grid-list:nth-child(10n+4) .learn-grid-text p a{color: var(--white);}
 .learn-grid-list:nth-child(10n+4) .learn-grid-text p a:hover{color: var(--aquamarine);}
 
@@ -28,7 +28,7 @@
     .learn-grid-list:nth-child(10n+4) .learn-grid-text{padding: 60px 50px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
-    .learn-grid-wrap{padding: 120px 0 66px;}
+    .learn-grid-wrap{padding: 40px 0 66px;}
     .learn-grid-main{gap: 30px; padding: 0 0 128px;}
     .learn-grid-list{flex: 0 0 calc(33.33333% - 20px);}
     .learn-grid-thumb img{min-height: 180px;}
@@ -40,7 +40,7 @@
     .learn-grid-list:nth-child(10n+4) .learn-grid-text p{margin-bottom: 11px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    .learn-grid-wrap{padding: 90px 0 54px;}
+    .learn-grid-wrap{padding: 32px 0 54px;}
     .learn-grid-main{display: block; padding: 0 0 71px;}
     .learn-grid-list:not(:last-child){margin-bottom: 66px;}
     .learn-grid-text p{margin-bottom: 9px;}

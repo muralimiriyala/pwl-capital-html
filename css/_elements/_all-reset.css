@@ -101,7 +101,7 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .button.btn-green-bg:hover{background-color: var(--capri-ocean);}
 
 .btn-transparent.white-text{color: var(--white);}
-.btn-green.btn-transparent{border-color: var(--green-pear);}
+.btn-green.btn-transparent{border-color: var(--green-pear); color: var(--green-pear);}
 .btn-green.btn-transparent:hover{background: var(--green-pear); color:var(--white);}
 .button.btn-white.btn-transparent{border-color: var(--white);}
 .button.btn-white.btn-transparent:hover{background: var(--green-pear); border-color: var(--green-pear); color:var(--white);}
@@ -111,7 +111,7 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .btn-aquamarine.btn-transparent.white-text{color: var(--white);}
 
 .button.btn-md{font-size: 14px; line-height: 15px; letter-spacing: 0.28px; padding: 11px 14px 11px;}
-.button.btn-sm{font-size: 14px; line-height: 14px; letter-spacing: 0.18px; padding: 11px 16px 11px;}
+.button.btn-sm{font-size: 14px; line-height: 14px; letter-spacing: 0.18px; padding: 11px 20px 11px;}
 .button.btn-lg{padding: 14px 29px 15px;}
 
 .text-link{color: var(--capri-ocean, #0894D3); font-family:"brother-1816", sans-serif; font-size: 15px; font-weight: 500; line-height: 15px; letter-spacing: 0.3px; text-transform: uppercase; display: inline-flex; align-items: center;}

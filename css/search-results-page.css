@@ -49,6 +49,9 @@ ul.content-type li::before{display: none;}
 
 #load-more .button{min-width: 200px;}
 
+.srch-results-list:nth-last-child(n - 1) .srch-results-thumb::after{height: 156px; width: 100%; top: calc(100% + 76px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
+.srch-results-list:nth-last-child(n - 1) .srch-results-text::after{ width: 100%; top: calc(100% + 76px); height: 100%; background-repeat: no-repeat; content: ""; background-image:url("../images/search-result-shadow.svg") ; position: absolute; z-index: -1;}
+.srch-load-more-btn{position: relative; z-index: 1;}
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .srch-results-watermark svg:nth-child(1){top: -34px; right: 211px;}
