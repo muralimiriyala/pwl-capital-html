@@ -97,6 +97,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     body.page-template-default .team-lists-main{padding-bottom: 0;}
     .team-lists-main .load-more-btn{margin-top: 75px;}
     .team-lists-main #load-more .button{max-width: 146px; min-width: auto;}
+    body.page-template-default .team-member-wrap{padding: 71px 0 0;}
 }
 
 @media screen and (max-width: 739px) and (min-width: 200px) {

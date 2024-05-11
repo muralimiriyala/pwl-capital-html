@@ -18,7 +18,7 @@ ul.srch-results-links li a svg{left: 0; top: 50%; transform: translateY(-50%); p
 .srch-results-list{gap: 38px; margin-bottom: 40px;}
 .srch-results-thumb{flex: 0 0 162px; box-shadow: -10px 10px 0px 0px var(--ice-blue, #D9EEF7);}
 .srch-results-text{flex: 1;}
-.srch-results-text h2{font-weight: 600;}
+.srch-results-text h2{font-weight: 500;}
 .srch-results-text h2 a{color: var(--midnight);}
 .srch-results-text h2 a:hover{color: var(--green-pear);}
 ul.content-type{margin: 0; gap: 10px;}
@@ -49,8 +49,8 @@ ul.content-type li::before{display: none;}
 
 #load-more .button{min-width: 200px;}
 
-.srch-results-list:nth-last-child(n - 1) .srch-results-thumb::after{height: 156px; width: 100%; top: calc(100% + 76px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
-.srch-results-list:nth-last-child(n - 1) .srch-results-text::after{ width: 100%; top: calc(100% + 76px); height: 100%; background-repeat: no-repeat; content: ""; background-image:url("../images/search-result-shadow.svg") ; position: absolute; z-index: -1;}
+.srch-results-list:nth-last-child(-n + 2) .srch-results-thumb::after{height: 156px; width: 100%; top: calc(100% + 51px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
+.srch-results-list:nth-last-child(-n + 2) .srch-results-text::after{ width: 100%; top: calc(100% + 104px); height: 100%; background-repeat: no-repeat; content: ""; background-image: url("./images/search-result-shadow.svg") ; position: absolute; z-index: -1; opacity: .5;}
 .srch-load-more-btn{position: relative; z-index: 1;}
 /* media css starts here */
 @media only screen and (min-width: 1024px){
@@ -72,6 +72,7 @@ ul.content-type li::before{display: none;}
     .srch-results-main{padding: 84px 0 0; display: block;}
     .srch-results-filter{margin-bottom: 4rem;}
     .srch-results-btn{display: none;}
+    .srch-load-more-btn{text-align: center; margin-top: 133px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     body.search-results-page header.header-main{background-color: transparent;}
@@ -91,7 +92,11 @@ ul.content-type li::before{display: none;}
     .srch-results-row{padding-left: 5px;}
     .srch-results-list{gap: 21px; align-items: flex-start;}
     .srch-results-text{padding-top: 16px;}
-    .srch-load-more-btn{text-align: center;}
+    .srch-load-more-btn{text-align: center; margin-top: 133px;}
+    .srch-results-filter h2{margin-bottom: 24px;}
+    .srch-results-text h2{margin-bottom: 16px;}
+    .srch-results-list:nth-last-child(-n+2) .srch-results-thumb::after {height: 79px; top: calc(100% + 134px);}
+    .srch-results-list:nth-last-child(-n + 2) .srch-results-text::after{top: calc(100% + 56px); background-image: url("./images/search-result-shadow-mob.svg") ; opacity: 0.4;}
 }
 
 

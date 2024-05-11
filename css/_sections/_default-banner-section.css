@@ -1,7 +1,7 @@
 
 .default-banner-section{background-color: var(--french-navy); box-shadow: -20px 20px 0 0 #d9eef7;}
 .default-banner-text{color: rgba(217, 238, 247, 0.6);}
-.default-banner-text span.optional-text{color: rgba(217, 238, 247, 0.6); font-weight: 500;}
+.default-banner-text span.optional-text{color: rgba(217, 238, 247, 0.6); font-weight: 500; margin-bottom: 2px;}
 .default-banner-text h1{color: var(--white);}
 
 .default-banner-watermark{top: 0; right: 0;}
