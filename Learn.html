@@ -46,8 +46,49 @@
             </div>
             <div class="header-right flex flex-vcenter">
                 <ul class="main-menu flex">
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li class="nav-services"><a href="services.html">Services</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Services</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Wealth Management</a></li>
+                                    <li><a href="#">Financial Planning</a></li>
+                                    <li><a href="#">Family Office</a></li>
+                                    <li><a href="#">Institutional Asset Management</a></li>
+                                    <li><a href="#">Financial Planning for Doctors</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Next Steps</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">What Sets Us Apart</a></li>
+                                    <li><a href="#">Become a Client</a></li>
+                                    <li><a href="#">Find Your Financial Goals</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <picture class="menu-thumb object-fit">
+                                    <img src="images/menu-thumb@2x.jpg" alt="">
+                                </picture>
+                                <div class="background-text flex flex-end">
+                                    <div class="menu-text inverted fs-15">
+                                        <span class="h4">Sample CTA Header</span>
+                                        <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et.</p>
+                                        <a href="#" class="button btn-green btn-transparent">Learn More</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Our People</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Media Inquiries</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
                     <li><a href="learn.html">Learn</a></li>
                     <li><a href="">Find your Financial Goals</a></li>
                 </ul>
@@ -60,6 +101,7 @@
                     <a class="radius-50 flex flex-center" href="#">FR</a>
                 </div>
             </div>
+            <div class="header-overlay"></div>
         </div>
         </div>
 </header>
@@ -185,46 +227,51 @@
 </div>
 </section>
 <section class="newsletter-section inverted relative">
-<div class="container">
-    <div class="newsletter-main flex flex-vcenter">
-        <div class="newsletter-text relative">
-            <span class="optional-text light">Newsletter Signup</span>
-            <h2 class="h3">A short but persuasive headline aimed at driving signup conversions.</h2>
-            <div class="newsletter-watermark absolute">
-                <svg width="226" height="276" viewBox="0 0 226 276" fill="none">
-                    <path d="M216 10H10V190H154.5L216 251.5V10Z" stroke="white" stroke-opacity="0.07" stroke-width="20"/>
-                </svg>
+    <div class="container">
+        <div class="newsletter-main flex flex-vcenter">
+            <div class="newsletter-text relative">
+                <span class="optional-text light">Newsletter Signup</span>
+                <h2 class="h3">A short but persuasive headline aimed at driving signup conversions.</h2>
+                <div class="newsletter-watermark absolute hide-mobile hide-tablet">
+                    <svg width="226" height="276" viewBox="0 0 226 276" fill="none">
+                        <path d="M216 10H10V190H154.5L216 251.5V10Z" stroke="white" stroke-opacity="0.07" stroke-width="20"/>
+                    </svg>
+                </div>
+                <div class="newsletter-watermark absolute hide-desktop">
+                    <svg width="145" height="181" viewBox="0 0 145 181" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M135 10H10V118.82H97.682L135 156V10Z" stroke="white" stroke-opacity="0.07" stroke-width="20"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="newsletter-signup">
+                <form action="" class="newsletter-form">
+                    <div class="newsletter-field frm_first">
+                        <input type="text" name="" id="" placeholder="First Name">
+                    </div>
+                    <div class="newsletter-field frm_last">
+                        <input type="text" name="" id="" placeholder="Last Name">
+                    </div>
+                    <div class="newsletter-field-wrap relative">
+                        <div class="newsletter-field-email">
+                            <input type="text" name="" id="" placeholder="Your E-mail Address">
+                        </div>
+                        <div class="newsletter-submit">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="newsletter-disclaimer f-300 fs-14 relative">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M9 0C4.02571 0 0 4.02525 0 9C0 13.9742 4.02525 18 9 18C13.9743 18 18 13.9747 18 9C18 4.02578 13.9747 0 9 0ZM9 16.7442C4.72985 16.7442 1.25582 13.2702 1.25582 9C1.25582 4.72982 4.72985 1.25582 9 1.25582C13.2701 1.25582 16.7442 4.72982 16.7442 9C16.7442 13.2702 13.2701 16.7442 9 16.7442Z" fill="#D9EEF7" fill-opacity="0.6"/>
+                        <path d="M9.00009 7.50171C8.46698 7.50171 8.08789 7.72685 8.08789 8.05855V12.5721C8.08789 12.8565 8.46698 13.1407 9.00009 13.1407C9.5095 13.1407 9.9241 12.8565 9.9241 12.5721V8.05848C9.9241 7.72681 9.5095 7.50171 9.00009 7.50171Z" fill="#D9EEF7" fill-opacity="0.6"/>
+                        <path d="M9.0007 4.7179C8.45574 4.7179 8.0293 5.10883 8.0293 5.55901C8.0293 6.00922 8.45578 6.41201 9.0007 6.41201C9.53381 6.41201 9.96032 6.00922 9.96032 5.55901C9.96032 5.10883 9.53377 4.7179 9.0007 4.7179Z" fill="#D9EEF7" fill-opacity="0.6"/>
+                    </svg>
+                    <p>A short disclaimer can appear here if neessary at netus elit convallis nibh donec in feugiat.</p>
+                </div>
             </div>
         </div>
-        <div class="newsletter-signup">
-            <form action="" class="newsletter-form">
-                <div class="newsletter-field frm_first">
-                    <input type="text" name="" id="" placeholder="First Name">
-                </div>
-                <div class="newsletter-field frm_last">
-                    <input type="text" name="" id="" placeholder="Last Name">
-                </div>
-                <div class="newsletter-field-wrap relative">
-                    <div class="newsletter-field-email">
-                        <input type="text" name="" id="" placeholder="Your E-mail Address">
-                    </div>
-                    <div class="newsletter-submit">
-                        <button type="submit">Submit</button>
-                    </div>
-                </div>
-            </form>
-            <div class="newsletter-disclaimer f-300 fs-14 relative">
-                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                    <path d="M9 0C4.02571 0 0 4.02525 0 9C0 13.9742 4.02525 18 9 18C13.9743 18 18 13.9747 18 9C18 4.02578 13.9747 0 9 0ZM9 16.7442C4.72985 16.7442 1.25582 13.2702 1.25582 9C1.25582 4.72982 4.72985 1.25582 9 1.25582C13.2701 1.25582 16.7442 4.72982 16.7442 9C16.7442 13.2702 13.2701 16.7442 9 16.7442Z" fill="#D9EEF7" fill-opacity="0.6"/>
-                    <path d="M9.00009 7.50171C8.46698 7.50171 8.08789 7.72685 8.08789 8.05855V12.5721C8.08789 12.8565 8.46698 13.1407 9.00009 13.1407C9.5095 13.1407 9.9241 12.8565 9.9241 12.5721V8.05848C9.9241 7.72681 9.5095 7.50171 9.00009 7.50171Z" fill="#D9EEF7" fill-opacity="0.6"/>
-                    <path d="M9.0007 4.7179C8.45574 4.7179 8.0293 5.10883 8.0293 5.55901C8.0293 6.00922 8.45578 6.41201 9.0007 6.41201C9.53381 6.41201 9.96032 6.00922 9.96032 5.55901C9.96032 5.10883 9.53377 4.7179 9.0007 4.7179Z" fill="#D9EEF7" fill-opacity="0.6"/>
-                </svg>
-                <p>A short disclaimer can appear here if neessary at netus elit convallis nibh donec in feugiat.</p>
-            </div>
-        </div>
+        <div class="newsletter-polygon absolute"></div>
     </div>
-    <div class="newsletter-polygon absolute"></div>
-</div>
 </section>
 <section class="learn-grid-section">
 <div class="container">

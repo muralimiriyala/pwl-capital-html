@@ -48,6 +48,7 @@ body.page-template-learn-model .newsletter-section{background-color: rgba(217, 2
     .newsletter-main{padding: 77px 0 82px; display: block; margin-bottom: 58px;}
     body.page-template-learn-model .newsletter-main{padding: 100px 0 82px; margin-bottom: 0;}
     .newsletter-text{padding-bottom: 12px;}
+    .newsletter-watermark{top: -47px; right: 14px;}
     .newsletter-field{margin-bottom: 10px;}
     .newsletter-field-email{margin-bottom: 10px;}
     .newsletter-polygon{width: 58px; height: 58px; bottom: -57px;}

@@ -2,12 +2,13 @@
 .meet-with-banner{background-color: var(--french-navy);  box-shadow: -20px 20px 0 0 #d9eef7;}
 .meet-with-title span.optional-text{color: rgba(217, 238, 247, 0.6); font-weight: 500; margin-bottom: 22px;}
 .meet-with-title h1{color: var(--white); margin-bottom: 20px;}
-.meet-with-desc{display: block; font-size: 20px; line-height: 1.55; color: rgba(217, 238, 247, 0.6); font-family: 'Century Gothic'; margin-bottom: 22px;}
+.meet-with-desc{display: block; font-size: 20px; line-height: 1.55; color: rgba(217, 238, 247, 0.6); font-family: 'Century Gothic'; margin-bottom: 22px; letter-spacing: normal;}
 ul.meet-with-call{margin: 0;}
-ul.meet-with-call > li{margin-bottom: 5px; line-height: 1.76;}
+ul.meet-with-call > li{margin-bottom: 0; line-height: 1.76;}
 ul.meet-with-call > li::before{display: none;}
-ul.meet-with-call > li > a{align-items: center; gap: 10px; color: var(--white); font-family: 'Century Gothic'; width: fit-content;}
+ul.meet-with-call > li > a{align-items: center; gap: 13px; color: var(--white); font-family: 'Century Gothic'; width: fit-content;}
 ul.meet-with-call > li > a:hover{color: var(--green-pear);}
+ul.meet-with-call > li > a svg{width: 14px;}
 .meet-watermark{top: 223px; right: 0;}
 .meet-watermark svg:first-child{top: 0; right: -67px; position: absolute;}
 .meet-watermark svg:not(:first-child){top: 150px; right: 192px; position: absolute;}
@@ -72,11 +73,11 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     ol.meet-form-step > li{font-size: 16px; font-weight: 700; line-height: 1.13; letter-spacing: -.48px; align-items: center; display: flex; padding: 0 0 13px 45px; min-height: 53px;}
 
     .meet-location-main{padding: 80px 0 72px;}
-    .meet-location-list{gap: 33px; margin-bottom: 40px;}
+    .meet-location-list{gap: 33px; margin-bottom: 34px;}
     .meet-location-list:last-child{margin-bottom: 0;}
     .meet-location-image{flex: 0 0 132px;}
     .meet-location-thumb{box-shadow: -10px 10px 0 0 rgba(8, 148, 211, 0.3);}
-    .meet-location-text{flex: 0 0 calc(100% - 165px); padding-top: 25px;}
+    .meet-location-text{flex: 0 0 calc(100% - 165px); padding-top: 21px;}
 
     .meet-watermark{top: 0; right: 0;}
     .meet-watermark svg:first-child{top: -57px; right: 3px;}

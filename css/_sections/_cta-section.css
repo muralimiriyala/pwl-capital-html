@@ -37,7 +37,7 @@ body.page-template-become-a-partner .cta-image-bg, body.page-template-services .
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .cta-reverse .cta-text{padding-right: 350px;}
-    .cta-text{gap: 50px; padding-left: 310px;}
+    .cta-text{gap: 50px; padding-left: 310px; align-items: center;}
     .cta-reverse .cta-desc{padding-right: 48px;}
     .cta-desc{flex: .8;}
     .cta-image{max-width: 350px;}
