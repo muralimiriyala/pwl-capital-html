@@ -2,7 +2,9 @@
 
 
 .newsletter-section{background-color: var(--french-navy); box-shadow: -20px 20px 0 var(--green-pear);}
-body.page-template-learn-model .newsletter-section{background-color: rgba(217, 238, 247, 0.65); box-shadow: none;}
+.newsletter-section.newsletter-light{background-color: rgba(217, 238, 247, 0.65); box-shadow: none;}
+.newsletter-section.newsletter-light .newsletter-text{z-index: -1;}
+.newsletter-section.newsletter-light .newsletter-watermark svg path{stroke: #d9eef7; stroke-opacity: 1;}
 .newsletter-section.blue-dark span.optional-text{color: rgba(16, 42, 70, 0.6);}
 .newsletter-field-wrap{clear: both;}
 .newsletter-form input{color: rgba(16, 42, 70, 0.60);}
@@ -11,8 +13,9 @@ body.page-template-learn-model .newsletter-section{background-color: rgba(217, 2
 .newsletter-submit button:hover{background-color: var(--capri-ocean);}
 .newsletter-disclaimer{padding: 19px 0 0 28px; color: var(--muted-light);}
 .newsletter-section.blue-dark .newsletter-disclaimer{color: rgba(16, 42, 70, 0.6);}
+.newsletter-section.blue-dark .newsletter-disclaimer svg path{fill: rgba(45, 87, 130, 0.14);}
 .newsletter-disclaimer svg{width: 18px; top: 21px; left: 0; position: absolute;}
-.newsletter-polygon{left: 0; bottom: -111px; width: 111px; height: 111px; background-color: var(--french-navy); clip-path: polygon(0 0, 100% 0%, 50% 50%, 0% 100%);}
+.newsletter-polygon{left: 0; bottom: -110px; width: 111px; height: 111px; background-color: var(--french-navy); clip-path: polygon(0 0, 100% 0%, 50% 50%, 0% 100%);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

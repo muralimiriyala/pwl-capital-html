@@ -1,6 +1,6 @@
 
 .share-icons{gap: 11px; position: relative;}
-body.page-template-learn-default .share-icons{margin-bottom: 55px;}
+body.page-template-learn-default .share-icons, body.page-template-learn-model .share-icons{margin-bottom: 55px;}
 .share-text{ color: var(--muted-dark, rgba(16, 42, 70, 0.60)); font-family: "Century Gothic", sans-serif; font-size: 15px; font-weight: 400; line-height: 22px; text-transform: capitalize; }
 .share-icons #st-1.st-animated{width: 100%; flex: 1; gap: 5px; display: flex; flex-wrap: wrap; z-index: 1;}
 .share-icons #st-1.st-animated .st-btn{padding: 0; margin: 0; width: 30px; height: 30px; min-width: 30px; font-size: 14px; line-height: normal; border-radius: 0%; background-color: #dbedf7; color: var(--midnight); position: relative; z-index: 1; font-family: "Font Awesome 6 Brands"; font-weight: 400; display: flex !important; align-items: center; justify-content: center; transition: all 0.4s ease-in-out !important;}
@@ -23,5 +23,5 @@ body.page-template-learn-default .share-icons{margin-bottom: 55px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .share-icons{margin-bottom: 3rem;}
-    body.page-template-learn-default .share-icons{margin-bottom: 36px;}
+    body.page-template-learn-default .share-icons, body.page-template-learn-model .share-icons{margin-bottom: 36px;}
 }

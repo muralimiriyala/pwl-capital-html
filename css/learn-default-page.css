@@ -21,16 +21,18 @@
 
 @media screen and (max-width: 1399px) and (min-width: 1024px) {
     .learn-main{gap: 80px; margin-bottom: 80px;}
-    .learn-article{flex: 0 0 550px;}
-    .learn-sidebar{flex: 0 0 calc(100% - 640px);}
+    .learn-article{flex: 0 0 58%;}
+    .learn-sidebar{flex: 0 0 calc(100% - 66.6%);}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 740px) {
     .learn-main{margin-bottom: 80px;}
     .learn-article{margin-bottom: 82px;}
+    body.page-template-learn-model .learn-article{margin-bottom: 40px;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px) {
     .learn-main{margin-bottom: 76px;}
     .learn-article{margin-bottom: 82px;}
+    body.page-template-learn-model .learn-article{margin-bottom: 40px;}
     .short-subhead-image{margin: 40px 0;}
 }

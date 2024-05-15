@@ -48,9 +48,9 @@ dl:last-child{margin-bottom: 0;}
 dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: var(--foreground); content: ""; display: inline-block; vertical-align: middle;}
 blockquote dl dt::before{background-color: var(--white);}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 0 0 26px 27px;}
+ul {list-style: none; margin: 0 0 26px 24px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 15px;}
-ul > li:before { top: 12px; left: -17px; width: 7px; height: 7px; border-radius: 0; opacity: 1; background: var(--bermuda, #A1CFBD); content: ""; position: absolute;} 
+ul > li:before { top: 12px; left: -23px; width: 7px; height: 7px; border-radius: 0; opacity: 1; background: var(--bermuda, #A1CFBD); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 40px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
@@ -65,9 +65,9 @@ table{border: none;}
 th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
 table {border-collapse: separate; border-spacing: 0; border-width: 1px; margin: 43px 0; max-width: 100%; width: 100%;}
 table tr td:first-child,table tr th:first-child {text-align: left;}
-th {font-family: 'Century Gothic'; font-weight: 800; border-width: 0; padding: 16px 22px; background-color: rgba(217, 238, 247, 0.65); color: var(--pacific-blue); border-radius: 0; font-size: 18px; line-height: 1.22;}
+th {font-family: 'Century Gothic'; font-weight: 800; border-width: 0; padding: 16px 22px 18px; background-color: rgba(217, 238, 247, 0.65); color: var(--pacific-blue); border-radius: 0; font-size: 18px; line-height: 1.22;}
 th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
-td {border-width: 0; padding: 13px 15px 11px; text-align: right; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1.05rem; line-height: 1.5rem; font-family: 'Century Gothic';}
+td {border-width: 0; padding: 14px 22px 16px; text-align: right; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1.05rem; line-height: 1.5rem; font-family: 'Century Gothic';}
 table tr:nth-child(odd) td{background-color: rgba(217, 238, 247, 0.65);}
 
 .table-box-main{align-items: center; gap: 20px;}
@@ -303,10 +303,52 @@ ul.slick-dots li button{display: none;}
 .capri-ocean{color: var(--capri-ocean);}
 .bright-Spring{color: var(--bright-Spring);}
 
-::-webkit-input-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 300; }
-::-moz-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 300; opacity: 1; }
-:-moz-placeholder { font-family: "Century Gothic", sans-serif; font-weight: 300; }
+::-webkit-input-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: rgba(16, 42, 70, 0.6); opacity: 1;}
+::-moz-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: rgba(16, 42, 70, 0.6); opacity: 1;}
+:-moz-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: rgba(16, 42, 70, 0.6); }
+
+/* tooltip css start */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
   
+  .tooltip:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background-color: var(--white);
+    color: var(--midnight);
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    white-space: normal;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 500px;
+  }
+  
+  .tooltip:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: rotate(180deg);
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+    z-index: 999;
+  }
+  
+  .tooltip:hover::after,
+  .tooltip:hover::before {
+    opacity: 1;
+  }
+  /* tooltip css end */
+
 /*-- media css starts here --*/
 @media screen and (min-width: 740px){
     .d-fs-16{font-size: 1rem; line-height: 1.5rem; letter-spacing: -0.32px;}
@@ -350,4 +392,6 @@ ul.slick-dots li button{display: none;}
   .play-btn-main .play-btn.sm{width: 36px; height: 36px;}
   th, td{font-size: 15px; line-height: 1.47; padding: 16px;}
   .line{margin: 40px 0;}
+
+  .tooltip:hover::after {width: 300px;}
 }

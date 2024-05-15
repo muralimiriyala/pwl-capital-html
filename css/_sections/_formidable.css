@@ -37,6 +37,10 @@ body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: v
 body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
 body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
 body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic'; opacity: 1;}
+
+body .header-main form.search-form input::-webkit-input-placeholder{color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
+body .header-main form.search-form input:-moz-placeholder{color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
+
 .vertical_radio .frm_opt_container{margin-top: 0;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 0;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding: 9px 13px 12px 35px; cursor: pointer; display: block; font-size: 1rem; line-height: 1.13; letter-spacing: normal; text-indent: 0; color: var(--white); position: relative; font-family: 'Century Gothic';}
@@ -77,7 +81,7 @@ body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{gap: 8px; di
 body .frm_forms .frm_form_fields .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox{margin: 0; position: relative; display: inline-block; padding: 0; background: none; border-radius: 0; border: none;}
 
-body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0 0 0 32px; position: relative; background-color: transparent; text-transform: capitalize;}
+body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0 0 0 30px; position: relative; background-color: transparent; text-transform: capitalize;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{top: -2px; left: 0;}
 body .with_frm_style .frm_loading_form .frm_button_submit{opacity: 1 !important; color: var(--white) !important;}
 body .with_frm_style .frm_loading_prev .frm_prev_page{opacity: 1 !important; color: var(--navy) !important;}
@@ -160,14 +164,14 @@ body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wra
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .frm_form_field_wrapper{gap: 20px; justify-content: space-between;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 0; flex: 1;}
-    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 5px;}
+    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 0;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex: 0 0 100%; padding-top: 6px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{line-height: 1.13;}
 
     body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
     body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 34px; margin-top: 0  ; border-top: none;}
     body .frm_forms .frm_form_fields .frm_form_field textarea{height: 140px;}
-    body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 24px;}
+    body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 20px;}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 24px;}
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{padding: 0 0 9px;}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_primary_label{padding: 0 0 13px;}

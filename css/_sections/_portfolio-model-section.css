@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 200px){
     .portfolio-model-section .container{padding: 0;}
-    .portfolio-model-main{flex-direction: column-reverse; display: flex; margin-bottom: 50px;}
+    .portfolio-model-main{flex-direction: column-reverse; display: flex; margin-bottom: 80px;}
     .portfolio-model-left{max-width: 100%; padding: 0px 20px 0; gap: 10px; margin-top: -150px;}
     .portfolio-model-text{padding-bottom: 0; width: 100%;}
     .portfolio-model-image{max-width: 100%; position: relative;}

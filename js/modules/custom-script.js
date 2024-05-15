@@ -54,6 +54,15 @@ jQuery(function($){
         }
      });
 
+     $(".header-srch-main").on("click", function(e){
+         e.preventDefault();
+         $(".header-srch-form").addClass("open");
+      });
+     $(".close-srch").on("click", function(e){
+         e.preventDefault();
+         $(".header-srch-form").removeClass("open");
+      });
+
      $(".flyout_btn").on("click", function(e){
         e.preventDefault();
         $(".flyout-bg-overlay").toggleClass("open");

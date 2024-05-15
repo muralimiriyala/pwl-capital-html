@@ -17,6 +17,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px) {
     .financial-main{max-width: 1230px; margin: 0 auto; padding: 121px 0 113px;}
+    body.page-template-default .financial-main{padding: 96px 0 113px;}
     .financial-heading{max-width: 776px; padding: 0 0 77px 50px;}
     .financial-item{flex: 0 0 421px; padding: 50px; border-left: 1px solid rgba(45, 87, 130, 0.14); border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     .financial-item:nth-last-child(-n+3){border-bottom: none;}

@@ -1,6 +1,6 @@
 
 .authors-lists{margin-bottom: 60px;}
-.authors-lists h5{margin-bottom: 27px;}
+.authors-lists h5{margin-bottom: 27px; font-weight: 500;}
 .authors-lists-item{gap: 25px; padding-bottom: 9px; border-bottom: 1px solid rgba(45, 87, 130, 0.14); margin-bottom: 14px;}
 .authors-lists-item:last-child{padding-bottom: 0; border-bottom: none; margin-bottom: 0;}
 .authors-lists-image{width: 48.5px;}

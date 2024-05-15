@@ -73,6 +73,10 @@ ul.content-type li::before{display: none;}
     .srch-results-filter{margin-bottom: 4rem;}
     .srch-results-btn{display: none;}
     .srch-load-more-btn{text-align: center; margin-top: 133px;}
+    .srch-results-btn{padding: 16px 44px 17px 17px; font-size: 15px; font-weight: 400; line-height: 15px; border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)); background: var(--white, #FFF); color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; text-transform: capitalize; display: block; cursor: pointer; }
+    .srch-results-btn svg{right: 15px; top: 50%; transform: translateY(-50%); position: absolute;}
+    .srch-results-btn.open svg{transform: translateY(-50%) scaleY(-1);}
+    ul.srch-results-links{display: none;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     body.search-results-page header.header-main{background-color: transparent;}
