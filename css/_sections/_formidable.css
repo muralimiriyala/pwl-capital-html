@@ -63,13 +63,13 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radi
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 4px 0 0 3px; box-shadow: inset 8px 8px var(--white); top: auto; left: auto; transform: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--capri-ocean); border-color: var(--capri-ocean); box-shadow: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before{box-shadow: inset 10px 10px var(--white);}
-body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1; justify-content: space-between; width: 100%;}
+body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1; justify-content: space-between; width: auto;}
 body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_submit{width: auto;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit{justify-content: inherit;}
-body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 140px; background-color: var(--green-pear);}
-body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--capri-ocean); color: var(--white);}
-body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-transparent{background-color: transparent; border: 2px solid var(--green-pear);}
-body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-transparent:hover{background-color: var(--green-pear);}
+body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 140px; background-color: var(--green-pear);}
+body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--capri-ocean); color: var(--white);}
+body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-transparent{background-color: transparent; border: 2px solid var(--green-pear);}
+body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-transparent:hover{background-color: var(--green-pear);}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: fit-content;}
@@ -88,7 +88,7 @@ body .with_frm_style .frm_loading_prev .frm_prev_page{opacity: 1 !important; col
 body .frm_forms .frm_verify{display: none;}
 body .with_frm_style .frm_form_field.frm_html_container{font-size: 1.125rem; line-height: 1.5rem; letter-spacing: -.18px;}
 .frm-g-recaptcha{height: 78px; overflow: hidden;}
-.frm_form_field_wrapper{ width: 100%; gap: 30px 40px; align-items: center; display: flex; flex-wrap: wrap; float: left;}
+.frm_form_field_wrapper{ width: 100%; gap: 30px 40px; align-items: center; display: flex; flex-wrap: wrap; float: left; justify-content: space-between;}
 body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 38px; margin-top: 34px; width: 100%; float: left; border-top: 1px solid var(--white-20);}
 body .frm_forms .frm_form_fields .frm_form_field.client-info .contact-head{margin-bottom: 7px;}
 legend.frm_screen_reader{display: none;}
@@ -110,13 +110,12 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field  div.fr
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: transparent;}
 body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wrapper #frm_field_13_container{margin-left: 0;}
 
-
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
-    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 0 0 100%;}
+    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
     body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{flex: auto;}
 
     body .frm_forms .frm_form_fields .frm_form_field.frm5{width: calc(20% - 16px); margin-left: 10px; margin-right: 10px; float: left; clear: none;}
@@ -136,7 +135,7 @@ body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wra
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_last{margin-right: 0;}
 }
 @media only screen and (max-width: 1360px) and (min-width: 1024px){
-    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{flex: 0 0 100%;}
+    body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{flex: 1;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(50% - 12px); margin-left: 0; margin-right: 9px; float: none; clear: none; display: inline-block; vertical-align: top;}

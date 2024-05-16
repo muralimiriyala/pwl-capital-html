@@ -28,15 +28,28 @@
 <body>
 <header class="header-main">
     <div class="container lg">
-        <div class="header flex flex-vcenter">
+        <div class="header flex flex-vcenter relative">
             <div class="logo relative">
                 <span class="logo-white"><a href="index.html"><img src="images/logo.svg" alt="logo"> </a></span>
                 <span class="logo-black"><a href="index.html"><img src="images/logo-black.svg" alt="logo"> </a></span>
             </div>
             <div class="header-srch flex flex-vcenter">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M15.6211 13.6851L11.9426 10.0063C12.5676 9.01126 12.9303 7.8352 12.9303 6.57307C12.9303 3.00232 10.0356 0.108032 6.46503 0.108032C2.89442 0.108032 0 3.00232 0 6.57307C0 10.1439 2.89429 13.038 6.46503 13.038C7.83856 13.038 9.1108 12.6085 10.1577 11.8789L13.7924 15.5139C14.045 15.7662 14.3761 15.8918 14.7068 15.8918C15.0378 15.8918 15.3685 15.7662 15.6215 15.5139C16.1262 15.0086 16.1262 14.1902 15.6211 13.6851ZM6.46503 10.9434C4.05162 10.9434 2.09498 8.98688 2.09498 6.57333C2.09498 4.15979 4.05162 2.20315 6.46503 2.20315C8.87858 2.20315 10.8351 4.15979 10.8351 6.57333C10.8351 8.98688 8.87858 10.9434 6.46503 10.9434Z" fill="#121321"/>
-                </svg>
+                <div class="header-srch-main relative">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M15.6211 13.6851L11.9426 10.0063C12.5676 9.01126 12.9303 7.8352 12.9303 6.57307C12.9303 3.00232 10.0356 0.108032 6.46503 0.108032C2.89442 0.108032 0 3.00232 0 6.57307C0 10.1439 2.89429 13.038 6.46503 13.038C7.83856 13.038 9.1108 12.6085 10.1577 11.8789L13.7924 15.5139C14.045 15.7662 14.3761 15.8918 14.7068 15.8918C15.0378 15.8918 15.3685 15.7662 15.6215 15.5139C16.1262 15.0086 16.1262 14.1902 15.6211 13.6851ZM6.46503 10.9434C4.05162 10.9434 2.09498 8.98688 2.09498 6.57333C2.09498 4.15979 4.05162 2.20315 6.46503 2.20315C8.87858 2.20315 10.8351 4.15979 10.8351 6.57333C10.8351 8.98688 8.87858 10.9434 6.46503 10.9434Z" fill="#121321"/>
+                    </svg>
+                </div>
+                <div class="header-srch-form absolute">
+                    <form role="search" method="get" class="search-form" action="">
+                        <span class="custom_icon"> 
+                            <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
+                        </span>
+                        <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                        <span class="close-srch">
+                            <span class="fa-regular fa-xmark" aria-hidden="true"></span>
+                        </span>
+                    </form>
+                </div>
             </div>
             <div role="button" class="humburger-btn">
                 <span></span>
@@ -92,7 +105,7 @@
                     <li><a href="">Find your Financial Goals</a></li>
                 </ul>
                 <div class="header-btns flex">
-                    <a class="button" href="">MEET WITH US</a>
+                    <a class="button flyout_btn" href="">MEET WITH US</a>
                     <a class="button btn-transparent" href="">SIGN IN</a>
                 </div>
                 <div class="languages flex">
@@ -105,507 +118,603 @@
         </div>
 </header>
 <div class="site-main-cover"><!-- site-main-cover starts here -->
-<section class="our-story-section">
-    <div class="container md">
-        <div class="our-story-main flex flex-vcenter">
-            <div class="our-story-text relative">
-                <svg class="absolute" width="143" height="183" viewBox="0 0 143 183" fill="none">
-                    <path d="M10 10.7786H133V120.718H46.7209L10 158.28V10.7786Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                </svg>
-                <svg class="absolute" width="183" height="230" viewBox="0 0 183 230" fill="none">
-                    <path d="M173 10.5909H10V155.407H124.337L173 204.886V10.5909Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                </svg>
-                <div class="our-story-desc">
-                    <span class="optional-text">Optional Preheading</span>
-                    <h1>Our Story</h1>
-                    <p>We offer comprehensive Wealth Management services to Canadians.</p>
-                    <a href="#" class="button btn-transparent">Learn More</a>
-                </div>
-            </div>
-            <div class="our-story-image">
-                <picture class="our-story-thumb object-fit">
-                    <img src="images/about-media@2x.jpg" alt="path-thumb1-mobile">
-                </picture>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="values-section">
-    <div class="container">
-        <div class="values-main flex">
-            <div class="values-list">
-                <div class="values-icon hide-mobile">
-                    <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
-                        <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0894D3"/>
-                        <path d="M14 25.7143L21.2 33L38 16" stroke="#0894D3" stroke-width="6"/>
+    <section class="our-story-section">
+        <div class="container md">
+            <div class="our-story-main flex flex-vcenter">
+                <div class="our-story-text relative">
+                    <svg class="absolute" width="143" height="183" viewBox="0 0 143 183" fill="none">
+                        <path d="M10 10.7786H133V120.718H46.7209L10 158.28V10.7786Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
                     </svg>
-                </div>
-                <div class="values-text f-300">
-                  <h2>Value Subhead</h2>
-                  <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                  <div class="hide-desktop">
-                      <a href="#" class="text-link">Read More</a>
-                  </div>
-                </div>
-            </div>
-            <div class="values-list">
-                <div class="values-icon hide-mobile">
-                    <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
-                        <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0894D3"/>
-                        <path d="M14 25.7143L21.2 33L38 16" stroke="#0894D3" stroke-width="6"/>
+                    <svg class="absolute" width="183" height="230" viewBox="0 0 183 230" fill="none">
+                        <path d="M173 10.5909H10V155.407H124.337L173 204.886V10.5909Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
                     </svg>
-                </div>
-                <div class="values-text f-300">
-                    <h2>Value Subhead</h2>
-                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                    <div class="hide-desktop">
-                        <a href="#" class="text-link">Read More</a>
+                    <div class="our-story-desc">
+                        <span class="optional-text">Optional Preheading</span>
+                        <h1>Our Story</h1>
+                        <p>We offer comprehensive Wealth Management services to Canadians.</p>
+                        <a href="#" class="button btn-transparent">Learn More</a>
                     </div>
                 </div>
-            </div>
-            <div class="values-list">
-                <div class="values-icon hide-mobile">
-                    <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
-                        <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0894D3"/>
-                        <path d="M14 25.7143L21.2 33L38 16" stroke="#0894D3" stroke-width="6"/>
-                    </svg>
-                </div>
-                <div class="values-text f-300">
-                    <h2>Value Subhead</h2>
-                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                    <div class="hide-desktop">
-                        <a href="#" class="text-link">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="values-list">
-                <div class="values-icon hide-mobile">
-                    <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
-                        <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0894D3"/>
-                        <path d="M14 25.7143L21.2 33L38 16" stroke="#0894D3" stroke-width="6"/>
-                    </svg>
-                </div>
-                <div class="values-text f-300">
-                    <h2>Value Subhead</h2>
-                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                    <div class="hide-desktop">
-                        <a href="#" class="text-link">Read More</a>
-                    </div>
+                <div class="our-story-image">
+                    <picture class="our-story-thumb object-fit">
+                        <img src="images/about-media@2x.jpg" alt="path-thumb1-mobile">
+                    </picture>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="timeline-section">
-<div class="container">
-    <div class="timeline-main">
-        <div class="timeline-head">
-            <h2 class="h3">Where we come from</h2>
-        </div>
-        <div class="timeline-slider flex">
-            <div class="timeline-slide relative"> 
-                <span class="timeline-date absolute">2023</span>
-                <div class="timeline-slide-image">
-                    <figure class="timeline-slide-thumb object-fit">
-                        <img src="images/timeline-thumb1@2x.jpg" alt="timeline-thumb1">
-                    </figure>
-                </div>
-                <div class="timeline-slide-text f-300">
-                    <h2 class="h4">Sample Heading</h2>
-                    <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
-                </div>
-            </div>
-            <div class="timeline-slide relative"> 
-                <span class="timeline-date absolute">2021</span>
-                <div class="timeline-slide-image">
-                    <figure class="timeline-slide-thumb object-fit">
-                        <img src="images/timeline-thumb2@2x.jpg" alt="timeline-thumb1">
-                    </figure>
-                </div>
-                <div class="timeline-slide-text f-300">
-                    <h2 class="h4">Sample Heading</h2>
-                    <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
-                </div>
-            </div>
-            <div class="timeline-slide relative"> 
-                <span class="timeline-date absolute">2016</span>
-                <div class="timeline-slide-image">
-                    <figure class="timeline-slide-thumb object-fit">
-                        <img src="images/timeline-thumb3@2x.jpg" alt="timeline-thumb1">
-                    </figure>
-                </div>
-                <div class="timeline-slide-text f-300">
-                    <h2 class="h4">Sample Heading</h2>
-                    <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
-                </div>
-            </div>
-            <div class="timeline-slide relative"> 
-                <span class="timeline-date absolute">2011</span>
-                <div class="timeline-slide-image">
-                    <figure class="timeline-slide-thumb object-fit">
-                        <img src="images/timeline-thumb4@2x.jpg" alt="timeline-thumb1">
-                    </figure>
-                </div>
-                <div class="timeline-slide-text f-300">
-                    <h2 class="h4">Sample Heading</h2>
-                    <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
-                </div>
-            </div>
-            <div class="timeline-slide relative"> 
-                <span class="timeline-date absolute">2008</span>
-                <div class="timeline-slide-image">
-                    <figure class="timeline-slide-thumb object-fit">
-                        <img src="images/timeline-thumb1@2x.jpg" alt="timeline-thumb1">
-                    </figure>
-                </div>
-                <div class="timeline-slide-text f-300">
-                    <h2 class="h4">Sample Heading</h2>
-                    <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
-                </div>
-            </div>
-            <div class="timeline-slide relative"> 
-                <span class="timeline-date absolute">2005</span>
-                <div class="timeline-slide-image">
-                    <figure class="timeline-slide-thumb object-fit">
-                        <img src="images/timeline-thumb1@2x.jpg" alt="timeline-thumb1">
-                    </figure>
-                </div>
-                <div class="timeline-slide-text f-300">
-                    <h2 class="h4">Sample Heading</h2>
-                    <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-<section class="meat-our-section relative">
-<picture class="meat-our-thumb object-fit relative">
-    <source srcset="images/two-happy-businessmen-reading@2x.jpg" media="(min-width: 740px)">
-    <img src="images/two-happy-businessmen-reading-mobile@2x.jpg" alt="home-banner">
-</picture>
-<div class="meet-our-polygon absolute"></div>
-<div class="container meat-our-main">
-    <div class="meat-our-text inverted">
-        <h2>Meet Our Team</h2>
-        <div class="meat-our-desc">
-            <p>Helping you frame financial decisions through the lens of living a good life</p>
-        </div>
-        <div class="meat-our-btns flex">
-            <a href="#" class="button btn-lg white-text btn-transparent">Learn More</a>
-            <a href="#" class="text-link hide-mobile hide-tablet">Optional Link</a>
-            <a href="#" class="text-link btn-green hide-desktop">Optional Link</a>
-        </div>
-    </div>
-</div>
-</section>
-<section class="short-intro-section">
-<div class="container md">
-<div class="short-intro-main relative">
-    <div class="short-about-watermark absolute">
-        <svg width="210" height="379" viewBox="0 0 210 379" fill="none">
-            <path d="M200 10H36V153.851H151.039L200 203V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-            <path d="M10 224H121V320.894H43.1384L10 354V224Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-        </svg>
-    </div>
-    <div class="short-intro-head flex">
-        <div class="short-intro-title">
-            <h2>A short introduction and success metrics to build trust.</h2>
-        </div>
-        <div class="short-intro-desc f-300 fs-17">
-            <p>We offer comprehensive Wealth Management services to Canadians. The PWL Capital team can help you achieve your financial goals. Contact us for more information.</p>
-            <a href="#" class="button btn-transparent">Learn More</a>
-        </div>
-    </div>
-    <div class="short-intro-row flex" data-counter-main="counter-main">
-        <div class="short-intro-list fs-15">
-            <span class="number f-700 aquamarine">
-                <span class="counter" data-duration="2500" data-count-to="20">20</span><span>M</span>
-            </span>
-            <h2 class="h3">Statistic subhead here</h2>
-            <p>Feugiat diam pellentesque at diam scelerisque. </p>
-        </div>
-        <div class="short-intro-list fs-15">
-            <span class="number f-700 capri-ocean">
-                <span>+</span><span class="counter" data-duration="2500" data-count-to="480">480</span>
-            </span>
-            <h2 class="h3">Statistic subhead here</h2>
-            <p>Feugiat diam pellentesque at diam scelerisque. </p>
-        </div>
-        <div class="short-intro-list fs-15">
-            <span class="number f-700 bright-Spring">
-                <span class="counter" data-duration="2500" data-count-to="26">26</span><span>k</span>
-            </span>
-            <h2 class="h3">Statistic subhead here</h2>
-            <p>Feugiat diam pellentesque at diam scelerisque. </p>
-        </div>
-    </div>
-</div>
-</div>
-</section>
-<section class="about-line-dark hide-mobile">
-    <div class="container">
-        <hr class="about-line">
-    </div>
-</section>
-<section class="optional-repeater-section">
-<div class="container md">
-    <div class="optional-repeater-main">
-        <div class="optional-repeater-row flex">
-            <div class="optional-repeater-image relative">
-                <div class="optional-box-bg top-right absolute flex flex-vcenter">
-                    <div class="optional-circle relative ui ui-oval-chart" data-animation>
-                        <div class="oval-chart radius-50 flex flex-center" data-value="38" data-ui-el="value"><span data-ui-el="counter">38</span>%</div>
-                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" data-ui-el="chart">
-                            <path d="M3 28.4354C3 14.1117 14.6117 2.5 28.9354 2.5C37.827 2.5 45.6735 6.97442 50.3461 13.7945" stroke="#269ABD" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
-                            <path opacity="0.2" d="M28.9355 54.3709C43.2593 54.3709 54.871 42.7592 54.871 28.4354C54.871 24.2208 53.8657 20.241 52.0818 16.7227" stroke="white" stroke-width="2"/>
-                            <path opacity="0.2" d="M3.33594 32.6187C5.13782 43.7307 14.0004 52.4753 25.171 54.0997" stroke="white" stroke-width="2"/>
+    </section>
+    <section class="values-section">
+        <div class="container">
+            <div class="values-main flex">
+                <div class="values-list">
+                    <div class="values-icon hide-mobile">
+                        <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
+                            <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0894D3"/>
+                            <path d="M14 25.7143L21.2 33L38 16" stroke="#0894D3" stroke-width="6"/>
                         </svg>
                     </div>
-                    <div class="optional-count inverted font-gothic">
-                        <span>+300k</span>
-                        <p>Net Worth</p>
+                    <div class="values-text f-300">
+                    <h2>Value Subhead</h2>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <div class="hide-desktop">
+                        <a href="#" class="text-link">Read More</a>
+                    </div>
                     </div>
                 </div>
-                <div class="optional-box-bg bottom-left absolute flex flex-vcenter">
-                    <div class="ui ui-line-chart"  data-animation>
-                        <div class="oval-graph relative" data-ui-el="chart">
-                            <div class="oval-lines flex absolute" data-ui-el="lines">
-                                <span class="oval-line"></span>
-                                <span class="oval-line"></span>
-                                <span class="oval-line"></span>
-                                <span class="oval-line"></span>    
-                            </div>
-                            <svg width="58" height="30" viewBox="0 0 58 30" fill="none">
-                                <path d="M2.5 28L20.3721 9.5L37.6279 18L55.5 2" stroke="#89CB3E" stroke-width="5" stroke-linecap="round" data-ui-el="progress" />
-                            </svg>    
-                          </div>
-                    </div>
-                    <div class="optional-count inverted font-gothic">
-                        <span>+300k</span>
-                        <p>Net Worth</p>
-                    </div>
-                </div>
-                <picture class="optional-repeater-thumb object-fit">
-                    <img src="images/optional-thumb1@2x.jpg" alt="optional-thumb1">
-                </picture>
-                <div class="optional-repeater-bg background-bg"></div>
-                <div class="play-btn-main flex flex-center ">
-                    <div class="play-btn relative">
-                        <a href="https://www.youtube.com/watch?v=NI3I3eem714" class="popup-youtube play-btn-bg flex flex-center">
-                            <span class="btn-circle"></span>
-                            <span></span>
-                            <span></span>
-                            video
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="optional-repeater-text f-300">
-                <span class="optional-text muted">Optional Preheader Text</span>
-                <h2 class="h3">We help you plan your financial life.</h2>
-                <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed.</p>
-                <ul>
-                    <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
-                    <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
-                    <li>Cursus eu imperdiet egestas ligula proin</li>
-                </ul>
-                <div class="optional-repeater-btns flex flex-vcenter">
-                    <a href="#" class="button btn-transparent">Learn More</a>
-                    <a href="#" class="text-link">Optional Link</a>
-                </div>
-            </div>
-        </div>
-        <div class="optional-repeater-row flex">
-            <div class="optional-repeater-image relative">
-                <div class="optional-box-bg top-left absolute flex flex-vcenter">
-                    <div class="optional-circle relative ui ui-oval-chart" data-animation>
-                        <div class="oval-chart radius-50 flex flex-center" data-value="81" data-ui-el="value"><span data-ui-el="counter">81</span>%</div>
-                        <svg width="59" height="59" viewBox="0 0 59 59" fill="none" data-ui-el="chart">
-                            <circle opacity="0.2" cx="29.292" cy="29.292" r="26.292" stroke="white" stroke-width="2"/>
-                            <path d="M29.292 55.584C14.7713 55.584 3 43.8127 3 29.292C3 14.7713 14.7713 3 29.292 3C43.8127 3 55.584 14.7713 55.584 29.292C55.584 32.365 55.0569 35.3148 54.088 38.056" stroke="#10B596" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
+                <div class="values-list">
+                    <div class="values-icon hide-mobile">
+                        <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
+                            <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0894D3"/>
+                            <path d="M14 25.7143L21.2 33L38 16" stroke="#0894D3" stroke-width="6"/>
                         </svg>
                     </div>
-                    <div class="optional-count">
-                        <span>+300k</span>
-                        <p>Net Worth</p>
-                    </div>
-                </div>
-                <div class="optional-box-bg bottom-right absolute flex flex-vcenter ui-bar-chart" data-animation="">
-                    <div class="oval-graph relative" data-ui-el="chart">
-                        <div class="oval-lines center flex" data-ui-el="lines">
-                            <span class="oval-line" data-ui-el="bar"></span>
-                            <span class="oval-line" data-ui-el="bar"></span>
-                            <span class="oval-line" data-ui-el="bar"></span>
+                    <div class="values-text f-300">
+                        <h2>Value Subhead</h2>
+                        <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                        <div class="hide-desktop">
+                            <a href="#" class="text-link">Read More</a>
                         </div>
-                        <span class="graph-lines flex" data-ui-el="lines">
-                            <span class="graph-line"></span>
-                            <span class="graph-line"></span>
-                            <span class="graph-line"></span>
-                        </span>
-                    </div>
-                    <div class="optional-count inverted font-gothic">
-                        <span>+300k</span>
-                        <p>Net Worth</p>
                     </div>
                 </div>
-                <picture class="optional-repeater-thumb object-fit">
-                    <img src="images/optional-thumb2@2x.jpg" alt="optional-thumb1">
-                </picture>
-                <div class="optional-repeater-bg aquamarine background-bg"></div>
-            </div>
-            <div class="optional-repeater-text f-300">
-                <span class="optional-text muted">Optional Preheader Text</span>
-                <h2 class="h3">We help you plan your financial life.</h2>
-                <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed.</p>
-                <ul>
-                    <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
-                    <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
-                    <li>Cursus eu imperdiet egestas ligula proin</li>
-                </ul>
-                <div class="optional-repeater-btns flex flex-vcenter">
-                    <a href="#" class="button btn-aquamarine btn-transparent">Learn More</a>
-                    <a href="#" class="text-link btn-aquamarine">Optional Link</a>
+                <div class="values-list">
+                    <div class="values-icon hide-mobile">
+                        <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
+                            <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0894D3"/>
+                            <path d="M14 25.7143L21.2 33L38 16" stroke="#0894D3" stroke-width="6"/>
+                        </svg>
+                    </div>
+                    <div class="values-text f-300">
+                        <h2>Value Subhead</h2>
+                        <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                        <div class="hide-desktop">
+                            <a href="#" class="text-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="values-list">
+                    <div class="values-icon hide-mobile">
+                        <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
+                            <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0894D3"/>
+                            <path d="M14 25.7143L21.2 33L38 16" stroke="#0894D3" stroke-width="6"/>
+                        </svg>
+                    </div>
+                    <div class="values-text f-300">
+                        <h2>Value Subhead</h2>
+                        <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                        <div class="hide-desktop">
+                            <a href="#" class="text-link">Read More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="optional-repeater-row optional-logos flex">
-            <div class="optional-repeater-image no_margin relative">
-                <picture class="optional-repeater-thumb object-fit">
-                    <img src="images/gallery@2x.jpg" alt="optional-thumb1">
-                </picture>
+    </section>
+    <section class="timeline-section">
+    <div class="container">
+        <div class="timeline-main">
+            <div class="timeline-head">
+                <h2 class="h3">Where we come from</h2>
             </div>
-            <div class="optional-repeater-text f-300">
-                <span class="optional-text muted">Optional Preheader Text</span>
-                <h2 class="h3">We help you plan your financial life.</h2>
-                <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed fermentum condimentum vestibulum. Amet fermentum integer tristique quam nulla duis volutpat etiam risus. </p>
+            <div class="timeline-slider flex">
+                <div class="timeline-slide relative"> 
+                    <span class="timeline-date absolute">2023</span>
+                    <div class="timeline-slide-image">
+                        <figure class="timeline-slide-thumb object-fit">
+                            <img src="images/timeline-thumb1@2x.jpg" alt="timeline-thumb1">
+                        </figure>
+                    </div>
+                    <div class="timeline-slide-text f-300">
+                        <h2 class="h4">Sample Heading</h2>
+                        <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
+                    </div>
+                </div>
+                <div class="timeline-slide relative"> 
+                    <span class="timeline-date absolute">2021</span>
+                    <div class="timeline-slide-image">
+                        <figure class="timeline-slide-thumb object-fit">
+                            <img src="images/timeline-thumb2@2x.jpg" alt="timeline-thumb1">
+                        </figure>
+                    </div>
+                    <div class="timeline-slide-text f-300">
+                        <h2 class="h4">Sample Heading</h2>
+                        <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
+                    </div>
+                </div>
+                <div class="timeline-slide relative"> 
+                    <span class="timeline-date absolute">2016</span>
+                    <div class="timeline-slide-image">
+                        <figure class="timeline-slide-thumb object-fit">
+                            <img src="images/timeline-thumb3@2x.jpg" alt="timeline-thumb1">
+                        </figure>
+                    </div>
+                    <div class="timeline-slide-text f-300">
+                        <h2 class="h4">Sample Heading</h2>
+                        <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
+                    </div>
+                </div>
+                <div class="timeline-slide relative"> 
+                    <span class="timeline-date absolute">2011</span>
+                    <div class="timeline-slide-image">
+                        <figure class="timeline-slide-thumb object-fit">
+                            <img src="images/timeline-thumb4@2x.jpg" alt="timeline-thumb1">
+                        </figure>
+                    </div>
+                    <div class="timeline-slide-text f-300">
+                        <h2 class="h4">Sample Heading</h2>
+                        <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
+                    </div>
+                </div>
+                <div class="timeline-slide relative"> 
+                    <span class="timeline-date absolute">2008</span>
+                    <div class="timeline-slide-image">
+                        <figure class="timeline-slide-thumb object-fit">
+                            <img src="images/timeline-thumb1@2x.jpg" alt="timeline-thumb1">
+                        </figure>
+                    </div>
+                    <div class="timeline-slide-text f-300">
+                        <h2 class="h4">Sample Heading</h2>
+                        <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
+                    </div>
+                </div>
+                <div class="timeline-slide relative"> 
+                    <span class="timeline-date absolute">2005</span>
+                    <div class="timeline-slide-image">
+                        <figure class="timeline-slide-thumb object-fit">
+                            <img src="images/timeline-thumb1@2x.jpg" alt="timeline-thumb1">
+                        </figure>
+                    </div>
+                    <div class="timeline-slide-text f-300">
+                        <h2 class="h4">Sample Heading</h2>
+                        <p>Adipiscing mattis mi dignissim velit curabitur ultrices. Feugiat diam pellentesque at diam. </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-</section>
-<section class="career-opp-section">
-    <div class="container">
-        <div class="career-opp-main flex">
-            <div class="career-opp-content relative f-300">
-                <figure class="career-opp-bg absolute hide-mobile hide-tablet">
-                    <svg width="256" height="311" viewBox="0 0 256 311" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M246 10H10V215.714H175.544L246 286V10Z" stroke="#D9EEF7" stroke-width="20"/>
-                    </svg>
-                </figure>
-                <figure class="career-opp-bg-mob absolute hide-desktop">
-                    <svg width="110" height="136" viewBox="0 0 110 136" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M100 10H10V86.0248H73.1311L100 112V10Z" stroke="#D9EEF7" stroke-width="20"/>
-                    </svg>
-                </figure>
-                <h2>Career Opportunities</h2>
-                <p>Helping you frame financial decisions through the lens of living a good life and more text that would naturally flow here.</p>
+    </section>
+    <section class="meat-our-section relative">
+    <picture class="meat-our-thumb object-fit relative">
+        <source srcset="images/two-happy-businessmen-reading@2x.jpg" media="(min-width: 740px)">
+        <img src="images/two-happy-businessmen-reading-mobile@2x.jpg" alt="home-banner">
+    </picture>
+    <div class="meet-our-polygon absolute"></div>
+    <div class="container meat-our-main">
+        <div class="meat-our-text inverted">
+            <h2>Meet Our Team</h2>
+            <div class="meat-our-desc">
+                <p>Helping you frame financial decisions through the lens of living a good life</p>
+            </div>
+            <div class="meat-our-btns flex">
+                <a href="#" class="button btn-lg white-text btn-transparent">Learn More</a>
+                <a href="#" class="text-link hide-mobile hide-tablet">Optional Link</a>
+                <a href="#" class="text-link btn-green hide-desktop">Optional Link</a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="short-intro-section">
+    <div class="container md">
+    <div class="short-intro-main relative">
+        <div class="short-about-watermark absolute">
+            <svg width="210" height="379" viewBox="0 0 210 379" fill="none">
+                <path d="M200 10H36V153.851H151.039L200 203V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                <path d="M10 224H121V320.894H43.1384L10 354V224Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+            </svg>
+        </div>
+        <div class="short-intro-head flex">
+            <div class="short-intro-title">
+                <h2>A short introduction and success metrics to build trust.</h2>
+            </div>
+            <div class="short-intro-desc f-300 fs-17">
+                <p>We offer comprehensive Wealth Management services to Canadians. The PWL Capital team can help you achieve your financial goals. Contact us for more information.</p>
                 <a href="#" class="button btn-transparent">Learn More</a>
             </div>
-            <div class="career-opp-image relative">
-                <div class="career-opp-thumb absolute">
-                    <figure class="object-fit">
-                        <img src="images/career-thumb@2x.jpg" alt="career-thumb">
+        </div>
+        <div class="short-intro-row flex" data-counter-main="counter-main">
+            <div class="short-intro-list fs-15">
+                <span class="number f-700 aquamarine">
+                    <span class="counter" data-duration="2500" data-count-to="20">20</span><span>M</span>
+                </span>
+                <h2 class="h3">Statistic subhead here</h2>
+                <p>Feugiat diam pellentesque at diam scelerisque. </p>
+            </div>
+            <div class="short-intro-list fs-15">
+                <span class="number f-700 capri-ocean">
+                    <span>+</span><span class="counter" data-duration="2500" data-count-to="480">480</span>
+                </span>
+                <h2 class="h3">Statistic subhead here</h2>
+                <p>Feugiat diam pellentesque at diam scelerisque. </p>
+            </div>
+            <div class="short-intro-list fs-15">
+                <span class="number f-700 bright-Spring">
+                    <span class="counter" data-duration="2500" data-count-to="26">26</span><span>k</span>
+                </span>
+                <h2 class="h3">Statistic subhead here</h2>
+                <p>Feugiat diam pellentesque at diam scelerisque. </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <section class="about-line-dark hide-mobile">
+        <div class="container">
+            <hr class="about-line">
+        </div>
+    </section>
+    <section class="optional-repeater-section">
+    <div class="container md">
+        <div class="optional-repeater-main">
+            <div class="optional-repeater-row flex">
+                <div class="optional-repeater-image relative">
+                    <div class="optional-box-bg top-right absolute flex flex-vcenter">
+                        <div class="optional-circle relative ui ui-oval-chart" data-animation>
+                            <div class="oval-chart radius-50 flex flex-center" data-value="38" data-ui-el="value"><span data-ui-el="counter">38</span>%</div>
+                            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" data-ui-el="chart">
+                                <path d="M3 28.4354C3 14.1117 14.6117 2.5 28.9354 2.5C37.827 2.5 45.6735 6.97442 50.3461 13.7945" stroke="#269ABD" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
+                                <path opacity="0.2" d="M28.9355 54.3709C43.2593 54.3709 54.871 42.7592 54.871 28.4354C54.871 24.2208 53.8657 20.241 52.0818 16.7227" stroke="white" stroke-width="2"/>
+                                <path opacity="0.2" d="M3.33594 32.6187C5.13782 43.7307 14.0004 52.4753 25.171 54.0997" stroke="white" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="optional-count inverted font-gothic">
+                            <span>+300k</span>
+                            <p>Net Worth</p>
+                        </div>
+                    </div>
+                    <div class="optional-box-bg bottom-left absolute flex flex-vcenter">
+                        <div class="ui ui-line-chart"  data-animation>
+                            <div class="oval-graph relative" data-ui-el="chart">
+                                <div class="oval-lines flex absolute" data-ui-el="lines">
+                                    <span class="oval-line"></span>
+                                    <span class="oval-line"></span>
+                                    <span class="oval-line"></span>
+                                    <span class="oval-line"></span>    
+                                </div>
+                                <svg width="58" height="30" viewBox="0 0 58 30" fill="none">
+                                    <path d="M2.5 28L20.3721 9.5L37.6279 18L55.5 2" stroke="#89CB3E" stroke-width="5" stroke-linecap="round" data-ui-el="progress" />
+                                </svg>    
+                            </div>
+                        </div>
+                        <div class="optional-count inverted font-gothic">
+                            <span>+300k</span>
+                            <p>Net Worth</p>
+                        </div>
+                    </div>
+                    <picture class="optional-repeater-thumb object-fit">
+                        <img src="images/optional-thumb1@2x.jpg" alt="optional-thumb1">
+                    </picture>
+                    <div class="optional-repeater-bg background-bg"></div>
+                    <div class="play-btn-main flex flex-center ">
+                        <div class="play-btn relative">
+                            <a href="https://www.youtube.com/watch?v=NI3I3eem714" class="popup-youtube play-btn-bg flex flex-center">
+                                <span class="btn-circle"></span>
+                                <span></span>
+                                <span></span>
+                                video
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="optional-repeater-text f-300">
+                    <span class="optional-text muted">Optional Preheader Text</span>
+                    <h2 class="h3">We help you plan your financial life.</h2>
+                    <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed.</p>
+                    <ul>
+                        <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
+                        <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
+                        <li>Cursus eu imperdiet egestas ligula proin</li>
+                    </ul>
+                    <div class="optional-repeater-btns flex flex-vcenter">
+                        <a href="#" class="button btn-transparent">Learn More</a>
+                        <a href="#" class="text-link">Optional Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="optional-repeater-row flex">
+                <div class="optional-repeater-image relative">
+                    <div class="optional-box-bg top-left absolute flex flex-vcenter">
+                        <div class="optional-circle relative ui ui-oval-chart" data-animation>
+                            <div class="oval-chart radius-50 flex flex-center" data-value="81" data-ui-el="value"><span data-ui-el="counter">81</span>%</div>
+                            <svg width="59" height="59" viewBox="0 0 59 59" fill="none" data-ui-el="chart">
+                                <circle opacity="0.2" cx="29.292" cy="29.292" r="26.292" stroke="white" stroke-width="2"/>
+                                <path d="M29.292 55.584C14.7713 55.584 3 43.8127 3 29.292C3 14.7713 14.7713 3 29.292 3C43.8127 3 55.584 14.7713 55.584 29.292C55.584 32.365 55.0569 35.3148 54.088 38.056" stroke="#10B596" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="optional-count">
+                            <span>+300k</span>
+                            <p>Net Worth</p>
+                        </div>
+                    </div>
+                    <div class="optional-box-bg bottom-right absolute flex flex-vcenter ui-bar-chart" data-animation="">
+                        <div class="oval-graph relative" data-ui-el="chart">
+                            <div class="oval-lines center flex" data-ui-el="lines">
+                                <span class="oval-line" data-ui-el="bar"></span>
+                                <span class="oval-line" data-ui-el="bar"></span>
+                                <span class="oval-line" data-ui-el="bar"></span>
+                            </div>
+                            <span class="graph-lines flex" data-ui-el="lines">
+                                <span class="graph-line"></span>
+                                <span class="graph-line"></span>
+                                <span class="graph-line"></span>
+                            </span>
+                        </div>
+                        <div class="optional-count inverted font-gothic">
+                            <span>+300k</span>
+                            <p>Net Worth</p>
+                        </div>
+                    </div>
+                    <picture class="optional-repeater-thumb object-fit">
+                        <img src="images/optional-thumb2@2x.jpg" alt="optional-thumb1">
+                    </picture>
+                    <div class="optional-repeater-bg aquamarine background-bg"></div>
+                </div>
+                <div class="optional-repeater-text f-300">
+                    <span class="optional-text muted">Optional Preheader Text</span>
+                    <h2 class="h3">We help you plan your financial life.</h2>
+                    <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed.</p>
+                    <ul>
+                        <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
+                        <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
+                        <li>Cursus eu imperdiet egestas ligula proin</li>
+                    </ul>
+                    <div class="optional-repeater-btns flex flex-vcenter">
+                        <a href="#" class="button btn-aquamarine btn-transparent">Learn More</a>
+                        <a href="#" class="text-link btn-aquamarine">Optional Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="optional-repeater-row optional-logos flex">
+                <div class="optional-repeater-image no_margin relative">
+                    <picture class="optional-repeater-thumb object-fit">
+                        <img src="images/gallery@2x.jpg" alt="optional-thumb1">
+                    </picture>
+                </div>
+                <div class="optional-repeater-text f-300">
+                    <span class="optional-text muted">Optional Preheader Text</span>
+                    <h2 class="h3">We help you plan your financial life.</h2>
+                    <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed fermentum condimentum vestibulum. Amet fermentum integer tristique quam nulla duis volutpat etiam risus. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="career-opp-section">
+        <div class="container">
+            <div class="career-opp-main flex">
+                <div class="career-opp-content relative f-300">
+                    <figure class="career-opp-bg absolute hide-mobile hide-tablet">
+                        <svg width="256" height="311" viewBox="0 0 256 311" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M246 10H10V215.714H175.544L246 286V10Z" stroke="#D9EEF7" stroke-width="20"/>
+                        </svg>
                     </figure>
+                    <figure class="career-opp-bg-mob absolute hide-desktop">
+                        <svg width="110" height="136" viewBox="0 0 110 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M100 10H10V86.0248H73.1311L100 112V10Z" stroke="#D9EEF7" stroke-width="20"/>
+                        </svg>
+                    </figure>
+                    <h2>Career Opportunities</h2>
+                    <p>Helping you frame financial decisions through the lens of living a good life and more text that would naturally flow here.</p>
+                    <a href="#" class="button btn-transparent">Learn More</a>
+                </div>
+                <div class="career-opp-image relative">
+                    <div class="career-opp-thumb absolute">
+                        <figure class="object-fit">
+                            <img src="images/career-thumb@2x.jpg" alt="career-thumb">
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<footer class="footer-main relative">
-    <div class="container">
-        <div class="footer relative">
-            <figure class="footer-bg-1 absolute hide-mobile hide-tablet">
-                <img src="images/footer-nt-bg.svg" alt="footer-nt-bg" title="footer-bg">
-            </figure>
-            <figure class="footer-bg-2 absolute hide-mobile hide-tablet">
-                <img src="images/footer-nt-sm.svg" alt="footer-nt-sm" title="footer-bg">
-            </figure>
-            <figure class="footer-bg-3 absolute hide-desktop">
-                <img src="images/footer-nt-sm-mobile.svg" alt="footer-nt-sm" title="footer-bg">
-            </figure>
-            <div class="footer-row flex">
-                <div class="footer-text">
-                    <div class="footer-logos flex">
-                        <figure class="footer-thumb">
-                            <img src="images/ciro.svg" alt="ciro" title="footer-logo">
-                        </figure>
-                        <figure class="footer-thumb">
-                            <img src="images/cipf.svg" alt="cipf" title="footer-logo">
-                        </figure>
-                        <figure class="footer-thumb">
-                            <img src="images/cefex.svg" alt="cefex" title="footer-logo">
-                        </figure>
-                        <figure class="footer-thumb">
-                            <img src="images/gaia.svg" alt="gaia" title="footer-logo">
-                        </figure>
+    </section>
+    <footer class="footer-main relative">
+        <div class="container">
+            <div class="footer relative">
+                <figure class="footer-bg-1 absolute hide-mobile hide-tablet">
+                    <img src="images/footer-nt-bg.svg" alt="footer-nt-bg" title="footer-bg">
+                </figure>
+                <figure class="footer-bg-2 absolute hide-mobile hide-tablet">
+                    <img src="images/footer-nt-sm.svg" alt="footer-nt-sm" title="footer-bg">
+                </figure>
+                <figure class="footer-bg-3 absolute hide-desktop">
+                    <img src="images/footer-nt-sm-mobile.svg" alt="footer-nt-sm" title="footer-bg">
+                </figure>
+                <div class="footer-row flex">
+                    <div class="footer-text">
+                        <div class="footer-logos flex">
+                            <figure class="footer-thumb">
+                                <img src="images/ciro.svg" alt="ciro" title="footer-logo">
+                            </figure>
+                            <figure class="footer-thumb">
+                                <img src="images/cipf.svg" alt="cipf" title="footer-logo">
+                            </figure>
+                            <figure class="footer-thumb">
+                                <img src="images/cefex.svg" alt="cefex" title="footer-logo">
+                            </figure>
+                            <figure class="footer-thumb">
+                                <img src="images/gaia.svg" alt="gaia" title="footer-logo">
+                            </figure>
+                        </div>
+                        <div class="footer-desc">
+                            <p>Portfolio Management and brokerage services are offered by PWL Capital Inc, which is regulated by Investment Industry Regulatory Organization of Canada (IIROC), and is a member of the Canadian Investor Protection Fund (CIPF).</p>
+                            <p>Financial planning and insurance products are offered by PWL Advisors Inc., and is regulated in Ontario by Financial Services Commission of Ontario (FSCO) and in Quebec by the Autorité des marchés financiers (AMF). PWL Advisors Inc. is not a member of CIPF.</p>
+                        </div>
+                        <div class="footer-btns flex">
+                            <a href="#" class="button btn-sm">Meet With Us</a>
+                            <a href="#" class="button btn-transparent btn-sm">Find Your Financial Goals</a>
+                        </div>
                     </div>
-                    <div class="footer-desc">
-                        <p>Portfolio Management and brokerage services are offered by PWL Capital Inc, which is regulated by Investment Industry Regulatory Organization of Canada (IIROC), and is a member of the Canadian Investor Protection Fund (CIPF).</p>
-                        <p>Financial planning and insurance products are offered by PWL Advisors Inc., and is regulated in Ontario by Financial Services Commission of Ontario (FSCO) and in Quebec by the Autorité des marchés financiers (AMF). PWL Advisors Inc. is not a member of CIPF.</p>
-                    </div>
-                    <div class="footer-btns flex">
-                        <a href="#" class="button btn-sm">Meet With Us</a>
-                        <a href="#" class="button btn-transparent btn-sm">Find Your Financial Goals</a>
+                    <div class="footer-nav flex">
+                        <div class="footer-list">
+                            <span class="footer-title">SERVICES</span>
+                            <ul class="footer-links">
+                                <li><a href="#">Wealth Management</a></li>
+                                <li><a href="#">Financial Planning</a></li>
+                                <li><a href="#">Family Office</a></li>
+                                <li><a href="#">Institutional Asset Management</a></li>
+                                <li><a href="#">Financial Planning for Doctors</a></li>
+                                <li><a href="#">What Sets Us Apart</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-list">
+                            <span class="footer-title">ABOUT</span>
+                            <ul class="footer-links">
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Our People</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Media Inquiries</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-list">
+                            <span class="footer-title">NEXT STEPS</span>
+                            <ul class="footer-links">
+                                <li><a href="#">Learn</a></li>
+                                <li><a href="#">Find Your Financial Goals</a></li>
+                                <li><a href="#">Become a Client</a></li>
+                                <li><a href="#">Meet with Us</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="footer-nav flex">
-                    <div class="footer-list">
-                        <span class="footer-title">SERVICES</span>
-                        <ul class="footer-links">
-                            <li><a href="#">Wealth Management</a></li>
-                            <li><a href="#">Financial Planning</a></li>
-                            <li><a href="#">Family Office</a></li>
-                            <li><a href="#">Institutional Asset Management</a></li>
-                            <li><a href="#">Financial Planning for Doctors</a></li>
-                            <li><a href="#">What Sets Us Apart</a></li>
+                <div class="copyrights flex">
+                    <div class="copyright-text">
+                        <ul class="copyright-links flex">
+                            <li><a href="#">Privacy & Terms of Use</a></li>
+                            <li><a href="#">Protection of Personal Information</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Complaints</a></li>
+                        </ul>
+                        <p>Copyright © 2024 PWL Capital Inc. All Rights Reserved.</p>
+                    </div>
+                    <div class="follow-us flex">
+                        <span>Follow us!</span>
+                        <ul class="social-share-icons flex">
+                            <li><a href="#"><span class="fa-brands fa-facebook-f"></span></a></li>
+                            <li><a href="#"><span class="fa-brands fa-linkedin-in"></span></a></li>
+                            <li><a href="#"><span class="fa-brands fa-x-twitter"></span></a></li>
                         </ul>
                     </div>
-                    <div class="footer-list">
-                        <span class="footer-title">ABOUT</span>
-                        <ul class="footer-links">
-                            <li><a href="#">Our Story</a></li>
-                            <li><a href="#">Our People</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Media Inquiries</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-list">
-                        <span class="footer-title">NEXT STEPS</span>
-                        <ul class="footer-links">
-                            <li><a href="#">Learn</a></li>
-                            <li><a href="#">Find Your Financial Goals</a></li>
-                            <li><a href="#">Become a Client</a></li>
-                            <li><a href="#">Meet with Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="copyrights flex">
-                <div class="copyright-text">
-                    <ul class="copyright-links flex">
-                        <li><a href="#">Privacy & Terms of Use</a></li>
-                        <li><a href="#">Protection of Personal Information</a></li>
-                        <li><a href="#">Accessibility</a></li>
-                        <li><a href="#">Complaints</a></li>
-                    </ul>
-                    <p>Copyright © 2024 PWL Capital Inc. All Rights Reserved.</p>
-                </div>
-                <div class="follow-us flex">
-                    <span>Follow us!</span>
-                    <ul class="social-share-icons flex">
-                        <li><a href="#"><span class="fa-brands fa-facebook-f"></span></a></li>
-                        <li><a href="#"><span class="fa-brands fa-linkedin-in"></span></a></li>
-                        <li><a href="#"><span class="fa-brands fa-x-twitter"></span></a></li>
-                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+    <div class="flyout-bg-overlay"></div>
+    <div class="flyout-overlay inverted">
+        <div class="flyout_close absolute">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                <line x1="0.707107" y1="1.29289" x2="21.7071" y2="22.2929" stroke="white" stroke-width="2"/>
+                <line x1="21.7071" y1="1.70711" x2="0.707107" y2="22.7071" stroke="white" stroke-width="2"/>
+            </svg>
+        </div>
+        <h3>Meet with us.</h3>
+        <div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_5_container" >
+        <form enctype="multipart/form-data" method="post" class="frm-show-form  frm_ajax_submit  frm_pro_form " id="form_get_a_quote"  >
+        <div class="frm_form_fields ">
+        <fieldset>
+        <legend class="frm_screen_reader">Meet with us.</legend>
 
+        <div class="frm_fields_container">
+        <input type="hidden" name="frm_action" value="create" />
+        <input type="hidden" name="form_id" value="5" />
+        <input type="hidden" name="frm_hide_fields_5" id="frm_hide_fields_5" value="" />
+        <input type="hidden" name="form_key" value="get_a_quote" />
+        <input type="hidden" name="item_meta[0]" value="" />
+        <input type="hidden" id="frm_submit_entry_5" name="frm_submit_entry_5" value="71ad7a3713" /><input type="hidden" name="_wp_http_referer" value="/" /><div id="frm_field_35_container" class="frm_form_field form-field  frm_required_field frm_top_container">
+        <label for="field_qh4icy3" id="field_qh4icy3_label" class="frm_primary_label">First Name 
+        <span class="frm_required" aria-hidden="true">*</span>
+        </label>
+        <input type="text" id="field_qh4icy3" name="item_meta[35]" value="" placeholder="First Name"  data-reqmsg="Please enter the first name" aria-required="true" data-invmsg="Name is invalid" aria-invalid="false"  />
+
+
+        </div>
+        <div id="frm_field_36_container" class="frm_form_field form-field  frm_required_field frm_top_container">
+        <label for="field_ocfup13" id="field_ocfup13_label" class="frm_primary_label">Last Name
+        <span class="frm_required" aria-hidden="true">*</span>
+        </label>
+        <input type="text" id="field_ocfup13" name="item_meta[36]" value="" placeholder="Last Name" data-reqmsg="Please enter the last name" aria-required="true" data-invmsg="Last is invalid" aria-invalid="false"  />
+
+
+        </div>
+        <div id="frm_field_38_container" class="frm_form_field form-field  frm_required_field frm_top_container">
+        <label for="field_29yf4d3" id="field_29yf4d3_label" class="frm_primary_label">Email
+        <span class="frm_required" aria-hidden="true">*</span>
+        </label>
+        <input type="email" id="field_29yf4d3" name="item_meta[38]" value="" placeholder="Email" data-reqmsg="Please enter the email" aria-required="true" data-invmsg="Please enter a valid email address" aria-invalid="false"  />
+
+
+        </div>
+        <div id="frm_field_98_container" class="frm_form_field form-field  frm_top_container">
+        <label for="field_f5qjd" id="field_f5qjd_label" class="frm_primary_label">Phone
+        <span class="frm_required" aria-hidden="true"></span>
+        </label>
+        <input type="text" id="field_f5qjd" name="item_meta[98]" value="" placeholder="Phone" data-invmsg="Text is invalid" aria-invalid="false"  />
+
+
+        </div>
+        <div id="frm_field_37_container" class="frm_form_field form-field  frm_required_field frm_top_container frm12 frm_first">
+        <label for="field_rfh742" id="field_rfh742_label" class="frm_primary_label">Provience
+        <span class="frm_required" aria-hidden="true">*</span>
+        </label>
+        <select name="item_meta[37]" id="field_rfh742"  data-placeholder="I’m interested in"  placeholder="I’m interested in" data-reqmsg="Please select" aria-required="true" data-invmsg="I’m interested in is invalid" aria-invalid="false"  >
+        <option  class="frm-select-placeholder" value="" data-placeholder="true">Provience</option><option  value="Provience1">Provience1</option><option  value="Provience">Provience</option><option  value="Provience">Provience</option><option  value="Provience">Provience</option>	</select>
+
+
+
+        </div>
+        <div id="frm_field_21_container" class="frm_form_field form-field frm_required_field frm_top_container vertical_radio">
+            <div id="field_m9iw2_label" class="frm_primary_label">Additional Options
+                <span class="frm_required" aria-hidden="true">*</span>
+            </div>
+            <div class="frm_opt_container" aria-labelledby="field_m9iw2_label" role="radiogroup" aria-required="true">		<div class="frm_radio" id="frm_radio_21-0"><label for="field_m9iw2-0">		<input type="radio" name="item_meta[21]" id="field_m9iw2-0" value="I have never invested before" data-reqmsg="Please select" data-invmsg="This field is invalid" aria-invalid="false"> Variable selection option</label></div>
+                <div class="frm_radio" id="frm_radio_21-1"><label for="field_m9iw2-1">		<input type="radio" name="item_meta[21]" id="field_m9iw2-1" value="I manage my own investment portfolio" data-reqmsg="Please select" data-invmsg="This field is invalid" aria-invalid="false"> Another variable selection option</label></div>
+            </div>
+        </div>
+
+        <div id="frm_field_43_container" class="frm_form_field form-field  frm_top_container vertical_radio">
+        <div class="frm_opt_container" aria-labelledby="field_jsh5e2_label" role="group">		
+            <div class="frm_checkbox" id="frm_checkbox_43-0"><label for="field_jsh5e2-0"><input type="checkbox" name="item_meta[43][]" id="field_jsh5e2-0" value="Yes, I’d like to receive News and Special Offers"  data-invmsg="This field is invalid" aria-invalid="false"   /> Newsletter opt-in message appears here</label></div>
+        </div>
+
+
+        </div>
+        <input type="hidden" name="item_key" value="" />
+        <div class="frm__65842a5788498">
+        <!-- <label for="frm_email_5" >
+        If you are human, leave this field blank.				</label> -->
+        <input  id="frm_email_5" type="text" class="frm_verify" name="frm__65842a5788498" value="" autocomplete="false"  />
+        </div>
+        <input name="frm_state" type="hidden" value="9DeyC91DOgB+KrgN0FztQldKli9FKe2Ga77GXVlUREo=" /><div class="frm_submit frm_flex">
+        <button class="frm_button_submit frm_final_submit " type="submit"   formnovalidate="formnovalidate">Submit</button>
+
+
+
+        </div></div>
+        </fieldset>
+        </div>
+        </form>
+        </div>
+    </div>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" crossorigin="anonymous"></script>
 <script src="./dist/core.bundle.js"></script>

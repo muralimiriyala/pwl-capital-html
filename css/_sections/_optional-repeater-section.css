@@ -25,6 +25,10 @@
 .optional-count{flex: 1; font-size: 16px; line-height: 20px; font-weight: 300; letter-spacing: -0.32px; color: var(--white-55);}
 .optional-count span{margin-bottom: 5px; color: var(--white, #FFF); display: block; font-size: 19px; font-weight: 700; line-height: 20px; letter-spacing: 0.38px;}
 
+.optional-box-bg.optional-box-large{width: 320px;}
+.optional-box-bg.optional-box-large .optional-count{font-size: 14px; letter-spacing: -0.28px;}
+.optional-box-bg.optional-box-large .optional-count span{font-size: 20px; letter-spacing: 0.4px;}
+
 .oval-graph{display: flex; align-items: center; justify-content: center;}
 .oval-lines{gap: 16px; top: -8px; left: 2px;}
 .oval-line{width: 1px; height: 48px; background-color: var(--white); opacity: 0.2; display: block;}

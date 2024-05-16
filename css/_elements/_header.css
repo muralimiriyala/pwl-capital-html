@@ -18,14 +18,18 @@ body.page-template-careers header.header-main:not(.sticky-header), body.page-tem
 body.page-template-home .site-main-cover, body.page-template-careers .site-main-cover, body.page-template-meet-with-us .site-main-cover, body.page-template-learn-default .site-main-cover, body.page-template-become-a-partner .site-main-cover, body.page-template-services .site-main-cover, body.page-template-default .site-main-cover, body.page-template-learn-model .site-main-cover, body.page-template-financial-goals-survey .site-main-cover{padding-top: 0;}
 
 .header-srch{cursor: pointer;}
-.header-srch-form{top: 50%; width: 0; left: 0; transform: translateY(-50%); z-index: 999;}
+.header-srch-form{top: 50%; width: 0; left: 0; transform: translateY(-50%); z-index: 1999; transition: all .5s ease;}
 .header-srch-form.open{width: 100%;}
-.search-form{position: relative; border-radius: 8px; overflow: hidden;}
+.search-form{position: relative; overflow: hidden;}
 .custom_icon{position: absolute; top: 50%; transform: translateY(-50%); line-height: normal; left: 12px; color: #a6b1ba;}
-.search-field{padding: 14px 40px;}
+.search-field{padding: 14px 40px; border-radius: 8px;}
 .close-srch{position: absolute; right: 12px; top: 50%; transform: translateY(-50%); line-height: 1; cursor: pointer;}
 
 /* media css starts here */
+@media screen and (min-width: 1600px){
+    .header-srch-form{left: 375px;}
+    .header-srch-form.open{width: calc(100% - 375px);}
+}
 @media screen and (min-width: 1300px){
     .site-main-cover{padding-top: 150px;}
     .header{gap: 12px; padding: 20px 0; min-height: 88px; transition: all 0.4s ease;}
@@ -99,6 +103,8 @@ body.page-template-home .site-main-cover, body.page-template-careers .site-main-
     .logo { flex: 0 0 264px; }
     .header-right{gap: 29px;}
     ul.main-menu{gap: 24px;}
+    .header-srch-form{left: 285px;}
+    .header-srch-form.open{width: calc(100% - 285px);}
 }
 @media only screen and (max-width: 1499px) and (min-width: 1300px){
     .header-srch{margin-left: 12px;}
@@ -114,7 +120,7 @@ body.page-template-home .site-main-cover, body.page-template-careers .site-main-
     .header-overlay{width: 100%; height: 100%; top: 0; left: 0; opacity: 0; visibility: hidden; background-color: var(--french-navy); content: ""; display: block; position: fixed; transition: all 0.4s ease;}
     .header-overlay.open{opacity: 0.5; visibility: visible; z-index: 700;}
     ul.main-menu{display: block;}
-    .header-srch{right: 40px; width: 16px; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1800;}
+    .header-srch-main{right: 40px; width: 16px; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1800;}
    
    
     .humburger-btn {width: 23px; height: 23px; right: 0; top: 50%; transform: translateY(-50%); cursor: pointer; display: block; position: absolute; z-index: 850;}
@@ -128,6 +134,9 @@ body.page-template-home .site-main-cover, body.page-template-careers .site-main-
     .black-header:not(.humburger-btn, .nav-open) .humburger-btn span{background-color: var(--white);}
     .black-header:not(.humburger-btn, .nav-open) svg path{fill: var(--white);}
 
+    header.sticky-header.black-header:not(.humburger-btn, .nav-open) .humburger-btn span{background-color: var(--midnight);}
+    header.sticky-header.black-header:not(.humburger-btn, .nav-open) svg path{fill: var(--midnight);}
+
     ul.main-menu{margin: 0 0 27px;}
     ul.main-menu > li{margin: 0;}
     ul.main-menu > li::before{display: none;}
@@ -140,4 +149,7 @@ body.page-template-home .site-main-cover, body.page-template-careers .site-main-
     .languages{flex: 1; order: 1; gap: 10px; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
     .languages a{width: 42px; height: 42px; background-color: var(--ice-blue-light);}
     .languages a:hover{background-color: var(--green-pear);}
+
+    .header-srch-form {left: auto; right: 32px; top: calc(50% - 4px);}
+    .header-srch-form.open{width: calc(100% - 32px);}
 }

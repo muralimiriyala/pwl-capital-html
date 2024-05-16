@@ -29,15 +29,28 @@
 <body class="page-template-become-a-partner">
 <header class="header-main black-header">
     <div class="container lg">
-        <div class="header flex flex-vcenter">
+        <div class="header flex flex-vcenter relative">
             <div class="logo relative">
                 <span class="logo-white"><a href="index.html"><img src="images/logo.svg" alt="logo"> </a></span>
                 <span class="logo-black"><a href="index.html"><img src="images/logo-black.svg" alt="logo"> </a></span>
             </div>
             <div class="header-srch flex flex-vcenter">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M15.6211 13.6851L11.9426 10.0063C12.5676 9.01126 12.9303 7.8352 12.9303 6.57307C12.9303 3.00232 10.0356 0.108032 6.46503 0.108032C2.89442 0.108032 0 3.00232 0 6.57307C0 10.1439 2.89429 13.038 6.46503 13.038C7.83856 13.038 9.1108 12.6085 10.1577 11.8789L13.7924 15.5139C14.045 15.7662 14.3761 15.8918 14.7068 15.8918C15.0378 15.8918 15.3685 15.7662 15.6215 15.5139C16.1262 15.0086 16.1262 14.1902 15.6211 13.6851ZM6.46503 10.9434C4.05162 10.9434 2.09498 8.98688 2.09498 6.57333C2.09498 4.15979 4.05162 2.20315 6.46503 2.20315C8.87858 2.20315 10.8351 4.15979 10.8351 6.57333C10.8351 8.98688 8.87858 10.9434 6.46503 10.9434Z" fill="#121321"/>
-                </svg>
+                <div class="header-srch-main relative">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M15.6211 13.6851L11.9426 10.0063C12.5676 9.01126 12.9303 7.8352 12.9303 6.57307C12.9303 3.00232 10.0356 0.108032 6.46503 0.108032C2.89442 0.108032 0 3.00232 0 6.57307C0 10.1439 2.89429 13.038 6.46503 13.038C7.83856 13.038 9.1108 12.6085 10.1577 11.8789L13.7924 15.5139C14.045 15.7662 14.3761 15.8918 14.7068 15.8918C15.0378 15.8918 15.3685 15.7662 15.6215 15.5139C16.1262 15.0086 16.1262 14.1902 15.6211 13.6851ZM6.46503 10.9434C4.05162 10.9434 2.09498 8.98688 2.09498 6.57333C2.09498 4.15979 4.05162 2.20315 6.46503 2.20315C8.87858 2.20315 10.8351 4.15979 10.8351 6.57333C10.8351 8.98688 8.87858 10.9434 6.46503 10.9434Z" fill="#121321"/>
+                    </svg>
+                </div>
+                <div class="header-srch-form absolute">
+                    <form role="search" method="get" class="search-form" action="">
+                        <span class="custom_icon"> 
+                            <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
+                        </span>
+                        <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                        <span class="close-srch">
+                            <span class="fa-regular fa-xmark" aria-hidden="true"></span>
+                        </span>
+                    </form>
+                </div>
             </div>
             <div role="button" class="humburger-btn">
                 <span></span>
@@ -93,7 +106,7 @@
                     <li><a href="">Find your Financial Goals</a></li>
                 </ul>
                 <div class="header-btns flex">
-                    <a class="button" href="">MEET WITH US</a>
+                    <a class="button flyout_btn" href="">MEET WITH US</a>
                     <a class="button btn-transparent" href="">SIGN IN</a>
                 </div>
                 <div class="languages flex">
@@ -106,603 +119,316 @@
         </div>
 </header>
 <div class="site-main-cover"><!-- site-main-cover starts here -->
-<section class="become-banner-section relative">
-    <div class="container relative">
-        <div class="become-banner-main flex flex-vcenter relative">
-            <div class="become-banner-text relative">
-                <div class="become-banner-icon absolute hide-mobile hide-tablet">
-                    <svg width="195" height="221" viewBox="0 0 195 221" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M28.1385 13.6424L14.9745 13.6424L14.878 26.8094L13.915 158.184L13.6872 189.274L35.9762 167.154L57.9949 145.303L167.905 145.303L181.166 145.303L181.166 132.041L181.166 26.3815L181.166 13.6424L168.428 13.6424L28.1385 13.6424Z" stroke="white" stroke-width="26"/>
-                    </svg>                        
+    <section class="become-banner-section relative">
+        <div class="container relative">
+            <div class="become-banner-main flex flex-vcenter relative">
+                <div class="become-banner-text relative">
+                    <div class="become-banner-icon absolute hide-mobile hide-tablet">
+                        <svg width="195" height="221" viewBox="0 0 195 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M28.1385 13.6424L14.9745 13.6424L14.878 26.8094L13.915 158.184L13.6872 189.274L35.9762 167.154L57.9949 145.303L167.905 145.303L181.166 145.303L181.166 132.041L181.166 26.3815L181.166 13.6424L168.428 13.6424L28.1385 13.6424Z" stroke="white" stroke-width="26"/>
+                        </svg>                        
+                    </div>
+                    <div class="become-banner-icon absolute hide-desktop">
+                        <svg width="157" height="196" viewBox="0 0 157 196" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.07">
+                            <path d="M147 10H10V130H106.1L147 171V10Z" stroke="white" stroke-width="20"/>
+                            </g>
+                        </svg>                      
+                    </div>
+                    <span class="optional-text">Optional Preheading</span>
+                    <h1>Become A Client</h1>
+                    <p>We offer comprehensive Wealth Management services to Canadians.</p>
+                    <a href="#" class="button white-text btn-transparent">Learn More</a>
                 </div>
-                <div class="become-banner-icon absolute hide-desktop">
-                    <svg width="157" height="196" viewBox="0 0 157 196" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g opacity="0.07">
-                        <path d="M147 10H10V130H106.1L147 171V10Z" stroke="white" stroke-width="20"/>
-                        </g>
-                    </svg>                      
+                <div class="become-banner-rt flex flex-vcenter">
+                    <div class="become-banner-image relative">
+                        <div class="become-banner-image-bg background-bg"></div>
+                        <picture class="become-banner-thumb object-fit">
+                            <source srcset="images/client-banner@2x.jpg" media="(min-width: 740px)">
+                            <img src="images/client-banner-mobile@2x.jpg" alt="client-banner">
+                        </picture>
+                    </div>
+                    <div class="become-banner-stats-col">
+                        <div class="become-banner-stats">
+                            <span class="become-banner-stat-num">49</span>
+                            <p>Age</p>
+                        </div>
+                        <div class="become-banner-stats">
+                            <span class="become-banner-stat-num">16</span>
+                            <p>Assets</p>
+                        </div>
+                        <div class="become-banner-stats">
+                            <span class="become-banner-stat-num">2.1M</span>
+                            <p>Net worth</p>
+                        </div>
+                    </div>
                 </div>
-                <span class="optional-text">Optional Preheading</span>
-                <h1>Become A Client</h1>
-                <p>We offer comprehensive Wealth Management services to Canadians.</p>
-                <a href="#" class="button white-text btn-transparent">Learn More</a>
             </div>
-            <div class="become-banner-rt flex flex-vcenter">
-                <div class="become-banner-image relative">
-                    <div class="become-banner-image-bg background-bg"></div>
-                    <picture class="become-banner-thumb object-fit">
-                        <source srcset="images/client-banner@2x.jpg" media="(min-width: 740px)">
-                        <img src="images/client-banner-mobile@2x.jpg" alt="client-banner">
-                    </picture>
-                </div>
-                <div class="become-banner-stats-col">
-                    <div class="become-banner-stats">
-                        <span class="become-banner-stat-num">49</span>
-                        <p>Age</p>
-                    </div>
-                    <div class="become-banner-stats">
-                        <span class="become-banner-stat-num">16</span>
-                        <p>Assets</p>
-                    </div>
-                    <div class="become-banner-stats">
-                        <span class="become-banner-stat-num">2.1M</span>
-                        <p>Net worth</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="become-banner-polygon-main absolute">
-            <div class="become-banner-polygon-light absolute"></div>
-            <div class="become-banner-polygon-dark absolute"></div>
-        </div>
-    </div>
-</section>
-<section class="benefit-section">
-    <div class="container">
-        <div class="benefit-main relative">
-            <div class="benefit-watermark absolute hide-mobile hide-tablet">
-                <svg width="189" height="233" viewBox="0 0 189 233" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10 10H179V157.578H60.4539L10 208V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                </svg>
-                <svg width="134" height="169" viewBox="0 0 134 169" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M124 10H10V109.876H89.966L124 144V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                </svg>
-            </div>
-            <div class="benefit-watermark absolute hide-desktop">
-                <svg width="161" height="201" viewBox="0 0 161 201" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M151 10H10V133.727H108.905L151 176V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                </svg>
-            </div>
-            <div class="benefit-title">
-                <span class="optional-text">Optional Preheader</span>
-                <h2>Introduction to this section appears here.</h2>
-                <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. Sit maecenas at risus eget interdum dictum sed odio.</p>
-            </div>
-            <div class="benefit-lists flex">
-                <div class="benefit-item">
-                    <div class="benefit-icon">
-                        <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
-                            <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0654a3"/>
-                            <path d="M14 25.7143L21.2 33L38 16" stroke="#0654a3" stroke-width="6"/>
-                        </svg>
-                    </div>
-                    <div class="benefit-text f-300">
-                        <h2>Value Subhead</h2>
-                        <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                        <a href="#" class="text-link btn-pacific-blue hide-desktop">Read More</a>
-                    </div>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-icon">
-                        <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
-                            <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0654a3"/>
-                            <path d="M14 25.7143L21.2 33L38 16" stroke="#0654a3" stroke-width="6"/>
-                        </svg>
-                    </div>
-                    <div class="benefit-text f-300">
-                        <h2>Value Subhead</h2>
-                        <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                        <a href="#" class="text-link btn-pacific-blue hide-desktop">Read More</a>
-                    </div>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-icon">
-                        <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
-                            <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0654a3"/>
-                            <path d="M14 25.7143L21.2 33L38 16" stroke="#0654a3" stroke-width="6"/>
-                        </svg>
-                    </div>
-                    <div class="benefit-text f-300">
-                        <h2>Value Subhead</h2>
-                        <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                        <a href="#" class="text-link btn-pacific-blue hide-desktop">Read More</a>
-                    </div>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-icon">
-                        <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
-                            <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0654a3"/>
-                            <path d="M14 25.7143L21.2 33L38 16" stroke="#0654a3" stroke-width="6"/>
-                        </svg>
-                    </div>
-                    <div class="benefit-text f-300">
-                        <h2>Value Subhead</h2>
-                        <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                        <a href="#" class="text-link btn-pacific-blue hide-desktop">Read More</a>
-                    </div>
-                </div>
+            <div class="become-banner-polygon-main absolute">
+                <div class="become-banner-polygon-light absolute"></div>
+                <div class="become-banner-polygon-dark absolute"></div>
             </div>
         </div>
-    </div>
-</section>
-<section class="optional-repeater-section">
-    <div class="container md">
-        <div class="optional-repeater-main">
-            <div class="optional-repeater-row flex">
-                <div class="optional-repeater-image relative">
-                    <div class="optional-box-bg top-right absolute flex flex-vcenter">
-                        <div class="optional-circle relative ui ui-oval-chart" data-animation>
-                            <div class="oval-chart radius-50 flex flex-center" data-value="38" data-ui-el="value"><span data-ui-el="counter">38</span>%</div>
-                            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" data-ui-el="chart">
-                                <path d="M3 28.4354C3 14.1117 14.6117 2.5 28.9354 2.5C37.827 2.5 45.6735 6.97442 50.3461 13.7945" stroke="#269ABD" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
-                                <path opacity="0.2" d="M28.9355 54.3709C43.2593 54.3709 54.871 42.7592 54.871 28.4354C54.871 24.2208 53.8657 20.241 52.0818 16.7227" stroke="white" stroke-width="2"/>
-                                <path opacity="0.2" d="M3.33594 32.6187C5.13782 43.7307 14.0004 52.4753 25.171 54.0997" stroke="white" stroke-width="2"/>
+    </section>
+    <section class="benefit-section">
+        <div class="container">
+            <div class="benefit-main relative">
+                <div class="benefit-watermark absolute hide-mobile hide-tablet">
+                    <svg width="189" height="233" viewBox="0 0 189 233" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 10H179V157.578H60.4539L10 208V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                    </svg>
+                    <svg width="134" height="169" viewBox="0 0 134 169" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M124 10H10V109.876H89.966L124 144V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                    </svg>
+                </div>
+                <div class="benefit-watermark absolute hide-desktop">
+                    <svg width="161" height="201" viewBox="0 0 161 201" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M151 10H10V133.727H108.905L151 176V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                    </svg>
+                </div>
+                <div class="benefit-title">
+                    <span class="optional-text">Optional Preheader</span>
+                    <h2>Introduction to this section appears here.</h2>
+                    <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. Sit maecenas at risus eget interdum dictum sed odio.</p>
+                </div>
+                <div class="benefit-lists flex">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
+                                <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0654a3"/>
+                                <path d="M14 25.7143L21.2 33L38 16" stroke="#0654a3" stroke-width="6"/>
                             </svg>
                         </div>
-                        <div class="optional-count inverted font-gothic">
-                            <span>+300k</span>
-                            <p>Net Worth</p>
+                        <div class="benefit-text f-300">
+                            <h2>Value Subhead</h2>
+                            <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                            <a href="#" class="text-link btn-pacific-blue hide-desktop">Read More</a>
                         </div>
                     </div>
-                    <div class="optional-box-bg bottom-left absolute flex flex-vcenter hide-mobile hide-tablet">
-                        <div class="ui ui-line-chart"  data-animation>
-                            <div class="oval-graph relative" data-ui-el="chart">
-                                <div class="oval-lines flex absolute" data-ui-el="lines">
-                                    <span class="oval-line"></span>
-                                    <span class="oval-line"></span>
-                                    <span class="oval-line"></span>
-                                    <span class="oval-line"></span>    
-                                </div>
-                                <svg width="58" height="30" viewBox="0 0 58 30" fill="none">
-                                    <path d="M2.5 28L20.3721 9.5L37.6279 18L55.5 2" stroke="#89CB3E" stroke-width="5" stroke-linecap="round" data-ui-el="progress" />
-                                </svg>    
-                                </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
+                                <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0654a3"/>
+                                <path d="M14 25.7143L21.2 33L38 16" stroke="#0654a3" stroke-width="6"/>
+                            </svg>
                         </div>
-                        <div class="optional-count inverted font-gothic">
-                            <span>+300k</span>
-                            <p>Net Worth</p>
+                        <div class="benefit-text f-300">
+                            <h2>Value Subhead</h2>
+                            <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                            <a href="#" class="text-link btn-pacific-blue hide-desktop">Read More</a>
                         </div>
                     </div>
-                    <picture class="optional-repeater-thumb object-fit">
-                        <img src="images/optional-thumb1@2x.jpg" alt="optional-thumb1">
-                    </picture>
-                    <div class="optional-repeater-bg background-bg"></div>
-                    <div class="play-btn-main flex flex-center ">
-                        <div class="play-btn relative">
-                            <a href="https://www.youtube.com/watch?v=NI3I3eem714" class="popup-youtube play-btn-bg flex flex-center">
-                                <span class="btn-circle"></span>
-                                <span></span>
-                                <span></span>
-                                video
-                            </a>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
+                                <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0654a3"/>
+                                <path d="M14 25.7143L21.2 33L38 16" stroke="#0654a3" stroke-width="6"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text f-300">
+                            <h2>Value Subhead</h2>
+                            <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                            <a href="#" class="text-link btn-pacific-blue hide-desktop">Read More</a>
                         </div>
                     </div>
-                </div>
-                <div class="optional-repeater-text f-300">
-                    <span class="optional-text muted">Optional Preheader Text</span>
-                    <h2 class="h3">We help you plan your financial life.</h2>
-                    <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed.</p>
-                    <ul>
-                        <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
-                        <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
-                        <li>Cursus eu imperdiet egestas ligula proin</li>
-                    </ul>
-                    <div class="optional-repeater-btns flex flex-vcenter">
-                        <a href="#" class="button btn-transparent">Learn More</a>
-                        <a href="#" class="text-link">Optional Link</a>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="52" height="60" viewBox="0 0 52 60" fill="none">
+                                <path opacity="0.2" d="M0 0H51.5V51H10L0 60V51V0Z" fill="#0654a3"/>
+                                <path d="M14 25.7143L21.2 33L38 16" stroke="#0654a3" stroke-width="6"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text f-300">
+                            <h2>Value Subhead</h2>
+                            <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                            <a href="#" class="text-link btn-pacific-blue hide-desktop">Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="optional-repeater-row flex">
-                <div class="optional-repeater-image relative">
-                    <div class="optional-box-bg bottom-right absolute flex flex-vcenter">
-                        <div class="optional-circle relative ui ui-oval-chart" data-animation>
-                            <div class="oval-chart radius-50 flex flex-center" data-value="81" data-ui-el="value"><span data-ui-el="counter">81</span>%</div>
-                            <svg width="59" height="59" viewBox="0 0 59 59" fill="none" data-ui-el="chart">
-                                <circle opacity="0.2" cx="29.292" cy="29.292" r="26.292" stroke="white" stroke-width="2"/>
-                                <path d="M29.292 55.584C14.7713 55.584 3 43.8127 3 29.292C3 14.7713 14.7713 3 29.292 3C43.8127 3 55.584 14.7713 55.584 29.292C55.584 32.365 55.0569 35.3148 54.088 38.056" stroke="#10B596" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
-                            </svg>
-                        </div>
-                        <div class="optional-count">
-                            <span>+300k</span>
-                            <p>Net Worth</p>
-                        </div>
-                    </div>
-                    <div class="optional-box-bg top-left absolute flex flex-vcenter hide-mobile hide-tablet ui-bar-chart" data-animation="">
-                        <div class="oval-graph relative" data-ui-el="chart">
-                            <div class="oval-lines center flex" data-ui-el="lines">
-                                <span class="oval-line" data-ui-el="bar"></span>
-                                <span class="oval-line" data-ui-el="bar"></span>
-                                <span class="oval-line" data-ui-el="bar"></span>
+        </div>
+    </section>
+    <section class="optional-repeater-section">
+        <div class="container md">
+            <div class="optional-repeater-main">
+                <div class="optional-repeater-row flex">
+                    <div class="optional-repeater-image relative">
+                        <div class="optional-box-bg top-right absolute flex flex-vcenter">
+                            <div class="optional-circle relative ui ui-oval-chart" data-animation>
+                                <div class="oval-chart radius-50 flex flex-center" data-value="38" data-ui-el="value"><span data-ui-el="counter">38</span>%</div>
+                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" data-ui-el="chart">
+                                    <path d="M3 28.4354C3 14.1117 14.6117 2.5 28.9354 2.5C37.827 2.5 45.6735 6.97442 50.3461 13.7945" stroke="#269ABD" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
+                                    <path opacity="0.2" d="M28.9355 54.3709C43.2593 54.3709 54.871 42.7592 54.871 28.4354C54.871 24.2208 53.8657 20.241 52.0818 16.7227" stroke="white" stroke-width="2"/>
+                                    <path opacity="0.2" d="M3.33594 32.6187C5.13782 43.7307 14.0004 52.4753 25.171 54.0997" stroke="white" stroke-width="2"/>
+                                </svg>
                             </div>
-                            <span class="graph-lines flex" data-ui-el="lines">
-                                <span class="graph-line"></span>
-                                <span class="graph-line"></span>
-                                <span class="graph-line"></span>
-                            </span>
+                            <div class="optional-count inverted font-gothic">
+                                <span>+300k</span>
+                                <p>Net Worth</p>
+                            </div>
                         </div>
-                        <div class="optional-count inverted font-gothic">
-                            <span>+300k</span>
-                            <p>Net Worth</p>
+                        <div class="optional-box-bg bottom-left absolute flex flex-vcenter hide-mobile hide-tablet">
+                            <div class="ui ui-line-chart"  data-animation>
+                                <div class="oval-graph relative" data-ui-el="chart">
+                                    <div class="oval-lines flex absolute" data-ui-el="lines">
+                                        <span class="oval-line"></span>
+                                        <span class="oval-line"></span>
+                                        <span class="oval-line"></span>
+                                        <span class="oval-line"></span>    
+                                    </div>
+                                    <svg width="58" height="30" viewBox="0 0 58 30" fill="none">
+                                        <path d="M2.5 28L20.3721 9.5L37.6279 18L55.5 2" stroke="#89CB3E" stroke-width="5" stroke-linecap="round" data-ui-el="progress" />
+                                    </svg>    
+                                    </div>
+                            </div>
+                            <div class="optional-count inverted font-gothic">
+                                <span>+300k</span>
+                                <p>Net Worth</p>
+                            </div>
+                        </div>
+                        <picture class="optional-repeater-thumb object-fit">
+                            <img src="images/optional-thumb1@2x.jpg" alt="optional-thumb1">
+                        </picture>
+                        <div class="optional-repeater-bg background-bg"></div>
+                        <div class="play-btn-main flex flex-center ">
+                            <div class="play-btn relative">
+                                <a href="https://www.youtube.com/watch?v=NI3I3eem714" class="popup-youtube play-btn-bg flex flex-center">
+                                    <span class="btn-circle"></span>
+                                    <span></span>
+                                    <span></span>
+                                    video
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <picture class="optional-repeater-thumb object-fit">
-                        <img src="images/optional-thumb2@2x.jpg" alt="optional-thumb1">
-                    </picture>
-                    <div class="optional-repeater-bg aquamarine background-bg"></div>
+                    <div class="optional-repeater-text f-300">
+                        <span class="optional-text muted">Optional Preheader Text</span>
+                        <h2 class="h3">We help you plan your financial life.</h2>
+                        <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed.</p>
+                        <ul>
+                            <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
+                            <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
+                            <li>Cursus eu imperdiet egestas ligula proin</li>
+                        </ul>
+                        <div class="optional-repeater-btns flex flex-vcenter">
+                            <a href="#" class="button btn-transparent">Learn More</a>
+                            <a href="#" class="text-link">Optional Link</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="optional-repeater-text f-300">
-                    <span class="optional-text muted">Optional Preheader Text</span>
-                    <h2 class="h3">We help you plan your financial life.</h2>
-                    <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed.</p>
-                    <ul>
-                        <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
-                        <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
-                        <li>Cursus eu imperdiet egestas ligula proin</li>
-                    </ul>
-                    <div class="optional-repeater-btns flex flex-vcenter">
-                        <a href="#" class="button btn-aquamarine btn-transparent">Learn More</a>
-                        <a href="#" class="text-link btn-aquamarine">Optional Link</a>
+                <div class="optional-repeater-row flex">
+                    <div class="optional-repeater-image relative">
+                        <div class="optional-box-bg bottom-right absolute flex flex-vcenter">
+                            <div class="optional-circle relative ui ui-oval-chart" data-animation>
+                                <div class="oval-chart radius-50 flex flex-center" data-value="81" data-ui-el="value"><span data-ui-el="counter">81</span>%</div>
+                                <svg width="59" height="59" viewBox="0 0 59 59" fill="none" data-ui-el="chart">
+                                    <circle opacity="0.2" cx="29.292" cy="29.292" r="26.292" stroke="white" stroke-width="2"/>
+                                    <path d="M29.292 55.584C14.7713 55.584 3 43.8127 3 29.292C3 14.7713 14.7713 3 29.292 3C43.8127 3 55.584 14.7713 55.584 29.292C55.584 32.365 55.0569 35.3148 54.088 38.056" stroke="#10B596" stroke-width="5" data-ui-el="progress" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <div class="optional-count">
+                                <span>+300k</span>
+                                <p>Net Worth</p>
+                            </div>
+                        </div>
+                        <div class="optional-box-bg top-left absolute flex flex-vcenter hide-mobile hide-tablet ui-bar-chart" data-animation="">
+                            <div class="oval-graph relative" data-ui-el="chart">
+                                <div class="oval-lines center flex" data-ui-el="lines">
+                                    <span class="oval-line" data-ui-el="bar"></span>
+                                    <span class="oval-line" data-ui-el="bar"></span>
+                                    <span class="oval-line" data-ui-el="bar"></span>
+                                </div>
+                                <span class="graph-lines flex" data-ui-el="lines">
+                                    <span class="graph-line"></span>
+                                    <span class="graph-line"></span>
+                                    <span class="graph-line"></span>
+                                </span>
+                            </div>
+                            <div class="optional-count inverted font-gothic">
+                                <span>+300k</span>
+                                <p>Net Worth</p>
+                            </div>
+                        </div>
+                        <picture class="optional-repeater-thumb object-fit">
+                            <img src="images/optional-thumb2@2x.jpg" alt="optional-thumb1">
+                        </picture>
+                        <div class="optional-repeater-bg aquamarine background-bg"></div>
+                    </div>
+                    <div class="optional-repeater-text f-300">
+                        <span class="optional-text muted">Optional Preheader Text</span>
+                        <h2 class="h3">We help you plan your financial life.</h2>
+                        <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed.</p>
+                        <ul>
+                            <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
+                            <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
+                            <li>Cursus eu imperdiet egestas ligula proin</li>
+                        </ul>
+                        <div class="optional-repeater-btns flex flex-vcenter">
+                            <a href="#" class="button btn-aquamarine btn-transparent">Learn More</a>
+                            <a href="#" class="text-link btn-aquamarine">Optional Link</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="cta-section cta-reverse dark-blue relative">
-    <div class="cta-bg cta-navy"></div>
-    <div class="container">
-        <div class="cta-main flex flex-vcenter relative">
-            <div class="cta-text inverted flex">
-                <div class="cta-desc relative">
-                    <div class="cta-desc-icon absolute">
-                        <svg width="182" height="210" viewBox="0 0 182 210" fill="none">
-                            <path opacity="1" d="M154.016 13.9219L167.18 13.9219L167.276 27.0889L168.153 146.678L168.381 177.768L146.092 155.648L126.398 136.104L26.8348 136.104L13.5739 136.104L13.5739 122.841L13.574 26.661L13.574 13.9219L26.3117 13.9219L154.016 13.9219Z" stroke="white" stroke-width="26"/>
+    </section>
+    <section class="cta-section cta-reverse dark-blue relative">
+        <div class="cta-bg cta-navy"></div>
+        <div class="container">
+            <div class="cta-main flex flex-vcenter relative">
+                <div class="cta-text inverted flex">
+                    <div class="cta-desc relative">
+                        <div class="cta-desc-icon absolute">
+                            <svg width="182" height="210" viewBox="0 0 182 210" fill="none">
+                                <path opacity="1" d="M154.016 13.9219L167.18 13.9219L167.276 27.0889L168.153 146.678L168.381 177.768L146.092 155.648L126.398 136.104L26.8348 136.104L13.5739 136.104L13.5739 122.841L13.574 26.661L13.574 13.9219L26.3117 13.9219L154.016 13.9219Z" stroke="white" stroke-width="26"/>
+                            </svg>
+                        </div>
+                        <h2>Customizable Call to Action Panel Title</h2>
+                        <p>Helping you frame financial decisions through the lens of living a good life and more text that would naturally flow here.</p>
+                        <a href="#" class="button white-text btn-white btn-lg btn-transparent">Learn More</a>
+                    </div>
+                    <div class="cta-stats-col">
+                        <div class="cta-stats">
+                            <span class="cta-stat-num">36</span>
+                            <p>Age</p>
+                        </div>
+                        <div class="cta-stats">
+                            <span class="cta-stat-num">16</span>
+                            <p>Assets</p>
+                        </div>
+                        <div class="cta-stats">
+                            <span class="cta-stat-num">2.1M</span>
+                            <p>Net worth</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-image absolute">
+                    <div class="cta-image-bg background-bg"></div>
+                    <picture class="cta-thumb object-fit">
+                        <img src="images/call-action2@2x.jpg" alt="cta-image">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-section">
+        <div class="container">
+            <div class="service-main flex">
+                <div class="service-text relative">
+                    <div class="service-watermark absolute hide-mobile hide-tablet">
+                        <svg width="208" height="256" viewBox="0 0 208 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 10H198V174.72H66.1262L10 231V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                        </svg>
+                        <svg width="147" height="184" viewBox="0 0 147 184" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M137 10H10V121.056H99.085L137 159V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
                         </svg>
                     </div>
-                    <h2>Customizable Call to Action Panel Title</h2>
-                    <p>Helping you frame financial decisions through the lens of living a good life and more text that would naturally flow here.</p>
-                    <a href="#" class="button white-text btn-white btn-lg btn-transparent">Learn More</a>
-                </div>
-                <div class="cta-stats-col">
-                    <div class="cta-stats">
-                        <span class="cta-stat-num">36</span>
-                        <p>Age</p>
+                    <div class="service-watermark absolute hide-desktop">
+                        <svg width="106" height="137" viewBox="0 0 106 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M96 10H10V86.0248H70.3252L96 112V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                        </svg>
                     </div>
-                    <div class="cta-stats">
-                        <span class="cta-stat-num">16</span>
-                        <p>Assets</p>
-                    </div>
-                    <div class="cta-stats">
-                        <span class="cta-stat-num">2.1M</span>
-                        <p>Net worth</p>
-                    </div>
-                </div>
-            </div>
-            <div class="cta-image absolute">
-                <div class="cta-image-bg background-bg"></div>
-                <picture class="cta-thumb object-fit">
-                    <img src="images/call-action2@2x.jpg" alt="cta-image">
-                </picture>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="service-section">
-    <div class="container">
-        <div class="service-main flex">
-            <div class="service-text relative">
-                <div class="service-watermark absolute hide-mobile hide-tablet">
-                    <svg width="208" height="256" viewBox="0 0 208 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10 10H198V174.72H66.1262L10 231V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                    </svg>
-                    <svg width="147" height="184" viewBox="0 0 147 184" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M137 10H10V121.056H99.085L137 159V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                    </svg>
-                </div>
-                <div class="service-watermark absolute hide-desktop">
-                    <svg width="106" height="137" viewBox="0 0 106 137" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M96 10H10V86.0248H70.3252L96 112V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                    </svg>
-                </div>
-                <div class="service-icon">
-                    <figure>
-                        <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M20.7536 48.5558L54 48.5441V10.4951H15.1087L15.1286 54.109L20.7536 48.5558Z" fill="#89CB3E"/>
-                            <path d="M15.1087 10.495H46.8109L45.739 4.49512L7.43927 11.1612L15.1286 54.1088L15.1087 10.495Z" fill="#0894D3"/>
-                            <path d="M15.1087 10.495H46.8109L45.739 4.49512L7.43927 11.1612L15.1286 54.1088L15.1087 10.495Z" fill="#0894D3"/>
-                            <path d="M7.43924 11.1611L38.657 5.72948L36.5452 0L0 13.1324L15.1286 54.1087L7.43924 11.1611Z" fill="#0654A3"/>
-                            <path d="M35.5273 39.3769H30.3527V35.2384H35.5273V39.3769ZM40.4623 26.4978C40.1036 27.2308 39.6272 27.9012 39.0344 28.5091C38.4409 29.1169 37.7855 29.6715 37.0682 30.1733C36.6693 30.4532 36.3624 30.7377 36.1487 31.0268C35.9343 31.3159 35.7873 31.6465 35.7076 32.018C35.6273 32.3894 35.5879 32.8306 35.5879 33.3417H30.3534C30.3534 32.6377 30.4078 32.039 30.5181 31.5471C30.6276 31.0551 30.8046 30.6165 31.0489 30.2299C31.2933 29.844 31.6295 29.4627 32.0583 29.0866C32.4864 28.7106 33.0254 28.2911 33.6733 27.8274C34.0722 27.5475 34.4261 27.2222 34.7351 26.8508C35.0441 26.4793 35.2904 26.0743 35.4756 25.635C35.66 25.1964 35.7519 24.74 35.7519 24.2678C35.7519 23.5539 35.545 22.9895 35.1312 22.5746C34.7174 22.1597 34.1416 21.9523 33.4038 21.9523C32.7954 21.9523 32.272 22.1163 31.8337 22.4442C31.3947 22.7722 31.1708 23.2786 31.1606 23.9636H26.0309L26.0009 23.8766C25.9812 22.6029 26.28 21.5301 26.8979 20.6568C27.5159 19.7836 28.383 19.123 29.4999 18.6745C30.6161 18.226 31.9079 18.0015 33.3732 18.0015C35.756 18.0015 37.6229 18.5566 38.9739 19.6657C40.3248 20.7754 41 22.2611 41 24.1229C41 24.9718 40.8203 25.7628 40.4616 26.4965L40.4623 26.4978Z" fill="white"/>
-                        </svg>    
-                    </figure>
-                </div>
-                <span class="optional-text">Services Section Sub-Heading</span>
-                <h3>Explanation of the phases involved or how the service works.</h3>
-                <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a. Cras dictumst sit etiam augue.</p>
-                <a href="#" class="button btn-transparent">Learn More</a>
-            </div>
-            <div class="service-accordion">
-                <div class="accordion-main">
-                    <div class="accordion-item relative">
-                        <div class="accordion-head">Phase or aspect of the service offering.</div>
-                        <div class="accordion-content">
-                            <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed.</p>
-                            <ul>
-                                <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
-                                <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
-                                <li>Cursus eu imperdiet egestas ligula proin</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="accordion-item relative">
-                        <div class="accordion-head">Phase or aspect of the service offering.</div>
-                        <div class="accordion-content">
-                            <p>Sample expanding accordion block that reveals an answer or content below.  that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
-                            <ul>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="accordion-item relative">
-                        <div class="accordion-head">Phase or aspect of the service offering.</div>
-                        <div class="accordion-content">
-                            <p>Sample expanding accordion block that reveals an answer or content below. that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
-                            <ul>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="accordion-item relative">
-                        <div class="accordion-head">Phase or aspect of the service offering.</div>
-                        <div class="accordion-content">
-                            <p>Sample expanding accordion block that reveals an answer or content below. that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
-                            <ul>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="testimonial-section bg-capri-ocean">
-    <div class="container">
-        <div class="testimonial-wrap">
-            <div class="testimonial-head flex flex-vcenter">
-                <div class="testimonial-title">
-                    <h3>Client Stories</h3>
-                </div>
-                <div class="testimonial-btn">
-                    <a href="#" class="text-link btn-white">Optional Link</a>
-                </div>
-            </div>
-            <div class="testimonial-main flex">
-                <div class="testimonial-list relative flex">
-                    <div class="testimonial-text">
-                        <div class="testimonial-bg-arrow"></div>
-                        <em>“Amet vitae egestas tellus eu enim, nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis.”</em>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="testimonial-thumb">
-                            <figure class="object-fit">
-                                <img src="images/joe-webber@2x.jpg" alt="joe-webber">
-                            </figure>
-                        </div>
-                        <div class="testimonial-name">
-                            <span>Joe Webber</span>
-                            <span>Position / Role</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-list relative flex">
-                    <div class="testimonial-text">
-                        <div class="testimonial-bg-arrow"></div>
-                        <em>“Nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis.”</em>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="testimonial-thumb">
-                            <figure class="object-fit">
-                                <img src="images/monica-smith@2x.jpg" alt="monica-smith">
-                            </figure>
-                        </div>
-                        <div class="testimonial-name">
-                            <span>Monica Smith</span>
-                            <span>Position / Role</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-list relative flex">
-                    <div class="testimonial-text">
-                        <div class="testimonial-bg-arrow"></div>
-                        <em>“Amet vitae egestas tellus eu enim, nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis.”</em>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="testimonial-thumb">
-                            <figure class="object-fit">
-                                <img src="images/kate-kowalski@2x.jpg" alt="kate-kowalski">
-                            </figure>
-                        </div>
-                        <div class="testimonial-name">
-                            <span>Kate Kowalski</span>
-                            <span>Position / Role</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="newsletter-section inverted relative">
-    <div class="container">
-        <div class="newsletter-main flex flex-vcenter">
-            <div class="newsletter-text relative">
-                <span class="optional-text light">Newsletter Signup</span>
-                <h2 class="h3">A short but persuasive headline aimed at driving signup conversions.</h2>
-                <div class="newsletter-watermark absolute hide-mobile hide-tablet">
-                    <svg width="226" height="276" viewBox="0 0 226 276" fill="none">
-                        <path d="M216 10H10V190H154.5L216 251.5V10Z" stroke="white" stroke-opacity="0.07" stroke-width="20"/>
-                    </svg>
-                </div>
-                <div class="newsletter-watermark absolute hide-desktop">
-                    <svg width="145" height="181" viewBox="0 0 145 181" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M135 10H10V118.82H97.682L135 156V10Z" stroke="white" stroke-opacity="0.07" stroke-width="20"/>
-                    </svg>
-                </div>
-            </div>
-            <div class="newsletter-signup">
-                <form action="" class="newsletter-form">
-                    <div class="newsletter-field frm_first">
-                        <input type="text" name="" id="" placeholder="First Name">
-                    </div>
-                    <div class="newsletter-field frm_last">
-                        <input type="text" name="" id="" placeholder="Last Name">
-                    </div>
-                    <div class="newsletter-field-wrap relative">
-                        <div class="newsletter-field-email">
-                            <input type="text" name="" id="" placeholder="Your E-mail Address">
-                        </div>
-                        <div class="newsletter-submit">
-                            <button type="submit">Submit</button>
-                        </div>
-                    </div>
-                </form>
-                <div class="newsletter-disclaimer f-300 fs-14 relative">
-                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                        <path d="M9 0C4.02571 0 0 4.02525 0 9C0 13.9742 4.02525 18 9 18C13.9743 18 18 13.9747 18 9C18 4.02578 13.9747 0 9 0ZM9 16.7442C4.72985 16.7442 1.25582 13.2702 1.25582 9C1.25582 4.72982 4.72985 1.25582 9 1.25582C13.2701 1.25582 16.7442 4.72982 16.7442 9C16.7442 13.2702 13.2701 16.7442 9 16.7442Z" fill="#D9EEF7" fill-opacity="0.6"/>
-                        <path d="M9.00009 7.50171C8.46698 7.50171 8.08789 7.72685 8.08789 8.05855V12.5721C8.08789 12.8565 8.46698 13.1407 9.00009 13.1407C9.5095 13.1407 9.9241 12.8565 9.9241 12.5721V8.05848C9.9241 7.72681 9.5095 7.50171 9.00009 7.50171Z" fill="#D9EEF7" fill-opacity="0.6"/>
-                        <path d="M9.0007 4.7179C8.45574 4.7179 8.0293 5.10883 8.0293 5.55901C8.0293 6.00922 8.45578 6.41201 9.0007 6.41201C9.53381 6.41201 9.96032 6.00922 9.96032 5.55901C9.96032 5.10883 9.53377 4.7179 9.0007 4.7179Z" fill="#D9EEF7" fill-opacity="0.6"/>
-                    </svg>
-                    <p>A short disclaimer can appear here if neessary at netus elit convallis nibh donec in feugiat.</p>
-                </div>
-            </div>
-        </div>
-        <div class="newsletter-polygon absolute"></div>
-    </div>
-</section>
-<section class="pwl-intro-section">
-    <div class="container md">
-        <div class="pwl-intro-main flex">
-            <div class="pwl-intro-head">
-                <span class="optional-text muted">Optinal Preheader</span>
-                <h2>A short intro about this section in this spot here</h2>
-                <div class="pwl-para-mob hide-desktop">
-                    <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. Sit maecenas at risus eget interdum dictum sed odio. Amet suscipit nisl curabitur a. Sed ipsum lectus amet aliquam morbi ac. Pellentesque cras sed placerat velit consectetur volutpat massa est faucibus. Cras in urna enim ut sem.</p>                   
-                </div>
-                <a href="#" class="button btn-transparent">Learn More</a>
-            </div>
-            <div class="pwl-intro-desc f-300 hide-mobile hide-tablet">
-                <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. Sit maecenas at risus eget interdum dictum sed odio. Amet suscipit nisl curabitur a. Sed ipsum lectus amet aliquam morbi ac. Pellentesque cras sed placerat velit consectetur volutpat massa est faucibus. Cras in urna enim ut sem.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="perk-subhead-section">
-    <div class="container">
-        <div class="perk-subhead-main flex">
-            <div class="perk-subhead-list f-300 fs-15">
-                <hr class="perk-line">
-                <h2>Feature Subhead</h2>
-                <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                <a href="#" class="text-link">Read More</a>
-            </div>
-            <div class="perk-subhead-list f-300 fs-15">
-                <hr class="perk-line">
-                <h2>Feature Subhead</h2>
-                <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                <a href="#" class="text-link">Read More</a>
-            </div>
-            <div class="perk-subhead-list f-300 fs-15">
-                <hr class="perk-line">
-                <h2>Feature Subhead</h2>
-                <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                <a href="#" class="text-link">Read More</a>
-            </div>
-            <div class="perk-subhead-list f-300 fs-15">
-                <hr class="perk-line">
-                <h2>Feature Subhead</h2>
-                <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
-                <a href="#" class="text-link">Read More</a>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="fee-module-section">
-    <div class="container">
-        <div class="fee-module-main flex">
-            <div class="fee-module-text relative">
-                <h2>Fee Grid Module</h2>
-                <p>Blandit odio nulla tempus neque lacus tempus. Facilisi in felis gravida scelerisque in luctus morbi. At sed facilisis ipsum diam.</p>
-                <a href="#" class="button btn-transparent">Learn More</a>
-                <div class="fee-module-watermark absolute">
-                    <svg width="138" height="174" viewBox="0 0 138 174" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M128 10H10V113.602H92.7718L128 149V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                    </svg>
-                    <svg width="109" height="140" viewBox="0 0 109 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10 10H99V88.2609H36.5704L10 115V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                    </svg>
-                </div>
-            </div>
-            <div class="fee-module-table">
-                <table>
-                    <tr>
-                        <th>Column Heading</th>
-                        <th>Column Heading</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Sample Sub-heading</span>
-                            <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a.</p>
-                        </td>
-                        <td>$150 / hr</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Sample Sub-heading</span>
-                            <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a.</p>
-                        </td>
-                        <td>$250 / hr</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Sample Sub-heading</span>
-                            <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a.</p>
-                        </td>
-                        <td>$350 / hr</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="question-section">
-    <div class="container">
-        <div class="question-main flex">
-            <div class="question-left">
-                <div class="question-title flex">
-                    <div class="question-icon">
+                    <div class="service-icon">
                         <figure>
                             <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20.7536 48.5558L54 48.5441V10.4951H15.1087L15.1286 54.109L20.7536 48.5558Z" fill="#89CB3E"/>
@@ -713,314 +439,697 @@
                             </svg>    
                         </figure>
                     </div>
-                    <div class="question-title-name">
-                        <h3>Have Questions?</h3>
-                        <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et.</p>
+                    <span class="optional-text">Services Section Sub-Heading</span>
+                    <h3>Explanation of the phases involved or how the service works.</h3>
+                    <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a. Cras dictumst sit etiam augue.</p>
+                    <a href="#" class="button btn-transparent">Learn More</a>
+                </div>
+                <div class="service-accordion">
+                    <div class="accordion-main">
+                        <div class="accordion-item relative">
+                            <div class="accordion-head">Phase or aspect of the service offering.</div>
+                            <div class="accordion-content">
+                                <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus nulla ac sed.</p>
+                                <ul>
+                                    <li>Aenean tortor ultrices id sodales eleifend consectetur in magna at</li>
+                                    <li>Tincidunt est urna sollicitudin risus lectus lobortis nunc mollis</li>
+                                    <li>Cursus eu imperdiet egestas ligula proin</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item relative">
+                            <div class="accordion-head">Phase or aspect of the service offering.</div>
+                            <div class="accordion-content">
+                                <p>Sample expanding accordion block that reveals an answer or content below.  that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
+                                <ul>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item relative">
+                            <div class="accordion-head">Phase or aspect of the service offering.</div>
+                            <div class="accordion-content">
+                                <p>Sample expanding accordion block that reveals an answer or content below. that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
+                                <ul>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item relative">
+                            <div class="accordion-head">Phase or aspect of the service offering.</div>
+                            <div class="accordion-content">
+                                <p>Sample expanding accordion block that reveals an answer or content below. that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
+                                <ul>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="question-nt-main relative hide-mobile hide-tablet">
-                    <figure class="question-nt-bg absolute object-fit">
-                        <svg width="381" height="378" viewBox="0 0 381 378" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M98.818 269.193H371V10H10V353.86L91.7473 272.121L94.6761 269.193H98.818Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-section bg-capri-ocean">
+        <div class="container">
+            <div class="testimonial-wrap">
+                <div class="testimonial-head flex flex-vcenter">
+                    <div class="testimonial-title">
+                        <h3>Client Stories</h3>
+                    </div>
+                    <div class="testimonial-btn">
+                        <a href="#" class="text-link btn-white">Optional Link</a>
+                    </div>
+                </div>
+                <div class="testimonial-main flex">
+                    <div class="testimonial-list relative flex">
+                        <div class="testimonial-text">
+                            <div class="testimonial-bg-arrow"></div>
+                            <em>“Amet vitae egestas tellus eu enim, nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis.”</em>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-thumb">
+                                <figure class="object-fit">
+                                    <img src="images/joe-webber@2x.jpg" alt="joe-webber">
+                                </figure>
+                            </div>
+                            <div class="testimonial-name">
+                                <span>Joe Webber</span>
+                                <span>Position / Role</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-list relative flex">
+                        <div class="testimonial-text">
+                            <div class="testimonial-bg-arrow"></div>
+                            <em>“Nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis.”</em>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-thumb">
+                                <figure class="object-fit">
+                                    <img src="images/monica-smith@2x.jpg" alt="monica-smith">
+                                </figure>
+                            </div>
+                            <div class="testimonial-name">
+                                <span>Monica Smith</span>
+                                <span>Position / Role</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-list relative flex">
+                        <div class="testimonial-text">
+                            <div class="testimonial-bg-arrow"></div>
+                            <em>“Amet vitae egestas tellus eu enim, nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat diam pharetra quis.”</em>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-thumb">
+                                <figure class="object-fit">
+                                    <img src="images/kate-kowalski@2x.jpg" alt="kate-kowalski">
+                                </figure>
+                            </div>
+                            <div class="testimonial-name">
+                                <span>Kate Kowalski</span>
+                                <span>Position / Role</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter-section inverted relative">
+        <div class="container">
+            <div class="newsletter-main flex flex-vcenter">
+                <div class="newsletter-text relative">
+                    <span class="optional-text light">Newsletter Signup</span>
+                    <h2 class="h3">A short but persuasive headline aimed at driving signup conversions.</h2>
+                    <div class="newsletter-watermark absolute hide-mobile hide-tablet">
+                        <svg width="226" height="276" viewBox="0 0 226 276" fill="none">
+                            <path d="M216 10H10V190H154.5L216 251.5V10Z" stroke="white" stroke-opacity="0.07" stroke-width="20"/>
                         </svg>
-                    </figure>
+                    </div>
+                    <div class="newsletter-watermark absolute hide-desktop">
+                        <svg width="145" height="181" viewBox="0 0 145 181" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M135 10H10V118.82H97.682L135 156V10Z" stroke="white" stroke-opacity="0.07" stroke-width="20"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="newsletter-signup">
+                    <form action="" class="newsletter-form">
+                        <div class="newsletter-field frm_first">
+                            <input type="text" name="" id="" placeholder="First Name">
+                        </div>
+                        <div class="newsletter-field frm_last">
+                            <input type="text" name="" id="" placeholder="Last Name">
+                        </div>
+                        <div class="newsletter-field-wrap relative">
+                            <div class="newsletter-field-email">
+                                <input type="text" name="" id="" placeholder="Your E-mail Address">
+                            </div>
+                            <div class="newsletter-submit">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="newsletter-disclaimer f-300 fs-14 relative">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <path d="M9 0C4.02571 0 0 4.02525 0 9C0 13.9742 4.02525 18 9 18C13.9743 18 18 13.9747 18 9C18 4.02578 13.9747 0 9 0ZM9 16.7442C4.72985 16.7442 1.25582 13.2702 1.25582 9C1.25582 4.72982 4.72985 1.25582 9 1.25582C13.2701 1.25582 16.7442 4.72982 16.7442 9C16.7442 13.2702 13.2701 16.7442 9 16.7442Z" fill="#D9EEF7" fill-opacity="0.6"/>
+                            <path d="M9.00009 7.50171C8.46698 7.50171 8.08789 7.72685 8.08789 8.05855V12.5721C8.08789 12.8565 8.46698 13.1407 9.00009 13.1407C9.5095 13.1407 9.9241 12.8565 9.9241 12.5721V8.05848C9.9241 7.72681 9.5095 7.50171 9.00009 7.50171Z" fill="#D9EEF7" fill-opacity="0.6"/>
+                            <path d="M9.0007 4.7179C8.45574 4.7179 8.0293 5.10883 8.0293 5.55901C8.0293 6.00922 8.45578 6.41201 9.0007 6.41201C9.53381 6.41201 9.96032 6.00922 9.96032 5.55901C9.96032 5.10883 9.53377 4.7179 9.0007 4.7179Z" fill="#D9EEF7" fill-opacity="0.6"/>
+                        </svg>
+                        <p>A short disclaimer can appear here if neessary at netus elit convallis nibh donec in feugiat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="newsletter-polygon absolute"></div>
+        </div>
+    </section>
+    <section class="pwl-intro-section">
+        <div class="container md">
+            <div class="pwl-intro-main flex">
+                <div class="pwl-intro-head">
+                    <span class="optional-text muted">Optinal Preheader</span>
+                    <h2>A short intro about this section in this spot here</h2>
+                    <div class="pwl-para-mob hide-desktop">
+                        <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. Sit maecenas at risus eget interdum dictum sed odio. Amet suscipit nisl curabitur a. Sed ipsum lectus amet aliquam morbi ac. Pellentesque cras sed placerat velit consectetur volutpat massa est faucibus. Cras in urna enim ut sem.</p>                   
+                    </div>
+                    <a href="#" class="button btn-transparent">Learn More</a>
+                </div>
+                <div class="pwl-intro-desc f-300 hide-mobile hide-tablet">
+                    <p>Augue arcu congue porttitor mauris lorem eget. Vulputate enim fermentum morbi feugiat tincidunt aenean accumsan integer. Sit maecenas at risus eget interdum dictum sed odio. Amet suscipit nisl curabitur a. Sed ipsum lectus amet aliquam morbi ac. Pellentesque cras sed placerat velit consectetur volutpat massa est faucibus. Cras in urna enim ut sem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="perk-subhead-section">
+        <div class="container">
+            <div class="perk-subhead-main flex">
+                <div class="perk-subhead-list f-300 fs-15">
+                    <hr class="perk-line">
+                    <h2>Feature Subhead</h2>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <a href="#" class="text-link">Read More</a>
+                </div>
+                <div class="perk-subhead-list f-300 fs-15">
+                    <hr class="perk-line">
+                    <h2>Feature Subhead</h2>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <a href="#" class="text-link">Read More</a>
+                </div>
+                <div class="perk-subhead-list f-300 fs-15">
+                    <hr class="perk-line">
+                    <h2>Feature Subhead</h2>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <a href="#" class="text-link">Read More</a>
+                </div>
+                <div class="perk-subhead-list f-300 fs-15">
+                    <hr class="perk-line">
+                    <h2>Feature Subhead</h2>
+                    <p>Feugiat diam pellentesque at diam scelerisque. Adipiscing mattis mi dignissim velit curabitur ultrices.</p>
+                    <a href="#" class="text-link">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fee-module-section">
+        <div class="container">
+            <div class="fee-module-main flex">
+                <div class="fee-module-text relative">
+                    <h2>Fee Grid Module</h2>
+                    <p>Blandit odio nulla tempus neque lacus tempus. Facilisi in felis gravida scelerisque in luctus morbi. At sed facilisis ipsum diam.</p>
+                    <a href="#" class="button btn-transparent">Learn More</a>
+                    <div class="fee-module-watermark absolute">
+                        <svg width="138" height="174" viewBox="0 0 138 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M128 10H10V113.602H92.7718L128 149V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                        </svg>
+                        <svg width="109" height="140" viewBox="0 0 109 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 10H99V88.2609H36.5704L10 115V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="fee-module-table">
+                    <table>
+                        <tr>
+                            <th>Column Heading</th>
+                            <th>Column Heading</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Sample Sub-heading</span>
+                                <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a.</p>
+                            </td>
+                            <td>$150 / hr</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Sample Sub-heading</span>
+                                <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a.</p>
+                            </td>
+                            <td>$250 / hr</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Sample Sub-heading</span>
+                                <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a.</p>
+                            </td>
+                            <td>$350 / hr</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="question-section">
+        <div class="container">
+            <div class="question-main flex">
+                <div class="question-left">
+                    <div class="question-title flex">
+                        <div class="question-icon">
+                            <figure>
+                                <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20.7536 48.5558L54 48.5441V10.4951H15.1087L15.1286 54.109L20.7536 48.5558Z" fill="#89CB3E"/>
+                                    <path d="M15.1087 10.495H46.8109L45.739 4.49512L7.43927 11.1612L15.1286 54.1088L15.1087 10.495Z" fill="#0894D3"/>
+                                    <path d="M15.1087 10.495H46.8109L45.739 4.49512L7.43927 11.1612L15.1286 54.1088L15.1087 10.495Z" fill="#0894D3"/>
+                                    <path d="M7.43924 11.1611L38.657 5.72948L36.5452 0L0 13.1324L15.1286 54.1087L7.43924 11.1611Z" fill="#0654A3"/>
+                                    <path d="M35.5273 39.3769H30.3527V35.2384H35.5273V39.3769ZM40.4623 26.4978C40.1036 27.2308 39.6272 27.9012 39.0344 28.5091C38.4409 29.1169 37.7855 29.6715 37.0682 30.1733C36.6693 30.4532 36.3624 30.7377 36.1487 31.0268C35.9343 31.3159 35.7873 31.6465 35.7076 32.018C35.6273 32.3894 35.5879 32.8306 35.5879 33.3417H30.3534C30.3534 32.6377 30.4078 32.039 30.5181 31.5471C30.6276 31.0551 30.8046 30.6165 31.0489 30.2299C31.2933 29.844 31.6295 29.4627 32.0583 29.0866C32.4864 28.7106 33.0254 28.2911 33.6733 27.8274C34.0722 27.5475 34.4261 27.2222 34.7351 26.8508C35.0441 26.4793 35.2904 26.0743 35.4756 25.635C35.66 25.1964 35.7519 24.74 35.7519 24.2678C35.7519 23.5539 35.545 22.9895 35.1312 22.5746C34.7174 22.1597 34.1416 21.9523 33.4038 21.9523C32.7954 21.9523 32.272 22.1163 31.8337 22.4442C31.3947 22.7722 31.1708 23.2786 31.1606 23.9636H26.0309L26.0009 23.8766C25.9812 22.6029 26.28 21.5301 26.8979 20.6568C27.5159 19.7836 28.383 19.123 29.4999 18.6745C30.6161 18.226 31.9079 18.0015 33.3732 18.0015C35.756 18.0015 37.6229 18.5566 38.9739 19.6657C40.3248 20.7754 41 22.2611 41 24.1229C41 24.9718 40.8203 25.7628 40.4616 26.4965L40.4623 26.4978Z" fill="white"/>
+                                </svg>    
+                            </figure>
+                        </div>
+                        <div class="question-title-name">
+                            <h3>Have Questions?</h3>
+                            <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et.</p>
+                        </div>
+                    </div>
+                    <div class="question-nt-main relative hide-mobile hide-tablet">
+                        <figure class="question-nt-bg absolute object-fit">
+                            <svg width="381" height="378" viewBox="0 0 381 378" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M98.818 269.193H371V10H10V353.86L91.7473 272.121L94.6761 269.193H98.818Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                            </svg>
+                        </figure>
+                        <div class="question-nt-cont">
+                            <span class="optional-text">Need more answers?</span>
+                            <h4>We Can Help You Find Your Financial Goals.</h4>
+                            <a href="#" class="button btn-transparent">Learn More</a>
+                        </div>
+                        <figure class="question-nt-sm">
+                            <svg width="141" height="176" viewBox="0 0 141 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M131 10H10V115.093H94.8762L131 151V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
+                            </svg>
+                        </figure>
+                    </div>
+                </div>
+                <div class="question-right">
+                    <div class="accordion-main">
+                        <div class="accordion-item relative">
+                            <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
+                            <div class="accordion-content">
+                                <p>Sample expanding accordion block that reveals an answer or content below.  that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
+                                <ol>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="accordion-item relative">
+                            <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
+                            <div class="accordion-content">
+                                <p>Sample expanding accordion block that reveals an answer or content below.  that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
+                                <ul>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item relative">
+                            <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
+                            <div class="accordion-content">
+                                <p>Sample expanding accordion block that reveals an answer or content below. that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
+                                <ol>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="accordion-item relative">
+                            <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
+                            <div class="accordion-content">
+                                <p>Sample expanding accordion block that reveals an answer or content below.  that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
+                                <ol>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="accordion-item relative">
+                            <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
+                            <div class="accordion-content">
+                                <p>Sample expanding accordion block that reveals an answer or content below.  that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
+                                <ol>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="accordion-item relative">
+                            <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
+                            <div class="accordion-content">
+                                <p>Sample expanding accordion block that reveals an answer or content below. that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
+                                <ul>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                    <li>Sample expanding accordion block </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="question-nt-main relative hide-desktop">
                     <div class="question-nt-cont">
                         <span class="optional-text">Need more answers?</span>
                         <h4>We Can Help You Find Your Financial Goals.</h4>
                         <a href="#" class="button btn-transparent">Learn More</a>
                     </div>
-                    <figure class="question-nt-sm">
+                    <figure class="question-nt-sm absolute">
                         <svg width="141" height="176" viewBox="0 0 141 176" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M131 10H10V115.093H94.8762L131 151V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
                         </svg>
                     </figure>
                 </div>
             </div>
-            <div class="question-right">
-                <div class="accordion-main">
-                    <div class="accordion-item relative">
-                        <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
-                        <div class="accordion-content">
-                            <p>Sample expanding accordion block that reveals an answer or content below.  that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
-                            <ol>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div class="accordion-item relative">
-                        <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
-                        <div class="accordion-content">
-                            <p>Sample expanding accordion block that reveals an answer or content below.  that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
-                            <ul>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="accordion-item relative">
-                        <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
-                        <div class="accordion-content">
-                            <p>Sample expanding accordion block that reveals an answer or content below. that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
-                            <ol>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div class="accordion-item relative">
-                        <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
-                        <div class="accordion-content">
-                            <p>Sample expanding accordion block that reveals an answer or content below.  that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
-                            <ol>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div class="accordion-item relative">
-                        <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
-                        <div class="accordion-content">
-                            <p>Sample expanding accordion block that reveals an answer or content below.  that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
-                            <ol>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div class="accordion-item relative">
-                        <div class="accordion-head">Sample expanding accordion block that reveals an answer or content below</div>
-                        <div class="accordion-content">
-                            <p>Sample expanding accordion block that reveals an answer or content below. that reveals an answer or content below Sample expanding accordion block that reveals an answer or content below. Sample expanding accordion block that reveals an answer or content below.</p>
-                            <ul>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                                <li>Sample expanding accordion block </li>
-                            </ul>
-                        </div>
-                    </div>
+        </div>
+    </section>
+    <section class="become-form-section">
+        <div class="container md">
+            <div class="become-form-heading flex flex-vcenter">
+                <div class="become-form-title">
+                    <span class="optional-text">Optional Preheader</span>
+                    <h2>A short intro about the reason for this form appears here.</h2>
+                </div>
+                <div class="become-form-desc">
+                    <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a. Cras dictumst sit etiam augue.</p>
                 </div>
             </div>
-            <div class="question-nt-main relative hide-desktop">
-                <div class="question-nt-cont">
-                    <span class="optional-text">Need more answers?</span>
-                    <h4>We Can Help You Find Your Financial Goals.</h4>
-                    <a href="#" class="button btn-transparent">Learn More</a>
-                </div>
-                <figure class="question-nt-sm absolute">
-                    <svg width="141" height="176" viewBox="0 0 141 176" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M131 10H10V115.093H94.8762L131 151V10Z" stroke="#0894D3" stroke-opacity="0.1" stroke-width="20"/>
-                    </svg>
-                </figure>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="become-form-section">
-    <div class="container md">
-        <div class="become-form-heading flex flex-vcenter">
-            <div class="become-form-title">
-                <span class="optional-text">Optional Preheader</span>
-                <h2>A short intro about the reason for this form appears here.</h2>
-            </div>
-            <div class="become-form-desc">
-                <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a. Cras dictumst sit etiam augue.</p>
-            </div>
-        </div>
-        <div class="become-form">
-            <ol class="meet-form-step flex">
-                <li>About You</li>
-                <li>About Your Investments</li>
-            </ol>
-            <div class="meet-with-form">
-                <div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_5_container" >
-                    <form enctype="multipart/form-data" method="post" class="frm-show-form  frm_pro_form " id="form_contact-form2"  >
-                    <div class="frm_form_fields ">
-                    <fieldset>
-                    <!-- <legend class="frm_screen_reader">Tell us about yourself</legend> -->
-                    
-                    <div class="frm_fields_container">
-                    <input type="hidden" name="frm_action" value="create" />
-                    <input type="hidden" name="form_id" value="5" />
-                    <input type="hidden" name="frm_hide_fields_5" id="frm_hide_fields_5" value="" />
-                    <input type="hidden" name="form_key" value="contact-form2" />
-                    <input type="hidden" name="item_meta[0]" value="" />
-                    <input type="hidden" id="frm_submit_entry_5" name="frm_submit_entry_5" value="7b98b45067" /><input type="hidden" name="_wp_http_referer" value="/test-forms/" />
-                    <div id="frm_field_29_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third frm_first">
-                        <label for="field_9hoax" id="field_9hoax_label" class="frm_primary_label">First Name
-                            <span class="frm_required" aria-hidden="true">*</span>
-                        </label>
-                        <input type="text" id="field_9hoax" name="item_meta[29]" value=""  placeholder="First Name" data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="First Name is invalid" aria-invalid="false"  />
-                    </div>
-                    <div id="frm_field_25_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third">
-                        <label for="field_e6lis62" id="field_e6lis62_label" class="frm_primary_label">Last Name
-                            <span class="frm_required" aria-hidden="true">*</span>
-                        </label>
-                        <input type="text" id="field_e6lis62" name="item_meta[25]" value=""  placeholder="Last Name" data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="First Name is invalid" aria-invalid="false"  />
-                    </div>
-                    <div id="frm_field_23_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third frm_last">
-                        <label for="field_ocfup12" id="field_ocfup12_label" class="frm_primary_label">Email
-                            <span class="frm_required" aria-hidden="true">*</span>
-                        </label>
-                        <input type="email" id="field_ocfup12" name="item_meta[23]" value=""  placeholder="Email" data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Email is invalid" aria-invalid="false"  />
-                    </div>
-                    <div id="frm_field_24_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third frm_first">
-                        <label for="field_ocfup13" id="field_ocfup13_label" class="frm_primary_label">Phone
-                            <span class="frm_required" aria-hidden="true">*</span>
-                        </label>
-                        <input type="text" id="field_ocfup13" name="item_meta[24]" value=""  placeholder="Phone" data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Phone is invalid" aria-invalid="false"  />
-                    </div>
-                    <div id="frm_field_26_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third">
-                        <label for="field_e6lis63" id="field_e6lis63_label" class="frm_primary_label">City
-                            <span class="frm_required" aria-hidden="true">*</span>
-                        </label>
-                        <input type="text" id="field_e6lis63" name="item_meta[26]" value=""  placeholder="City" data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="City is invalid" aria-invalid="false"  />
-                    </div>
-                    <div id="frm_field_27_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third frm_last">
-                        <label for="field_e6lis64" id="field_e6lis64_label" class="frm_primary_label">Province
-                            <span class="frm_required" aria-hidden="true">*</span>
-                        </label>
-                        <select name="item_meta[45]" id="field_e6lis64"  data-placeholder="- Select -"  placeholder="- Select -" data-invmsg="Province is invalid" aria-invalid="false"  >
-                            <!-- <option value="">- Select -	</option> -->
-                            <option  value="Option 1">Province </option>	
-                            <option  value="Option 1">Province 1</option>	
-                            <option  value="Option 2">Province 2</option>	
-                        </select>
-                    </div>
-    
-                    <div class="frm_form_field_wrapper">
-                        <div id="frm_field_10_container" class="frm_form_field form-field  frm_top_container frm_two_thirds vertical_radio">
-                            <div class="frm_opt_container" aria-labelledby="field_k07x_label" role="group">		
-                                <div class="frm_checkbox" id="frm_checkbox_10-0"><label for="field_k07x-0">
-                                    <input type="checkbox" name="item_meta[10][]" id="field_k07x-0" value="You accept SMS &amp; email communicaitons from APN at the email and number provided. View our &lt;a href=&quot;https://staging-plusbyapn.kinsta.cloud/terms-and-conditions/&quot;&gt;Terms of Services &lt;/a&gt; for details"  data-invmsg=" is invalid" aria-invalid="false"   /> <span>User-initiated opt-in message appears here as required</span></label>
+            <div class="become-form">
+                <ol class="meet-form-step flex">
+                    <li>About You</li>
+                    <li>About Your Investments</li>
+                </ol>
+                <div class="meet-with-form">
+                    <div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_5_container" >
+                        <form enctype="multipart/form-data" method="post" class="frm-show-form  frm_pro_form " id="form_contact-form2"  >
+                        <div class="frm_form_fields ">
+                        <fieldset>
+                        <!-- <legend class="frm_screen_reader">Tell us about yourself</legend> -->
+                        
+                        <div class="frm_fields_container">
+                        <input type="hidden" name="frm_action" value="create" />
+                        <input type="hidden" name="form_id" value="5" />
+                        <input type="hidden" name="frm_hide_fields_5" id="frm_hide_fields_5" value="" />
+                        <input type="hidden" name="form_key" value="contact-form2" />
+                        <input type="hidden" name="item_meta[0]" value="" />
+                        <input type="hidden" id="frm_submit_entry_5" name="frm_submit_entry_5" value="7b98b45067" /><input type="hidden" name="_wp_http_referer" value="/test-forms/" />
+                        <div id="frm_field_29_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third frm_first">
+                            <label for="field_9hoax" id="field_9hoax_label" class="frm_primary_label">First Name
+                                <span class="frm_required" aria-hidden="true">*</span>
+                            </label>
+                            <input type="text" id="field_9hoax" name="item_meta[29]" value=""  placeholder="First Name" data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="First Name is invalid" aria-invalid="false"  />
+                        </div>
+                        <div id="frm_field_25_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third">
+                            <label for="field_e6lis62" id="field_e6lis62_label" class="frm_primary_label">Last Name
+                                <span class="frm_required" aria-hidden="true">*</span>
+                            </label>
+                            <input type="text" id="field_e6lis62" name="item_meta[25]" value=""  placeholder="Last Name" data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="First Name is invalid" aria-invalid="false"  />
+                        </div>
+                        <div id="frm_field_23_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third frm_last">
+                            <label for="field_ocfup12" id="field_ocfup12_label" class="frm_primary_label">Email
+                                <span class="frm_required" aria-hidden="true">*</span>
+                            </label>
+                            <input type="email" id="field_ocfup12" name="item_meta[23]" value=""  placeholder="Email" data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Email is invalid" aria-invalid="false"  />
+                        </div>
+                        <div id="frm_field_24_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third frm_first">
+                            <label for="field_ocfup13" id="field_ocfup13_label" class="frm_primary_label">Phone
+                                <span class="frm_required" aria-hidden="true">*</span>
+                            </label>
+                            <input type="text" id="field_ocfup13" name="item_meta[24]" value=""  placeholder="Phone" data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="Phone is invalid" aria-invalid="false"  />
+                        </div>
+                        <div id="frm_field_26_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third">
+                            <label for="field_e6lis63" id="field_e6lis63_label" class="frm_primary_label">City
+                                <span class="frm_required" aria-hidden="true">*</span>
+                            </label>
+                            <input type="text" id="field_e6lis63" name="item_meta[26]" value=""  placeholder="City" data-reqmsg="This field cannot be blank." aria-required="true" data-invmsg="City is invalid" aria-invalid="false"  />
+                        </div>
+                        <div id="frm_field_27_container" class="frm_form_field form-field  frm_required_field frm_none_container frm_third frm_last">
+                            <label for="field_e6lis64" id="field_e6lis64_label" class="frm_primary_label">Province
+                                <span class="frm_required" aria-hidden="true">*</span>
+                            </label>
+                            <select name="item_meta[45]" id="field_e6lis64"  data-placeholder="- Select -"  placeholder="- Select -" data-invmsg="Province is invalid" aria-invalid="false"  >
+                                <!-- <option value="">- Select -	</option> -->
+                                <option  value="Option 1">Province </option>	
+                                <option  value="Option 1">Province 1</option>	
+                                <option  value="Option 2">Province 2</option>	
+                            </select>
+                        </div>
+        
+                        <div class="frm_form_field_wrapper">
+                            <div id="frm_field_10_container" class="frm_form_field form-field  frm_top_container frm_two_thirds vertical_radio">
+                                <div class="frm_opt_container" aria-labelledby="field_k07x_label" role="group">		
+                                    <div class="frm_checkbox" id="frm_checkbox_10-0"><label for="field_k07x-0">
+                                        <input type="checkbox" name="item_meta[10][]" id="field_k07x-0" value="You accept SMS &amp; email communicaitons from APN at the email and number provided. View our &lt;a href=&quot;https://staging-plusbyapn.kinsta.cloud/terms-and-conditions/&quot;&gt;Terms of Services &lt;/a&gt; for details"  data-invmsg=" is invalid" aria-invalid="false"   /> <span>User-initiated opt-in message appears here as required</span></label>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="frm_submit">
+                                <button class="frm_button_submit frm_final_submit" type="submit"   formnovalidate="formnovalidate"><span>Submit Form</span></button>
+                            </div>
                         </div>
-                        <div class="frm_submit">
-                            <button class="frm_button_submit frm_final_submit" type="submit"   formnovalidate="formnovalidate"><span>Submit Form</span></button>
+        
+                        </div></div>
+                        </fieldset>
+                        </form>
                         </div>
-                    </div>
-    
-                    </div></div>
-                    </fieldset>
-                    </form>
-                    </div>
-    
-            </div>
-        </div>
-    </div>
-</section>
-<footer class="footer-main relative">
-    <div class="container">
-        <div class="footer relative">
-            <figure class="footer-bg-1 absolute hide-mobile hide-tablet">
-                <img src="images/footer-nt-bg.svg" alt="footer-nt-bg" title="footer-bg">
-            </figure>
-            <figure class="footer-bg-2 absolute hide-mobile hide-tablet">
-                <img src="images/footer-nt-sm.svg" alt="footer-nt-sm" title="footer-bg">
-            </figure>
-            <figure class="footer-bg-3 absolute hide-desktop">
-                <img src="images/footer-nt-sm-mobile.svg" alt="footer-nt-sm" title="footer-bg">
-            </figure>
-            <div class="footer-row flex">
-                <div class="footer-text">
-                    <div class="footer-logos flex">
-                        <figure class="footer-thumb">
-                            <img src="images/ciro.svg" alt="ciro" title="footer-logo">
-                        </figure>
-                        <figure class="footer-thumb">
-                            <img src="images/cipf.svg" alt="cipf" title="footer-logo">
-                        </figure>
-                        <figure class="footer-thumb">
-                            <img src="images/cefex.svg" alt="cefex" title="footer-logo">
-                        </figure>
-                        <figure class="footer-thumb">
-                            <img src="images/gaia.svg" alt="gaia" title="footer-logo">
-                        </figure>
-                    </div>
-                    <div class="footer-desc">
-                        <p>Portfolio Management and brokerage services are offered by PWL Capital Inc, which is regulated by Investment Industry Regulatory Organization of Canada (IIROC), and is a member of the Canadian Investor Protection Fund (CIPF).</p>
-                        <p>Financial planning and insurance products are offered by PWL Advisors Inc., and is regulated in Ontario by Financial Services Commission of Ontario (FSCO) and in Quebec by the Autorité des marchés financiers (AMF). PWL Advisors Inc. is not a member of CIPF.</p>
-                    </div>
-                    <div class="footer-btns flex">
-                        <a href="#" class="button btn-sm">Meet With Us</a>
-                        <a href="#" class="button btn-transparent btn-sm">Find Your Financial Goals</a>
-                    </div>
-                </div>
-                <div class="footer-nav flex">
-                    <div class="footer-list">
-                        <span class="footer-title">SERVICES</span>
-                        <ul class="footer-links">
-                            <li><a href="#">Wealth Management</a></li>
-                            <li><a href="#">Financial Planning</a></li>
-                            <li><a href="#">Family Office</a></li>
-                            <li><a href="#">Institutional Asset Management</a></li>
-                            <li><a href="#">Financial Planning for Doctors</a></li>
-                            <li><a href="#">What Sets Us Apart</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-list">
-                        <span class="footer-title">ABOUT</span>
-                        <ul class="footer-links">
-                            <li><a href="#">Our Story</a></li>
-                            <li><a href="#">Our People</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Media Inquiries</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-list">
-                        <span class="footer-title">NEXT STEPS</span>
-                        <ul class="footer-links">
-                            <li><a href="#">Learn</a></li>
-                            <li><a href="#">Find Your Financial Goals</a></li>
-                            <li><a href="#">Become a Client</a></li>
-                            <li><a href="#">Meet with Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="copyrights flex">
-                <div class="copyright-text">
-                    <ul class="copyright-links flex">
-                        <li><a href="#">Privacy & Terms of Use</a></li>
-                        <li><a href="#">Protection of Personal Information</a></li>
-                        <li><a href="#">Accessibility</a></li>
-                        <li><a href="#">Complaints</a></li>
-                    </ul>
-                    <p>Copyright © 2024 PWL Capital Inc. All Rights Reserved.</p>
-                </div>
-                <div class="follow-us flex">
-                    <span>Follow us!</span>
-                    <ul class="social-share-icons flex">
-                        <li><a href="#"><span class="fa-brands fa-facebook-f"></span></a></li>
-                        <li><a href="#"><span class="fa-brands fa-linkedin-in"></span></a></li>
-                        <li><a href="#"><span class="fa-brands fa-x-twitter"></span></a></li>
-                    </ul>
+        
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </section>
+    <footer class="footer-main relative">
+        <div class="container">
+            <div class="footer relative">
+                <figure class="footer-bg-1 absolute hide-mobile hide-tablet">
+                    <img src="images/footer-nt-bg.svg" alt="footer-nt-bg" title="footer-bg">
+                </figure>
+                <figure class="footer-bg-2 absolute hide-mobile hide-tablet">
+                    <img src="images/footer-nt-sm.svg" alt="footer-nt-sm" title="footer-bg">
+                </figure>
+                <figure class="footer-bg-3 absolute hide-desktop">
+                    <img src="images/footer-nt-sm-mobile.svg" alt="footer-nt-sm" title="footer-bg">
+                </figure>
+                <div class="footer-row flex">
+                    <div class="footer-text">
+                        <div class="footer-logos flex">
+                            <figure class="footer-thumb">
+                                <img src="images/ciro.svg" alt="ciro" title="footer-logo">
+                            </figure>
+                            <figure class="footer-thumb">
+                                <img src="images/cipf.svg" alt="cipf" title="footer-logo">
+                            </figure>
+                            <figure class="footer-thumb">
+                                <img src="images/cefex.svg" alt="cefex" title="footer-logo">
+                            </figure>
+                            <figure class="footer-thumb">
+                                <img src="images/gaia.svg" alt="gaia" title="footer-logo">
+                            </figure>
+                        </div>
+                        <div class="footer-desc">
+                            <p>Portfolio Management and brokerage services are offered by PWL Capital Inc, which is regulated by Investment Industry Regulatory Organization of Canada (IIROC), and is a member of the Canadian Investor Protection Fund (CIPF).</p>
+                            <p>Financial planning and insurance products are offered by PWL Advisors Inc., and is regulated in Ontario by Financial Services Commission of Ontario (FSCO) and in Quebec by the Autorité des marchés financiers (AMF). PWL Advisors Inc. is not a member of CIPF.</p>
+                        </div>
+                        <div class="footer-btns flex">
+                            <a href="#" class="button btn-sm">Meet With Us</a>
+                            <a href="#" class="button btn-transparent btn-sm">Find Your Financial Goals</a>
+                        </div>
+                    </div>
+                    <div class="footer-nav flex">
+                        <div class="footer-list">
+                            <span class="footer-title">SERVICES</span>
+                            <ul class="footer-links">
+                                <li><a href="#">Wealth Management</a></li>
+                                <li><a href="#">Financial Planning</a></li>
+                                <li><a href="#">Family Office</a></li>
+                                <li><a href="#">Institutional Asset Management</a></li>
+                                <li><a href="#">Financial Planning for Doctors</a></li>
+                                <li><a href="#">What Sets Us Apart</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-list">
+                            <span class="footer-title">ABOUT</span>
+                            <ul class="footer-links">
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Our People</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Media Inquiries</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-list">
+                            <span class="footer-title">NEXT STEPS</span>
+                            <ul class="footer-links">
+                                <li><a href="#">Learn</a></li>
+                                <li><a href="#">Find Your Financial Goals</a></li>
+                                <li><a href="#">Become a Client</a></li>
+                                <li><a href="#">Meet with Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyrights flex">
+                    <div class="copyright-text">
+                        <ul class="copyright-links flex">
+                            <li><a href="#">Privacy & Terms of Use</a></li>
+                            <li><a href="#">Protection of Personal Information</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Complaints</a></li>
+                        </ul>
+                        <p>Copyright © 2024 PWL Capital Inc. All Rights Reserved.</p>
+                    </div>
+                    <div class="follow-us flex">
+                        <span>Follow us!</span>
+                        <ul class="social-share-icons flex">
+                            <li><a href="#"><span class="fa-brands fa-facebook-f"></span></a></li>
+                            <li><a href="#"><span class="fa-brands fa-linkedin-in"></span></a></li>
+                            <li><a href="#"><span class="fa-brands fa-x-twitter"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="flyout-bg-overlay"></div>
+    <div class="flyout-overlay inverted">
+        <div class="flyout_close absolute">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                <line x1="0.707107" y1="1.29289" x2="21.7071" y2="22.2929" stroke="white" stroke-width="2"/>
+                <line x1="21.7071" y1="1.70711" x2="0.707107" y2="22.7071" stroke="white" stroke-width="2"/>
+            </svg>
+        </div>
+        <h3>Meet with us.</h3>
+        <div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_5_container" >
+        <form enctype="multipart/form-data" method="post" class="frm-show-form  frm_ajax_submit  frm_pro_form " id="form_get_a_quote"  >
+        <div class="frm_form_fields ">
+        <fieldset>
+        <legend class="frm_screen_reader">Meet with us.</legend>
 
+        <div class="frm_fields_container">
+        <input type="hidden" name="frm_action" value="create" />
+        <input type="hidden" name="form_id" value="5" />
+        <input type="hidden" name="frm_hide_fields_5" id="frm_hide_fields_5" value="" />
+        <input type="hidden" name="form_key" value="get_a_quote" />
+        <input type="hidden" name="item_meta[0]" value="" />
+        <input type="hidden" id="frm_submit_entry_5" name="frm_submit_entry_5" value="71ad7a3713" /><input type="hidden" name="_wp_http_referer" value="/" /><div id="frm_field_35_container" class="frm_form_field form-field  frm_required_field frm_top_container">
+        <label for="field_qh4icy3" id="field_qh4icy3_label" class="frm_primary_label">First Name 
+        <span class="frm_required" aria-hidden="true">*</span>
+        </label>
+        <input type="text" id="field_qh4icy3" name="item_meta[35]" value="" placeholder="First Name"  data-reqmsg="Please enter the first name" aria-required="true" data-invmsg="Name is invalid" aria-invalid="false"  />
+
+
+        </div>
+        <div id="frm_field_36_container" class="frm_form_field form-field  frm_required_field frm_top_container">
+        <label for="field_ocfup13" id="field_ocfup13_label" class="frm_primary_label">Last Name
+        <span class="frm_required" aria-hidden="true">*</span>
+        </label>
+        <input type="text" id="field_ocfup13" name="item_meta[36]" value="" placeholder="Last Name" data-reqmsg="Please enter the last name" aria-required="true" data-invmsg="Last is invalid" aria-invalid="false"  />
+
+
+        </div>
+        <div id="frm_field_38_container" class="frm_form_field form-field  frm_required_field frm_top_container">
+        <label for="field_29yf4d3" id="field_29yf4d3_label" class="frm_primary_label">Email
+        <span class="frm_required" aria-hidden="true">*</span>
+        </label>
+        <input type="email" id="field_29yf4d3" name="item_meta[38]" value="" placeholder="Email" data-reqmsg="Please enter the email" aria-required="true" data-invmsg="Please enter a valid email address" aria-invalid="false"  />
+
+
+        </div>
+        <div id="frm_field_98_container" class="frm_form_field form-field  frm_top_container">
+        <label for="field_f5qjd" id="field_f5qjd_label" class="frm_primary_label">Phone
+        <span class="frm_required" aria-hidden="true"></span>
+        </label>
+        <input type="text" id="field_f5qjd" name="item_meta[98]" value="" placeholder="Phone" data-invmsg="Text is invalid" aria-invalid="false"  />
+
+
+        </div>
+        <div id="frm_field_37_container" class="frm_form_field form-field  frm_required_field frm_top_container frm12 frm_first">
+        <label for="field_rfh742" id="field_rfh742_label" class="frm_primary_label">Provience
+        <span class="frm_required" aria-hidden="true">*</span>
+        </label>
+        <select name="item_meta[37]" id="field_rfh742"  data-placeholder="I’m interested in"  placeholder="I’m interested in" data-reqmsg="Please select" aria-required="true" data-invmsg="I’m interested in is invalid" aria-invalid="false"  >
+        <option  class="frm-select-placeholder" value="" data-placeholder="true">Provience</option><option  value="Provience1">Provience1</option><option  value="Provience">Provience</option><option  value="Provience">Provience</option><option  value="Provience">Provience</option>	</select>
+
+
+
+        </div>
+        <div id="frm_field_21_container" class="frm_form_field form-field frm_required_field frm_top_container vertical_radio">
+            <div id="field_m9iw2_label" class="frm_primary_label">Additional Options
+                <span class="frm_required" aria-hidden="true">*</span>
+            </div>
+            <div class="frm_opt_container" aria-labelledby="field_m9iw2_label" role="radiogroup" aria-required="true">		<div class="frm_radio" id="frm_radio_21-0"><label for="field_m9iw2-0">		<input type="radio" name="item_meta[21]" id="field_m9iw2-0" value="I have never invested before" data-reqmsg="Please select" data-invmsg="This field is invalid" aria-invalid="false"> Variable selection option</label></div>
+                <div class="frm_radio" id="frm_radio_21-1"><label for="field_m9iw2-1">		<input type="radio" name="item_meta[21]" id="field_m9iw2-1" value="I manage my own investment portfolio" data-reqmsg="Please select" data-invmsg="This field is invalid" aria-invalid="false"> Another variable selection option</label></div>
+            </div>
+        </div>
+
+        <div id="frm_field_43_container" class="frm_form_field form-field  frm_top_container vertical_radio">
+        <div class="frm_opt_container" aria-labelledby="field_jsh5e2_label" role="group">		
+            <div class="frm_checkbox" id="frm_checkbox_43-0"><label for="field_jsh5e2-0"><input type="checkbox" name="item_meta[43][]" id="field_jsh5e2-0" value="Yes, I’d like to receive News and Special Offers"  data-invmsg="This field is invalid" aria-invalid="false"   /> Newsletter opt-in message appears here</label></div>
+        </div>
+
+
+        </div>
+        <input type="hidden" name="item_key" value="" />
+        <div class="frm__65842a5788498">
+        <!-- <label for="frm_email_5" >
+        If you are human, leave this field blank.				</label> -->
+        <input  id="frm_email_5" type="text" class="frm_verify" name="frm__65842a5788498" value="" autocomplete="false"  />
+        </div>
+        <input name="frm_state" type="hidden" value="9DeyC91DOgB+KrgN0FztQldKli9FKe2Ga77GXVlUREo=" /><div class="frm_submit frm_flex">
+        <button class="frm_button_submit frm_final_submit " type="submit"   formnovalidate="formnovalidate">Submit</button>
+
+
+
+        </div></div>
+        </fieldset>
+        </div>
+        </form>
+        </div>
+    </div>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" crossorigin="anonymous"></script>
 <script src="./dist/core.bundle.js"></script>
