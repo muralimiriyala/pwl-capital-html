@@ -179,5 +179,4 @@ body.page-template-home .site-main-cover, body.page-template-careers .site-main-
     ul.main-menu > li.menu-item-has-children > a.active{padding-left: 20px; border-bottom-color: transparent; color: transparent;} 
     ul.main-menu > li.menu-item-has-children > a.active::before{content: "Back"; font-size: 18px; line-height: 20px; color: var(--capri-ocean);  letter-spacing: 0.36px;}
     ul.main-menu > li.menu-item-has-children > a.active::after{left: 0; right: auto; transform: translateY(-50%) scaleX(-1);}
-
 }
