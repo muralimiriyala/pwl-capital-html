@@ -11,6 +11,7 @@ body.page-template-learn-model .learn-banner-image::before{background: linear-gr
 
 @media screen and (min-width: 1024px) {
     .learn-banner-polygon{content: ""; width: 130px; height: 130px; bottom: -129px; left: 0; clip-path: polygon(0 100%,0 0,100% 0,0% 100%); background-color: var(--french-navy,#013); display: block;}
+    .learn-banner-text span.optional-text{margin-left: 5px;}
 }
 
 @media screen and (max-width: 1199px) and (min-width: 1024px) {

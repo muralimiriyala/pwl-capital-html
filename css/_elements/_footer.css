@@ -38,9 +38,9 @@ ul.social-share-icons > li a:hover{color: #0894d3;}
 @media screen and (min-width: 1024px) {
     .footer-row{gap: 272px; margin-bottom: 90px;}
     .footer-text{flex: 0 0 445px;}
-    .footer-nav{flex: 0 0 calc(100% - 717px);}
-    .footer-list:first-child{flex: .78;}
-    .footer-list:nth-child(2){flex: 0.48;}
+    .footer-nav{flex: 0 0 calc(100% - 717px); gap: 15px;}
+    .footer-list:first-child{flex: .75;}
+    .footer-list:nth-child(2){flex: 0.4;}
     .footer-list{flex: 0.5;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {

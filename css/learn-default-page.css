@@ -17,6 +17,7 @@
     body.page-template-learn-model .learn-main{margin-bottom: 50px;}
     .learn-article{flex: 0 0 894px;}
     .learn-sidebar{flex: 0 0 calc(100% - 1061px);}
+    body.page-template-learn-default .learn-article table{margin: 62px 0 59px;}
 }
 
 @media screen and (max-width: 1399px) and (min-width: 1024px) {

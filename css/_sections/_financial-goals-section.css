@@ -1,20 +1,19 @@
 
 .financial-goals-section{background: var(--french-navy, #013); box-shadow: -20px 20px 0 0 #d9eef7; border-bottom: 1px solid rgba(255, 255, 255, 0.2);}
 
-
 .financial-goals-image{max-width: 1107px; width: 100%; height: 100%; top: 0; right: 0; position: absolute; z-index: -1;}
-.financial-goals-image::before { top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(-90deg,rgba(11,0,65,0) 55.5%,#013 99.5%); content: ""; display: block; position: absolute; }
+.financial-goals-image::before { top: 0; left: 0; width: 100px; height: 100%; background: linear-gradient(-90deg,rgba(11,0,65,0) 17%,#013 70.5%); content: ""; display: block; position: absolute; }
+/* .financial-goals-image::before { top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(-90deg,rgba(11,0,65,0) 55.5%,#013 99.5%); content: ""; display: block; position: absolute; } */
 .financial-goals-image::after { top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg,rgba(11,0,65,0) 91.5%,#013 111.5%); content: ""; display: block; position: absolute; }
 .financial-goals-image .optional-box-bg{width: 280px; }
 .financial-goals-image .optional-box-bg.top-right{right: 40px; top: 203px; gap: 22px;}
 .financial-goals-image .optional-box-bg.bottom-left { left: 473px; bottom: 190px; }
-body.page-template-financial-goals-survey.survey5 .financial-goals-image .optional-box-bg.bottom-left{left: 377px; bottom: 324px;}
-body.page-template-financial-goals-survey.survey3 .financial-goals-image .optional-box-bg.bottom-left{left: 542px; bottom: 251px;}
-.financial-goals-image .optional-box-bg.bottom-right{right: 143px; bottom: 337px;}
 .financial-goals-image .center .oval-line{background-color: #89cb3e;}
-.financial-goals-left{max-width: 659px; padding: 198px 0 100px;}
+.financial-goals-left{max-width: 659px; padding: 195px 0 100px;}
 .financial-goals-text h1{margin-bottom: 25px;}
 .financial-goals-text h5{font-weight: 500; margin-bottom: 2px;}
+.financial-goals-text span.optional-text {margin-bottom: 20px;}
+.financial-goals-text span.optional-text > span.active{color: var(--white);}
 
 .regulated-by{max-width: 135px;}
 .regulated-by span{margin-bottom: 9px; color: var(--muted-light, rgba(217, 238, 247, 0.60)); font-family: "Century Gothic"; font-size: 12px; font-weight: 700; line-height: 20px; display: block;}
@@ -29,27 +28,34 @@ body.page-template-financial-goals-survey ul > li::before{background: var(--gree
 @media screen and (min-width: 1024px) {
     body.page-template-financial-goals-survey.survey5 .financial-goals-form{max-width: 363px;}
     body.page-template-financial-goals-survey.survey3 .financial-goals-image{height: 969px;}
+    body.page-template-financial-goals-survey.survey4 .financial-goals-image{height: 982px;}
+    body.page-template-financial-goals-survey.survey1 .financial-goals-text h1{max-width: 470px;}
+    body.page-template-financial-goals-survey.survey2 .financial-goals-image .optional-box-bg.bottom-left{left: 636px; bottom: 225px;}
+    .financial-goals-image .optional-box-bg.bottom-right{right: 169px; bottom: 321px;}
+    body.page-template-financial-goals-survey.survey5 .financial-goals-image .optional-box-bg.bottom-left{left: 377px; bottom: 314px;}
+    body.page-template-financial-goals-survey.survey3 .financial-goals-image .optional-box-bg.bottom-left{left: 542px; bottom: 251px;}
 }
-
 @media screen and (max-width: 1399px) and (min-width: 1024px) {
     body.page-template-financial-goals-survey.survey2 .financial-goals-image .optional-box-bg.bottom-left, body.page-template-financial-goals-survey.survey3 .financial-goals-image .optional-box-bg.bottom-left{left: auto; right: 20px;}
 }
-
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
     body.page-template-financial-goals-survey.survey4 .financial-goals-image .optional-box-bg.bottom-right{right: 20px;}
     body.page-template-financial-goals-survey.survey5 .financial-goals-image .optional-box-bg.bottom-left{left: 450px;}
 }
-
-
+@media screen and (max-width: 1023px) and (min-width: 740px) {
+    .financial-goals-image::after {background: linear-gradient(-90deg,rgba(11,0,65,0) 0,#013 121.5%);}
+}
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .financial-goals-section .container{padding: 0;}
     .financial-goals-main{display: flex; flex-direction: column-reverse;}
     .financial-goals-left { padding: 0 20px 90px; margin: -130px 0 0; max-width: 100%;}
     .financial-goals-text{padding-bottom: 0;}
+    .financial-goals-text p{padding-right: 5px;}
     .financial-goals-image{position: relative;}
-    .financial-goals-image::before{background: linear-gradient(180deg,rgba(11,0,65,0) 62.5%,#013 100.5%);}
+    .financial-goals-image::before{background: linear-gradient(180deg,rgba(11,0,65,0) 62.5%,#013 100.5%); width: 100%; height: 100px; bottom: 0; top: auto;}
     .financial-goals-image .optional-box-bg.bottom-left{left: 19px; bottom: 19px;}
 }
+
 
 
 

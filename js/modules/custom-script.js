@@ -40,6 +40,11 @@ jQuery(function($){
         $(this).siblings('.accordion-item').find('.accordion-content').slideUp(900);  
      });
 
+    $('.languages > a').on("click", function(e){
+      e.preventDefault();
+        $(this).addClass("active");
+        $(this).siblings().removeClass("active"); 
+     });
 
      $(".srch-results-btn").on("click", function(e){
         e.preventDefault();
@@ -92,6 +97,12 @@ jQuery(function($){
             _this.parent().addClass('open');
         }
      })
+
+     $("body .financial-goals-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type=radio]").on("click", function(e){
+        const _this = $(this);
+        _this.parent().addClass('open');
+        _this.parent().closest(".frm_radio").siblings().find("label").removeClass('open');
+     });
 
          // Show the first tab and hide the rest
       $('.portfolio-lists .portfolio-item:first-child').addClass('active');
