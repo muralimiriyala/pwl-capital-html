@@ -5,6 +5,7 @@ function menu(){
             jQuery(this).toggleClass("open");
             jQuery(".h_mobile_overlay").toggleClass("open");
             jQuery(".header_right").fadeToggle(500);
+            jQuery(".header-srch-form").removeClass("open");
         });
         let level1 = jQuery("ul.main-menu > li.menu-item-has-children > a");
         level1.on("click", function(e){

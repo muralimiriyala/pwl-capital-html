@@ -62,10 +62,12 @@ jQuery(function($){
      $(".header-srch-main").on("click", function(e){
          e.preventDefault();
          $(".header-srch-form").addClass("open");
+         $("header.header-main").removeClass("nav-open");
       });
      $(".close-srch").on("click", function(e){
          e.preventDefault();
          $(".header-srch-form").removeClass("open");
+         $("header.header-main").removeClass("nav-open");
       });
 
      $(".flyout_btn").on("click", function(e){
