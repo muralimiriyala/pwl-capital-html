@@ -10,11 +10,11 @@ function menu(){
         level1.on("click", function(e){
             e.preventDefault();
             jQuery(this).parent("li").closest("ul.main-menu").siblings(".header_btns").toggleClass("off");
-            jQuery(this).parent("li").siblings().toggleClass("sib").fadeToggle(100);
+            jQuery(this).parent("li").siblings().toggleClass("sib");
             jQuery(this).parent("li").siblings().children("a").removeClass("active");
             jQuery(this).toggleClass("active");
-            jQuery(this).parent().siblings("li").find("ul").slideUp(400);
-            jQuery(this).siblings("ul").slideToggle(400);
+            jQuery(this).parent().siblings("li").find("ul").removeClass("submenu-1");
+            jQuery(this).siblings("ul").toggleClass("submenu-1");
             jQuery('.header-btns').toggleClass("active");
         });
 

@@ -142,7 +142,7 @@ body.page-template-home .site-main-cover, body.page-template-careers .site-main-
     header.sticky-header.black-header:not(.humburger-btn, .nav-open) svg path{fill: var(--midnight);}
 
     ul.main-menu{margin: 0 0 27px;}
-    ul.main-menu > li{margin: 0;}
+    ul.main-menu > li{margin: 0; }
     ul.main-menu > li::before{display: none;}
     ul.main-menu > li > a{padding: 24px 0; border-bottom: 1px solid var(--line-dark); color: var(--midnight); display: block; font-size: 18px; line-height: 20px; letter-spacing: 0.36px; font-weight: 700; position: relative;}
     ul.main-menu > li:last-child > a{border-bottom: none;}
@@ -158,9 +158,10 @@ body.page-template-home .site-main-cover, body.page-template-careers .site-main-
     .header-srch-form {left: auto; right: 32px; top: calc(50% - 4px);}
     .header-srch-form.open{width: calc(100% - 32px);}
 
-    ul.main-menu > li > ul{margin: 0; display: none; background-color: var(--White); } 
+    ul.main-menu > li > ul{margin: 0; max-height: 0; width: 100%; opacity: 0; visibility: hidden; transform: translateX(100%); left: 68px; display: block; transition: all 0.5s ease; background-color: var(--white); position: relative;} 
+    ul.main-menu > li > ul.submenu-1{opacity: 1; max-height: inherit; visibility: visible; transform: translateX(0); left: 0; display: block;}
     ul.main-menu > li.menu-item-has-children > a.active{transform: translateX(0);}
-    ul.main-menu > li.menu-item-has-children > a::after{content: "\f054"; position: absolute; top: 50%; transform: translateY(-50%); right: 0; font-family: "Font Awesome 6 Pro"; font-size: 15px; font-weight: 500; color: var(--capri-ocean);}
+    ul.main-menu > li.menu-item-has-children > a::after{content: "\f054"; position: absolute; top: calc(50% + 1px); transform: translateY(-50%); right: 0; font-family: "Font Awesome 6 Pro"; font-size: 15px; font-weight: 500; color: var(--capri-ocean);}
     ul.main-menu > li > ul > li::before{display: none;}
     ul.main-menu > li.nav-services > ul > li{margin-bottom: 35px;}
     ul.main-menu > li.nav-services > ul > li > ul{display: block !important;}
@@ -172,9 +173,11 @@ body.page-template-home .site-main-cover, body.page-template-careers .site-main-
     ul.main-menu > li > ul > li ul > li > a{margin-bottom: 20px; color: var(--midnight); font-size: 16px; line-height: 24px; letter-spacing: normal; font-weight: bold; font-family: 'Century Gothic';}
     ul.main-menu > li > ul > li ul > li > a:hover{color: var(--capri-ocean);}
 
-    ul.main-menu > li > a.active {font-size: 0; line-height: 0;}
-    ul.main-menu > li.menu-item-has-children > a{transition: none;} 
-    ul.main-menu > li.menu-item-has-children > a.active{border-bottom: none; padding: 0 0 38px 20px; } 
+    /*-- level --*/
+    ul.main-menu > li{transition: all 0.5s ease;}
+    ul.main-menu > li.sib{max-height: 0; overflow: hidden; opacity: 0;}
+    ul.main-menu > li.menu-item-has-children > a.active{padding-left: 20px; border-bottom-color: transparent; color: transparent;} 
     ul.main-menu > li.menu-item-has-children > a.active::before{content: "Back"; font-size: 18px; line-height: 20px; color: var(--capri-ocean);  letter-spacing: 0.36px;}
-    ul.main-menu > li.menu-item-has-children > a.active::after{left: 0; right: auto; transform: scaleX(-1); top: 10px;}
+    ul.main-menu > li.menu-item-has-children > a.active::after{left: 0; right: auto; transform: translateY(-50%) scaleX(-1);}
+
 }
