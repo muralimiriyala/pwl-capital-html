@@ -18,12 +18,12 @@ ul.how-can-links li a:hover{ color: var(--capri-ocean, #0894D3); }
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
-    .how-can-text{flex: 0 0 304px; width: 340px; float: left;}
+    .how-can-text{flex: 0 0 304px; width: 340px; float: left; margin-right: 96px;}
     .how-can-right{flex: 1; overflow: hidden;}
     .swiper-nav-wrap{height: 400px;}
 
     .how-can-image{flex: 0 0 435px;}
-    .how-can-thumb img{max-width: 325px;}
+    .how-can-thumb img{max-width: 325px; min-height: 503px; max-height: 503px;}
     .how-can-desc{flex: 1;}
 }
 
