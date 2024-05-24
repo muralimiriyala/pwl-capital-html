@@ -47,7 +47,7 @@ ul.content-type li::before{display: none;}
 }
 .srch-results-list:nth-child(n+9)  ul.content-type{opacity: 0;}
 
-#load-more .button{min-width: 200px;}
+body.search-results-page #load-more .button{min-width: 200px;}
 
 .srch-results-list:nth-last-child(-n + 2) .srch-results-thumb::after{height: 156px; width: 100%; top: calc(100% + 51px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
 .srch-results-list:nth-last-child(-n + 2) .srch-results-text::after{ width: 100%; top: calc(100% + 104px); height: 100%; background-repeat: no-repeat; content: ""; background-image: url("./images/search-result-shadow.svg") ; position: absolute; z-index: -1; opacity: .5;}

@@ -16,10 +16,20 @@
 .regulated-by span{margin-bottom: 9px; color: var(--muted-light, rgba(217, 238, 247, 0.60)); font-family: "Century Gothic"; font-size: 12px; font-weight: 700; line-height: 20px; display: block;}
 .default-banner-text{font-size: 20px; line-height: 31px; letter-spacing: 0;}
 
-.home-banner-polygon-main{left: 167px; width: 151px; height: 151px; bottom: -151px;}
+
+.home-banner-polygon-main{left: 0; width: 151px; height: 151px; bottom: -151px;}
 .home-banner-polygon-light{ width: 131px; height: 131px; left: 0; background-color: var(--french-navy); clip-path: polygon(0 0,100% 0,50% 50%,0% 100%); }
 .home-banner-polygon-dark { width: 20px; height: 150px; background-color: #ceeaf6; clip-path: polygon(0 0,100% 0,100% 88%,0% 100%); content: ""; left: -20px;}
 
+
+
+@media screen and (min-width: 1024px) {
+    .home-banner-polygon{max-width: 1533px; margin: 0 auto; position: relative;}
+}
+@media screen and (min-width: 1700px) {
+    .home-banner-polygon{max-width: 1366px; margin: 0 auto; position: relative;}
+    .home-banner-left{margin-left: 97px;}
+}
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .banner-section .container{padding: 0;}
     .home-banner-left{padding: 150px 20px 0; margin-bottom: -30px;}
@@ -28,6 +38,8 @@
     .home-banner-image::before{background: linear-gradient(0deg,rgba(11,0,65,0) 62.5%,#013 100.5%);}
     .home-banner-image .optional-box-bg.bottom-left{left: 19px; bottom: 19px;}
 }
+
+
 
 
 

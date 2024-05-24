@@ -127,7 +127,7 @@ body.page-template-home .site-main-cover, body.page-template-careers .site-main-
     .header-overlay{width: 100%; height: 100%; top: 0; left: 0; opacity: 0; visibility: hidden; background-color: var(--french-navy); content: ""; display: block; position: fixed; transition: all 0.4s ease;}
     .header-overlay.open{opacity: 0.5; visibility: visible; z-index: 700;}
     ul.main-menu{display: block;}
-    .header-srch-main{right: 40px; width: 16px; top: 50%; transform: translateY(-50%); position: absolute; z-index: 1800;}
+    .header-srch-main{right: 54px; width: 16px; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; z-index: 1800;}
 
     .header-menu-polygon{content: ""; width: 50px; height: 47px; bottom: -46px; left: 0; clip-path: polygon(0 100%,0 0,100% 0,0% 100%); background-color: var(--white); display: block;}
     .header-btns.active{display: none;}

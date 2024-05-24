@@ -12,6 +12,9 @@ ul.how-can-links li a:hover{ color: var(--capri-ocean, #0894D3); }
 .how-can-desc h2{margin-bottom: 15px; color: var(--capri-ocean, #0894D3); font-family: "Century Gothic", sans-serif; font-weight: 400; letter-spacing: -0.44px; }
 .how-can-desc p{margin-bottom: 17px;}
 
+.swiper-slide-inner{background-color: var(--white); padding: 0 43px;}
+.swiper-nav{flex-direction: column;}
+.swiper-for .swiper-slide{width: 967px !important;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
