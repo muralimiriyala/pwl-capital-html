@@ -307,6 +307,10 @@ ul.slick-dots li button{display: none;}
 ::-moz-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: rgba(16, 42, 70, 0.6); opacity: 1;}
 :-moz-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: rgba(16, 42, 70, 0.6); }
 
+body.search-results-page ::-webkit-input-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: var(--midnight); opacity: 1;}
+body.search-results-page ::-moz-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: var(--midnight); opacity: 1;}
+body.search-results-page :-moz-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: var(--midnight); }
+
 /* tooltip css start */
 .tooltip {
     position: relative;

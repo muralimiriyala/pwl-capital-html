@@ -4,7 +4,8 @@
 .srch-results-watermark svg{z-index: -1;}    
 .srch-results-filter h2{font-weight: 500;}
 .srch-results-form{margin-bottom: 23px;}
-.srch-results-form input{padding: 10px 17px; width: calc(100% - 58px); height: auto; font-size: 18px; line-height: 18px; letter-spacing: 0; border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)); background-color: var(--white, #FFF);}
+.srch-results-form::after{content: "\f00d"; position: absolute; font-family: "Font Awesome 6 Pro"; font-size: 14px; top: 50%; transform: translateY(-50%); right: 79px; color: var(--midnight); cursor: pointer;}
+.srch-results-form input{padding: 10px 40px 10px 17px; width: calc(100% - 58px); height: auto; font-size: 18px; line-height: 18px; letter-spacing: 0; border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)); background-color: var(--white, #FFF);}
 .srch-results-form button[type="submit"]{padding: 0; width: 58px; border-radius: 0; border: none;}
 .srch-results-form button[type="submit"] svg{width: 100%; height: 100%; display: block;}
 .srch-results-found{margin-bottom: 24px; color: var(--muted-dark, rgba(16, 42, 70, 0.60)); font-size: 15px; font-weight: 400; line-height: 25px;}
@@ -22,7 +23,8 @@ ul.srch-results-links li a svg{left: 0; top: 50%; transform: translateY(-50%); p
 .srch-results-text h2 a{color: var(--midnight);}
 .srch-results-text h2 a:hover{color: var(--green-pear);}
 ul.content-type{margin: 0; gap: 10px;}
-ul.content-type li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--capri-ocean-light); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--capri-ocean); text-align: center;font-family:"brother-1816", sans-serif; text-transform: uppercase; }
+ul.content-type{ margin-bottom: 15px;}
+ul.content-type li{ margin: 0; padding: 7px 10px; background-color: var(--capri-ocean-light); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--capri-ocean); text-align: center;font-family:"brother-1816", sans-serif; text-transform: uppercase; }
 ul.content-type li::before{display: none;}
 
 .srch-results-list:nth-child(n+9) .srch-results-thumb{
@@ -77,6 +79,11 @@ body.search-results-page #load-more .button{min-width: 200px;}
     .srch-results-btn svg{right: 15px; top: 50%; transform: translateY(-50%); position: absolute;}
     .srch-results-btn.open svg{transform: translateY(-50%) scaleY(-1);}
     ul.srch-results-links{display: none;}
+
+    ul.srch-results-links{margin: 5px 0 0; border: 1px solid var(--line-dark); padding: 10px 0; }
+    ul.srch-results-links li{border: none;}
+    ul.srch-results-links li a{padding: 3px 17px;}
+    ul.srch-results-links li a svg{left: 5px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     body.search-results-page header.header-main{background-color: transparent;}
@@ -101,6 +108,11 @@ body.search-results-page #load-more .button{min-width: 200px;}
     .srch-results-text h2{margin-bottom: 16px;}
     .srch-results-list:nth-last-child(-n+2) .srch-results-thumb::after {height: 79px; top: calc(100% + 134px);}
     .srch-results-list:nth-last-child(-n + 2) .srch-results-text::after{top: calc(100% + 56px); background-image: url("./images/search-result-shadow-mob.svg") ; opacity: 0.4;}
+
+    ul.srch-results-links{margin: 5px 0 0; border: 1px solid var(--line-dark); padding: 10px 0; }
+    ul.srch-results-links li{border: none;}
+    ul.srch-results-links li a{padding: 3px 17px;}
+    ul.srch-results-links li a svg{left: 5px;}
 }
 
 

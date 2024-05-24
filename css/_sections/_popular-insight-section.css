@@ -10,3 +10,8 @@
 .popular-insights-image .play-btn-bg > span.btn-circle{background-color: var(--green-pear)}
 body.page-template-learn-model .popular-insights-image .play-btn-bg > span.btn-circle, body.page-template-learn-default .popular-insights-image .play-btn-bg > span.btn-circle{background-color: var(--aquamarine)}
 .popular-insights-image .play-btn-bg > span.btn-circle::after {margin-left: 1px; font-size: .7rem; line-height: .7rem;}
+
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+    .popular-insights-list{align-items: center;}
+    .popular-insights-cont{padding-top: 0;}
+}
