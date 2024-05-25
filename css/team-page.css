@@ -72,7 +72,8 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-content{gap: 120px;}
     .team-cont-left{flex: 0 0 330px;}
     .team-cont-right{flex: 0 0 calc(100% - 456px);}
-    .team-item:nth-last-child(-n + 4)::after{height: 155px; width: 100%; top: calc(100% + 23px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
+    .team-lists:last-child .team-item::after{height: 155px; width: 100%; top: calc(100% + 23px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
+    .team-lists.active .team-item::after{display: none;}
     .team-member-wrap{padding-bottom: 107px;}
     .team-lists:last-child{padding-bottom: 73px;}
     body.page-template-default .team-member-wrap{padding: 100px 0 43px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}

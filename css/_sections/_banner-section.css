@@ -21,8 +21,6 @@
 .home-banner-polygon-light{ width: 131px; height: 131px; left: 0; background-color: var(--french-navy); clip-path: polygon(0 0,100% 0,50% 50%,0% 100%); }
 .home-banner-polygon-dark { width: 20px; height: 150px; background-color: #ceeaf6; clip-path: polygon(0 0,100% 0,100% 88%,0% 100%); content: ""; left: -20px;}
 
-
-
 @media screen and (min-width: 1024px) {
     .home-banner-polygon{max-width: 1533px; margin: 0 auto; position: relative;}
 }
