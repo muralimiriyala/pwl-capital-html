@@ -51,9 +51,9 @@ jQuery(document).ready(function(){
 
     jQuery(".team-item").on('click', function(e){
         e.preventDefault();
-        jQuery(this).siblings(".team-content-main").slideUp(800);
+        jQuery(this).siblings().find(".team-content-main").slideUp(800);
         jQuery(this).children(".team-content-main").slideToggle(800);
         
-    })
+    });
 }
 })
