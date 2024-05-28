@@ -120,9 +120,9 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-details{text-align: left; padding: 12px 0 0 0; flex: 0 0 calc(100% - 120px);}
     .team-details h3{font-size: 22px; line-height: 1.45; letter-spacing: -0.66px; margin-bottom: 0;}
     .team-details > span{line-height: 1.43;}
-    .team-lists:last-child .team-item:nth-last-child(-n + 2) .team-image::after{height: 75px; width: 100%; top: calc(100% + 41px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
-    .team-lists:last-child .team-item:nth-last-child(-n + 2) .team-details::after{height: 28px; width: 123px; top: calc(100% + 41px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
-    .team-lists:last-child .team-item:nth-last-child(-n + 2) .team-details::before{height: 16px; width: 100%; top: calc(100% + 75px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
+    .team-lists:last-child .team-item:nth-last-child(-n + 5) .team-image::after{height: 75px; width: 100%; top: calc(100% + 41px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
+    .team-lists:last-child .team-item:nth-last-child(-n + 5) .team-details::after{height: 28px; width: 123px; top: calc(100% + 70px); display: block; content: ""; background: rgb(237, 247, 251); position: absolute; z-index: -1;}
+    .team-lists:last-child .team-item:nth-last-child(-n + 5) .team-details::before{height: 16px; width: 100%; top: calc(100% + 107px); display: block; content: ""; background: linear-gradient(rgb(241, 249, 252),#fff); position: absolute; z-index: -1;}
     .load-more-btn{margin-top: 75px;}
     #load-more .button{max-width: 146px; min-width: 146px;}
     body.page-template-default .team-member-wrap{padding: 71px 0 0;}
