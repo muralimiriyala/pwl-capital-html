@@ -115,7 +115,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-filter-form{gap: 18px 46px;}
     .team-member-wrap{padding-bottom: 100px;}
     .team-lists{gap: 20px; padding-bottom: 20px;}
-    .team-item{flex: 0 0 100%; display: flex; gap: 20px; padding-bottom: 20px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
+    .team-item{flex: 0 0 100%; display: flex; gap: 20px; padding-bottom: 20px; border-bottom: 1px solid rgba(45, 87, 130, 0.14); align-items: flex-start;}
     .team-image{margin-bottom: 0; flex: 0 0 100px;}
     .team-details{text-align: left; padding: 12px 0 0 0; flex: 0 0 calc(100% - 120px);}
     .team-details h3{font-size: 22px; line-height: 1.45; letter-spacing: -0.66px; margin-bottom: 0;}
@@ -128,6 +128,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     body.page-template-default .team-member-wrap{padding: 71px 0 0;}
     .team-content{padding: 40px;}
     .team-cont-left{margin-bottom: 40px;}
+    .team-content-main{flex: 0 0 100%;}
 }
 
 

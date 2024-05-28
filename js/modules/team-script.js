@@ -45,3 +45,15 @@
 //         $(".team-content-main").stop(true, true).fadeOut(100);
 //     });
 // });
+
+jQuery(document).ready(function(){
+    if(jQuery(window).width() <= 739){
+
+    jQuery(".team-item").on('click', function(e){
+        e.preventDefault();
+        jQuery(this).siblings(".team-content-main").slideUp(800);
+        jQuery(this).children(".team-content-main").slideToggle(800);
+        
+    })
+}
+})
