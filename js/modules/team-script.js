@@ -4,6 +4,7 @@ jQuery(document).ready(function(){
         $teamlists.each(function() {
             const $teamlist = jQuery(this).find(".team-list");
         
+<<<<<<< HEAD
             // Define a function to handle mouse enter, focus, and click
             function handleMouseEnterFocusClick(e) {
                 e.preventDefault();
@@ -14,6 +15,25 @@ jQuery(document).ready(function(){
                 $(".team-content-main").stop(true, true).hide(100);
                 $(".team-content-main[data-value=" + $teamName + "]").stop(true, true).fadeIn(600);
             }
+=======
+            $teamlist.hover(
+                function(e) {
+                    // Mouse enter
+                    e.preventDefault();
+                    const teamheight = $teamlist.height();
+                    console.log(teamheight);
+                    const $teamName = jQuery(this).parent().data("name");
+                    console.log($teamName);
+                     var contentheight = $(".team-content-main[data-value=" + $teamName + "]").height();
+                     console.log(contentheight);
+                    // Stop any ongoing animation and hide the elements before showing the new one
+                    $(".team-content-main").stop(true, true).hide(100);
+                    $(".team-content-main[data-value=" + $teamName + "]").stop(true, true).fadeIn(600);
+                },
+                function(e) {
+                    // Mouse leave
+                    e.preventDefault();
+>>>>>>> 2faa18f7bc04f8594645b5cc104bbe417591bb7b
         
             // Define a function to handle mouse leave and blur
             function handleMouseLeaveBlur(e) {
