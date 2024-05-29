@@ -1,27 +1,36 @@
 jQuery(document).ready(function(){
     if(jQuery(window).width() >= 1024){
         const $teamlists = $(".team-lists");
-        const $teamlist = $teamlists.find(".team-list");
-        console.log($teamlist, "test")
-        exploreLink.mouseover(function(e){
-            e.preventDefault();
-            _self = $(this);
-            _self.addClass("active");
-            _self.siblings().removeClass("active");
-            const exploreName = _self.data("name");
-            $(".team-content-main").fadeOut(100);
-            $(".team-content-main[data-value="+ exploreName +"]").fadeIn(600);
+        $teamlists.each(function(){
+            const $teamlist = jQuery(this).find(".team-list");
+        
+            $teamlist.hover(
+                function(e) {
+                    // Mouse enter
+                    e.preventDefault();
+                    const $teamName = jQuery(this).parent().data("name");
+                    console.log($teamName);
+        
+                    // Stop any ongoing animation and hide the elements before showing the new one
+                    $(".team-content-main").stop(true, true).hide(100);
+                    $(".team-content-main[data-value=" + $teamName + "]").stop(true, true).fadeIn(600);
+                },
+                function(e) {
+                    // Mouse leave
+                    e.preventDefault();
+        
+                    // Stop any ongoing animation before fading out
+                    $(".team-content-main").stop(true, true).fadeOut(100);
+                }
+            );
         });
-        exploreLink.mouseleave(function(e){
-            e.preventDefault();
-            $(".team-content-main").fadeOut(100);
-        });
+        
     }
     if(jQuery(window).width() <= 1023){
-        jQuery(".team-item").on('click', function(e){
+        jQuery(".team-list").on('click', function(e){
             e.preventDefault();
-            jQuery(this).siblings().find(".team-content-main").slideUp(800);
-            jQuery(this).children(".team-content-main").slideToggle(800);
+            jQuery(".team-content-main").not(jQuery(this).siblings(".team-content-main")).slideUp(800);
+            jQuery(this).siblings(".team-content-main").slideToggle(800);
         });
     }
 })

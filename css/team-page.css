@@ -28,7 +28,7 @@
 .team-department{min-width: 171px; line-height: normal;}
 .team-dropdown .selectBox-dropdown .selectBox-arrow{right: 0;}
 
-.team-lists{cursor: pointer;}
+.team-list{cursor: pointer;}
 .team-item.ocean-light .team-image{background-color: rgba(8, 148, 211, 0.1);}
 .team-item.pear-light .team-image{background-color: rgba(137, 203, 62, 0.1);}
 .team-item.aguamarine-light .team-image{background-color: rgba(16, 181, 150, 0.12);}
@@ -67,8 +67,9 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
 
 
 @media screen and (min-width: 1024px) {
-    .team-lists{gap: 51px; padding-bottom: 51px; }
+    .team-lists{gap: 0 51px;}
     .team-item{flex: 0 0 calc(25% - 39px);}
+    .team-list{padding-bottom: 51px;}
     .team-details{text-align: center; padding: 0 20px;}
     .team-content{gap: 120px;}
     .team-cont-left{flex: 0 0 330px;}
@@ -96,7 +97,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-details {padding-left: 30px; flex: 0 0 calc(100% - 280px);}
     .team-image{flex: 0 0 250px;}
     .team-details h3{font-size: 26px; font-weight: 500; line-height: 1.23; letter-spacing: -.78px; margin-bottom: 8px;}
-    .team-content-main{flex: 0 0 100%; margin-top: 30px;}
+    .team-content-main{flex: 0 0 100%;}
     .team-content{display: block;}
 }
 @media screen and (max-width: 767px) and (min-width: 200px) {
@@ -110,7 +111,9 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-filter-title h2{font-size: 30px; line-height: 1.13; padding-right: 135px;}
     .team-filter-form{gap: 18px 46px;}
     .team-member-wrap{padding-bottom: 100px;}
-    .team-item{flex: 0 0 100%; display: flex; flex-wrap: wrap; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid rgba(45, 87, 130, 0.14); align-items: center;}
+    
+    .team-item{flex: 0 0 100%; display: flex; flex-wrap: wrap; padding-top: 20px; border-top: 1px solid rgba(45, 87, 130, 0.14); align-items: center;}
+    .team-list{padding-bottom: 20px;}
     .team-image{margin-bottom: 0; flex: 0 0 100px;}
     .team-details{padding-left: 20px; flex: 0 0 calc(100% - 120px);}
     .team-details h3{font-size: 22px; line-height: 1.45; letter-spacing: -0.66px; margin-bottom: 0;}
@@ -124,7 +127,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-content{padding: 16px 30px 23px; display: block;}
     .team-cont-left h3{margin-bottom: 10px;}
     .team-cont-left{margin-bottom: 30px;}
-    .team-content-main{flex: 0 0 100%; margin-top: 20px;}
+    .team-content-main{flex: 0 0 100%;}
     .team-content{display: block;}
 }
 
