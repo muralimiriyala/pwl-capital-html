@@ -8,9 +8,12 @@ jQuery(document).ready(function(){
                 function(e) {
                     // Mouse enter
                     e.preventDefault();
+                    const teamheight = $teamlist.height();
+                    console.log(teamheight);
                     const $teamName = jQuery(this).parent().data("name");
                     console.log($teamName);
-        
+                     var contentheight = $(".team-content-main[data-value=" + $teamName + "]").height();
+                     console.log(contentheight);
                     // Stop any ongoing animation and hide the elements before showing the new one
                     $(".team-content-main").stop(true, true).hide(100);
                     $(".team-content-main[data-value=" + $teamName + "]").stop(true, true).fadeIn(600);
