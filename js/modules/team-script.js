@@ -48,12 +48,10 @@
 
 jQuery(document).ready(function(){
     if(jQuery(window).width() <= 1023){
-
-    jQuery(".team-item").on('click', function(e){
-        e.preventDefault();
-        jQuery(this).siblings().find(".team-content-main").slideUp(800);
-        jQuery(this).children(".team-content-main").slideToggle(800);
-        
-    });
-}
+        jQuery(".team-item").on('click', function(e){
+            e.preventDefault();
+            jQuery(this).siblings().find(".team-content-main").slideUp(800);
+            jQuery(this).children(".team-content-main").slideToggle(800);
+        });
+    }
 })
