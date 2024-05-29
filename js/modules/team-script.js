@@ -47,7 +47,7 @@
 // });
 
 jQuery(document).ready(function(){
-    if(jQuery(window).width() <= 739){
+    if(jQuery(window).width() <= 1023){
 
     jQuery(".team-item").on('click', function(e){
         e.preventDefault();
