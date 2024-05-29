@@ -65,7 +65,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
 
 .team-filter-form .selectBox-dropdown{padding: 0 24px 0 0; border-bottom: 1px solid rgba(45, 87, 130, 0.14); border-radius: 0; color: var(--midnight, #121321); background-color: transparent; border: none; border-bottom: 2px solid var(--ice-blue); font-family: "Century Gothic", sans-serif; font-size: 20px; font-weight: 400; line-height: 31px; }
 .team-filter-form .selectBox-dropdown .selectBox-arrow{right: 0; color: var(--midnight, #121321);}
-.team-filter-form .selectBox-dropdown.selectBox-menuShowing{color: var(--green-pear); border-color: var(--green-pear);}
+.team-filter-form .selectBox-dropdown.selectBox-menuShowing{color: var(--green-pear); border-color: var(--green-pear); font-weight: bold;}
 
 
 @media screen and (min-width: 1024px) {
@@ -120,9 +120,11 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .career-right-mob{right: 13px; top: -59px;}
     .career-left-mob{top: 68px; left: 9px;}
     .team-member-wrap{padding-bottom: 107px;}
-    .team-item{gap: 30px; align-items: center;}
+    .team-lists{gap: 30px;}
+    .team-item{gap: 30px; align-items: center; padding-bottom: 30px;}
     .team-image{flex: 0 0 250px;}
     .team-details {padding: 0; flex: 0 0 calc(100% - 280px);}
+    .team-details h3{font-size: 26px; font-weight: 500; line-height: 1.23; letter-spacing: -.78px; margin-bottom: 8px;}
 }
 
 
