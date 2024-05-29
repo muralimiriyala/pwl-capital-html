@@ -92,15 +92,18 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .career-right-mob{right: 13px; top: -59px;}
     .career-left-mob{top: 68px; left: 9px;}
     .team-member-wrap{padding-bottom: 107px;}
-    .team-item{flex: 0 0 100%; display: flex; flex-wrap: wrap; align-items: center; padding-bottom: 30px; margin-bottom: 30px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
+    .team-filter-title { margin-bottom: 25px; }
+    .team-cont-left { margin-bottom: 30px; }
+    .team-item{flex: 0 0 100%; display: flex; flex-wrap: wrap; align-items: center; padding-top: 30px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
+    .team-list{padding-bottom: 30px;}
     .team-image{margin-bottom: 0; flex: 0 0 100px;}
     .team-details {padding-left: 30px; flex: 0 0 calc(100% - 280px);}
     .team-image{flex: 0 0 250px;}
     .team-details h3{font-size: 26px; font-weight: 500; line-height: 1.23; letter-spacing: -.78px; margin-bottom: 8px;}
-    .team-content-main{flex: 0 0 100%;}
-    .team-content{display: block;}
+    .team-content-main{flex: 0 0 100%; margin-bottom: 30px;}
+    .team-content{padding: 16px 30px 23px; display: block;}
 }
-@media screen and (max-width: 767px) and (min-width: 200px) {
+@media screen and (max-width: 739px) and (min-width: 200px) {
     .team-section-main{margin-top: 57px;}
     .team-right-mob{right: 13px; top: -59px;}
     .team-left-mob{top: 68px; left: 9px;}
@@ -113,6 +116,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-member-wrap{padding-bottom: 100px;}
     
     .team-item{flex: 0 0 100%; display: flex; flex-wrap: wrap; padding-top: 20px; border-top: 1px solid rgba(45, 87, 130, 0.14); align-items: center;}
+    .team-lists:first-child .team-item:first-child{border: none;}
     .team-list{padding-bottom: 20px;}
     .team-image{margin-bottom: 0; flex: 0 0 100px;}
     .team-details{padding-left: 20px; flex: 0 0 calc(100% - 120px);}
@@ -127,8 +131,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-content{padding: 16px 30px 23px; display: block;}
     .team-cont-left h3{margin-bottom: 10px;}
     .team-cont-left{margin-bottom: 30px;}
-    .team-content-main{flex: 0 0 100%;}
-    .team-content{display: block;}
+    .team-content-main{flex: 0 0 100%; margin-bottom: 20px;}
 }
 
 
