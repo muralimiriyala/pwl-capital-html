@@ -26,7 +26,7 @@ jQuery(document).ready(function() {
                 $(".team-content-main").stop(true, true).fadeOut(100);
             }
 
-            $teamlist.hover(handleMouseEnterFocusClick, handleMouseLeaveBlur);
+            $teamlist.click(handleMouseEnterFocusClick, handleMouseLeaveBlur);
             $teamlist.on('focus', handleMouseEnterFocusClick);
             $teamlist.on('blur', handleMouseLeaveBlur);
             $teamlist.on('click', handleMouseEnterFocusClick);
