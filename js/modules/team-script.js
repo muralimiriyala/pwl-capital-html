@@ -46,10 +46,12 @@ jQuery(document).ready(function() {
                 function() {
                     // Mouse enter
                     jQuery(this).siblings().addClass("team-hide");
+                    jQuery(this).addClass("team-active");
                 }, 
                 function() {
                     // Mouse leave
                     jQuery(this).siblings().removeClass("team-hide");
+                    jQuery(this).removeClass("team-active");
                 }
             );
         });
