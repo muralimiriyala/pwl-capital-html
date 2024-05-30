@@ -63,8 +63,9 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
 
 
 @media screen and (min-width: 1024px) {
-    .team-lists{gap: 0 51px; padding-bottom: 51px; position: relative;}
+    .team-lists{gap: 0 51px; position: relative;}
     .team-item{flex: 0 0 calc(25% - 39px);}
+    .team-list{padding-bottom: 51px;}
     .team-details{text-align: center; padding: 0 20px;}
     .team-content{gap: 120px;}
     .team-cont-left{flex: 0 0 330px;}
