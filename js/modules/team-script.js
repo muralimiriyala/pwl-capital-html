@@ -3,34 +3,57 @@ jQuery(document).ready(function() {
         const $teamlists = $(".team-lists");
         $teamlists.each(function() {
             const $teamlist = jQuery(this).find(".team-list");
-            function handleMouseEnterFocusClick(e) {
+            function handleMouseEnter(e) {
                 e.preventDefault();
+        
                 const $teamName = jQuery(this).parent().data("name");
                 const $teamHeight = $teamlist.outerHeight(true);
                 const $contentHeight = $(".team-content-main[data-value=" + $teamName + "]").outerHeight(true);
                 const $content = $(".team-content-main[data-value=" + $teamName + "]");
-                $teamlist.css({
-                    'padding-bottom': $contentHeight + 'px',
-                })
+    
+               $teamlist.css({
+                    'position': 'relative',
+                    'z-index': '800',
+                    'padding-bottom': $contentHeight + 120 + 'px',
+                });
                 $content.css({
-                    'top': $teamHeight  + 'px',
-                })
-
+                    'top': $teamHeight + 'px',
+                });
+        
                 $(".team-content-main").stop(true, true).hide(100);
                 $(".team-content-main[data-value=" + $teamName + "]").stop(true, true).fadeIn(600);
             }
-
-            function handleMouseLeaveBlur(e) {
+        
+            function handleMouseLeave(e) {
                 e.preventDefault();
+                $teamlist.parent(".team-item").siblings().removeClass("red");
+
+
                 $teamlist.css('padding-bottom', '51px');
                 $(".team-content-main").stop(true, true).fadeOut(100);
             }
+        
+            $teamlist.on('mouseenter', handleMouseEnter);
+            $teamlist.on('mouseleave', handleMouseLeave);
 
-            $teamlist.click(handleMouseEnterFocusClick, handleMouseLeaveBlur);
-            $teamlist.on('focus', handleMouseEnterFocusClick);
-            $teamlist.on('blur', handleMouseLeaveBlur);
-            $teamlist.on('click', handleMouseEnterFocusClick);
+
+            
         });
+        
+        jQuery(".team-lists").each(function(){
+            let $teamItems = jQuery(this).find(".team-item");
+            $teamItems.hover(
+                function() {
+                    // Mouse enter
+                    jQuery(this).siblings().addClass("team-hide");
+                }, 
+                function() {
+                    // Mouse leave
+                    jQuery(this).siblings().removeClass("team-hide");
+                }
+            );
+        });
+        
     }
 
     if (jQuery(window).width() <= 1023) {
