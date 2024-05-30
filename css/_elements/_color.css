@@ -21,4 +21,8 @@
     --muted-dark-2: rgba(33, 82, 131, 0.60);
     --line-dark: rgba(45, 87, 130, 0.14);
     --bermuda: #A1CFBD;
+
+    --ocean-light: rgba(8, 148, 211, 0.1);
+    --pear-light: rgba(137, 203, 62, 0.1);
+    --aguamarine-light: rgba(16, 181, 150, 0.12);
 }
