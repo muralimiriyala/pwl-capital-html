@@ -1,14 +1,20 @@
 
 function resize() {
     if (window.matchMedia('(min-width: 1024px)').matches) {
-        jQuery(".team-list").on('click', function(e) {
-            e.preventDefault();
-            jQuery(this).parent(".team-item").closest(".team-lists").siblings(".team-lists").find(".team-item").children(".team-list").toggleClass("team-hide");
-            jQuery(this).parent().siblings(".team-item").find(".team-list").toggleClass("team-hide");
-            jQuery(this).toggleClass("team-active");
-            const $teamName = jQuery(this).parent().data("name");
-            jQuery(".team-content-main").hide(100);
-            jQuery(".team-content-main[data-value=" + $teamName + "]").fadeToggle(400);
+        const $teamlists = $(".team-lists");
+        $teamlists.each(function() {
+            const $teamlist = jQuery(this).find(".team-list");
+                $teamlist.on('click', function(e) {
+                e.preventDefault();
+                jQuery(this).parent(".team-item").closest(".team-lists").siblings(".team-lists").find(".team-item").children(".team-list").toggleClass("team-hide");
+                jQuery(this).parent().siblings(".team-item").find(".team-list").toggleClass("team-hide");
+                jQuery(this).toggleClass("team-active");
+                const $teamName = jQuery(this).parent().data("name");
+                    console.log($teamName, "red123")
+
+                jQuery(".team-content-main").hide();
+                jQuery(".team-content-main[data-value=" + $teamName + "]").fadeToggle(800);
+            });
         });
     } else {
         jQuery(".team-list").on('click', function(e) {
@@ -24,14 +30,6 @@ function resize() {
     }
   }
   
-  document.addEventListener('DOMContentLoaded', function () {
-    resize();
-  });
-  
-  window.onload = function () {
-    resize();
-  };
-  window.onresize = function () {
-    resize();
-  };
+document.addEventListener('DOMContentLoaded', function () { resize(); });
+window.onload = function () { resize(); };
   

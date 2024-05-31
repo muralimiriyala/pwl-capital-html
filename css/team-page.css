@@ -83,8 +83,8 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-item:nth-child(3) .team-content-main::before{left: calc(75% - 180px);}
     .team-item:nth-child(4) .team-content-main::before{left: calc(100% - 170px);}
 
-    .team-content-main{position: relative;}
-    .team-mobile-content{display: none;}
+    .team-content-main{width: 100%; z-index: 2; position: relative;}
+    .team-content{margin-bottom: 60px;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
