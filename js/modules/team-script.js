@@ -45,11 +45,13 @@ jQuery(document).ready(function() {
             $teamItems.hover(
                 function() {
                     // Mouse enter
+                    jQuery(this).parent().siblings(".team-lists").find(".team-item").addClass("team-hide");
                     jQuery(this).siblings().addClass("team-hide");
                     jQuery(this).addClass("team-active");
                 }, 
                 function() {
                     // Mouse leave
+                    jQuery(this).parent().siblings(".team-lists").find(".team-item").removeClass("team-hide");
                     jQuery(this).siblings().removeClass("team-hide");
                     jQuery(this).removeClass("team-active");
                 }
