@@ -77,12 +77,14 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-lists:last-child{padding-bottom: 73px;}
     body.page-template-default .team-member-wrap{padding: 100px 0 43px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     body.page-template-team #load-more .button{max-width: 200px; min-width: 200px;}
-    .team-content-main{width: 100%; height: auto; top: 464px; left: 0; position: absolute; z-index: 5;}
     .team-content-main::before{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; top: 1px; color: rgba(137, 203, 62, 0.1); font-size: 45px; font-weight: bold; line-height: .1;}
     .team-item:first-child .team-content-main::before{left: calc(25% / 2 - 39px);}
     .team-item:nth-child(2) .team-content-main::before{left: calc(50% - 193px);}
     .team-item:nth-child(3) .team-content-main::before{left: calc(75% - 180px);}
     .team-item:nth-child(4) .team-content-main::before{left: calc(100% - 170px);}
+
+    .team-content-main{position: relative;}
+    .team-mobile-content{display: none;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
