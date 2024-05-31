@@ -12,7 +12,8 @@ jQuery(document).ready(function() {
                 const $teamName = $self.data("name");
                 
                 $self.parent().siblings(".team-lists").find(".team-item").toggleClass("team-row-hide");
-                $self.siblings(".team-item").toggleClass("team-hide");
+                $self.siblings(".team-item").addClass("team-hide");
+                $self.removeClass("team-hide");
          
                 jQuery(".team-content-main").not(".team-content-main[data-value='" + $teamName + "']").hide();
                 jQuery(".team-content-main[data-value=" + $teamName + "]").fadeToggle(1000);
