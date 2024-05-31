@@ -6,10 +6,14 @@ jQuery(document).ready(function() {
             const $teamlist = jQuery(this).find(".team-list");
                 $teamlist.on('click', function(e) {
                 e.preventDefault();
-                jQuery(this).parent(".team-item").closest(".team-lists").siblings(".team-lists").find(".team-item").children(".team-list").toggleClass("team-hide");
-                jQuery(this).parent().siblings(".team-item").find(".team-list").toggleClass("team-hide");
-                jQuery(this).toggleClass("team-active");
+
+
+                const $self = jQuery(this);
                 const $teamName = jQuery(this).parent().data("name");
+                
+                jQuery('.team-list').parent().toggleClass('team-hide');
+                jQuery(".team-item[data-name=" + $teamName + "]").removeClass("team-hide");
+
                 jQuery(".team-content-main").not(".team-content-main[data-value='" + $teamName + "']").hide();
                 jQuery(".team-content-main[data-value=" + $teamName + "]").fadeToggle(1000);
             });
