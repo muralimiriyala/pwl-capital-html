@@ -21,22 +21,19 @@ jQuery(document).ready(function() {
                 });
         
                 $(".team-content-main").stop(true, true).hide(100);
-                $(".team-content-main[data-value=" + $teamName + "]").stop(true, true).fadeIn(600);
+                $(".team-content-main[data-value=" + $teamName + "]").stop(true, true).fadeIn(800);
             }
         
             function handleMouseLeave(e) {
                 e.preventDefault();
-                $teamlist.parent(".team-item").siblings().removeClass("red");
 
 
                 $teamlist.css('padding-bottom', '51px');
-                $(".team-content-main").stop(true, true).fadeOut(100);
+                $(".team-content-main").stop(true, true).fadeOut(800);
             }
         
             $teamlist.on('mouseenter', handleMouseEnter);
             $teamlist.on('mouseleave', handleMouseLeave);
-
-
             
         });
         
@@ -63,6 +60,10 @@ jQuery(document).ready(function() {
     if (jQuery(window).width() <= 1023) {
         jQuery(".team-list").on('click', function(e) {
             e.preventDefault();
+            jQuery(this).parent(".team-item").closest(".team-lists").siblings(".team-lists").find(".team-item").children(".team-list").toggleClass("team-hide");
+            jQuery(this).parent().siblings(".team-item").find(".team-list").toggleClass("team-hide");
+            jQuery(this).toggleClass("team-active");
+
             jQuery(".team-content-main").not(jQuery(this).siblings(".team-content-main")).slideUp(800);
             jQuery(this).siblings(".team-content-main").slideToggle(800);
         });
