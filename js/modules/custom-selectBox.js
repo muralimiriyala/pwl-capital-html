@@ -21,6 +21,10 @@ initSelectBox();
     observer.observe(document.body, { childList: true, subtree: true });
 });
 
+jQuery('select').selectBox().each(function(){
+    const _index = jQuery(this).index();
+    jQuery('ul.selectBox-dropdown-menu').eq(0).addClass(`select-menu-${0}`);
+});
 
 
 
