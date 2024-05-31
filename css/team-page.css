@@ -28,6 +28,7 @@
 .team-department{min-width: 171px; line-height: normal;}
 .team-dropdown .selectBox-dropdown .selectBox-arrow{right: 0;}
 
+.team-item{transition: all 0.5s ease;}
 .team-list{cursor: pointer;}
 .team-image{margin-bottom: 27px; background-color: rgba(8, 148, 211, 0.1);}
 .team-details h3{font-size: 26px; font-weight: 500; line-height: 1.23; letter-spacing: -0.78px; margin-bottom: 8px;}
@@ -66,7 +67,6 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-lists{gap: 0 51px; position: relative;}
     .team-item{flex: 0 0 calc(25% - 39px);}
     .team-item.team-hide{opacity: 0.3;}
-    .team-item.team-active .team-details::after{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; bottom: -56px; left: 50%; transform: translateX(-50%); color: rgba(137, 203, 62, 0.1); font-size: 45px; font-weight: bold; line-height: .1;}
     .team-list{padding-bottom: 51px; position: relative; z-index: 1;}
     .team-details{text-align: center; padding: 0 20px;}
     .team-content{gap: 120px;}
@@ -78,6 +78,11 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     body.page-template-default .team-member-wrap{padding: 100px 0 43px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     body.page-template-team #load-more .button{max-width: 200px; min-width: 200px;}
     .team-content-main{width: 100%; height: auto; top: 464px; left: 0; position: absolute; z-index: 5;}
+    .team-content-main::before{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; top: 0px; color: rgba(137, 203, 62, 0.1); font-size: 45px; font-weight: bold; line-height: .1;}
+    .team-item:first-child .team-content-main::before{left: calc(25% / 2 - 39px);}
+    .team-item:nth-child(2) .team-content-main::before{left: calc(50% - 193px);}
+    .team-item:nth-child(3) .team-content-main::before{left: calc(75% - 193px);}
+    .team-item:nth-child(4) .team-content-main::before{left: calc(100% - 193px);}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
@@ -89,6 +94,11 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-lists{gap: 0 25px;}
     .team-item{flex: 0 0 calc(25% - 19px);}
     .team-details{padding: 0 5px;}
+
+    .team-item:first-child .team-content-main::before{left: calc(25% / 2 - 39px);}
+    .team-item:nth-child(2) .team-content-main::before{left: calc(50% - 193px);}
+    .team-item:nth-child(3) .team-content-main::before{left: calc(75% - 193px);}
+    .team-item:nth-child(4) .team-content-main::before{left: calc(100% - 193px);}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px) {
     .team-right-mob{right: 13px; top: -25px;}
