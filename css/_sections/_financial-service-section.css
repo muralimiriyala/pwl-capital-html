@@ -34,6 +34,7 @@
 }
 @media only screen and (max-width: 1299px) and (min-width: 740px) {
     .financial-main{ padding: 121px 0 113px;}
+    body.page-template-default .financial-main{ padding: 50px 0 113px;}
     .financial-heading{max-width: 776px; padding: 0 0 77px;}
     .financial-item{flex: 0 0 50%; padding: 40px;}
     .financial-image{width: 108%; height: 108%;}
@@ -51,7 +52,7 @@
 }
 @media only screen and (max-width: 739px) and (min-width: 200px) {
     .financial-main{padding: 90px 0 80px;}
-    body.page-template-default .financial-main{padding: 54px 0 80px;}
+    body.page-template-default .financial-main{padding: 75px 0 80px;}
     .financial-heading{line-height: 1.76; margin-bottom: 56px;}
     .financial-heading h2{font-size: 36px; line-height: 1.22; letter-spacing: -0.36px; margin-bottom: 15px;}
     .financial-item{width: 304px; margin-right: 30px;}
