@@ -166,6 +166,10 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-list.team-hide{opacity: 0.3;}
 }
 
+@media screen and (max-width: 413px) and (min-width: 200px) {
+    .team-filter-form { gap: 18px 27px; }
+}
+
 
 
 
