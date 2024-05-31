@@ -1,7 +1,7 @@
 
-function resize() {
+jQuery(document).ready(function() {
     if (window.matchMedia('(min-width: 1024px)').matches) {
-        const $teamlists = $(".team-lists");
+        const $teamlists = jQuery(".team-lists");
         $teamlists.each(function() {
             const $teamlist = jQuery(this).find(".team-list");
                 $teamlist.on('click', function(e) {
@@ -10,26 +10,19 @@ function resize() {
                 jQuery(this).parent().siblings(".team-item").find(".team-list").toggleClass("team-hide");
                 jQuery(this).toggleClass("team-active");
                 const $teamName = jQuery(this).parent().data("name");
-                    console.log($teamName, "red123")
-
-                jQuery(".team-content-main").hide();
-                jQuery(".team-content-main[data-value=" + $teamName + "]").fadeToggle(800);
+                jQuery(".team-content-main").not(".team-content-main[data-value='" + $teamName + "']").hide();
+                jQuery(".team-content-main[data-value=" + $teamName + "]").fadeToggle(1000);
             });
         });
-    } else {
+    } 
+    if (jQuery(window).width() <= 1023) {
         jQuery(".team-list").on('click', function(e) {
             e.preventDefault();
             jQuery(this).parent(".team-item").closest(".team-lists").siblings(".team-lists").find(".team-item").children(".team-list").toggleClass("team-hide");
             jQuery(this).parent().siblings(".team-item").find(".team-list").toggleClass("team-hide");
             jQuery(this).toggleClass("team-active");
-
-            alert("murali")
             jQuery(".team-content-main").not(jQuery(this).siblings(".team-content-main")).slideUp(800);
             jQuery(this).siblings(".team-content-main").slideToggle(800);
         });
     }
-  }
-  
-document.addEventListener('DOMContentLoaded', function () { resize(); });
-window.onload = function () { resize(); };
-  
+});
