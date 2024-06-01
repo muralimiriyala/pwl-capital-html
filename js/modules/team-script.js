@@ -1,17 +1,17 @@
 jQuery(document).ready(function() {
-    const $teamItems = $(".team-list-item");
+    const $teamItems = $(".team-item");
     const $teamList = $teamItems.find(".team-list");
     if(jQuery(window).width() >= 1024){
     $teamList.on("click", function(e) {
         e.preventDefault();
-        const $this = jQuery(this).closest(".team-list-item");
+        const $this = jQuery(this).closest(".team-item");
         const $content = jQuery(this).siblings(".team-content-main");
         const contentHeight = $content.outerHeight(true);
         
         $this.siblings().find(".team-content-main").hide(100);
         $this.siblings().css("padding-bottom", "0px");
 
-            $content.slideToggle(800, function() {
+            $content.slideToggle(600, function() {
                 if ($content.is(":visible")) {
                     $this.css("padding-bottom", contentHeight + 80 + "px");
                     const listHeight = $this.find(".team-list").outerHeight(true);
@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
 else{
     $teamList.on("click", function(e) {
         e.preventDefault();
-        const $this = jQuery(this).closest(".team-list-item");
+        const $this = jQuery(this).closest(".team-item");
         
         if ($this.hasClass("active")) {
             $this.removeClass("active");
@@ -46,7 +46,7 @@ else{
             $this.removeClass("team-hide").addClass("active");
         }
 
-        $this.siblings(".team-list-item").find(".team-content-main").slideUp(800);
+        $this.siblings(".team-item").find(".team-content-main").slideUp(800);
         jQuery(this).siblings(".team-content-main").slideToggle(800);
 
     });
