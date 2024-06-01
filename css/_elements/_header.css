@@ -43,7 +43,7 @@ body.page-template-home .site-main-cover, body.page-template-careers .site-main-
     ul.main-menu > li{margin: 0;}
     ul.main-menu > li::before{display: none;}
     ul.main-menu > li > a{padding: 45px 0; color: var(--midnight); display: block; font-size: 18px; line-height: 20px; letter-spacing: 0.36px; font-weight: 700;}
-    ul.main-menu > li.current_page_item > a, ul.main-menu > li > a:hover{color: var(--green-pear);}
+    ul.main-menu > li:hover > a, ul.main-menu > li.current_page_item > a, ul.main-menu > li > a:hover{color: var(--green-pear);}
 
     ul.main-menu > li > ul{visibility: hidden; opacity: 0; top: 100%; margin: 0; position: absolute; background-color: var(--white); transition: all 0.25s ease-in;}
     ul.main-menu > li:hover > ul{opacity: 1; visibility: visible;}

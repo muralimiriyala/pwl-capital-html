@@ -31,7 +31,7 @@
 .team-items-row{z-index: 8;}
 .team-item{position: relative;}
 .team-item.active{z-index: 8;}
-.team-hide{transition: all 0.6s ease; opacity: 0.3;}
+.team-hide{transition: all 0s ease; opacity: 0.3;}
 .team-list{cursor: pointer;}
 .team-image{margin-bottom: 27px; background-color: rgba(8, 148, 211, 0.1);}
 .team-details h3{font-size: 26px; font-weight: 500; line-height: 1.23; letter-spacing: -0.78px; margin-bottom: 8px;}
@@ -141,7 +141,6 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-content{padding: 16px 30px 23px; display: block;}
     .load-more-btn{margin-top: 75px;}
     #load-more .button{max-width: 146px; min-width: 146px;}
-    .team-list.team-hide{opacity: 0.3;}
     .team-items-row:last-child .team-item:last-child{border: none;}
     .team-items-row:last-child .team-item:nth-last-child(-n + 5) .team-image::after{height: 75px; width: 100%; top: calc(100% + 41px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
     .team-items-row:last-child .team-item:nth-last-child(-n + 5) .team-details::after{height: 28px; width: 123px; top: calc(100% + 135px); display: block; content: ""; background: rgb(237, 247, 251); position: absolute; z-index: -1;}
