@@ -1,6 +1,6 @@
 
 .how-can-section{background: var(--ice-blue---Light, rgba(217, 238, 247, 0.65));}
-.how-can-main{gap: 96px; padding: 100px 0 126px;}
+.how-can-main{padding: 100px 0 126px;}
 .how-can-text{text-align: right;}
 ul.how-can-links{margin: 0; padding-top: 30px;}
 ul.how-can-links li{margin: 0 0 29px;}
@@ -19,12 +19,16 @@ ul.how-can-links li a:hover{ color: var(--capri-ocean, #0894D3); }
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .how-can-text{flex: 0 0 304px; width: 340px; float: left; margin-right: 96px;}
-    .how-can-right{flex: 1; overflow: hidden;}
+    .how-can-right{flex: 1;}
     .swiper-nav-wrap{height: 400px;}
-
+    
     .how-can-image{flex: 0 0 435px;}
     .how-can-thumb img{max-width: 325px; min-height: 503px; max-height: 503px;}
     .how-can-desc{flex: 1;}
+
+    .how-can-right .bg-white{box-shadow: 0 -5px 15px 0 rgba(6, 84, 163, 0.05);}
+    .how-can-right .bg-white:first-child{transform: translate(-50% , -31px); left: 50%; width: 927px;}
+    .how-can-right .bg-white:nth-child(2){transform: translate(-50% , -15px); left: 50%; width: 947px;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
