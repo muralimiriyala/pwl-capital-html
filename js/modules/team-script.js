@@ -1,54 +1,56 @@
-jQuery(document).ready(function() {
-    const $teamItems = $(".team-item");
-    const $teamList = $teamItems.find(".team-list");
-    if(jQuery(window).width() >= 1024){
-    $teamList.on("click", function(e) {
-        e.preventDefault();
-        const $this = jQuery(this).closest(".team-item");
-        const $content = jQuery(this).siblings(".team-content-main");
-        const contentHeight = $content.outerHeight(true);
-        
-        $this.siblings().find(".team-content-main").hide(100);
-        $this.siblings().css("padding-bottom", "0px");
 
-            $content.slideToggle(600, function() {
-                if ($content.is(":visible")) {
-                    $this.css("padding-bottom", contentHeight + 80 + "px");
-                    const listHeight = $this.find(".team-list").outerHeight(true);
-                    $content.css("top", listHeight + "px");
-                } else {
-                    $content.css("top", "100%");
-                    $this.css("padding-bottom", "0px");
-                }
-            });
-        
-        if ($this.hasClass("active")) {
-            $this.removeClass("active");
-            $teamItems.removeClass("team-hide");
-        } else {
-            $teamItems.removeClass("active");
-            $teamItems.addClass("team-hide");
-            $this.removeClass("team-hide").addClass("active");
-        }
-    });
-}
-else{
-    $teamList.on("click", function(e) {
-        e.preventDefault();
-        const $this = jQuery(this).closest(".team-item");
-        
-        if ($this.hasClass("active")) {
-            $this.removeClass("active");
-            $teamItems.removeClass("team-hide");
-        } else {
-            $teamItems.removeClass("active");
-            $teamItems.addClass("team-hide");
-            $this.removeClass("team-hide").addClass("active");
-        }
 
-        $this.siblings(".team-item").find(".team-content-main").slideUp(800);
-        jQuery(this).siblings(".team-content-main").slideToggle(800);
 
-    });
-}
-});
+(function($){
+  let teamitem = $('.team-item');
+  let teamlist = $(".team-list");
+  let content = $('.team-content-main');
+  let lastClicked = null;
+ if (window.matchMedia("(min-width: 1024px)").matches) {
+    teamitem.on('click', function (e) {
+    e.preventDefault();
+    let $this = $(this);
+    let tname = $this.data('name');
+    let contentElement = $(".team-content-main[data-value='" + tname + "']");
+
+    if (lastClicked && lastClicked.is($this)) {
+      // Clicked the same element again
+      content.slideUp(800);
+      teamitem.removeClass('team-hide');
+      lastClicked = null; // Reset lastClicked
+    } else {
+      // Clicked a different element or first time clicking this element
+      content.hide();
+      contentElement.slideDown(800);
+      $this.siblings('.team-item').addClass('team-hide');
+      $this.parent('.team-col').siblings('.team-col').find('.team-item').addClass('team-hide');
+      $this.removeClass('team-hide'); // Ensure the clicked element is not hidden
+      lastClicked = $this; // Update lastClicked
+    }
+  });
+  }
+  else{
+  teamlist.on('click', function (e) {
+    e.preventDefault();
+    let $this = $(this).parent(".team-item");
+    let tname = $this.data('name');
+    let contentElement = $(".team-content-main[data-mobile='" + tname + "']");
+
+    if (lastClicked && lastClicked.is($this)) {
+      // Clicked the same element again
+      content.slideUp(800);
+      teamitem.removeClass('team-hide');
+      lastClicked = null; // Reset lastClicked
+    } else {
+      // Clicked a different element or first time clicking this element
+      content.hide();
+      contentElement.slideDown(800);
+      $this.siblings('.team-item').addClass('team-hide');
+      $this.parent('.team-col').siblings('.team-col').find('.team-item').addClass('team-hide');
+      $this.removeClass('team-hide'); // Ensure the clicked element is not hidden
+      lastClicked = $this; // Update lastClicked
+    }
+  });
+  }
+  
+})(jQuery);

@@ -70,17 +70,9 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
 .team-filter-form .selectBox-dropdown.selectBox-menuShowing{color: var(--green-pear); border-color: var(--green-pear); font-weight: bold;}
 
 
-@media screen and (min-width: 1440px){
-    .team-items-row{gap: 0 51px;}
-    .team-item{flex: 0 0 calc(342px - 39px);}
-    .team-item:nth-child(4n+2) .team-content-main { left: -352px; }
-    .team-item:nth-child(4n+3) .team-content-main { left: -704px; }
-    .team-item:nth-child(4n+4) .team-content-main { left: -1060px; }
-
-    .team-item:nth-child(4n+1) .team-content-main::before{left: calc(25% / 2 - 39px);}
-    .team-item:nth-child(4n+2) .team-content-main::before{left: calc(50% - 193px);}
-    .team-item:nth-child(4n+3) .team-content-main::before{left: calc(75% - 180px);}
-    .team-item:nth-child(4n+4) .team-content-main::before{left: calc(100% - 170px);}
+@media screen and (min-width: 1300px){
+    .team-col{gap: 0 51px;}
+    .team-item{flex: 0 0 calc(25% - 39px);}
 }
 
 @media screen and (min-width: 1024px) {
@@ -96,21 +88,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     body.page-template-default .team-member-wrap{padding: 100px 0 43px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     body.page-template-team #load-more .button{max-width: 200px; min-width: 200px;}
     .team-content-main::before{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; top: 1px; color: rgba(137, 203, 62, 0.1); font-size: 45px; font-weight: bold; line-height: .1;}
-    .team-content-main { top: 100%; left: 0; right: 0; width: 100vw; height: auto; max-width: 1366px; margin: 0 auto; position: absolute; z-index: 2; }
-}
-@media screen and (max-width: 1439px) and (min-width: 1024px){
-    .team-items-row{gap: 0 25px;}
-    .team-item{flex: 0 0 calc(25% - 19px);}
-    .team-content-main{width: calc(100vw - 80px);}
-    .team-item:nth-child(4n+1) .team-content-main{left: calc(25% / 2 - 28px);}
-    .team-item:nth-child(4n+2) .team-content-main{left: calc(-25px - 100%)}
-    .team-item:nth-child(4n+3) .team-content-main{left: auto; right: calc(-25px - 100%)}
-    .team-item:nth-child(4n+4) .team-content-main{left: auto; right: calc(25% / 2 - 28px);}
-
-    .team-item:nth-child(4n+1) .team-content-main::before{left: calc(25% / 2 - 19px);}
-    .team-item:nth-child(4n+2) .team-content-main::before{left: calc(50% - 135px);}
-    .team-item:nth-child(4n+3) .team-content-main::before{left: calc(75% - 130px);}
-    .team-item:nth-child(4n+4) .team-content-main::before{left: calc(100% - 124px);}
+    .team-content-main{}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .team-filter-title{width: 100%; margin-bottom: 30px;}
@@ -120,6 +98,8 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-cont-right { flex: 0 0 calc(100% - 390px); }
     .team-details{padding: 0 5px;}
 
+    .team-col{gap: 0 40px;}
+    .team-item{flex: 0 0 calc(25% - 30px);}
 }
 @media screen and (max-width: 1023px) and (min-width: 740px) {
     .team-right-mob{right: 13px; top: -25px;}
