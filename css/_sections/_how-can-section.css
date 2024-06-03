@@ -29,6 +29,8 @@ ul.how-can-links li a:hover{ color: var(--capri-ocean, #0894D3); }
     .how-can-right .bg-white{box-shadow: 0 -5px 15px 0 rgba(6, 84, 163, 0.05);}
     .how-can-right .bg-white:first-child{transform: translate(-50% , -31px); left: 50%; width: 927px;}
     .how-can-right .bg-white:nth-child(2){transform: translate(-50% , -15px); left: 50%; width: 947px;}
+
+    .how-can-bg.absolute { top: 50%; z-index: -1; left: 50%; transform: translate(-50% , -50%); width: 377px; }
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
