@@ -23,28 +23,20 @@
     slick.$next = next;
     cur.removeClass('slick-next').removeClass('slick-sprev');
   });
-
+  
   $howcanslider.slick({
     slidesPerRow: 1,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    dots: false,
-    speed: 1500,
-    autoplay: false,
-    infinite: true,
-    centerMode: true,
-    centerPadding: '0',
-    swipe: true,
-    customPaging: function(slider, i) {
-      return '';
-    },
+    dots: true,
+    appendDots: $('.murali'),
+    speed: 1000,
     responsive: [
       {
         breakpoint: 1023,
         settings: {
           variableWidth: true,
-          centerMode: false,
           infinite: false,
           dots: true,
         },
@@ -53,7 +45,6 @@
         breakpoint: 739,
         settings: {
           variableWidth: true,
-          centerMode: false,
           infinite: false,
           dots: true,
         },
@@ -61,24 +52,17 @@
     ]
   });
 
+
+  $("ul.how-can-links li:first-child a").addClass("slick-active");
   const $link = $("ul.how-can-links li a");
   $link.on("click", function(e){
     e.preventDefault();
     const $this = $(this);
     $this.parent("li").siblings().find("a").removeClass("slick-active");
-    $this.addClass("slick-active");  // Ensure the clicked link gets the active class
+    $this.addClass("slick-active");
     var slideno = $this.data('slide');
     console.log(slideno);
     $howcanslider.slick('slickGoTo', slideno - 1);
-  });
-
-  // Update active link on slide change
-  $howcanslider.on('afterChange', function(event, slick, currentSlide) {
-    const activeLink = $("ul.how-can-links li a").filter(function() {
-      return $(this).data('slide') - 1 === currentSlide;
-    });
-    $("ul.how-can-links li a").removeClass('slick-active');
-    activeLink.addClass('slick-active');
   });
 
 }(jQuery));
