@@ -12,7 +12,7 @@
     speed: 1500,
     infinite: false,
     autoplay: false,
-    variableWidth: true,
+    // variableWidth: true,
   });
   $link.on("click", function(e){
     e.preventDefault();
