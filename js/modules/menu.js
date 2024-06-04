@@ -1,3 +1,33 @@
+
+jQuery(function($){   
+
+const header = $(".header-main");
+$(window).on("scroll load", function(){
+    const _scroll = window.scrollY;
+    if (_scroll >= 4) {
+        header.addClass("sticky-header");
+    } else {
+        header.removeClass("sticky-header");
+    }
+});
+
+$(".humburger-btn").on("click", function(e){
+    e.preventDefault();
+    $(this).toggleClass("active");
+    $("header.header-main").toggleClass("nav-open");
+    $(".header-right").toggleClass("open");
+    $(".header-overlay").toggleClass("open")
+ });
+ $("body").on("click", function(e){
+    if(!$(e.target).closest(".header-right, .humburger-btn").length){
+        $(".humburger-btn").removeClass("active");
+        $(".header-right").removeClass("open");
+        $(".header-overlay").removeClass("open")
+    }
+ });
+
+});
+
 function menu(){
     if(window.matchMedia('(max-width: 1299px)').matches) {
         jQuery(".humburger-btn").on("click", function(e){
