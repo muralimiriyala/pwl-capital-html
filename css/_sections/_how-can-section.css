@@ -77,6 +77,8 @@ margin-right: -12%;
     transform: translate3d(-20%, 0, 0px);
   }
 
+  .how-can-wrap{background-color: var(--white); padding: 0 40px;}
+
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px){
     .how-can-text{width:304px; margin-right: 96px;}
