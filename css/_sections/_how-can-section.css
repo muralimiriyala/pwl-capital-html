@@ -14,15 +14,15 @@ ul.how-can-links li a:hover, ul.how-can-links li a.slick-active{ color: var(--ca
 
 
 .how-can-slider.slick-slider {
-margin-left: -12%;
-margin-right: -12%;
+/* margin-left: -12%;
+margin-right: -12%; */
 }
   
   .how-can-slider .slick-list {
     padding-top: 10% !important;
     padding-bottom: 10% !important;
-    padding-left: 15% !important;
-    padding-right: 15% !important;
+    /* padding-left: 15% !important;
+    padding-right: 15% !important; */
   }
   
   .how-can-slider .slick-dots {
@@ -61,20 +61,20 @@ margin-right: -12%;
     opacity: 1;
     position: relative;
     display: block;
-    transform: translate3d(0, 0, 20px);
+    transform: translate3d(0, 0, 0);
     z-index: 2;
-    border: 2px solid red;
+    border: 1px solid red;
   }
   
   .how-can-slider .slick-snext {
     opacity: 1;
-    transform: translate3d(20%, 0, 0px);
+    transform: translate3d(0%, -16px, 0px);
     z-index: 1;
   }
   
   .how-can-slider .slick-sprev {
     opacity: 1;
-    transform: translate3d(-20%, 0, 0px);
+    transform: translate3d(0%, -32px, 0px);
   }
 
   .how-can-wrap{background-color: var(--white); padding: 0 40px;}
