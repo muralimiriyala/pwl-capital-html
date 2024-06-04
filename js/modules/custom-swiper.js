@@ -43,12 +43,18 @@
       {
         breakpoint: 1023,
         settings: {
+          variableWidth: true,
+          centerMode: false,
+          infinite: false,
           dots: true,
         },
       },
       {
         breakpoint: 739,
         settings: {
+          variableWidth: true,
+          centerMode: false,
+          infinite: false,
           dots: true,
         },
       },

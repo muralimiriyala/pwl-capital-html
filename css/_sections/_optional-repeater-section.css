@@ -41,10 +41,6 @@
 .graph-lines{gap: 16px; left: 2px; position: absolute;}
 .graph-line{width: 1px; height: 48px; background-color: var(--white); opacity: 0.2; display: block;}
 
-.how-can-image .optional-box-bg{width: 110px; min-height: 105px}
-.how-can-image .optional-box-bg.top-left{left: 0; top: 160px;}
-.how-can-image .optional-box-bg.top-right{right: 0; top: 230px;}
-
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .optional-repeater-main{padding: 118px 0 115px;}
