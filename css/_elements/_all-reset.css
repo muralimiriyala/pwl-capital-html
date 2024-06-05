@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 html.js{margin-top: 0 !important;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
-html { overflow-y: scroll;  -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
+html {overflow-x: hidden; overflow-y: scroll;  -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
 a{color: var(--capri-ocean);text-decoration: none; transition: all 0.4s ease;}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
@@ -173,7 +173,7 @@ img.aligncenter{margin: 25px auto;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 17px; line-height: 30px; letter-spacing: -0.17px; font-weight: 400;font-family:"brother-1816", sans-serif;  position: relative; color: var(--midnight, #121321); background-color: transparent; overflow-x: hidden;}
+body{font-size: 17px; line-height: 30px; letter-spacing: -0.17px; font-weight: 400;font-family:"brother-1816", sans-serif;  position: relative; color: var(--midnight, #121321); background-color: transparent;}
 
 .d-block{display: block;}
 span.optional-text{margin-bottom: 12px; font-size: 12px; line-height: 21px; letter-spacing: 1.2px; font-weight: 600; display: block; font-family: "brother-1816", sans-serif; text-transform: uppercase; }
