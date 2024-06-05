@@ -1,28 +1,28 @@
 
-jQuery(function($){   
+jQuery(document).on("ready", function(){
 
-const header = $(".header-main");
-$(window).on("scroll load", function(){
+const header = jQuery(".header-main");
+jQuery(window).on("scroll load", function(){
     const _scroll = window.scrollY;
-    if (_scroll >= 4) {
+    if (_scroll >= 0) {
         header.addClass("sticky-header");
     } else {
         header.removeClass("sticky-header");
     }
 });
 
-$(".humburger-btn").on("click", function(e){
+jQuery(".humburger-btn").on("click", function(e){
     e.preventDefault();
-    $(this).toggleClass("active");
-    $("header.header-main").toggleClass("nav-open");
-    $(".header-right").toggleClass("open");
-    $(".header-overlay").toggleClass("open")
+    jQuery(this).toggleClass("active");
+    jQuery("header.header-main").toggleClass("nav-open");
+    jQuery(".header-right").toggleClass("open");
+    jQuery(".header-overlay").toggleClass("open")
  });
- $("body").on("click", function(e){
-    if(!$(e.target).closest(".header-right, .humburger-btn").length){
-        $(".humburger-btn").removeClass("active");
-        $(".header-right").removeClass("open");
-        $(".header-overlay").removeClass("open")
+ jQuery("body").on("click", function(e){
+    if(!jQuery(e.target).closest(".header-right, .humburger-btn").length){
+        jQuery(".humburger-btn").removeClass("active");
+        jQuery(".header-right").removeClass("open");
+        jQuery(".header-overlay").removeClass("open")
     }
  });
 
