@@ -41,9 +41,10 @@
     .confirmation-box.capri-ocean{transform: rotate(-9deg); top: -4px; left: -6px;}
     .confirmation-tick svg{width: 35px; height: 30px; top: calc(50% + 0px);}
     .confirmation-text h1{font-size: 43px; line-height: 1.19; letter-spacing: -0.43px; padding-right: 5px; margin-bottom: 30px;}
+    .confirmation-desc{margin-bottom: 17px;}
 
     .confirmation-watermark{width: 100%; top: 0; left: 0;}
-    .confirmation-watermark svg:first-child{right: 0; top: 15px; position: absolute;}
+    .confirmation-watermark svg:first-child{right: 12px; top: 15px; position: absolute;}
     .confirmation-watermark svg:last-child{right: 108px; top: 200px; position: absolute; left: auto;}
 
 }
