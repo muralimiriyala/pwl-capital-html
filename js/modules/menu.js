@@ -3,7 +3,8 @@ jQuery(document).on("ready", function(){
 
 const header = jQuery(".header-main");
 jQuery(window).on("scroll load", function(){
-    const _scroll = window.scrollY;
+    const _scroll = jQuery(this).scrollTop();
+    console.log(_scroll, "murali")
     if (_scroll >= 0) {
         header.addClass("sticky-header");
     } else {
