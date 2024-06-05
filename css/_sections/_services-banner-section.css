@@ -52,3 +52,9 @@
     .service-banner-image .optional-box-bg.bottom-right{right: 0;}
     .service-banner-image .optional-box-bg{width: 190px;}
 }
+
+@media screen and (max-width: 413px) and (min-width: 200px) {
+    .service-banner-rt{justify-content: space-between;}
+    .service-banner-image{max-width: 150px;}
+    .service-banner-stats-col{flex: 0 0 140px;}
+}

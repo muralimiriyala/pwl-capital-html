@@ -10,8 +10,8 @@
 .news-blog-list p{margin-bottom: 10px;}
 .news-blog-list p a{color: var(--midnight);}
 .news-blog-list p a:hover{color: var(--aquamarine);}
-ul.categorys {margin: 0; gap: 10px;}
-ul.categorys li{ margin: 0 0 14px; padding: 7px 10px; background-color: var(--aguamarine-light, rgba(16, 181, 150, 0.12)); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--aquamarine, #10B596); text-align: center;font-family:"brother-1816", sans-serif; text-transform: uppercase; }
+ul.categorys {margin: 0 0 15px; gap: 10px;}
+ul.categorys li{ margin: 0; padding: 7px 10px; background-color: var(--aguamarine-light, rgba(16, 181, 150, 0.12)); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--aquamarine, #10B596); text-align: center;font-family:"brother-1816", sans-serif; text-transform: uppercase; }
 ul.categorys li::before{display: none;}
 .news-post-image .play-btn-main{z-index: 2;}
 

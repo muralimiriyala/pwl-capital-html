@@ -5,6 +5,7 @@
 .learn-grid-text p a{color: var(--midnight);}
 .learn-grid-text p a:hover{color: var(--aquamarine);}
 .learn-more-btn{position: relative; z-index: 2;}
+.learn-more-btn .button{min-width: 200px;}
 /* .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-image img{min-height: 206px; max-height: 206px; overflow: hidden; object-position: top;} */
 .learn-grid-list:nth-child(10n+4) .learn-grid-text p a{color: var(--white);}
 .learn-grid-list:nth-child(10n+4) .learn-grid-text p a:hover{color: var(--aquamarine);}
@@ -17,6 +18,7 @@
     .learn-grid-list:nth-last-child(-n+3)::after { height: 155px; width: 100%; top: calc(100% + 76px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light), #fff); position: absolute; z-index: -1; }
     
     .learn-grid-image{flex: 0 0 50%;}
+    .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-thumb img{max-height: 206px; min-height: 206px; object-position: top;}
     .learn-grid-text{flex: 1;}
     
     .learn-grid-list:nth-child(10n+4){flex: 0 0 100%; display: flex; flex-wrap: wrap;}
