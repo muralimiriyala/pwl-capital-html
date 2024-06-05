@@ -1,9 +1,6 @@
 // Utility function
 function Util () {};
 
-/* 
-	class manipulation functions
-*/
 Util.hasClass = function(el, className) {
 	if (el.classList) return el.classList.contains(className);
 	else return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)'));
@@ -37,9 +34,6 @@ Util.setAttributes = function(el, attrs) {
   }
 };
 
-/* 
-  DOM manipulation
-*/
 Util.getChildrenByClassName = function(el, className) {
   var children = el.children,
     childrenByClass = [];
@@ -67,9 +61,6 @@ Util.is = function(elem, selector) {
   return false;
 };
 
-/* 
-	Animate height of an element
-*/
 Util.setHeight = function(start, to, element, duration, cb) {
 	var change = to - start,
 	    currentTime = null;
@@ -86,14 +77,9 @@ Util.setHeight = function(start, to, element, duration, cb) {
     }
   };
   
-  //set the height of the element before starting animation -> fix bug on Safari
   element.style.height = start+"px";
   window.requestAnimationFrame(animateHeight);
 };
-
-/* 
-	Smooth Scroll
-*/
 
 Util.scrollTo = function(final, duration, cb, scrollEl) {
   var element = scrollEl || window;
@@ -118,11 +104,6 @@ Util.scrollTo = function(final, duration, cb, scrollEl) {
   window.requestAnimationFrame(animateScroll);
 };
 
-/* 
-  Focus utility classes
-*/
-
-//Move focus to an element
 Util.moveFocus = function (element) {
   if( !element ) element = document.getElementsByTagName("body")[0];
   element.focus();
@@ -131,10 +112,6 @@ Util.moveFocus = function (element) {
     element.focus();
   }
 };
-
-/* 
-  Misc
-*/
 
 Util.getIndexInArray = function(array, el) {
   return Array.prototype.indexOf.call(array, el);
@@ -149,26 +126,20 @@ Util.cssSupports = function(property, value) {
   }
 };
 
-// merge a set of user options into plugin defaults
-// https://gomakethings.com/vanilla-javascript-version-of-jquery-extend/
 Util.extend = function() {
-  // Variables
   var extended = {};
   var deep = false;
   var i = 0;
   var length = arguments.length;
 
-  // Check if a deep merge
   if ( Object.prototype.toString.call( arguments[0] ) === '[object Boolean]' ) {
     deep = arguments[0];
     i++;
   }
 
-  // Merge the object into the extended object
   var merge = function (obj) {
     for ( var prop in obj ) {
       if ( Object.prototype.hasOwnProperty.call( obj, prop ) ) {
-        // If deep merge and property is an object, merge properties
         if ( deep && Object.prototype.toString.call(obj[prop]) === '[object Object]' ) {
           extended[prop] = extend( true, extended[prop], obj[prop] );
         } else {
@@ -178,7 +149,6 @@ Util.extend = function() {
     }
   };
 
-  // Loop through each object and conduct a merge
   for ( ; i < length; i++ ) {
     var obj = arguments[i];
     merge(obj);
@@ -187,18 +157,13 @@ Util.extend = function() {
   return extended;
 };
 
-// Check if Reduced Motion is enabled
 Util.osHasReducedMotion = function() {
   if(!window.matchMedia) return false;
   var matchMediaObj = window.matchMedia('(prefers-reduced-motion: reduce)');
   if(matchMediaObj) return matchMediaObj.matches;
-  return false; // return false if not supported
+  return false;
 }; 
 
-/* 
-	Polyfills
-*/
-//Closest() method
 if (!Element.prototype.matches) {
 	Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
 }
@@ -215,7 +180,6 @@ if (!Element.prototype.closest) {
 	};
 }
 
-//Custom Event() constructor
 if ( typeof window.CustomEvent !== "function" ) {
 
   function CustomEvent ( event, params ) {
@@ -230,9 +194,6 @@ if ( typeof window.CustomEvent !== "function" ) {
   window.CustomEvent = CustomEvent;
 }
 
-/* 
-	Animation curves
-*/
 Math.easeInOutQuad = function (t, b, c, d) {
 	t /= d/2;
 	if (t < 1) return c/2*t*t + b;
@@ -240,35 +201,6 @@ Math.easeInOutQuad = function (t, b, c, d) {
 	return -c/2 * (t*(t-2) - 1) + b;
 };
 
-
-/* JS Utility Classes */
-(function() {
-  // make focus ring visible only for keyboard navigation (i.e., tab key) 
-  var focusTab = document.getElementsByClassName('js-tab-focus');
-  function detectClick() {
-    if(focusTab.length > 0) {
-      resetFocusTabs(false);
-      window.addEventListener('keydown', detectTab);
-    }
-    window.removeEventListener('mousedown', detectClick);
-  };
-
-  function detectTab(event) {
-    if(event.keyCode !== 9) return;
-    resetFocusTabs(true);
-    window.removeEventListener('keydown', detectTab);
-    window.addEventListener('mousedown', detectClick);
-  };
-
-  function resetFocusTabs(bool) {
-    var outlineStyle = bool ? '' : 'none';
-    for(var i = 0; i < focusTab.length; i++) {
-      focusTab[i].style.setProperty('outline', outlineStyle);
-    }
-  };
-  window.addEventListener('mousedown', detectClick);
-}());
-// Tutorial - https://codyhouse.co/tutorials/how-stacking-cards
 (function() {
   var StackCards = function(element) {
     this.element = element;
@@ -279,25 +211,25 @@ Math.easeInOutQuad = function (t, b, c, d) {
     initStackCardsResize(this); 
   };
 
-  function initStackCardsEffect(element) { // use Intersection Observer to trigger animation
-    setStackCards(element); // store cards CSS properties
+  function initStackCardsEffect(element) {
+    setStackCards(element);
 		var observer = new IntersectionObserver(stackCardsCallback.bind(element), { threshold: [0, 1] });
 		observer.observe(element.element);
   };
 
-  function initStackCardsResize(element) { // detect resize to reset gallery
+  function initStackCardsResize(element) {
     element.element.addEventListener('resize-stack-cards', function(){
       setStackCards(element);
       animateStackCards.bind(element);
     });
   };
   
-  function stackCardsCallback(entries) { // Intersection Observer callback
+  function stackCardsCallback(entries) {
     if(entries[0].isIntersecting) {
-      if(this.scrollingFn) return; // listener for scroll event already added
+      if(this.scrollingFn) return;
       stackCardsInitEvent(this);
     } else {
-      if(!this.scrollingFn) return; // listener for scroll event already removed
+      if(!this.scrollingFn) return;
       window.removeEventListener('scroll', this.scrollingFn);
       this.scrollingFn = false;
     }
@@ -315,20 +247,16 @@ Math.easeInOutQuad = function (t, b, c, d) {
   };
 
   function setStackCards(element) {
-    // store wrapper properties
     element.marginY = getComputedStyle(element.element).getPropertyValue('--stack-cards-gap');
-    getIntegerFromProperty(element); // convert element.marginY to integer (px value)
+    getIntegerFromProperty(element);
     element.elementHeight = element.element.offsetHeight;
 
-    // store card properties
     var cardStyle = getComputedStyle(element.items[0]);
     element.cardTop = Math.floor(parseFloat(cardStyle.getPropertyValue('top')));
     element.cardHeight = Math.floor(parseFloat(cardStyle.getPropertyValue('height')));
 
-    // store window property
     element.windowHeight = window.innerHeight;
 
-    // reset margin + translate values
     if(isNaN(element.marginY)) {
       element.element.style.paddingBottom = '0px';
     } else {
@@ -353,7 +281,7 @@ Math.easeInOutQuad = function (t, b, c, d) {
   };
 
   function animateStackCards() {
-    if(isNaN(this.marginY)) { // --stack-cards-gap not defined - do not trigger the effect
+    if(isNaN(this.marginY)) {
       this.scrolling = false;
       return; 
     }
@@ -365,7 +293,7 @@ Math.easeInOutQuad = function (t, b, c, d) {
       return;
     }
 
-    for(var i = 0; i < this.items.length; i++) { // use only scale
+    for(var i = 0; i < this.items.length; i++) {
       var scrolling = this.cardTop - top - i*(this.cardHeight+this.marginY);
       if(scrolling > 0) {  
         var scaling = i == this.items.length - 1 ? 1 : (this.cardHeight - scrolling*0.05)/this.cardHeight;
@@ -378,7 +306,6 @@ Math.easeInOutQuad = function (t, b, c, d) {
     this.scrolling = false;
   };
 
-  // initialize StackCards object
   var stackCards = document.getElementsByClassName('js-stack-cards'),
     intersectionObserverSupported = ('IntersectionObserver' in window && 'IntersectionObserverEntry' in window && 'intersectionRatio' in window.IntersectionObserverEntry.prototype),
     reducedMotion = Util.osHasReducedMotion();
@@ -406,3 +333,24 @@ Math.easeInOutQuad = function (t, b, c, d) {
     };
 	}
 }());
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.how-can-links a');
+    const slides = document.querySelectorAll('.how-can-slide');
+  
+    // Scroll event to manage active link highlighting
+    window.addEventListener('scroll', () => {
+        slides.forEach((slide, index) => {
+            const rect = slide.getBoundingClientRect();
+            const slideTop = rect.top;
+            const slideHeight = rect.height;
+            const windowHeight = window.innerHeight;
+  
+            if (slideTop >= 0 && slideTop < windowHeight && slideHeight > windowHeight / 4) {
+                links.forEach(link => Util.removeClass(link, 'active'));
+                Util.addClass(links[index], 'active');
+            }
+        });
+    });
+  });
