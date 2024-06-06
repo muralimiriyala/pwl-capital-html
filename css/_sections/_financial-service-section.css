@@ -19,10 +19,9 @@
     .financial-main{max-width: 1230px; margin: 0 auto; padding: 121px 0 113px;}
     body.page-template-default .financial-main{padding: 96px 0 113px;}
     .financial-heading{max-width: 776px; padding: 0 0 77px 50px;}
-    .financial-item{flex: 0 0 421px; padding: 50px; border-left: 1px solid rgba(45, 87, 130, 0.14); border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
+    .financial-item{flex: 0 0 33.3333%; padding: 50px; border-left: 1px solid rgba(45, 87, 130, 0.14); border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     .financial-item:nth-last-child(-n+3){border-bottom: none;}
-    .financial-item:nth-child(3n + 1){flex: 0 0 404px; border-left: none;}
-    .financial-item:nth-child(3n + 3){flex: 0 0 404px; }
+    .financial-item:nth-child(3n + 1){border-left: none;}
     .financial-item{border-left: 1px solid rgba(45, 87, 130, 0.14); }
 
     .financial-item.financial-cta .financial-content .text-link:hover{background-color: var(--aquamarine); color: var(--white);}
@@ -56,7 +55,6 @@
     .financial-heading{line-height: 1.76; margin-bottom: 56px;}
     .financial-heading h2{font-size: 36px; line-height: 1.22; letter-spacing: -0.36px; margin-bottom: 15px;}
     .financial-item{width: 304px; margin-right: 30px;}
-    .financial-item:last-child{display: none !important;}
     .financial-content h3{font-size: 28px; line-height: 1.21;}
     .financial-lists .slick-list{overflow: visible;}
     .financial-lists .slick-list::before{content: ""; position: absolute; top: 0; right: -20px; width: 85px; height: 100%; background-image: linear-gradient(to left ,#fff 15%,transparent 100%); z-index: 1;}
