@@ -4,7 +4,7 @@
 .meet-with-title h1{color: var(--white); margin-bottom: 20px;}
 .meet-with-desc{display: block; font-size: 20px; line-height: 1.55; color: rgba(217, 238, 247, 0.6); font-family: 'Century Gothic'; margin-bottom: 22px; letter-spacing: normal;}
 ul.meet-with-call{margin: 0;}
-ul.meet-with-call > li{margin-bottom: 0; line-height: 1.76;}
+ul.meet-with-call > li{margin-bottom: 0; line-height: 1.7;}
 ul.meet-with-call > li::before{display: none;}
 ul.meet-with-call > li > a{align-items: center; gap: 13px; color: var(--white); font-family: 'Century Gothic'; width: fit-content;}
 ul.meet-with-call > li > a:hover{color: var(--green-pear);}
@@ -29,8 +29,9 @@ body .meet-with-form .frm_forms .frm_form_fields .frm_submit button[type="submit
 ul.meet-location-call{margin: 0;}
 ul.meet-location-call > li{margin-bottom: 5px; line-height: 1.76;}
 ul.meet-location-call > li::before{display: none;}
-ul.meet-location-call > li > a{align-items: center; gap: 10px; color: var(--midnight); font-family: 'Century Gothic'; line-height: normal; width: fit-content;}
+ul.meet-location-call > li > a{align-items: center; gap: 13px; color: var(--midnight); font-family: 'Century Gothic'; line-height: normal; width: fit-content;}
 ul.meet-location-call > li > a:hover {color: var(--capri-ocean);}
+ul.meet-location-call > li > a svg{width: 14px;}
 ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
 
 
@@ -68,6 +69,7 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     .meet-with-title{margin-bottom: 83px;}
     .meet-with-title span.optional-text{margin-bottom: 16px;}
     .meet-with-title h1{margin-bottom: 16px;}
+    .meet-with-desc{margin-bottom: 15px;}
     .meet-with-form{width: 100%;}
     ol.meet-form-step > li::before{top: 0;}
     ol.meet-form-step > li{font-size: 16px; font-weight: 700; line-height: 1.13; letter-spacing: -.48px; align-items: center; display: flex; padding: 0 0 13px 45px; min-height: 53px;}
@@ -77,6 +79,7 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
     .meet-location-list:last-child{margin-bottom: 0;}
     .meet-location-image{flex: 0 0 132px;}
     .meet-location-thumb{box-shadow: -10px 10px 0 0 rgba(8, 148, 211, 0.3);}
+    .meet-location-thumb img{max-height: 133px;}
     .meet-location-text{flex: 0 0 calc(100% - 165px); padding-top: 21px;}
 
     .meet-watermark{top: 0; right: 0;}

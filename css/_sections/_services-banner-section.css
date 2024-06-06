@@ -42,6 +42,8 @@
     .service-banner-stats-col{flex: .5;}
     .service-banner-image .optional-box-bg.top-left{top: 144px;}
     .service-banner-image .optional-box-bg.bottom-right{right: -195px;}
+
+    .service-banner-main.no_image .service-banner-text{flex: 0 0 750px;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {
