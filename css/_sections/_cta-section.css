@@ -13,7 +13,7 @@
 .cta-desc h2{margin-bottom: 17px;}
 .cta-desc p{margin-bottom: 22px;}
 .cta-image-bg{background-color: var(--french-navy, #013); transform: translate(-20px, 20px);}
-body.page-template-become-a-partner .cta-image-bg, body.page-template-services .cta-image-bg{background-color: var(--white);}
+body.page-template-become-a-client .cta-image-bg, body.page-template-services .cta-image-bg{background-color: var(--white);}
 .cta-section.image-bg-white .cta-image-bg{background-color: var(--white);}
 .cta-section.dark-bg-icon .cta-desc-icon{opacity: 0.1;}
 .cta-reverse .cta-image-bg{transform: translate(20px, 20px);}

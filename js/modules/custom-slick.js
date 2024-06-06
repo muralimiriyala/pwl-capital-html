@@ -77,7 +77,7 @@ jQuery(document).ready(function($){
       if ($(window).width() <= 1299) {
         if (!$('.testimonial-main').hasClass('slick-initialized')) {
           $('.testimonial-main').slick({
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             variableWidth: true,
             arrows: false,

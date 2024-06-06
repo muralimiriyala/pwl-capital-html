@@ -16,7 +16,7 @@
 .testimonial-main .slick-list{overflow: visible;}
 .testimonial-main .slick-list::before{content: ""; position: absolute; top: 0; right: -40px; width: 52px; height: 100%; background-image: linear-gradient(to left ,#10B596 25%,transparent 100%); z-index: 1;}
 .testimonial-section.bg-capri-ocean .testimonial-main .slick-list::before{background-image: linear-gradient(to left ,#0894d3 25%,transparent 100%); }
-
+.testimonial-main ul.slick-dots li::before{background-color: var(--white);}
 @media screen and (min-width: 1300px) {
     .testimonial-wrap{padding: 110px 0 109px;}
     .testimonial-main{gap: 50px;}
@@ -41,5 +41,5 @@
     .testimonial-author{left: 48px;}
     .testimonial-bg-arrow::after{width: 51px; height: 64px; background-image: url("./images/testimonial-bg-mob-new.png"); bottom: -49px;}
     .testimonial-main ul.slick-dots{margin-top: 43px;}
-    .testimonial-main ul.slick-dots li::before{background-color: var(--white);}
+    
 }
