@@ -1,7 +1,6 @@
 
 .resource-blog-list:nth-child(10n+7){flex: 0 0 100%; width: 100%; position: relative; background-color: var(--french-navy); color: var(--white);}
 .resource-blog-list:not(:nth-child(10n+7)) .resource-blog-image{margin-bottom: 30px;}
-/* .resource-blog-list:not(:nth-child(10n+7)) .resource-blog-image img{min-height: 206px; max-height: 206px; overflow: hidden; object-position: top;} */
 .resource-blog-text{font-size: 21px; line-height: 1.43; letter-spacing: -0.42px; font-weight: 300; font-family: 'Century Gothic';}
 .resource-blog-text p a{color: var(--midnight);}
 .resource-blog-text p a:hover{color: var(--aquamarine);}
@@ -9,7 +8,6 @@
 .resource-blog-list:nth-child(10n+7) .resource-blog-text p a:hover{color: var(--aquamarine);}
 /* .resource-blog-thumb img{min-height: 228px;} */
 .learn-more-btn{position: relative; z-index: 2;}
-
 
 @media screen and (min-width: 1024px) {
     .resource-blog-wrap{padding: 0 0 117px;}
@@ -24,6 +22,8 @@
     .resource-blog-list:nth-child(10n+7) .resource-blog-text{padding: 84px; font-size: 38px; font-weight: 400; line-height: 49px; letter-spacing: -0.76px; display: flex; flex-wrap: wrap; align-items: center;}
     .resource-blog-list:not(:nth-child(10n+7)) .resource-blog-text p{max-width: 300px; margin-bottom: 9px;} 
     .resource-blog-list:nth-child(10n+7) .resource-blog-text p{margin-bottom: 11px;}
+
+    .resource-blog-list:not(:nth-child(10n+7)) .resource-blog-image img{min-height: 206px; max-height: 206px; overflow: hidden; object-position: top;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .resource-blog-list:nth-child(10n+7) .resource-blog-text{padding: 60px 50px;}
@@ -47,8 +47,9 @@
     .resource-blog-text p{margin-bottom: 9px;}
     .resource-blog-list:nth-last-child(-n+1)::after { height: 155px; width: 100%; top: calc(100% + 68px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light), #fff); position: absolute; z-index: -1; }
 
-
     .resource-blog-list:nth-child(10n+7) { left: -20px; flex: 0 0 calc(100% + 40px); width: calc(100% + 40px); }
     .resource-blog-list:nth-child(10n+7) .resource-blog-text{padding: 36px; font-size: 26px; font-weight: 400; line-height: 36px; letter-spacing: -0.52px; }
     .resource-blog-list:nth-child(10n+7) .resource-blog-text p{margin-bottom: 23px;}
+
+    .resource-blog-list:not(:nth-child(10n+7)) .resource-blog-image img{min-height: 206px; max-height: 206px; overflow: hidden; object-position: top;}
 }

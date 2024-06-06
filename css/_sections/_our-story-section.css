@@ -8,7 +8,7 @@
 .our-story-text p{margin-bottom: 24px;}
 .our-story-text svg{z-index: -1;}
 
-
+.our-story-main.no_image .our-story-desc{max-width: 100%;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px){

@@ -21,6 +21,12 @@
     .become-banner-image{max-width: 540px; transform: translate(0,40px);}
     .become-banner-stats-col{flex: 0 0 calc(100% - 606px);}
 
+    .become-banner-main.no_image{align-items: center;}
+    .become-banner-main.no_image .service-banner-text{flex: 0 0 840px; padding: 210px 0 110px;}
+    .become-banner-main.no_image .service-banner-text p{max-width: 100%;}
+    .become-banner-main.no_image .service-banner-rt{flex: 0 0 200px; justify-content: start;}
+    .become-banner-main.no_image .service-banner-stats-col{flex: 1; padding-top: 0;}
+
 }
 
 @media screen and (max-width: 1409px) and (min-width: 1300px) {
@@ -47,4 +53,5 @@
     .become-banner-stats{padding-bottom: 0; margin-bottom: 0; border-bottom: none;}
     .become-banner-polygon-main{width: 50px; height: 50px; bottom: -50px;}
     .become-banner-polygon-light{width: 50px; height: 50px;}
+    .become-banner-main.no_image .service-banner-rt{justify-content: center; margin-bottom: 30px;}
 }

@@ -9,6 +9,7 @@
 .open-positions-text h2 a:hover{color: var(--green-pear);}
 .open-positions-form{gap: 52px;}
 .positions-categorys{gap: 0 28px;}
+.positions-categorys.no_positions_category ul.positions-category{display: none;}
 ul.positions-category{margin: 0; gap: 0 28px; width: fit-content;} 
 ul.positions-category li{margin: 0; }
 ul.positions-category li::before{width: 3px; height: 3px; right: -17px; left: auto; background-color: rgba(45, 87, 130, 0.14); top: 10px;}

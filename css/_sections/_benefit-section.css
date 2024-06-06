@@ -17,7 +17,7 @@
 }
 @media screen and (min-width: 1024px){
     .benefit-main{padding: 16px 0 90px;}
-    body.page-template-become-a-partner .benefit-main{margin-top: 118px; padding: 16px 0 7px;}
+    body.page-template-become-a-client .benefit-main{margin-top: 118px; padding: 16px 0 7px;}
     .benefit-watermark svg:first-child{position: absolute; left: 841px; top: 18px;}
     .benefit-watermark svg:not(:first-child){position: absolute; left: 1076px; top: 138px;}
     
