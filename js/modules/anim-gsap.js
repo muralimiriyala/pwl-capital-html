@@ -28,7 +28,12 @@ $ovalChart.each(function () {
   tl.fromTo($chart[0], { scale: 0.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.75, ease: 'back.out'}, '>-0.25')
   tl.fromTo($value[0], { scale: 0.9, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.75, ease: 'back.out'}, '<')
   tl.fromTo($label[0], { y: 10, opacity: 0 }, { y: 0, opacity: 1, duration: 0.75, ease: 'back.out'}, '<')
-  tl.fromTo($progress[0], { drawSVG: '0%' }, { drawSVG: value + '%', duration: 2, ease: 'power2.out', onStart: function () { counterRef.start() }}, '<')
+  tl.fromTo(
+    $progress[0],
+    { drawSVG: '0%'},
+    { drawSVG: value + '%', duration: 2, ease: 'power2.out', onStart: function () { counterRef.start(); }},
+    '<'
+  );
 
   $self[0].tl = tl
   $self[0].counter = counterRef
