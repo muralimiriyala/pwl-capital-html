@@ -1,24 +1,32 @@
 jQuery(document).ready(function($){   
   function financialSlider() {
-      if ($(window).width() <= 739) {
+    if ($(window).width() <= 739) {
         if (!$('.financial-lists').hasClass('slick-initialized')) {
-          $('.financial-lists').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            dots: true,
-            speed: 1500,
-            infinite: false,
-            autoplay: false,
-            variableWidth: true,
-          });
+            $('.financial-lists').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true,
+                speed: 1500,
+                infinite: false,
+                autoplay: false,
+                variableWidth: true,
+            });
+
+            var slickInstance = $('.financial-lists').slick("getSlick");
+            var slideCount = slickInstance.slideCount;
+            if (slideCount > 0) {
+                $('.financial-lists').slick('slickRemove', slideCount - 1);
+            }
         }
-      } else {
+    } else {
         if ($('.financial-lists').hasClass('slick-initialized')) {
-          $('.financial-lists').slick('unslick');
+            $('.financial-lists').slick('unslick');
         }
-      }
-  }
+    }
+}
+
+
   financialSlider();
 
   function valuesSlider() {
