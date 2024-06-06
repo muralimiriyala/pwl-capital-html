@@ -31,7 +31,7 @@ $ovalChart.each(function () {
   tl.fromTo(
     $progress[0],
     { drawSVG: '0%'},
-    { drawSVG: value + '%', duration: 2, ease: 'power2.out', onStart: function () { counterRef.start(); }},
+    { drawSVG: value + '%', duration: 2, ease: 'power2.out', onStart: function () { counterRef.start(0); }},
     '<'
   );
 
@@ -91,6 +91,21 @@ $barChart.each(function () {
 
   $self[0].tl = tl
 })
+
+var $graphChart = jQuery('.ui-graph-chart');
+console.log($graphChart, "1")
+$graphChart.each(function (){
+  var $self = jQuery(this)
+  var $svg = $self.find("svg");
+  var $line = $svg.find("line");
+  console.log($self, $svg, $line, "test")
+
+  var tl = gsap.timeline({
+    paused: true
+  })
+  $self[0].tl = tl
+
+});
 
 // Timeline
 var $timeline = jQuery('.ui-timeline')
