@@ -23,6 +23,8 @@
     .service-banner-main{gap: 80px; padding-top: 120px;}
     .service-banner-text{flex: 0 0 540px; padding: 150px 0 50px;}
     .service-banner-rt{flex: 0 0 calc(100% - 620px); gap: 66px; justify-content: end;}
+    .service-banner-main.no_image{align-items: center;}
+    .service-banner-main.no_image .service-banner-rt{justify-content: center;}
     .service-banner-image{max-width: 355px;}
     .service-banner-stats-col{flex: 0 0 calc(100% - 559px); padding-top: 100px;}
 
@@ -45,6 +47,7 @@
     .service-banner-text span.optional-text{margin-bottom: 0;}
     .service-banner-text p{max-width: 100%;}
     .service-banner-rt{flex-direction: row-reverse; align-items: center; justify-content: space-evenly;}
+    .service-banner-main.no_image .service-banner-rt{justify-content: center; margin-bottom: 30px;}
     .service-banner-image{margin: 0; max-width: 200px;}
     .service-banner-stats-col{flex: 0 0 174px;}
     .service-banner-polygon-main{width: 50px; height: 50px; bottom: -50px;}
