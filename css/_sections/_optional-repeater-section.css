@@ -50,6 +50,8 @@
     .optional-repeater-row:nth-child(even){flex-direction: row;}
     .optional-repeater-text{flex: 0 0 422px; margin-right: auto;}
     .optional-repeater-image{flex: 1; max-width: 520px;}
+
+    .optional-repeater-row.no_image .optional-repeater-text{flex: 1; margin-right: 0;}
 }
 @media only screen and (min-width: 1300px){
     .optional-repeater-row{gap: 168px;}
