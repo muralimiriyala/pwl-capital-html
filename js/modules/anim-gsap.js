@@ -85,7 +85,7 @@ $barChart.each(function () {
   setInterval(function () {
     for (let i = 0; i < $bars.length; i++) {
 
-      gsap.to($bars[i], { scaleY: getRandomInt(20, 100) / 100, duration: 0.5, ease: 'power1.out' })
+      gsap.to($bars[i], { scaleY: getRandomInt(50, 100) / 100, duration: 0.5, ease: 'power1.out' })
     }
   }, 1500)
 
