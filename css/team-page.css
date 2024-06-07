@@ -96,8 +96,6 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     body.page-template-default .team-member-wrap{padding: 100px 0 43px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     body.page-template-team #load-more .button{max-width: 200px; min-width: 200px;}
     .team-content-main::before{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; top: 1px; color: rgba(137, 203, 62, 0.1); font-size: 45px; font-weight: bold; line-height: .1;}
-    .team-image img{transition: all .5s ease; overflow: hidden;}
-    .team-item:hover .team-image img{max-height: 280px; min-height: 280px;}
     
 
     
