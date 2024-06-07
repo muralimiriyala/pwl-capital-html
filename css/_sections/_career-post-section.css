@@ -1,8 +1,8 @@
 
 
 .career-post-article > p:first-child > span { font-size: 20px; line-height: 31px; letter-spacing: 0; font-weight: 400; font-family: "Century Gothic", sans-serif;  }
-.career-post-article h3{margin-top: 59px;}
-.career-post-bg{padding: 32px 32px 40px; margin-bottom: 48px; background-color: #e7f4fa; z-index: inherit;}
+.career-post-article h3{margin: 59px 0 26px;}
+.career-post-bg{padding: 32px 30px 40px; margin-bottom: 48px; background-color: #e7f4fa; z-index: inherit;}
 .post-box-shadow{transform: translate(10px, 10px); background-color: var(--ice-blue);}
 .post-box-shadow::after { width: 64px; height: 64px; bottom: -64px; right: 0; clip-path: polygon(15% 0,100% 0,100% 100%,100% 100%); background-color: var(--ice-blue); display: block; content: ""; position: absolute; }
 .career-post-polygon{content: ""; width: 64px; height: 64px; bottom: -64px; right: 0; clip-path: polygon(15% 0, 100% 0, 100% 100%, 100% 100%); background-color: #e7f4fa; display: block;}
@@ -10,10 +10,11 @@
 .post-form-field{margin-bottom: 10px;}
 form.career-post-form .form-field{margin-bottom: 10px !important;}
 form.career-post-form .form-field label{padding: 0 !important;}
-form.career-post-form input{padding: 16px 17px 17px 17px !important; width: 100% !important;color: rgba(16, 42, 70, 0.60) !important; display: block; border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)) !important; background: var(--white, #FFF); font-family: "Century Gothic", sans-serif !important; font-size: 15px !important; font-weight: 400 !important; line-height: 15px !important; }
+form.career-post-form input{padding: 13px 17px 14px 17px !important; width: 100% !important;color: rgba(16, 42, 70, 0.60) !important; display: block; border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)) !important; background: var(--white, #FFF); font-family: "Century Gothic", sans-serif !important; font-size: 15px !important; font-weight: 400 !important; line-height: 15px !important; }
 form.career-post-form .frm_form_field .frm_dropzone{border: 1px solid var(--line-dark,rgba(45,87,130,.14)) !important; max-height: 54px; min-height: auto;}
 form.career-post-form .frm_form_field .frm_dropzone input{opacity: 0;}
 form.career-post-form .frm_form_field .frm_dropzone::before{content: "Attach your CV"; color: rgba(16,42,70,.6); font-family: 'Century Gothic';font-size: 15px; line-height: 15px; height: 100%; position: absolute; width: 100%; padding: 16px 0 0 17px;}
+form.career-post-form .frm_form_field .frm_dropzone input{height: 46px;}
 form.career-post-form .form-field .frm_dropzone .dz-message{display: none !important;}
 form.career-post-form button{width: 100% !important;}
 
@@ -43,6 +44,7 @@ form.career-post-form button{width: 100% !important;}
 	.career-post-icon{margin-bottom: 7px;}
 	.career-post-bg { padding: 34px 37px 40px; }
 	.career-post-article h3{margin-top: 40px;}
+	.career-post-article .text-link{margin-top: 12px;}
 }
 
 

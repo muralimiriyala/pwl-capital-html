@@ -5,7 +5,7 @@ body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 8px 8px 0 0;}
 body.page-template-financial-goals-survey .selectBox-dropdown.selectBox-menuShowing{border-radius: 0;}
 body .selectBox-dropdown .selectBox-arrow{right: 13px; top: 50%; transform: translateY(-50%); font-size: 1rem; color: var(--aquamarine); font-weight: normal; font-family: "Font Awesome 6 pro"; position: absolute;}
-body.page-template-become-a-partner .selectBox-dropdown .selectBox-arrow, body.page-template-financial-goals-survey .selectBox-dropdown .selectBox-arrow{color: var(--capri-ocean);}
+body.page-template-become-a-partner .selectBox-dropdown .selectBox-arrow, body.page-template-financial-goals-survey .selectBox-dropdown .selectBox-arrow, body.page-template-become-a-client .selectBox-dropdown .selectBox-arrow{color: var(--capri-ocean);}
 body .selectBox-dropdown .selectBox-arrow::after{content: "\f078";}
 body.single-career .selectBox-dropdown .selectBox-arrow{color: var(--midnight);}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: "\f077";}
@@ -26,8 +26,9 @@ ul.selectBox-dropdown-menu li.frm-select-placeholder{display: none;}
 ul.selectBox-dropdown-menu li a{padding: 8px 16px; width: 100%; color: var(--french-navy); cursor: pointer; font-size: 15px; line-height: 15px; letter-spacing: 0; font-weight: 400; letter-spacing: normal; display: block; text-transform: none; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-family: 'Century Gothic';}
 ul.selectBox-dropdown-menu li:hover a{color: var(--aquamarine); background-color: transparent;}
 ul.selectBox-dropdown-menu li:hover{background-color: transparent; }
-body.page-template-learn ul.selectBox-dropdown-menu{box-shadow: 0 5px 40px 0 rgba(0, 17, 51, 0.15); max-height: 240px;}
+body.page-template-learn ul.selectBox-dropdown-menu{box-shadow: 0 5px 40px 0 rgba(0, 17, 51, 0.15); max-height: 100%;}
 body.category-resources ul.selectBox-dropdown-menu{ max-height: 240px;}
+body.page-template-become-a-client ul.selectBox-dropdown-menu{ max-height: auto;}
 body.page-template-team ul.selectBox-dropdown-menu{min-width: 187px; margin: 16px 0 0;}
 body.page-template-team ul.selectBox-dropdown-menu::before{left: 15px; right: auto;}
 body.page-template-team ul.selectBox-dropdown-menu li:hover a{color: var(--green-pear); background-color: transparent;}
