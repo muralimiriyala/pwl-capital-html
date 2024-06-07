@@ -31,9 +31,11 @@
 .team-items-row{z-index: 8;}
 .team-item{position: relative;}
 .team-item.active{z-index: 8;}
+
 .team-hide{transition: all 0s ease; opacity: 0.3;}
 .team-list{cursor: pointer;}
-.team-image{margin-bottom: 27px; background-color: rgba(8, 148, 211, 0.1);}
+.team-image{margin-bottom: 27px; background-color: rgba(8, 148, 211, 0.1); transition: all 0.5s ease;}
+.team-list:hover .team-image{transform: scale(1.025);}
 .team-details h3{font-size: 26px; font-weight: 500; line-height: 1.23; letter-spacing: -0.78px; margin-bottom: 8px;}
 .team-details h3 a{color: var(--midnight); }
 .team-details h3 a:hover{color: var(--green-pear);}
@@ -42,10 +44,7 @@
 
 .team-content-main{display: none; position: relative;}
 .team-content-main.team-hide{opacity: 1;}
-.team-content{padding: 79px 100px 78px 89px; 
-    background-color: #f3f9eb;
-/* background-color: green; */
-}
+.team-content{padding: 79px 100px 78px 89px; background-color: #f3f9eb; }
 .team-cont-left h3{margin-bottom: 5px;}
 .team-cont-left > span{font-size: 15px; line-height: 1.47; letter-spacing: -0.45px; color: rgba(16, 42, 70, 0.6); display: block; margin-bottom: 20px;}
 ul.team-social-icon{margin: 0 0 30px 0; gap: 5px;}
@@ -77,11 +76,8 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-content-main:nth-child(5)::before{left: calc(25% / 2 - 39px);}
     .team-content-main:nth-child(6)::before{left: calc(50% - 193px);}
     .team-content-main:nth-child(7)::before{left: calc(75% - 180px);}
-    .team-content-main:nth-child(8)::before{left: calc(100% - 170px);}
-
-    
+    .team-content-main:nth-child(8)::before{left: calc(100% - 170px);}    
 }
-
 @media screen and (min-width: 1024px) {
     .team-list{padding-bottom: 51px; position: relative; z-index: 1;}
     body.page-template-default .team-col:last-child .team-list{padding-bottom: 0;}
@@ -96,11 +92,6 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     body.page-template-default .team-member-wrap{padding: 100px 0 43px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     body.page-template-team #load-more .button{max-width: 200px; min-width: 200px;}
     .team-content-main::before{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; top: 1px; color: rgba(137, 203, 62, 0.1); font-size: 45px; font-weight: bold; line-height: .1;}
-    .team-image img{transition: all .5s ease; overflow: hidden;}
-    .team-item:hover .team-image img{max-height: 280px; min-height: 280px;}
-    
-
-    
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .team-filter-title{width: 100%; margin-bottom: 30px;}
