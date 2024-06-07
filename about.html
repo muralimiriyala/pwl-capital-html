@@ -382,13 +382,19 @@
                             </div>
                         </div>
                         <div class="optional-box-bg bottom-left absolute flex flex-vcenter hide-mobile hide-tablet">
-                            <svg width="80" height="73" viewBox="0 0 80 73" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line opacity="0.2" x1="15.5" y1="11" x2="15.5" y2="58" stroke="white" stroke-linecap="round"/>
-                                <line opacity="0.2" x1="31.8334" y1="11" x2="31.8334" y2="58" stroke="white" stroke-linecap="round"/>
-                                <line opacity="0.2" x1="48.1666" y1="11" x2="48.1666" y2="58" stroke="white" stroke-linecap="round"/>
-                                <line opacity="0.2" x1="64.5" y1="11" x2="64.5" y2="58" stroke="white" stroke-linecap="round"/>
-                                <path d="M13.5 48L31.3721 29.5L48.6279 38L66.5 22" stroke="#89CB3E" stroke-width="5"/>
-                                </svg>
+                            <div class="ui ui-line-chart" data-animation>
+                                <div class="oval-graph relative" data-ui-el="chart">
+                                    <div class="oval-lines flex absolute" data-ui-el="lines">
+                                        <span class="oval-line"></span>
+                                        <span class="oval-line"></span>
+                                        <span class="oval-line"></span>
+                                        <span class="oval-line"></span>    
+                                    </div>
+                                    <svg width="58" height="30" viewBox="0 0 58 30" fill="none">
+                                        <path d="M2.5 28L20.3721 9.5L37.6279 18L55.5 2" stroke="#89CB3E" stroke-width="5" stroke-linecap="round" data-ui-el="progress" />
+                                    </svg>    
+                                </div>
+                            </div>
                             <div class="optional-count inverted font-gothic">
                                 <span>+300k</span>
                                 <p>Net Worth</p>
