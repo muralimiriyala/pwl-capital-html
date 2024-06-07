@@ -4,11 +4,13 @@
 .default-short-content .accordion-content {font-size: 15px; opacity: 0.75; line-height: 25px; }
 .default-short-sidebar h5{margin-bottom: 26px;}
 .default-short-sidebar ul{margin: 0;}
-.default-short-sidebar ul > li::before{content: "\f054"; font-family: "Font Awesome 6 Pro"; color: var(--capri-ocean); width: 0; top: -1px; left: 0;}
-.default-short-sidebar ul > li{font-size: 16px; font-weight: normal;  line-height: 2.13; font-family: 'Century Gothic'; letter-spacing: -0.16px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
-.default-short-sidebar ul > li a{color: var(--midnight); padding: 0 0 11px 24px; display: block;}
-.default-short-sidebar ul > li:hover{font-weight: bold;}
-.default-short-sidebar ul > li:hover a{color: var(--capri-ocean);}
+.default-short-sidebar ul > li{font-size: 16px; font-weight: normal;  line-height: 2.13; font-family: 'Century Gothic'; letter-spacing: -0.16px; border-bottom: 1px solid rgba(45, 87, 130, 0.14); margin: 0;}
+.default-short-sidebar ul > li::before{display: none;}
+.default-short-sidebar ul > li a{color: var(--midnight); padding: 10px 0 11px 24px; display: block; position: relative;}
+.default-short-sidebar ul > li a:hover{font-weight: bold; color: var(--capri-ocean);}
+.default-short-sidebar ul > li a:hover::before{left: 4px; }
+.default-short-sidebar ul > li a::before{content: "\f054"; font-family: "Font Awesome 6 Pro"; color: var(--capri-ocean); width: 0; top: 50%; transform: translateY(-50%); left: 0; position: absolute; transition: all .5s ease;}
+
 
 @media screen and (min-width: 1024px) {
     .default-short-main{gap: 168px; padding: 120px 0 130px;}
