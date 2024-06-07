@@ -20,6 +20,7 @@
 .optional-box-bg.bottom-right{right: -96px; bottom: 26px;}
 .optional-box-bg.bottom-right::after{left: 0; top: -23px; clip-path: polygon(0 0, 100% 100%, 0 100%);}
 
+body.home .optional-circle{z-index: 2;}
 .optional-circle{width: 58px; height: 58px; display: flex; flex-wrap: wrap; align-items: center; color: var(--white, #FFF); font-size: 14px; font-weight: 700; line-height: 15px; }
 .optional-circle svg{top: 0; left: 0; z-index: -1; position: absolute;}
 .optional-count{flex: 1; font-size: 16px; line-height: 20px; font-weight: 300; letter-spacing: -0.32px; color: var(--white-55);}
