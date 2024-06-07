@@ -1,6 +1,5 @@
 var DrawSVGPlugin = DrawSVGPlugin || window.DrawSVGPlugin 
 var CountUp = CountUp || window.CountUp 
-gsap.registerPlugin(ScrollTrigger);
 
 gsap.registerPlugin(DrawSVGPlugin)
 
