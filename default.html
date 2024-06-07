@@ -314,15 +314,19 @@
                             <p>Net Worth</p>
                         </div>
                     </div>
-                    <div class="optional-box-bg top-left absolute flex flex-vcenter ui-graph-chart" data-animation="">
-                        <svg width="40" height="51" viewBox="0 0 40 51" fill="none">
-                            <line opacity="0.2" x1="3.5" y1="6" x2="3.5" y2="40" stroke="white"/>
-                            <line opacity="0.2" x1="36.5" y1="13" x2="36.5" y2="47" stroke="white"/>
-                            <line opacity="0.2" x1="20.5" y1="2.18557e-08" x2="20.5" y2="51" stroke="white"/>
-                            <line x1="4" y1="16" x2="3" y2="31" stroke="#10B596" stroke-width="6"/>
-                            <line x1="37" y1="19" x2="36" y2="34" stroke="#10B596" stroke-width="6"/>
-                            <line x1="21" y1="13" x2="20" y2="36" stroke="#10B596" stroke-width="6"/>
-                        </svg>
+                    <div class="optional-box-bg top-left absolute flex flex-vcenter ui-bar-chart" data-animation="">
+                        <div class="oval-graph relative" data-ui-el="chart">
+                            <div class="oval-lines center flex" data-ui-el="lines">
+                                <span class="oval-line" data-ui-el="bar"></span>
+                                <span class="oval-line" data-ui-el="bar"></span>
+                                <span class="oval-line" data-ui-el="bar"></span>
+                            </div>
+                            <span class="graph-lines flex" data-ui-el="lines">
+                                <span class="graph-line"></span>
+                                <span class="graph-line"></span>
+                                <span class="graph-line"></span>
+                            </span>
+                        </div>
                         <div class="optional-count inverted font-gothic">
                             <span>+300k</span>
                             <p>Net Worth</p>
