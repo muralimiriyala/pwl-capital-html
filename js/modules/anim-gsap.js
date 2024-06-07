@@ -1,5 +1,6 @@
 var DrawSVGPlugin = DrawSVGPlugin || window.DrawSVGPlugin 
 var CountUp = CountUp || window.CountUp 
+gsap.registerPlugin(ScrollTrigger);
 
 gsap.registerPlugin(DrawSVGPlugin)
 
@@ -93,16 +94,21 @@ $barChart.each(function () {
 })
 
 var $graphChart = jQuery('.ui-graph-chart');
-console.log($graphChart, "1")
-$graphChart.each(function (){
+$graphChart.each(function(){
   var $self = jQuery(this)
   var $svg = $self.find("svg");
   var $line = $svg.find("line");
-  console.log($self, $svg, $line, "test")
-
   var tl = gsap.timeline({
-    paused: true
+    paused: true,
+    defaults: { duration: 1.25 } 
   })
+  tl.fromTo($line[0], {opacity: 1,  drawSVG: '0%' }, { opacity: 0.2,  drawSVG: '100%', ease: 'back.inOut'})
+  tl.fromTo($line[1], {  opacity: 1, drawSVG: '0%'}, { opacity: 0.2, drawSVG: '100%', ease: 'power1.out'},  '>-0.25')
+  tl.fromTo($line[2], {opacity: 1, drawSVG: '0%'}, { opacity: 0.2, drawSVG: '100%', ease: 'back.out'}, '<')
+
+  tl.fromTo($line[3], {drawSVG: '0%', y: -31 }, {y: 0, drawSVG: '100%', ease: 'back.inOut'})
+  tl.fromTo($line[4], {drawSVG: '0%', y: -34}, { y: 0, drawSVG: '100%', ease: 'power1.out'},  '>-0.25')
+  tl.fromTo($line[5], {drawSVG: '0%', y: 36, }, {y:0, drawSVG: '100%', ease: 'back.out'}, '<')
   $self[0].tl = tl
 
 });
