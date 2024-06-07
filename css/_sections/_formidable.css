@@ -77,6 +77,7 @@ body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_
 body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-transparent{background-color: transparent; border: 2px solid var(--green-pear);}
 body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-transparent:hover{background-color: var(--green-pear);}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
+body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0; width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: fit-content;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background: url("./images/calendar-icon.svg") no-repeat 95% 19px; background-size: 14px 14px;}
@@ -114,7 +115,7 @@ body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field label small{font-
 body .frm_forms .frm_form_fields .frm_submit button span{font-size: 1rem;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field  div.frm_primary_label{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: transparent;}
-body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wrapper #frm_field_13_container{margin-left: 0;}
+body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wrapper #frm_field_13_container{margin-left: 0; flex: 100%;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -171,6 +172,7 @@ body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wra
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 0; flex: 1;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 0;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex: 0 0 100%; padding-top: 6px;}
+    body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{gap: 20px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{line-height: 1.13;}
 
     body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
@@ -185,5 +187,5 @@ body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wra
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third:nth-child(2){margin-left: 0;}     
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin: 2px 0 5px; float: none; display: block;}
 
-    body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
+    body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_prev_page{width: 100%;}
 }
