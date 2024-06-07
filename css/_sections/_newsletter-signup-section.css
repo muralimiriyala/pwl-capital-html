@@ -17,12 +17,15 @@
 .newsletter-disclaimer svg{width: 18px; top: 21px; left: 0; position: absolute;}
 .newsletter-polygon{left: 0; bottom: -110px; width: 111px; height: 111px; background-color: var(--french-navy); clip-path: polygon(0 0, 100% 0%, 50% 50%, 0% 100%);}
 
+.newsletter-signup .frm_forms .frm_form_fields .frm_submit button{background-color: var(--green-pear) !important;}
+.newsletter-signup .frm_forms .frm_form_fields .frm_submit button:hover{background-color: var(--capri-ocean) !important;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .newsletter-main{gap: 168px; padding: 100px 0;} 
     .newsletter-text{flex: 0 0 540px;}
     .newsletter-signup{flex: 1;}
-    .newsletter-signup .frm_forms .frm_form_fields .frm_submit{position: absolute; top: 0; right: 0; max-width: 140px; height: 100%;}
+    .newsletter-signup .frm_forms .frm_form_fields .frm_submit{position: absolute; top: 0; right: 0; min-width: 140px; height: 100%;}
     .newsletter-signup .frm_forms .frm_form_fields .frm_submit button{height: 100%;}
     .newsletter-watermark{right: -107px; top: -22px; z-index: -1;}
     .newsletter-field{width: calc(50% - 10px); margin: 0 10px 20px; float: left;}
