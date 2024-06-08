@@ -14,14 +14,16 @@
 @media screen and (min-width: 1024px) {
     .learn-grid-wrap{padding: 120px 0 66px;}
     .learn-grid-main{gap: 76px 50px; padding: 0 0 128px;}
+    .no-post{text-align: center; display: block; width: 100%; padding-top: 95px;}
+    .no-post h2{margin: 0;}
     .learn-grid-list{flex: 0 0 calc(33% - 30.5px);}
     .learn-grid-list:nth-last-child(-n+3)::after { height: 155px; width: 100%; top: calc(100% + 76px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light), #fff); position: absolute; z-index: -1; }
     
     .learn-grid-image{flex: 0 0 50%;}
-    .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-thumb img{max-height: 206px; min-height: 206px; object-position: top;}
+    .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-thumb img{max-height: 226px; min-height: 226px; object-position: top;}
     .learn-grid-text{flex: 1;}
     
-    .learn-grid-list:nth-child(10n+4){flex: 0 0 100%; display: flex; flex-wrap: wrap;}
+    .learn-grid-list:nth-child(10n+4){flex: 0 0 100%; display: flex; flex-wrap: wrap; margin: 30px 0 14px;}
     .learn-grid-list:nth-child(10n+4) .learn-grid-text{padding: 84px; font-size: 38px; font-weight: 400; line-height: 49px; letter-spacing: -0.76px; display: flex; flex-wrap: wrap; align-items: center;}
     .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-text p{max-width: 300px; margin-bottom: 9px;} 
     .learn-grid-list:nth-child(10n+4) .learn-grid-text p{margin-bottom: 11px;}

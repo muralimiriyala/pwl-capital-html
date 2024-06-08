@@ -23,7 +23,7 @@
     .resource-blog-list:not(:nth-child(10n+7)) .resource-blog-text p{max-width: 300px; margin-bottom: 9px;} 
     .resource-blog-list:nth-child(10n+7) .resource-blog-text p{margin-bottom: 11px;}
 
-    .resource-blog-list:not(:nth-child(10n+7)) .resource-blog-image img{min-height: 206px; max-height: 206px; overflow: hidden; object-position: top;}
+    .resource-blog-list:not(:nth-child(10n+7)) .resource-blog-image img{min-height: 226px; max-height: 226px; overflow: hidden; object-position: top;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .resource-blog-list:nth-child(10n+7) .resource-blog-text{padding: 60px 50px;}
