@@ -31,7 +31,7 @@ $ovalChart.each(function () {
   tl.fromTo(
     $progress[0],
     { drawSVG: '0%'},
-    { drawSVG: value + '%', duration: 2, ease: 'power2.out', onStart: function () { counterRef.start(0); }},
+    { drawSVG: value + '%', duration: 1, ease: 'power2.out', onStart: function () { counterRef.start(0); }},
     '<'
   );
 
@@ -112,7 +112,7 @@ $timeline.each(function () {
     tl.fromTo($circle[0], { scale: 0, transformOrigin: '50% 50%' }, { scale: 1, duration: 0.6, ease: 'back.out'}, '<')
   })
   $line.each(function (index) {
-    tl.fromTo(jQuery(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 4, ease: 'none'}, 'start')
+    tl.fromTo(jQuery(this)[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1, ease: 'none'}, 'start')
   })
 
   $self[0].tl = tl
@@ -129,7 +129,7 @@ $drawing.each(function () {
     paused: true
   })
 
-  tl.fromTo($path[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1.5, ease: 'power1.out'})
+  tl.fromTo($path[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1, ease: 'power1.out'})
 
   $self[0].tl = tl
 })
@@ -146,8 +146,8 @@ $drawingLine.each(function () {
     paused: true
   })
 
-  tl.fromTo($path[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1.5, ease: 'power1.out'})
-  tl.fromTo($path[1], { drawSVG: '0%' }, { drawSVG: '100%', duration: 2, ease: 'power1.out'})
+  tl.fromTo($path[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1, ease: 'power1.out'})
+  tl.fromTo($path[1], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1, ease: 'power1.out'})
 
   $self[0].tl = tl
 })
