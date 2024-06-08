@@ -1,6 +1,7 @@
 
 
 .learn-financial-intro{color: rgba(16, 42, 70, 0.60);}
+.learn-financial-intro span.optional-text.muted { margin-bottom: 14px; color: rgba(16, 42, 70, 0.6); }
 .learn-financial-intro h1{margin-bottom: 21px;}
 .learn-financial-desc{max-width: 660px;}
 .learn-financial-form{margin-bottom: 20px;}
@@ -21,13 +22,13 @@ input.browse-news-input{padding: 0; margin: 0; cursor: pointer; background: none
 /* media css starts here */
 @media screen and (min-width: 1024px){
     .learn-financial-intro{margin-bottom: 42px;}
-    .learn-watermarks{top: -10px; right: 0; width: 380px;}
+    .learn-watermarks{top: -10px; right: -35px; width: 380px;}
     .learn-watermarks svg:nth-child(2){left: 50px; top: -89px;}
     .browse-all-form{gap: 10px;}
     .browse-field{flex: 0 0 calc(33.3333% - 7px);}
 }
 @media screen and (min-width: 1300px){
-    .learn-financial-main{padding: 42px 0 110px;}
+    .learn-financial-main{padding: 37px 0 110px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .learn-financial-main{padding: 42px 0 80px;}
