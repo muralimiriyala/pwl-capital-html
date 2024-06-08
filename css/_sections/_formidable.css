@@ -120,6 +120,7 @@ body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wra
 body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{color: var(--pacific-blue);}
 body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field input, body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field textarea{ border: solid 1px var(--line-dark);}
 body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{color: var(--midnight);}
+body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{width: 100%; flex: auto;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8px; float: none; clear: none; display: inline-block; vertical-align: top;}

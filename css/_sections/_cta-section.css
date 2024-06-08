@@ -59,7 +59,7 @@ body.page-template-become-a-client .cta-image-bg, body.page-template-services .c
     .cta-stats-col{display: flex; width: 100%; gap: 80px;}
     .cta-stats{padding-bottom: 0; margin-bottom: 0; border-bottom: none; text-align: start;}
     .cta-image{position: relative; margin-right: 20px; transform: translate( 0, 20px);}
-    body.page-template-become-a-partner .cta-image-bg, body.page-template-services .cta-section.cta-reverse .cta-image-bg{background-color: var(--capri-ocean);}
+    body.page-template-become-a-partner .cta-image-bg, body.page-template-services .cta-section.cta-reverse .cta-image-bg,  body.page-template-become-a-client .cta-section.cta-reverse .cta-image-bg{background-color: var(--capri-ocean);}
     /* .cta-section.blue-shadow .cta-image-bg{transform: translate(20px,20px);} */
     .cta-section.mob-shadow-right .cta-image-bg{transform: translate(20px,20px);}
     body.page-template-home .cta-section .cta-image-bg{transform: translate(20px,20px);}
