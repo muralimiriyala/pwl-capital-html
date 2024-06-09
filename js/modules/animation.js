@@ -47,7 +47,6 @@
 
 gsap.registerPlugin(ScrollTrigger);
 const $animation_elements = jQuery('[data-animation]');
-
 $animation_elements.each(function(){
     const $self = jQuery(this);
     const animation = $self.data('animation');
@@ -62,10 +61,10 @@ $animation_elements.each(function(){
             toggleActions: "play none none none",
             // markers: true, 
             onEnter: function(){
-                $self.addClass(animation).addClass('visible');
-                if (timeline) {
-                    timeline.play();
-                  }   
+              $self.addClass(animation).addClass('visible');
+              if (timeline) {
+                  timeline.play();
+                }   
             },
             onLeave: function(){
               if (timeline && timeline.progress() > 0) {
