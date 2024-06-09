@@ -1,7 +1,7 @@
 
 
 .resources-category-intro{letter-spacing: 0; color: rgba(16, 42, 70, 0.60);}
-.resources-category-intro h1{margin-bottom: 21px;}
+.resources-category-intro h1{margin-bottom: 16px;}
 .resources-category-desc{max-width: 660px;}
 .category-srch-form input{padding: 3px 17px; width: calc(100% - 48px); height: auto; font-size: 15px; line-height: 15px; letter-spacing: 0; color: rgba(16, 42, 70, 0.60); border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)); background-color: var(--white, #FFF); text-transform: capitalize;}
 .category-srch-form button[type="submit"]{padding: 0; width: 48px; height: 100%; background-color: var(--aquamarine); border-radius: 0; border: none;}
@@ -19,7 +19,7 @@ input.category-news-input{padding: 0; margin: 0; cursor: pointer; background: no
 
 /* media css starts here */
 @media screen and (min-width: 1024px){
-    .resources-category-intro{margin-bottom: 42px;}
+    .resources-category-intro{margin-bottom: 28px;}
     .category-watermarks{top: -47px; right: -235px; width: 584px;}
     .category-forms-main{flex-direction: row-reverse;}
     .category-all-form{gap: 10px; flex: 0 0 512px;}
@@ -27,7 +27,7 @@ input.category-news-input{padding: 0; margin: 0; cursor: pointer; background: no
     .category-srch-form{flex: 1;}
 }
 @media screen and (min-width: 1300px){
-    .resources-category-main{padding: 47px 0 109px;}
+    .resources-category-main{padding: 57px 0 109px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .resources-category-main{padding: 42px 0 80px;}
@@ -48,8 +48,9 @@ input.category-news-input{padding: 0; margin: 0; cursor: pointer; background: no
     .category-watermarks svg:nth-child(2){display: none;}
     .category-all-form{display: block; margin-top: 10px;}
     .category-field:not(:last-child){margin-bottom: 10px;}
-    .category-srch-form input{padding: 7px 17px; font-size: 18px; line-height: 18px;}
-    /* .category-srch-form button[type="submit"]{width: 58px;} */
+    .category-srch-form{margin-bottom: 10px;}
+    .category-srch-form input{padding: 7px 17px; font-size: 18px; line-height: 18px; width: calc(100% - 58px);}
+    .category-srch-form button[type="submit"]{width: 58px;}
 }
 
 
