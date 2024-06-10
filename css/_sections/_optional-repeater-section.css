@@ -43,6 +43,8 @@ body.home .optional-circle{z-index: 2;}
 .graph-line{width: 1px; height: 48px; background-color: var(--white); opacity: 0.2; display: block;}
 
 .oval-lines.bar-lines{top: 0;}
+.oval-lines.bar-lines span.oval-line{position: relative;}
+.oval-lines.bar-lines span.oval-line:nth-child(3){left: -1px;}
 .bar-lines span.oval-line:last-child{display: none;}
 [data-ui-el="bars"]{left: -1px; position: relative;}
 
