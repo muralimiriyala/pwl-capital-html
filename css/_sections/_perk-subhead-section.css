@@ -16,11 +16,12 @@
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .perk-subhead-main .slick-list{overflow: visible;}
     .perk-subhead-main .slick-list::before{content: ""; position: absolute; top: 0; right: -20px; width: 70px; height: 100%; background-image: linear-gradient(90deg, transparent 0%, rgba(255,255,255,1) 100%); z-index: 1;}
-    .perk-subhead-main ul.slick-dots{margin-top: 57px;}
+    .perk-subhead-main ul.slick-dots{margin-top: 51px;}
     .perk-subhead-main{margin-bottom: 85px;}
     .perk-subhead-list{width: 307px; margin-left: 30px;}
     .perk-subhead-list:first-child{margin-left: 0;}
-    .perk-subhead-list h2{font-size: 28px;}
+    .perk-subhead-list h2{font-size: 28px; margin-bottom: 11px;}
+    .perk-line{margin-bottom: 21px;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 740px) {
