@@ -50,6 +50,7 @@ const $animation_elements = jQuery('[data-animation]');
 $animation_elements.each(function(){
     const $self = jQuery(this);
     const animation = $self.data('animation');
+    const delay = $self.data('animation-delay');
     const timeline = $self[0].tl
     const counter = $self[0].counter
 
