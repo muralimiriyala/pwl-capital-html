@@ -17,7 +17,7 @@
     .our-story-thumb img{min-height: 453px;}
     .our-story-text{flex: 1;}
     .our-story-desc{max-width: 422px;}
-    .our-story-text h1{ font-size: 90px; line-height: 90px; letter-spacing: -0.9px; }
+    .our-story-text h1{ font-size: 90px; line-height: 100px; letter-spacing: -0.9px; }
 
     .our-story-text svg:nth-child(1){right: -77px; top: -68px;}
     .our-story-text svg:nth-child(2){right: -192px; top: 99px;}

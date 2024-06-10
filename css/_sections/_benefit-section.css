@@ -48,4 +48,5 @@
     .benefit-lists ul.slick-dots li::before{background-color: var(--pacific-blue);}
     .benefit-item{width: 307px; margin-right: 30px; padding-top: 21px;}
     .benefit-watermark svg{right: 13px; position: absolute; top: -18px;}
+    .benefit-icon{margin-bottom: 14px;}
 }
