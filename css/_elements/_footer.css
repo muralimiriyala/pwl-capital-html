@@ -13,6 +13,7 @@
 .footer-list ul > li::before{display: none;}
 .footer-list ul > li a{color: #fff;}
 .footer-list ul > li a:hover{color: #0894d3;}
+.footer-list ul > li.current-menu-item a{color: #0894d3;}
 
 
 ul.copyright-links{margin: 0 0 10px 0; gap: 25px;}

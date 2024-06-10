@@ -3,7 +3,7 @@
 .optional-repeater-text span.optional-text{margin-bottom: 10px;}
 .optional-repeater-text h2{margin-bottom: 22px;}
 .optional-repeater-text p:not(:last-child){margin-bottom: 20px;}
-.optional-repeater-text ul{margin: 0 0 33px 17px;}
+.optional-repeater-text ul{margin: 0 0 33px 23px;}
 .optional-repeater-text ul li{margin-bottom: 11px;}
 .optional-repeater-bg{transform: translate(-20px, 20px); opacity: 0.3; background: var(--capri-ocean, #0894D3);}
 .optional-repeater-bg.aquamarine{background-color: var(--aquamarine);}
@@ -49,6 +49,7 @@ body.home .optional-circle{z-index: 2;}
 /* media css starts here */
 @media only screen and (min-width: 1024px){
     .optional-repeater-main{padding: 118px 0 115px;}
+    body.page-template-career .optional-repeater-main{padding: 108px 0 138px;}
     .optional-repeater-row{flex-direction: row-reverse; align-items: center;}
     .optional-repeater-row.reverse{flex-direction: row;}
     .optional-repeater-row:not(:last-child){margin-bottom: 124px;}

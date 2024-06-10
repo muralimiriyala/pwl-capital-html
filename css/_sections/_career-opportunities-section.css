@@ -15,7 +15,7 @@
 @media screen and (min-width: 1024px){
     .career-opps-section{ box-shadow: -20px 20px 0 0 rgba(8, 148, 211, 0.2);}
     .career-opps-main{gap: 147px; padding: 141px 0 0;}
-    .career-opps-watermark{top: 73px; left: -304px;}
+    .career-opps-watermark{top: 73px; left: -320px;}
     .career-opps-text{flex: 1; padding-top: 60px; max-width: 423px; margin-left: auto;}
     .career-opps-image{flex: 0 0 425px; transform: translateY(9px);}
     .career-opps-thumb img{max-height: 452px; overflow: hidden;}
