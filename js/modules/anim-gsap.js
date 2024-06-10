@@ -218,7 +218,10 @@ uitick.each(function(){
   var tl = gsap.timeline({
     paused: true
   });
+  
   tl.fromTo($path[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1, ease: 'power1.out'})
+  tl.fromTo($path[1], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1, ease: 'power1.out'})
+ 
   $self[0].tl = tl;
 });
 
