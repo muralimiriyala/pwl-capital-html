@@ -1,6 +1,6 @@
 
 
-.benefit-title{margin-bottom: 88px;}
+.benefit-title{margin-bottom: 91px;}
 .benefit-title span.optional-text{color: rgba(33, 82, 131, 0.6);}
 .benefit-title h2{margin-bottom: 15px;}
 .benefit-icon{margin-bottom: 8px;}
@@ -18,8 +18,8 @@
 @media screen and (min-width: 1024px){
     .benefit-main{padding: 16px 0 90px;}
     body.page-template-become-a-client .benefit-main{margin-top: 118px; padding: 16px 0 7px;}
-    .benefit-watermark svg:first-child{position: absolute; left: 841px; top: 18px;}
-    .benefit-watermark svg:not(:first-child){position: absolute; left: 1076px; top: 138px;}
+    .benefit-watermark svg:first-child{position: absolute; left: 829px; top: 18px;}
+    .benefit-watermark svg:not(:first-child){position: absolute; left: 1063px; top: 138px;}
     
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
