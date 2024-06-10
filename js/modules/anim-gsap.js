@@ -214,9 +214,11 @@ directionsChart.each(function(){
 const uitick = jQuery(".ui-tick");
 uitick.each(function(){
   const $self = jQuery(this);
+  const delay = $self.data('animation-delay');
   const $path = $self.find("svg path");
   var tl = gsap.timeline({
-    paused: true
+    paused: true,
+    delay: delay,
   });
   
   tl.fromTo($path[0], { drawSVG: '0%' }, { drawSVG: '100%', duration: 1, ease: 'power1.out'})
