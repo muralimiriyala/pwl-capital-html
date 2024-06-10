@@ -8,6 +8,7 @@
 .question-nt-cont .optional-text{color: #0894d3; font-weight: 500;}
 .question-nt-cont h4{font-size: 26px; font-weight: 500; line-height: 1.23; letter-spacing: -0.78px; margin-bottom: 18px;}
 .question-nt-sm{width: 141px; margin: -60px auto 0;}
+.question-icon svg, .question-icon figure{width: 54px;}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
