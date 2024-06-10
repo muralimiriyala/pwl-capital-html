@@ -236,7 +236,7 @@ testimonialSlider();
             settings: {
               dots: true,
               slidesToShow: 1,
-              slidesToScroll: 2,
+              slidesToScroll: 1,
             }
           },
         ]
