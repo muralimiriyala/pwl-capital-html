@@ -15,6 +15,8 @@
 
 /* media css starts here */
 @media only screen and (min-width: 1024px){
+    body.page-template-about .short-intro-main{padding: 103px 0 98px;}
+    body.page-template-about .short-about-watermark{top: 111px;}
     .short-intro-head{padding-bottom: 69px;}
     .short-intro-title{flex: 0 0 442px;}
     .short-intro-desc{flex: 1;}
@@ -39,7 +41,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .short-intro-main { padding: 73px 0 98px; }
-    .short-about-watermark{top: 113px; left: 0;}
+    .short-about-watermark{top: 113px; left: 15px;}
     .short-intro-head{display: block; padding: 0 0 69px;}
     .short-intro-row{display: block;}
     .short-intro-row .slick-list{overflow: inherit;}
@@ -52,7 +54,8 @@
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .short-intro-main { padding: 73px 0 98px; }
-    .short-about-watermark{top: 113px; left: 0;}
+    body.page-template-about .short-intro-main {padding: 73px 0 90px;}
+    .short-about-watermark{top: 113px; left: 15px;}
     .short-intro-head{display: block; padding: 0 0 69px;}
     .short-intro-row{display: block;}
     .short-intro-row .slick-list{overflow: inherit;}

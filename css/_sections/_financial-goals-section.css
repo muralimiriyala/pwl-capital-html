@@ -8,7 +8,7 @@
 .financial-goals-image .optional-box-bg.top-right{right: 40px; top: 203px; gap: 22px;}
 .financial-goals-image .optional-box-bg.bottom-left { left: 473px; bottom: 190px; }
 .financial-goals-image .center .oval-line{background-color: #89cb3e;}
-.financial-goals-left{max-width: 659px; padding: 195px 0 100px;}
+.financial-goals-left{max-width: 659px; padding: 195px 0 100px; position: relative; z-index: 2;}
 .financial-goals-text h1{margin-bottom: 25px;}
 .financial-goals-text h5{font-weight: 500; margin-bottom: 2px;}
 .financial-goals-text span.optional-text {margin-bottom: 20px;}

@@ -176,6 +176,7 @@ body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field_w
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 0; flex: 1;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 0;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex: 0 0 100%; padding-top: 6px;}
+    body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit, body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{gap: 20px;}
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{gap: 20px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{line-height: 1.13;}
 

@@ -3,8 +3,8 @@
 
 .our-story-text{ color: var(--muted-dark, rgba(16, 42, 70, 0.60)); font-family: "Century Gothic", sans-serif; font-size: 20px; font-weight: 400; line-height: 31px; }
 .our-story-image{box-shadow: -20px 20px 0 var(--aquamarine);}
-.our-story-text span.optional-text{margin-bottom: 2px;}
-.our-story-text h1{margin-bottom: 9px; color: var(--midnight);}
+.our-story-text span.optional-text{margin-bottom: 7px;}
+.our-story-text h1{margin-bottom: 13px; color: var(--midnight);}
 .our-story-text p{margin-bottom: 24px;}
 .our-story-text svg{z-index: -1;}
 
@@ -16,11 +16,12 @@
     .our-story-image{flex: 0 0 425px;}
     .our-story-thumb img{min-height: 453px;}
     .our-story-text{flex: 1;}
-    .our-story-desc{max-width: 422px;}
+    .our-story-desc{max-width: 422px; top: -20px; position: relative;}
     .our-story-text h1{ font-size: 90px; line-height: 100px; letter-spacing: -0.9px; }
 
     .our-story-text svg:nth-child(1){right: -77px; top: -68px;}
     .our-story-text svg:nth-child(2){right: -192px; top: 99px;}
+    .our-story-text svg:nth-child(3){display: none;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .our-story-main{gap: 84px;}
@@ -38,12 +39,14 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .our-story-text h1{ font-size: 64px; font-weight: 700; line-height: 74px; letter-spacing: -0.64px; }
+    .our-story-text svg{right: 13px; top: -54px; display: none;}
+    .our-story-text svg:nth-child(3){display: block;}
 
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .our-story-main{padding: 58px 0 100px; display: block;}
     .our-story-text{margin-bottom: 60px;}
     .our-story-image{margin-left: 20px;}
-    .our-story-text svg{right: 13px; top: -54px; transform: scaleX(-1);}
-    .our-story-text svg:nth-child(n+2){display: none;}
+    .our-story-text svg{right: 13px; top: -54px; display: none;}
+    /* .our-story-text svg:nth-child(n+2){display: none;} */
 }
