@@ -11,6 +11,8 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
 body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 30px; position: relative; clear: both;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 23px; position: relative; clear: both;}
+body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field.field_survey_4 {max-width: 304px;}
+body.page-template-financial-goals-survey .frm_forms .frm_form_fields.frm_page_num_5 { max-width: 363px; }
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px;}
 body .frm_forms .frm_form_fields .frm_description{display: none;}
 body .frm_forms .frm_required{display: none;}
@@ -23,6 +25,7 @@ body .gated-post-form .frm_forms .frm_form_fields .frm_submit{margin-top: 32px;}
 body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; margin: 0;}
 body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field #field_s9ekf_label{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 16px; line-height:  0.94; font-weight: bold; font-family: 'Century Gothic'; color: var(--white); text-transform: none; padding: 0 0 9px;}
+body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 23px; line-height:  27px; font-weight: 500; font-family: brother-1816,sans-serif; color: var(--white); text-transform: none; padding: 0 0 14px;}
 body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{color: var(--pacific-blue);}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
