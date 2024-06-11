@@ -72,7 +72,7 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="chec
 body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1; justify-content: space-between; width: auto;}
 body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_submit{width: auto;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit{justify-content: inherit;}
-body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 140px; background-color: var(--green-pear);}
+body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{min-width: 140px; background-color: var(--green-pear);}
 body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--capri-ocean); color: var(--white);}
 body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_prev_page{background-color: transparent; border: 2px solid var(--green-pear);}
 body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_prev_page:hover{background-color: var(--green-pear);}
@@ -116,6 +116,7 @@ body .frm_forms .frm_form_fields .frm_submit button span{font-size: 1rem;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field  div.frm_primary_label{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: transparent;}
 body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wrapper #frm_field_13_container{margin-left: 0; flex: 100%;}
+body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field {flex: 100%;}
 
 body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{color: var(--pacific-blue);}
 body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field input, body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field textarea{ border: solid 1px var(--line-dark);}
