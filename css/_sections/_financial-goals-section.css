@@ -2,7 +2,7 @@
 .financial-goals-section{background: var(--french-navy, #013); box-shadow: -20px 20px 0 0 #d9eef7; border-bottom: 1px solid rgba(255, 255, 255, 0.2);}
 .financial-goals-image{max-width: 1107px; width: 100%; height: 100%; top: 0; right: 0; position: absolute; z-index: 1;}
 .financial-goals-image .optional-box-bg{width: 280px; }
-.financial-goals-image .optional-box-bg.top-right{right: 40px; top: 203px; gap: 22px;}
+.financial-goals-image .optional-box-bg.top-right{right: 40px; top: 203px; gap: 14px;}
 .financial-goals-image .optional-box-bg.bottom-left { left: 473px; bottom: 190px; }
 .financial-goals-image .center .oval-line{background-color: #89cb3e;}
 .financial-goals-left{max-width: 659px; padding: 195px 0 100px; position: relative; z-index: 2;}
@@ -18,27 +18,28 @@
 body.page-template-financial-goals-survey ul > li::before{background: var(--green-pear);}
 
 .goals-desc:first-child{display: block;}
-.goals-desc{display: none;}
-#goals-desc-1{margin-bottom: 22px;}
+.goals-desc{display: none; margin-bottom: 28px;}
+#goals-desc-1{margin-bottom: 28px;}
 .goals-image:first-child{display: block;}
 .goals-image{display: none;}
+.step-2-icon{margin: -18px 2px 0 0;}
 
 @media screen and (min-width: 1024px) {
     body.page-template-financial-goals-survey.survey5 .financial-goals-form{max-width: 363px;}
     body.page-template-financial-goals-survey.survey3 .financial-goals-image{height: 969px;}
     body.page-template-financial-goals-survey.survey4 .financial-goals-image{height: 982px;}
-    body.page-template-financial-goals-survey.survey1 .financial-goals-text h1{max-width: 470px;}
-    body.page-template-financial-goals-survey.survey2 .financial-goals-image .optional-box-bg.bottom-left{left: 636px; bottom: 225px;}
+    body.page-template-financial-goals-survey .financial-goals-text #goals-desc-1 h1{max-width: 470px;}
+    body.page-template-financial-goals-survey .financial-goals-image #goals-image-2 .optional-box-bg.bottom-left{left: 636px; bottom: 225px;}
     .financial-goals-image .optional-box-bg.bottom-right{right: 169px; bottom: 321px;}
-    body.page-template-financial-goals-survey.survey5 .financial-goals-image .optional-box-bg.bottom-left{left: 377px; bottom: 314px;}
-    body.page-template-financial-goals-survey.survey3 .financial-goals-image .optional-box-bg.bottom-left{left: 542px; bottom: 251px;}
+    body.page-template-financial-goals-survey .financial-goals-image #goals-image-5 .optional-box-bg.bottom-left{left: 377px; bottom: 314px;}
+    body.page-template-financial-goals-survey .financial-goals-image #goals-image-3 .optional-box-bg.bottom-left{left: 542px; bottom: 251px;}
 }
 @media screen and (max-width: 1399px) and (min-width: 1024px) {
-    body.page-template-financial-goals-survey.survey2 .financial-goals-image .optional-box-bg.bottom-left, body.page-template-financial-goals-survey.survey3 .financial-goals-image .optional-box-bg.bottom-left{left: auto; right: 20px;}
+    body.page-template-financial-goals-survey .financial-goals-image #goals-image-2 .optional-box-bg.bottom-left, body.page-template-financial-goals-survey .financial-goals-image #goals-image-3 .optional-box-bg.bottom-left{left: auto; right: 20px;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
-    body.page-template-financial-goals-survey.survey4 .financial-goals-image .optional-box-bg.bottom-right{right: 20px;}
-    body.page-template-financial-goals-survey.survey5 .financial-goals-image .optional-box-bg.bottom-left{left: 450px;}
+    body.page-template-financial-goals-survey .financial-goals-image #goals-image-4 .optional-box-bg.bottom-right{right: 20px;}
+    body.page-template-financial-goals-survey .financial-goals-image #goals-image-5 .optional-box-bg.bottom-left{left: 450px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .financial-goals-section .container{padding: 0;}
