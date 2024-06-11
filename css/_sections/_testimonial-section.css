@@ -17,20 +17,20 @@
 .testimonial-main .slick-list::before{content: ""; position: absolute; top: 0; right: -40px; width: 52px; height: 100%; background-image: linear-gradient(to left ,#10B596 25%,transparent 100%); z-index: 1;}
 .testimonial-section.bg-capri-ocean .testimonial-main .slick-list::before{background-image: linear-gradient(to left ,#0894d3 25%,transparent 100%); }
 .testimonial-main ul.slick-dots li::before{background-color: var(--white);}
+
+/*-- media css starts here --*/
 @media screen and (min-width: 1300px) {
     .testimonial-wrap{padding: 110px 0 109px;}
-    .testimonial-main{gap: 50px;}
+    .testimonial-main{gap: 50px; flex-wrap: nowrap;}
     .testimonial-list{flex: 0 0 calc(33% - 30px); margin-bottom: 80px;}
     .testimonial-list.slick-slide{width: 420px; margin-right: 50px;}
 }
-
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .testimonial-wrap{padding: 110px 0 109px;}
     .testimonial-list{width: 422px; margin : 0 50px 80px 0;}
     .testimonial-list:last-child{margin-right: 0;}
     .testimonial-main ul.slick-dots{margin-top: 43px;}
 }
-
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .testimonial-wrap{padding: 89px 0 80px; margin-bottom: 85px;}
     body.page-template-become-a-partner .testimonial-wrap, body.page-template-become-a-client .testimonial-wrap{margin-bottom: 0;}
@@ -42,5 +42,4 @@
     .testimonial-author{left: 48px;}
     .testimonial-bg-arrow::after{width: 51px; height: 64px; background-image: url("./images/testimonial-bg-mob-new.png"); bottom: -49px;}
     .testimonial-main ul.slick-dots{margin-top: 43px;}
-    
 }
