@@ -179,6 +179,8 @@ body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field_w
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex: 0 0 100%; padding-top: 6px;}
     body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit, body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{gap: 20px;}
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{gap: 20px;}
+    body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, 
+    body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_prev_page{width: calc(50% - 10px); padding: 14px 30px 15px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{line-height: 1.13;}
 
     body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
@@ -193,9 +195,10 @@ body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field_w
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third:nth-child(2){margin-left: 0;}     
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin: 2px 0 5px; float: none; display: block;}
 
-    /* body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_prev_page{width: 100%;} */
 }
 
-@media only screen and (max-width: 430px) and (min-width: 200px){
-    body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_prev_page{width: 100%;}
+@media only screen and (max-width: 414px) and (min-width: 200px){
+    body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex-direction: column;}
+    body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, 
+    body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_prev_page{width: 100%;}
 }
