@@ -1,9 +1,6 @@
 
 .financial-goals-section{background: var(--french-navy, #013); box-shadow: -20px 20px 0 0 #d9eef7; border-bottom: 1px solid rgba(255, 255, 255, 0.2);}
-
 .financial-goals-image{max-width: 1107px; width: 100%; height: 100%; top: 0; right: 0; position: absolute; z-index: 1;}
-.financial-goals-image::after, .financial-goals-image::before{ top: 0; left: 0; width: 100px; height: 100%; background: linear-gradient(-90deg,rgba(11,0,65,0) 17%,#013 70.5%); content: ""; display: block; position: absolute; z-index: -1;}
-.financial-goals-image::after{background: linear-gradient(180deg,rgba(11,0,65,0) 91.5%,#013 111.5%);}
 .financial-goals-image .optional-box-bg{width: 280px; }
 .financial-goals-image .optional-box-bg.top-right{right: 40px; top: 203px; gap: 22px;}
 .financial-goals-image .optional-box-bg.bottom-left { left: 473px; bottom: 190px; }
@@ -22,7 +19,7 @@ body.page-template-financial-goals-survey ul > li::before{background: var(--gree
 
 .goals-desc:first-child{display: block;}
 .goals-desc{display: none;}
-
+#goals-desc-1{margin-bottom: 22px;}
 
 @media screen and (min-width: 1024px) {
     body.page-template-financial-goals-survey.survey5 .financial-goals-form{max-width: 363px;}
@@ -40,9 +37,6 @@ body.page-template-financial-goals-survey ul > li::before{background: var(--gree
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
     body.page-template-financial-goals-survey.survey4 .financial-goals-image .optional-box-bg.bottom-right{right: 20px;}
     body.page-template-financial-goals-survey.survey5 .financial-goals-image .optional-box-bg.bottom-left{left: 450px;}
-}
-@media screen and (max-width: 1023px) and (min-width: 740px) {
-    .financial-goals-image::after {background: linear-gradient(-90deg,rgba(11,0,65,0) 0,#013 121.5%);}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .financial-goals-section .container{padding: 0;}
