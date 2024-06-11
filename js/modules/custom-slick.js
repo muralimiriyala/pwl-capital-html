@@ -116,7 +116,7 @@ jQuery(document).ready(function($){
               slidesToScroll: 1,
               variableWidth: true,
               arrows: false,
-              dots: true,
+              dots: false,
               speed: 1500,
               infinite: false,
               autoplay: false,
