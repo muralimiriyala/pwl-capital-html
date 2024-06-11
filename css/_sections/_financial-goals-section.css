@@ -2,7 +2,7 @@
 .financial-goals-section{background: var(--french-navy, #013); box-shadow: -20px 20px 0 0 #d9eef7; border-bottom: 1px solid rgba(255, 255, 255, 0.2);}
 .financial-goals-image{max-width: 1107px; width: 100%; height: 100%; top: 0; right: 0; position: absolute; z-index: 1;}
 .financial-goals-image .optional-box-bg{width: 280px; }
-.financial-goals-image .optional-box-bg.top-right{right: 40px; top: 203px; gap: 22px;}
+.financial-goals-image .optional-box-bg.top-right{right: 40px; top: 203px; gap: 14px;}
 .financial-goals-image .optional-box-bg.bottom-left { left: 473px; bottom: 190px; }
 .financial-goals-image .center .oval-line{background-color: #89cb3e;}
 .financial-goals-left{max-width: 659px; padding: 195px 0 100px; position: relative; z-index: 2;}
@@ -19,7 +19,7 @@ body.page-template-financial-goals-survey ul > li::before{background: var(--gree
 
 .goals-desc:first-child{display: block;}
 .goals-desc{display: none;}
-#goals-desc-1{margin-bottom: 22px;}
+#goals-desc-1{margin-bottom: 28px;}
 .goals-image:first-child{display: block;}
 .goals-image{display: none;}
 
