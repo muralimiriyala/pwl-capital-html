@@ -8,7 +8,9 @@
 .download-btn{padding: 16px 13px 17px 17px; gap: 14px; max-width: 264px; font-size: 12px; font-weight: normal; font-family: 'Century Gothic'; line-height: 1.25; color: var(--white);}
 .download-btn > span{font-size: 15px; font-weight: bold; line-height: 1; flex: 0 0 120px;}
 span.fa-down-to-bracket{font-size: 17px;}
-.download-pdf-rt{gap: 22px; flex: 0 0 calc(100% - 134px);}
+.download-pdf-rt{gap: 16px; flex: 0 0 calc(100% - 134px);}
+.download-pdf-rt > span {flex: 1;}
+.download-pdf-rt > span:last-child{flex: 0 0 14px;}
 .download-btn.download-capri-ocean{background-color: var(--capri-ocean);}
 .download-btn.download-pacific-blue{background-color: var(--pacific-blue);}
 .download-btn:hover{color: var(--white);}

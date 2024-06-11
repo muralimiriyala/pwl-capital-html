@@ -68,7 +68,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
 .team-filter-form .selectBox-dropdown .selectBox-arrow{right: 0; color: var(--midnight, #121321);}
 .team-filter-form .selectBox-dropdown.selectBox-menuShowing{color: var(--green-pear); border-color: var(--green-pear); font-weight: bold;}
 
-
+.team-content.full-width .team-cont-left{width: 100%;}
 @media screen and (min-width: 1300px){
     .team-col{gap: 0 51px;}
     .team-item{flex: 0 0 calc(25% - 39px);}
@@ -83,7 +83,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     body.page-template-default .team-col:last-child .team-list{padding-bottom: 0;}
     .team-details{text-align: center; padding: 0 20px;}
     .team-content{gap: 120px; margin-bottom: 60px;}
-    .team-cont-left{flex: 0 0 330px;}
+    .team-cont-left{flex: 0 0 330px; text-align: left;}
     .team-cont-right{flex: 0 0 calc(100% - 456px);}
     .team-col:last-child .team-item::after{height: 155px; width: 100%; top: calc(100% - 26px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
     body.page-template-default .team-col:last-child .team-item::after{display: none;}
