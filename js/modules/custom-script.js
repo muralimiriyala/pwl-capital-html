@@ -66,27 +66,9 @@ jQuery(function($){
         }
      });
 
-     $("body .financial-goals-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type=checkbox]").on("click", function(e){
-        const _this = $(this);
-        _this.parent().toggleClass('open');
-     });
+    
 
-     $(".financial-goals-form .frm_forms .frm_form_fields .frm_form_field .frm_checkbox input[type=checkbox]:checked").each(function() {
-        const _this = $(this);
-        let isChecked = $(this).prop("checked");
-        if(isChecked){
-            _this.parent().addClass('open');
-        }
-     })
-
-     $("body .financial-goals-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type=checkbox]").on("click", function(e){
-        const _this = $(this);
-        _this.parent().addClass('open');
-        console("hi ");
-        _this.parent().closest(".frm_radio").siblings().find("label").removeClass('open');
-     });
-
-         // Show the first tab and hide the rest
+      // Show the first tab and hide the rest
       $('.portfolio-lists .portfolio-item:first-child').addClass('active');
       $('.portfolio-table-content').hide();
       $('.portfolio-table-content:first').show();
