@@ -79,9 +79,10 @@ jQuery(function($){
         }
      })
 
-     $("body .financial-goals-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type=radio]").on("click", function(e){
+     $("body .financial-goals-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type=checkbox]").on("click", function(e){
         const _this = $(this);
         _this.parent().addClass('open');
+        console("hi ");
         _this.parent().closest(".frm_radio").siblings().find("label").removeClass('open');
      });
 
