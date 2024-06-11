@@ -3,8 +3,8 @@
 jQuery(function($){
     function initSelectBox() {
     $('select').selectBox({
-        keepInViewport: false,
         menuSpeed: 'slow',
+        keepInViewport: false,
         mobile:  true,
         hideOnWindowScroll: true,
     });

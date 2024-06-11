@@ -15,9 +15,9 @@ ul.positions-category li{margin: 0; }
 ul.positions-category li::before{width: 3px; height: 3px; right: -17px; left: auto; background-color: rgba(45, 87, 130, 0.14); top: 10px;}
 
 .open-positions-field{border-bottom: 2px solid rgba(45, 87, 130, 0.14);}
-.open-positions-field .selectBox-dropdown{padding: 0 24px 5px 0; border-radius: 0; color: var(--midnight, #121321); background-color: transparent; border: none; font-family: "Century Gothic", sans-serif; font-size: 20px; font-weight: 400; line-height: normal; }
-.open-positions-field .selectBox-dropdown .selectBox-arrow{right: 0; color: var(--midnight, #121321); top: 2px; transform: none;}
-
+.open-positions-field .selectBox-dropdown{padding: 15px 24px 5px 0; border-radius: 0; color: var(--midnight, #121321); background-color: transparent; border: none; font-family: "Century Gothic", sans-serif; font-size: 20px; font-weight: 400; line-height: normal; }
+.open-positions-field .selectBox-dropdown .selectBox-arrow{right: 0; color: var(--midnight, #121321); top: 17px; transform: none;}
+.open-positions-field .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow{top: 18px;}
 
 
 /*-- media css starts here --*/
