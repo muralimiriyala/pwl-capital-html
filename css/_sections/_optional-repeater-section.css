@@ -82,8 +82,8 @@ body.home .optional-circle{z-index: 2;}
     .optional-repeater-image{margin: 0 0 77px 20px;}
     .optional-box-bg.bottom-left{left: -60px;}
     .optional-box-bg.top-left{left: -60px;}
-    .optional-box-bg.bottom-right{right: -40px;}
-    .optional-box-bg.top-right{right: -40px;}
+    .optional-box-bg.bottom-right{right: -20px;}
+    .optional-box-bg.top-right{right: -20px;}
     .optional-repeater-image.no_margin{margin: 0;}
     .optional-repeater-row.optional-logos{display: flex; flex-direction: column-reverse;}
     .optional-logos .optional-repeater-text{margin-bottom: 61px;}
