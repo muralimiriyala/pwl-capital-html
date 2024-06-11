@@ -25,6 +25,15 @@ jQuery('select').selectBox().each(function(){
     const _index = jQuery(this).index();
     jQuery('ul.selectBox-dropdown-menu').eq(0).addClass(`select-menu-${0}`);
 });
+jQuery('select').on('change', function(){
+    let selectedValue = $(this).val();
+    console.log(selectedValue)
+    if (selectedValue === "value_to_hide_murali") {
+        jQuery('div#frm_error_field_s15zr.error').hide();
+    } else {
+        jQuery('div#frm_error_field_s15zr.error').show();
+    }
+});
 
 
 
