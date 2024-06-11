@@ -74,14 +74,14 @@ body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_submit{widt
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit{justify-content: inherit;}
 body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 140px; background-color: var(--green-pear);}
 body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background-color: var(--capri-ocean); color: var(--white);}
-body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-transparent{background-color: transparent; border: 2px solid var(--green-pear);}
-body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.btn-transparent:hover{background-color: var(--green-pear);}
+body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_prev_page{background-color: transparent; border: 2px solid var(--green-pear);}
+body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_prev_page:hover{background-color: var(--green-pear);}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0;}
 body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{margin: 0; width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: fit-content;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background: url("./images/calendar-icon.svg") no-repeat 95% 19px; background-size: 14px 14px;}
-body .frm_forms form .frm_required_field div.frm_error{bottom: -15px; font-size: 12.5rem; line-height: 0.875rem; color: #F60703; position: absolute; text-align: right; right: 0;}
+body .frm_forms form .frm_required_field div.frm_error{bottom: -15px; font-size: 12.5px; line-height: 0.875rem; color: #F60703; position: absolute; text-align: right; right: 0;}
 body .with_frm_style .frm_message, .frm_success_style{color: var(--foreground); padding: 0; font-size: 1rem; line-height: 1.5; text-align: left; border: none; background: none; text-align: left; font-weight: 700;} 
 body .with_frm_style .frm_message p{color: var(--foreground); letter-spacing: 0;}
 body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{gap: 8px; display: flex; flex-wrap: wrap; width: 100%;}

@@ -18,10 +18,11 @@
 body.page-template-financial-goals-survey ul > li::before{background: var(--green-pear);}
 
 .goals-desc:first-child{display: block;}
-.goals-desc{display: none;}
+.goals-desc{display: none; margin-bottom: 28px;}
 #goals-desc-1{margin-bottom: 28px;}
 .goals-image:first-child{display: block;}
 .goals-image{display: none;}
+.step-2-icon{margin: -18px 2px 0 0;}
 
 @media screen and (min-width: 1024px) {
     body.page-template-financial-goals-survey.survey5 .financial-goals-form{max-width: 363px;}
