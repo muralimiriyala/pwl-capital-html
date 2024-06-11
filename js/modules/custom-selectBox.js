@@ -5,8 +5,6 @@ jQuery(function($){
     $('select').selectBox({
         menuSpeed: 'slow',
         keepInViewport: false,
-        topPositionCorrelation: 0,
-        keepOptionInView: true,
         mobile:  true,
         hideOnWindowScroll: true,
     });
