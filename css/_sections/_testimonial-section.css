@@ -21,6 +21,7 @@
     .testimonial-wrap{padding: 110px 0 109px;}
     .testimonial-main{gap: 50px;}
     .testimonial-list{flex: 0 0 calc(33% - 30px); margin-bottom: 80px;}
+    .testimonial-list.slick-slide{width: 420px;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
