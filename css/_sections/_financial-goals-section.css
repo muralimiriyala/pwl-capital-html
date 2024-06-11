@@ -20,6 +20,10 @@
 
 body.page-template-financial-goals-survey ul > li::before{background: var(--green-pear);}
 
+.goals-desc:first-child{display: block;}
+.goals-desc{display: none;}
+
+
 @media screen and (min-width: 1024px) {
     body.page-template-financial-goals-survey.survey5 .financial-goals-form{max-width: 363px;}
     body.page-template-financial-goals-survey.survey3 .financial-goals-image{height: 969px;}
