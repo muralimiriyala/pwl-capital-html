@@ -88,7 +88,6 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-col:last-child .team-item::after{height: 155px; width: 100%; top: calc(100% - 26px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
     body.page-template-default .team-col:last-child .team-item::after{display: none;}
     .team-member-wrap{padding-bottom: 107px;}
-    .team-items-row:last-child{padding-bottom: 73px;}
     body.page-template-default .team-member-wrap{padding: 100px 0 43px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     body.page-template-team #load-more .button{max-width: 200px; min-width: 200px;}
     .team-content-main::before{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; top: 1px; color: rgba(137, 203, 62, 0.1); font-size: 45px; font-weight: bold; line-height: .1;}
