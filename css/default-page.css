@@ -11,8 +11,10 @@
 .default-short-sidebar ul > li a:hover::before{left: 4px; }
 .default-short-sidebar ul > li a::before{content: "\f054"; font-family: "Font Awesome 6 Pro"; color: var(--capri-ocean); width: 0; top: 50%; transform: translateY(-50%); left: 0; position: absolute; transition: all .5s ease;}
 
-#ez-toc-container{background: white; border: none; border-radius: none; -webkit-box-shadow: none; box-shadow: none; margin-bottom: 0; padding: 0;}
-.ez-toc-counter nav ul li a::before {content: "\f054";}
+#ez-toc-container{background: white !important; border: none !important; border-radius: none !important; -webkit-box-shadow: none !important; box-shadow: none !important; margin-bottom: 0 !important; padding: 0 !important;}
+.ez-toc-counter nav ul li a::before {content: "\f054" !important;}
+div#ez-toc-container ul li, div#ez-toc-container nav ul ul li{font-size: 16px !important; font-weight: 400 !important; line-height: 2.13 !important; margin: 0 !important;}
+#ez-toc-container a:hover{font-weight: bold !important; color: var(--capri-ocean) !important; text-decoration: none !important;}
 
 @media screen and (min-width: 1024px) {
     .default-short-main{gap: 168px; padding: 120px 0 130px;}
