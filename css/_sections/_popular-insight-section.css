@@ -8,7 +8,7 @@
 .popular-insights-image{flex: 0 0 93px;}
 .popular-insights-image .play-btn-main .play-btn{width: 40px; height: 40px;}
 .popular-insights-image .play-btn-bg > span.btn-circle{background-color: var(--green-pear)}
-body.page-template-learn-model .popular-insights-image .play-btn-bg > span.btn-circle, body.page-template-learn-default .popular-insights-image .play-btn-bg > span.btn-circle{background-color: var(--aquamarine)}
+body.page-template-learn-model .popular-insights-image .play-btn-bg > span.btn-circle, body.post-template-default .popular-insights-image .play-btn-bg > span.btn-circle{background-color: var(--aquamarine)}
 .popular-insights-image .play-btn-bg > span.btn-circle::after {margin-left: 1px; font-size: .7rem; line-height: .7rem;}
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {

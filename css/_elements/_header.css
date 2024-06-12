@@ -15,7 +15,7 @@ body.page-template-learn header.header-main:not(.sticky-header){background-color
 
 
 body.page-template-career header.header-main:not(.sticky-header), body.page-template-services header.header-main:not(.sticky-header){background-color: transparent;}
-body.page-template-home .site-main-cover, body.page-template-career .site-main-cover, body.page-template-meet-with-us .site-main-cover, body.page-template-learn-default .site-main-cover, body.page-template-become-a-client .site-main-cover, body.page-template-services .site-main-cover, body.page-template-default .site-main-cover, body.page-template-learn-model .site-main-cover, body.page-template-financial-goals-survey .site-main-cover{padding-top: 0;}
+body.page-template-home .site-main-cover, body.page-template-career .site-main-cover, body.page-template-meet-with-us .site-main-cover, body.post-template-default .site-main-cover, body.page-template-become-a-client .site-main-cover, body.page-template-services .site-main-cover, body.page-template-default .site-main-cover, body.page-template-learn-model .site-main-cover, body.page-template-financial-goals-survey .site-main-cover{padding-top: 0;}
 
 .header-srch{cursor: pointer;}
 .header-srch-form{top: 50%; width: 0; left: 0; transform: translateY(-50%); z-index: 1999; transition: all .5s ease;}
@@ -90,8 +90,8 @@ body.page-template-home .site-main-cover, body.page-template-career .site-main-c
     ul.main-menu{gap: 0 46px; order: 2; width: fit-content; justify-content: flex-end; font-family: 'Century Gothic', sans-serif;}
 
 
-    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent, body.page-template-learn-default header.black-header:not(.sticky-header) .header-btns .btn-transparent {color: #0894d3;}
-    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover, body.page-template-learn-default header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover{color: var(--white);}
+    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent, body.post-template-default header.black-header:not(.sticky-header) .header-btns .btn-transparent {color: #0894d3;}
+    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover, body.post-template-default header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover{color: var(--white);}
 
     header.black-header:not(.sticky-header) .header-btns .button{color: var(--white);}
     header.black-header:not(.sticky-header) .header-srch svg path{fill: #fff;}

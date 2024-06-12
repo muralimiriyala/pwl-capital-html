@@ -13,11 +13,13 @@
 
 #ez-toc-container{background: white !important; border: none !important; border-radius: none !important; -webkit-box-shadow: none !important; box-shadow: none !important; margin-bottom: 0 !important; padding: 0 !important;}
 .ez-toc-counter nav ul li a::before {content: "\f054" !important;}
-div#ez-toc-container ul li, div#ez-toc-container nav ul ul li{font-size: 16px !important; font-weight: 400 !important; line-height: 2.13 !important; margin: 0 !important;}
+div#ez-toc-container ul li, div#ez-toc-container nav ul ul li{font-size: 16px !important; font-weight: 400 !important; line-height: 1.35 !important; margin: 0 !important;}
 #ez-toc-container a:hover{font-weight: bold !important; color: var(--capri-ocean) !important; text-decoration: none !important;}
-#ez-toc-container ul ul{margin-bottom: 20px !important; }
+#ez-toc-container ul ul{margin-bottom: 10px !important; }
 #ez-toc-container ul > li > ul > li > ul, #ez-toc-container ul > li > ul > li > ul > li > ul{margin: 0 !important; }
+#ez-toc-container ul > li:last-child{border: none !important; }
 #ez-toc-container .ez-toc-js-icon-con{display: none !important;}
+div#ez-toc-container .ez-toc-title { font-size: 23px !important; line-height: 27px; letter-spacing: -.23px; font-weight: 600 !important; margin-bottom: 26px; display: block !important; }
 
 @media screen and (min-width: 1024px) {
     .default-short-main{gap: 168px; padding: 120px 0 130px;}

@@ -3,5 +3,5 @@
 .accordion-panel-title{margin-bottom: 40px;}
 
 @media screen and (max-width: 739px) and (min-width: 200px) {
-    body.page-template-learn-default .accordion-panel-main{margin: 60px 0 38px;}
+    body.post-template-default .accordion-panel-main{margin: 60px 0 38px;}
 }
