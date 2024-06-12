@@ -12,6 +12,7 @@ body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
 body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 30px; position: relative; clear: both;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 23px; position: relative; clear: both;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field.field_survey_4 {max-width: 304px;}
+body.page-template-financial-goals-survey .frm_forms .frm_form_fields #frm_field_66_container .frm_primary_label{display: none;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields.frm_page_num_5 { max-width: 363px; }
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px;}
 body .frm_forms .frm_form_fields .frm_description{display: none;}
