@@ -7,9 +7,10 @@ body.page-template-services .service-section{background-color: rgba(217, 238, 24
 .service-accordion .accordion-item.open::after{color: var(--capri-ocean);}
 .service-accordion .accordion-content ul > li::before{background: var(--capri-ocean);}
 
+.service-icon{margin-bottom: 15px;}
 
 @media screen and (min-width: 1024px) {
-    .service-main{gap: 168px; padding: 108px 0 121px;}
+    .service-main{gap: 168px; padding: 108px 0 116px;}
     .service-text{flex: 0 0 540px; padding-right: 115px;}
     .service-accordion{flex: 0 0 calc(100% - 708px);}
 }

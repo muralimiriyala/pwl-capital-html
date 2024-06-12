@@ -3,6 +3,7 @@
 .accordion-item::after{content: "\2b"; font-family: "Font Awesome 6 Pro"; position: absolute; left: 0; top: 0; font-size: 22px; color: #0894d3;}
 .accordion-head{font-size: 21px; line-height: 1.29; letter-spacing: -0.21px; padding-bottom: 19px; cursor: pointer;}
 .accordion-content{display: none; padding: 10px 18px 27px 0;}
+body.page-template-services .accordion-content{padding: 3px 18px 6px 0;}
 body.page-template-become-a-partner .accordion-content ul > li::before{background: var(--capri-ocean);}
 .accordion-item.open::after{content: "\f068"; color: var(--green-pear);}
 
