@@ -11,6 +11,8 @@
 .default-short-sidebar ul > li a:hover::before{left: 4px; }
 .default-short-sidebar ul > li a::before{content: "\f054"; font-family: "Font Awesome 6 Pro"; color: var(--capri-ocean); width: 0; top: 50%; transform: translateY(-50%); left: 0; position: absolute; transition: all .5s ease;}
 
+#ez-toc-container{background: white; border: none; border-radius: none; -webkit-box-shadow: none; box-shadow: none; margin-bottom: 0; padding: 0;}
+.ez-toc-counter nav ul li a::before {content: "\f054";}
 
 @media screen and (min-width: 1024px) {
     .default-short-main{gap: 168px; padding: 120px 0 130px;}
