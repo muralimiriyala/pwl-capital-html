@@ -17,6 +17,7 @@ div#ez-toc-container ul li, div#ez-toc-container nav ul ul li{font-size: 16px !i
 #ez-toc-container a:hover{font-weight: bold !important; color: var(--capri-ocean) !important; text-decoration: none !important;}
 #ez-toc-container ul ul{margin-bottom: 20px !important; }
 #ez-toc-container ul > li > ul > li > ul, #ez-toc-container ul > li > ul > li > ul > li > ul{margin: 0 !important; }
+#ez-toc-container .ez-toc-js-icon-con{display: none !important;}
 
 @media screen and (min-width: 1024px) {
     .default-short-main{gap: 168px; padding: 120px 0 130px;}
