@@ -69,6 +69,8 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
 .team-filter-form .selectBox-dropdown.selectBox-menuShowing{color: var(--green-pear); border-color: var(--green-pear); font-weight: bold;}
 
 .team-content.full-width .team-cont-left{width: 100%;}
+ul.blog_list{margin: 0;}
+
 @media screen and (min-width: 1300px){
     .team-col{gap: 0 51px;}
     .team-item{flex: 0 0 calc(25% - 39px);}
@@ -85,11 +87,11 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
     .team-content{gap: 120px; margin-bottom: 60px;}
     .team-cont-left{flex: 0 0 330px; text-align: left;}
     .team-cont-right{flex: 0 0 calc(100% - 456px);}
-    .team-col:last-child .team-item::after{height: 155px; width: 100%; top: calc(100% - 26px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
+    .before-loadmore .team-col:nth-child(3) .team-item::after, .team-col:last-child .team-item::after{height: 155px; width: 100%; top: calc(100% - 26px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
     body.page-template-default .team-col:last-child .team-item::after{display: none;}
     .team-member-wrap{padding-bottom: 107px;}
     body.page-template-default .team-member-wrap{padding: 100px 0 43px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
-    body.page-template-team #load-more .button{max-width: 200px; min-width: 200px;}
+    #load-more-team .button{max-width: 200px; min-width: 200px;}
     .team-content-main::before{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; top: 1px; color: rgba(137, 203, 62, 0.1); font-size: 45px; font-weight: bold; line-height: .1;}
 
 }
