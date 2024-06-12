@@ -172,6 +172,7 @@ ul.blog_list{margin: 0;}
     .team-content-main{flex: 0 0 100%; margin-bottom: 20px; position: relative; z-index: 900;}
     .team-content-main::after{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; top: -12px; left: 50%; transform: translateX(-50%); color: rgba(137, 203, 62, 0.1); font-size: 35px; font-weight: bold;}
     .team-list.team-hide{opacity: 0.3;}
+    .team-content-main[data-value]{display: none !important;}
 }
 @media screen and (max-width: 413px) and (min-width: 200px) {
     .team-filter-form { gap: 18px 27px; }
