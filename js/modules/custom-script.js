@@ -59,12 +59,12 @@ jQuery(function($){
         $(".flyout-bg-overlay").removeClass("open");
         $(".flyout-overlay").removeClass("open");
      });
-     $("body").on("click", function(e){
-        if(!$(e.target).closest(".flyout_btn, .flyout-overlay").length){
-            $(".flyout-bg-overlay").removeClass("open");
-            $(".flyout-overlay").removeClass("open");
-        }
-     });
+   //   $("body").on("click", function(e){
+   //      if(!$(e.target).closest(".flyout_btn, .flyout-overlay").length){
+   //          $(".flyout-bg-overlay").removeClass("open");
+   //          $(".flyout-overlay").removeClass("open");
+   //      }
+   //   });
 
     
 

@@ -31,6 +31,10 @@
     .home-banner-text{padding-bottom: 0;}
     .home-banner-image::before{background: linear-gradient(0deg,rgba(11,0,65,0) 62.5%,#013 100.5%);}
     .home-banner-image .optional-box-bg.bottom-left{left: 19px; bottom: 19px;}
+
+    .regulated-by{ position: absolute; top: 100%; left: 50%; transform: translateX(-50%); display: flex; width: calc(100% - 40px); max-width: 100%; border-bottom: 1px solid rgb(231, 236, 241); padding: 38px 0 19px; justify-content: center; align-items: center; gap: 15px; }
+    .regulated-by span { margin-bottom: 0; color: rgb(136, 149, 165);}
+    .regulated-img{max-width: 125px;}
 }
 
 

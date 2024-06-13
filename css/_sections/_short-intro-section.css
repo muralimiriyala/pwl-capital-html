@@ -41,6 +41,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .short-intro-main { padding: 73px 0 98px; }
+    body.page-template-home .short-intro-main {padding: 159px 0 98px;}
     .short-about-watermark{top: 113px; left: 15px;}
     .short-intro-head{display: block; padding: 0 0 69px;}
     .short-intro-row{display: block;}
@@ -55,6 +56,7 @@
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .short-intro-main { padding: 73px 0 98px; }
     body.page-template-about .short-intro-main {padding: 73px 0 90px;}
+    body.page-template-home .short-intro-main {padding: 159px 0 98px;}
     .short-about-watermark{top: 113px; left: 15px;}
     .short-intro-head{display: block; padding: 0 0 69px;}
     .short-intro-row{display: block;}
