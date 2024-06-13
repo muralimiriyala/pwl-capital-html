@@ -29,6 +29,14 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
 
 .sticky-header .header-btns .selectBox-dropdown{color: var(--midnight);}
 
+.header-sign-btn{position: relative;}
+ul.signin-menu{display: none; position: absolute; top: calc(100% + 10px); left: 0; background: var(--white); margin: 0; padding: 8px; box-shadow: 0 5px 40px 0 rgba(0,17,51,.15);}
+ul.signin-menu::before{width: 0; height: 0; top: -4px; right: 15px; border-radius: 0; border: 5px solid transparent; border-top: 5px solid var(--white); border-left: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; }
+ul.signin-menu li{display: block; margin-bottom: 0; padding: 0; white-space: normal; }
+ul.signin-menu li::before{display: none;}
+ul.signin-menu li a{padding: 8px 16px; display: block; width: 100%; color: var(--french-navy); cursor: pointer; font-size: 15px; line-height: 15px; letter-spacing: 0; font-weight: 400; letter-spacing: normal; display: block; text-transform: none; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-family: 'Century Gothic';}
+.sign_btn:hover ul.signin-menu{display: block;}
+
 /* media css starts here */
 @media screen and (min-width: 1600px){
     .header-srch-form{left: 375px;}
