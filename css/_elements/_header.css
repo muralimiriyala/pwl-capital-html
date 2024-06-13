@@ -124,7 +124,7 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
     .logo { flex: 0 0 264px; }
     .header-right{gap: 29px;}
     .header-right-inner{gap: 29px;}
-    ul.main-menu{gap: 24px;}
+    ul.main-menu{gap: 20px;}
     .header-srch-form{left: 285px;}
     .header-srch-form.open{width: calc(100% - 285px);}
 }
