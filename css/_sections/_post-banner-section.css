@@ -9,6 +9,7 @@ ul.post-department li{margin: 0;}
 @media screen and (min-width: 1024px){
     .post-banner-main{padding: 0 0 128px;}
     .post-banner-text{flex: 1; margin-top: 20px;}
+    .post-banner-text.full_width { padding: 118px 0;}
     .post-banner-image{flex: 0 0 540px;}
     
     .career-nt-bg{left: -141px; top: 37px; z-index: -1;}
