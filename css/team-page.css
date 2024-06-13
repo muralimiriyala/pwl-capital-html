@@ -88,6 +88,8 @@ ul.blog_list{margin: 0;}
     .team-cont-left{flex: 0 0 330px; text-align: left;}
     .team-cont-right{flex: 0 0 calc(100% - 456px);}
     .before-loadmore .team-col:nth-child(3) .team-item::after, .team-col:last-child .team-item::after{height: 155px; width: 100%; top: calc(100% - 26px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
+    .no-loadmore .team-col .team-item::after{display: none;}
+
     body.page-template-default .team-col:last-child .team-item::after{display: none;}
     .team-member-wrap{padding-bottom: 107px;}
     body.page-template-default .team-member-wrap{padding: 100px 0 43px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
