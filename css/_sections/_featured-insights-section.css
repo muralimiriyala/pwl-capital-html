@@ -31,7 +31,7 @@
 
 
 @media screen and (min-width: 1024px) {
-    .featured-insights-watermark{position: absolute; right: 0; top: 0;}
+    .featured-insights-watermark{position: absolute; right: 0; top: 0; z-index: -1;}
     .featured-insights-watermark svg:first-child{position: absolute; right: -320px; top: 50px;}
     .featured-insights-watermark svg:not(first-child){position: absolute; top: 614px; right: 0;}
     .featured-insights-image-main{max-height: 519px; min-height: 519px;}
@@ -46,7 +46,7 @@
     .featured-insights-thumb::before{left: 0; background: linear-gradient(-175deg,rgba(11,0,65,0) 16.5%,#121321 83.5%);}
     .featured-image-text{padding: 30px;}
     .featured-image-text h2{font-size: 22px; line-height: 30px; letter-spacing: -.44px;}
-    .featured-insights-watermark{position: absolute; right: 69px; top: 40px;}
+    .featured-insights-watermark{position: absolute; right: 69px; top: 40px; z-index: -1;}
     
 }
 
