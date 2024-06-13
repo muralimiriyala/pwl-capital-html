@@ -184,7 +184,7 @@ ul.signin-menu li a{padding: 8px 16px; display: block; width: 100%; color: var(-
     ul.main-menu > li > ul > li > ul{margin: 0;}
     ul.main-menu > li > ul > li > ul > li::before{display: none;}
     ul.main-menu > li > ul > li:last-child{display: none;}
-    ul.main-menu > li > ul > li > a.sub-head{padding: 0 0 24px; display: block; color: rgba(16, 42, 70, 0.6); font-size: 12px; line-height: 21px; letter-spacing: 1.2px; font-weight: bold; font-family: brother-1816,sans-serif; text-transform: uppercase; margin-bottom: 0;}
+    ul.main-menu > li > ul > li.sub-head > a{padding: 0 0 24px; display: block; color: rgba(16, 42, 70, 0.6); font-size: 12px; line-height: 21px; letter-spacing: 1.2px; font-weight: bold; font-family: brother-1816,sans-serif; text-transform: uppercase; margin-bottom: 0;}
     ul.main-menu > li > ul > li > a{margin-bottom: 20px; color: var(--midnight); font-size: 16px; line-height: 24px; letter-spacing: normal; font-weight: bold; font-family: 'Century Gothic';}
     ul.main-menu > li > ul > li ul > li > a{margin-bottom: 20px; color: var(--midnight); font-size: 16px; line-height: 24px; letter-spacing: normal; font-weight: bold; font-family: 'Century Gothic';}
     ul.main-menu > li > ul > li ul > li > a:hover{color: var(--capri-ocean);}
