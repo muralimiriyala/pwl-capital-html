@@ -4,7 +4,7 @@ jQuery(document).on("ready", function(){
 const header = jQuery(".header-main");
 jQuery(window).on("scroll load", function(){
     const $scroll = jQuery(this).scrollTop();
-    if ($scroll >= 4) {
+    if ($scroll >= 1) {
         header.addClass("sticky-header");
     } else {
         header.removeClass("sticky-header");
