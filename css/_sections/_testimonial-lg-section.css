@@ -4,10 +4,10 @@
 .testimonial-lg-desc em{font-size: 36px; line-height: 1.61; font-weight: normal; font-family: 'Century Gothic'; color: var(--white);}
 .testimonial-lg-author{gap: 22px; margin-top: 30px;}
 .testimonial-lg-thumb{width: 53px; height: 53px;}
-.testimonial-lg-name span{font-size: 20px; display: block; color: var(--white); line-height: 0.9; font-weight: bold;}
-.testimonial-lg-name span:last-child{font-size: 16px; color: rgba(255, 255, 255, 0.7); line-height: 1.13; font-weight: normal;}
+.testimonial-lg-name span{font-size: 20px; display: block; color: var(--white); line-height: 0.9; font-weight: bold; margin-top: 3px;}
+.testimonial-lg-name span:last-child{font-size: 16px; color: rgba(255, 255, 255, 0.7); line-height: 1.13; font-weight: normal; margin-top: 7px;}
 
-.testimonial-lg-polygon-main{left:-118px; width: 131px; height: 125.5px; bottom: -126px;}
+.testimonial-lg-polygon-main{left:-118px; width: 131px; height: 125.5px; bottom: -125px;}
 .testimonial-lg-polygon-light{width: 131px; height: 131px; left: 0; background-color: var(--capri-ocean); clip-path: polygon(0 0,100% 0,50% 50%,0% 100%);}
 .testimonial-lg-polygon-dark{width: 20px; height: 149px; background-color: #d9eef7; clip-path: polygon(0 0,100% 0,100% 88%,0% 100%); content: ""; left: -20px;}
 

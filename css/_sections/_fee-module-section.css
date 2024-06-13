@@ -1,21 +1,25 @@
 
 .fee-module-main{border-top: 1px solid rgba(45, 87, 130, 0.14);}
+.fee-module-text h2{margin-bottom: 18px;}
 .fee-module-table table{margin: 0;}
 .fee-module-table table td {font-size: 18px; font-weight:500; line-height: 1.22; padding: 16px 22px;}
 .fee-module-table table td span{font-weight: bold; display: block; margin-bottom: 5px;}
 .fee-module-table table td p{font-size: 15px; font-weight: normal; line-height: 1.27; color: rgba(16, 42, 70, 0.6);}
+.fee-module-table table td:last-child{vertical-align: top;}
 .fee-module-table table tr:nth-child(2n+1) td{background-color: var(--white);}
 
 .fee-module-watermark{top: 0; right: 0;}
 .fee-module-watermark svg:first-child{position: absolute; top: 116px; right: -104px;}
 .fee-module-watermark svg:not(first-child){position: absolute; top: 242px; right: 79px;}
+body.page-template-services .fee-module-watermark svg:first-child{top: 81px;}
+body.page-template-services .fee-module-watermark svg:not(first-child){ top: 208px;}
   
 
 @media screen and (min-width: 1024px) {
-    .fee-module-main{padding: 110px 0; gap: 168px;}
+    .fee-module-main{padding: 105px 0 110px; gap: 168px;}
     .fee-module-text{flex: 0 0 422px;}
     .fee-module-text p{max-width: 353px;}
-    .fee-module-table{flex: 0 0 calc(100% - 590px);}
+    .fee-module-table{flex: 0 0 calc(100% - 590px); padding-top: 5px;}
     .fee-module-table table td, .fee-module-table table th{min-width: 197px;}
     .fee-module-main.row-module{padding: 0 0 60px; gap: 60px; border: none;}
     .fee-module-main.row-module .fee-module-text, .fee-module-main.row-module .fee-module-table{flex: 100%;}

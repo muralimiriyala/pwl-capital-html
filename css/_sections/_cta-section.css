@@ -10,23 +10,24 @@
 .cta-stats{padding-bottom: 14px; margin-bottom: 13px; border-bottom: 1px solid var(--muted-light); color: var(--muted-light, rgba(217, 238, 247, 0.60)); font-family: "Century Gothic", sans-serif; font-size: 16px; font-weight: 400; line-height: 20px; letter-spacing: -0.32px;text-align: right;}
 .cta-stats:last-child{border-bottom: none; padding-bottom: 0; margin-bottom: 0;}
 .cta-stat-num{color: var(--white, #FFF); font-family: "Century Gothic", sans-serif; font-size: 42px; font-weight: 400; line-height: 38px; letter-spacing: 0.84px;}
-.cta-desc h2{margin-bottom: 17px;}
+.cta-desc h2{margin-bottom: 17px; letter-spacing: -0.44px;}
 .cta-desc p{margin-bottom: 22px;}
 .cta-image-bg{background-color: var(--french-navy, #013); transform: translate(-20px, 20px);}
 body.page-template-become-a-client .cta-image-bg, body.page-template-services .cta-image-bg{background-color: var(--white);}
 .cta-section.image-bg-white .cta-image-bg{background-color: var(--white);}
 .cta-section.dark-bg-icon .cta-desc-icon{opacity: 0.1;}
 .cta-reverse .cta-image-bg{transform: translate(20px, 20px);}
-.cta-desc-icon{top: -47px; right: -76px; opacity: 0.2; z-index: -1;}
+.cta-desc-icon{top: -50px; right: -55px; opacity: 0.2; z-index: -1;}
 .cta-reverse .cta-desc-icon{top: -39px; left: -72px; right: auto; transform: scaleX(-1);}
 
 /*-- media css starts here --*/
+
 @media screen and (min-width: 1024px){
-    .cta-main{gap: 75px; padding: 92px 0 100px;}
+    .cta-main{gap: 75px; padding: 92px 0 95px;}
     .cta-image{left: 0; top: -43px; max-width: 425px;}
-    .cta-reverse .cta-image{left: auto; right: 0;}
+    .cta-reverse .cta-image{left: auto; right: 15px;}
     .cta-text{flex: 1; gap: 91px; padding-left: 503px; flex-direction: row-reverse;}
-    .cta-reverse .cta-text{padding-right: 503px; padding-left: 0; flex-direction: row;}
+    .cta-reverse .cta-text{padding-right: 517px; padding-left: 0; flex-direction: row; gap: 81px;}
     .cta-stats-col{flex: 0 0 97px;}
     .cta-desc{flex: 1; padding-left: 88px;}
     .cta-reverse .cta-desc{padding-right: 88px; padding-left: 0;}
@@ -36,7 +37,9 @@ body.page-template-become-a-client .cta-image-bg, body.page-template-services .c
     .cta-main.no_image .cta-text {padding-left: 0;}
     .cta-reverse  .cta-main.no_image .cta-text {padding-right: 0;}
 }
-
+@media screen and (min-width: 1300px){
+    .cta-image{left: -7px;}
+}
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .cta-reverse .cta-text{padding-right: 350px;}
