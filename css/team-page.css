@@ -37,7 +37,7 @@
 .team-item.active{z-index: 8;}
 
 .team-hide{transition: all 0s ease; opacity: 0.3;}
-.team-list{cursor: pointer; text-align: center;}
+.team-list{cursor: pointer;}
 .team-image{margin-bottom: 27px; background-color: rgba(8, 148, 211, 0.1); transition: all 0.5s ease;}
 .team-list:hover .team-image{transform: scale(1.025);}
 .team-details h3{font-size: 26px; font-weight: 500; line-height: 1.23; letter-spacing: -0.78px; margin-bottom: 8px;}
@@ -87,7 +87,7 @@ ul.blog_list{margin: 0;}
     .team-content-main:nth-child(8)::before{left: calc(100% - 170px);}    
 }
 @media screen and (min-width: 1024px) {
-    .team-list{padding-bottom: 51px; position: relative; z-index: 1;}
+    .team-list{padding-bottom: 51px; position: relative; z-index: 1; text-align: center;}
     body.page-template-default .team-col:last-child .team-list{padding-bottom: 0;}
     .team-details{text-align: center; padding: 0 20px; width: 100%;}
     .team-content{gap: 120px; margin-bottom: 60px;}
