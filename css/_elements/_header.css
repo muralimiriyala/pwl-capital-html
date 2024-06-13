@@ -4,16 +4,12 @@ header.black-header:not(.sticky-header){background-color: transparent;}
 header.black-header:not(.sticky-header) .logo-black{opacity: 0;}
 header.sticky-header{background-color: var(--white); box-shadow: 0px 6px 10px 0px rgba(0, 17, 51, 0.05); }
 
-.logo span{ transition: all 0.4s ease;}
+.logo span{display: inline-block; transition: all 0.4s ease;}
 .logo-black{top: 0; left: 0; opacity: 1; position: absolute;}
 header.sticky-header .logo-white{opacity: 0;}
 header.sticky-header .logo-black{opacity: 1;}
 
-
-
 body.page-template-learn header.header-main:not(.sticky-header){background-color: transparent;}
-
-
 body.page-template-career header.header-main:not(.sticky-header), body.page-template-services header.header-main:not(.sticky-header){background-color: transparent;}
 body.page-template-home .site-main-cover, body.page-template-career .site-main-cover, body.page-template-meet-with-us .site-main-cover, body.post-template-default .site-main-cover, body.page-template-become-a-client .site-main-cover, body.page-template-services .site-main-cover, body.page-template-default .site-main-cover, body.page-template-learn-model .site-main-cover, body.page-template-financial-goals-survey .site-main-cover{padding-top: 0;}
 
@@ -128,7 +124,7 @@ body.page-template-home .site-main-cover, body.page-template-career .site-main-c
     .header-overlay{width: 100%; height: 100%; top: 0; left: 0; opacity: 0; visibility: hidden; background-color: var(--french-navy); content: ""; display: block; position: fixed; transition: all 0.4s ease;}
     .header-overlay.open{opacity: 0.5; visibility: visible; z-index: 700;}
     ul.main-menu{display: block;}
-    .header-srch-main{right: 54px; width: 16px; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; z-index: 1800;}
+    .header-srch-pos{right: 54px; width: 16px; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; z-index: 1800;}
 
     .header-menu-polygon{content: ""; width: 50px; height: 47px; bottom: -46px; left: 0; clip-path: polygon(0 100%,0 0,100% 0,0% 100%); background-color: var(--white); display: block;}
     .header-btns.active{display: none;}
@@ -192,6 +188,6 @@ body.page-template-home .site-main-cover, body.page-template-career .site-main-c
 }
 @media only screen and (max-width: 520px) and (min-width: 200px){
     .nav-open .header::before{content: ""; background-color: var(--white); width: 100% ; height: 90px; position: absolute; top: 0; left: 0; z-index: 850;}
-    .header-srch-main svg { width: 17px; height: 17px; top: 1px; position: relative; }
+    .header-srch-pos svg { width: 17px; height: 17px; top: 1px; position: relative; }
 }
 
