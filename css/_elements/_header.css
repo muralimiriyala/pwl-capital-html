@@ -45,7 +45,7 @@ ul.signin-menu li a:hover{color: var(--capri-ocean); transition: all 0.5s ease;}
 /* media css starts here */
 @media screen and (min-width: 1600px){
     .header-srch-form{left: 375px;}
-    .header-srch-form.open{width: calc(100% - 375px);}
+    .header-srch-form.open{width: calc(43% - 375px);}
 }
 @media screen and (min-width: 1300px){
 
