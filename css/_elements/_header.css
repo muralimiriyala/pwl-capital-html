@@ -33,7 +33,7 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
 /* media css starts here */
 @media screen and (min-width: 1600px){
     .header-srch-form{left: 375px;}
-    .header-srch-form.open{width: calc(43% - 375px);}
+    .header-srch-form.open{width: calc(100% - 375px);}
 }
 @media screen and (min-width: 1300px){
     .header-btns .selectBox-dropdown{min-width: 112px; width: 112px;}
@@ -132,6 +132,8 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
     .header-srch{margin-left: 12px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 200px){
+
+    .header-btns .button{width: 100%;}
     .site-main-cover{padding-top: 90px;}
     .header{padding: 25px 0 26px; display: block; position: relative;}
     .logo{width: 213px; z-index: 1800;}
@@ -168,7 +170,7 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
     ul.main-menu > li:last-child > a{border-bottom: none;}
     ul.main-menu > li.current_page_item > a, ul.main-menu > li > a:hover{color: var(--capri-ocean);}
     
-    .header-btns{padding-bottom: 100px; gap: 10px; flex-direction: column;}
+    .header-btns{padding-bottom: 100px; display: block;}
 
     .languages{flex: 1; order: 1; gap: 10px; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
     .languages a{width: 42px; height: 42px; color: rgba(18, 19, 33, 0.35);}
@@ -200,9 +202,9 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
     ul.main-menu > li.menu-item-has-children > a.active::before{content: "Back"; font-size: 18px; line-height: 20px; color: var(--capri-ocean);  letter-spacing: 0.36px;}
     ul.main-menu > li.menu-item-has-children > a.active::after{left: 0; right: auto; transform: translateY(-50%) scaleX(-1);}
 
-    .header-sign-btn{position: relative; padding: 10px 0;}
+    .header-sign-btn{position: relative; padding: 10px 0 0;}
     .header-btns .header-sign-btn:hover .button, .button.sign_btn.active{background-color: var(--capri-ocean); color: var(--white);}
-    ul.signin-menu{display: none; width: 100%; margin: 0; position: absolute; top: calc(100%); left: 0; background: var(--white); box-shadow: 0 5px 40px 0 rgba(0,17,51,.15);}
+    ul.signin-menu{display: none; width: 100%; margin: 0; position: absolute; top: calc(100% + 10px); left: 0; background: var(--white); box-shadow: 0 5px 40px 0 rgba(0,17,51,.15);}
     ul.signin-menu::before{width: 0; height: 0; top: -4px; right: 15px; transition: all 0.5s ease; border-radius: 0; border: 5px solid transparent; border-top: 5px solid var(--white); border-left: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; }
     ul.signin-menu li{display: block; margin-bottom: 0; padding: 0; white-space: normal; }
     ul.signin-menu li:first-child{padding-top: 8px;}
@@ -217,6 +219,7 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .header-right{max-width: 100%;}
+    .mobile-logo{display: none;}
     header.header-main.nav-open .logo-white{opacity: 0;}
     header.header-main.nav-open .logo-black{opacity: 1;}
 }
