@@ -30,17 +30,6 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
 
 .sticky-header .header-btns .selectBox-dropdown{color: var(--midnight);}
 
-.header-sign-btn{position: relative; padding: 10px 0;}
-.header-btns .header-sign-btn:hover .button{background-color: var(--capri-ocean); color: var(--white);}
-ul.signin-menu{display: block; max-height: 0; opacity: 0; visibility: hidden; width: 100%; margin: 0; position: absolute; top: calc(100%); left: 0; background: var(--white); margin: 0;  box-shadow: 0 5px 40px 0 rgba(0,17,51,.15); transition: all 0.5s ease;}
-.header-sign-btn:hover ul.signin-menu{ max-height: inherit; opacity: 1; visibility: visible;}
-ul.signin-menu::before{width: 0; height: 0; top: -4px; right: 15px; border-radius: 0; border: 5px solid transparent; border-top: 5px solid var(--white); border-left: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; }
-ul.signin-menu li{display: block; margin-bottom: 0; padding: 0; white-space: normal; }
-ul.signin-menu li:first-child{padding-top: 8px;}
-ul.signin-menu li:last-child{padding-bottom: 8px;}
-ul.signin-menu li::before{display: none;}
-ul.signin-menu li a{padding: 8px 16px; transition: none; display: block; width: 100%; color: var(--midnight,#121321); cursor: pointer; font-size: 15px; line-height: 15px; letter-spacing: 0; font-weight: 700; letter-spacing: normal; display: block; text-transform: none; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-family: 'Century Gothic';}
-ul.signin-menu li a:hover{color: var(--capri-ocean); transition: all 0.5s ease;}
 
 /* media css starts here */
 @media screen and (min-width: 1600px){
@@ -48,7 +37,6 @@ ul.signin-menu li a:hover{color: var(--capri-ocean); transition: all 0.5s ease;}
     .header-srch-form.open{width: calc(100% - 375px);}
 }
 @media screen and (min-width: 1300px){
-
     .header-btns .selectBox-dropdown{min-width: 112px; width: 112px;}
 
     .site-main-cover{padding-top: 150px;}
@@ -117,6 +105,19 @@ ul.signin-menu li a:hover{color: var(--capri-ocean); transition: all 0.5s ease;}
     header.black-header:not(.sticky-header) .languages a.active{opacity: 1; background-color: var(--white-10); color: var(--white);}
     header.black-header:not(.sticky-header) ul.main-menu > li > a{color: var(--white);}
     header.black-header.sticky-header .languages a.active{color: var(--midnight);}
+
+
+    .header-sign-btn{position: relative; padding: 10px 0;}
+    .header-btns .header-sign-btn:hover .button{background-color: var(--capri-ocean); color: var(--white);}
+    ul.signin-menu{display: block; max-height: 0; opacity: 0; visibility: hidden; width: 100%; margin: 0; position: absolute; top: calc(100%); left: 0; background: var(--white); margin: 0;  box-shadow: 0 5px 40px 0 rgba(0,17,51,.15); transition: all 0.5s ease;}
+    .header-sign-btn:hover ul.signin-menu{ max-height: inherit; opacity: 1; visibility: visible;}
+    ul.signin-menu::before{width: 0; height: 0; top: -4px; right: 15px; transition: all 0.5s ease; border-radius: 0; border: 5px solid transparent; border-top: 5px solid var(--white); border-left: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; }
+    ul.signin-menu li{display: block; margin-bottom: 0; padding: 0; white-space: normal; }
+    ul.signin-menu li:first-child{padding-top: 8px;}
+    ul.signin-menu li:last-child{padding-bottom: 8px;}
+    ul.signin-menu li::before{display: none;}
+    ul.signin-menu li a{padding: 8px 16px; transition: none; display: block; width: 100%; color: var(--midnight,#121321); cursor: pointer; font-size: 15px; line-height: 15px; letter-spacing: 0; font-weight: 700; letter-spacing: normal; display: block; text-transform: none; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-family: 'Century Gothic';}
+    ul.signin-menu li a:hover{color: var(--capri-ocean); transition: all 0.5s ease;}
 
 }
 @media only screen and (max-width: 1599px) and (min-width: 1300px){
@@ -198,6 +199,17 @@ ul.signin-menu li a:hover{color: var(--capri-ocean); transition: all 0.5s ease;}
     ul.main-menu > li.menu-item-has-children > a.active{padding-left: 20px; border-bottom-color: transparent; color: transparent;} 
     ul.main-menu > li.menu-item-has-children > a.active::before{content: "Back"; font-size: 18px; line-height: 20px; color: var(--capri-ocean);  letter-spacing: 0.36px;}
     ul.main-menu > li.menu-item-has-children > a.active::after{left: 0; right: auto; transform: translateY(-50%) scaleX(-1);}
+
+    .header-sign-btn{position: relative; padding: 10px 0;}
+    .header-btns .header-sign-btn:hover .button, .button.sign_btn.active{background-color: var(--capri-ocean); color: var(--white);}
+    ul.signin-menu{display: none; width: 100%; margin: 0; position: absolute; top: calc(100%); left: 0; background: var(--white); margin: 0;  box-shadow: 0 5px 40px 0 rgba(0,17,51,.15); transition: all 0.5s ease;}
+    ul.signin-menu::before{width: 0; height: 0; top: -4px; right: 15px; transition: all 0.5s ease; border-radius: 0; border: 5px solid transparent; border-top: 5px solid var(--white); border-left: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; }
+    ul.signin-menu li{display: block; margin-bottom: 0; padding: 0; white-space: normal; }
+    ul.signin-menu li:first-child{padding-top: 8px;}
+    ul.signin-menu li:last-child{padding-bottom: 8px;}
+    ul.signin-menu li::before{display: none;}
+    ul.signin-menu li a{padding: 8px 16px; transition: none; display: block; width: 100%; color: var(--midnight,#121321); cursor: pointer; font-size: 15px; line-height: 15px; letter-spacing: 0; font-weight: 700; letter-spacing: normal; display: block; text-transform: none; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-family: 'Century Gothic';}
+    ul.signin-menu li a:hover{color: var(--capri-ocean); transition: all 0.5s ease;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .header-right{max-width: 100%;}
