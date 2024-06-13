@@ -38,7 +38,7 @@ jQuery(function($){
       });
       }
 
-     $(".header-srch-main").on("click", function(e){
+     $(".header-srch-pos").on("click", function(e){
          e.preventDefault();
          $(".header-srch-form").addClass("open");
          $("header.header-main").removeClass("nav-open");
