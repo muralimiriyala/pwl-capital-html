@@ -56,7 +56,7 @@ body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio input { left: 10px; border: 1px solid rgba(255,255,255,.2); background-color: transparent; border-radius: 0;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before { box-shadow: none; clip-path:none;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked::before {box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%,0 65%,50% 100%,100% 16%,80% 0%,43% 62%);}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label.open { background-color: var(--white); color: var(--black); }
+body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label.open { background-color: var(--white); color: var(--black); }
 body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{color: var(--midnight);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label.open{background-color: var(--white); color: var(--black);}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label span{display: block;}
