@@ -25,6 +25,7 @@ form.career-post-form button{width: 100% !important;}
     .career-post-main{gap: 90px; padding: 0 0 100px;}
     .career-post-article{flex: 1;}
     .career-post-aside{flex: 0 0 304px;}
+	.career-post-main.no_career_article .career-post-aside{margin-left: auto;}
     .career-post-icon{margin-bottom: 7px;}
     .career-post-article ol > li{margin-bottom: 11px;}
     .career-post-article .text-link{margin-top: 30px;}
