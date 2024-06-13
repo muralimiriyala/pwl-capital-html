@@ -33,6 +33,11 @@ body.page-template-financial-goals-survey ul > li::before{background: var(--gree
     .financial-goals-image .optional-box-bg.bottom-right{right: 169px; bottom: 321px;}
     body.page-template-financial-goals-survey .financial-goals-image #goals-image-5 .optional-box-bg.bottom-left{left: 377px; bottom: 314px;}
     body.page-template-financial-goals-survey .financial-goals-image #goals-image-3 .optional-box-bg.bottom-left{left: 542px; bottom: 251px;}
+    .financial-goals-image::before{top: 0; left: 0; width: 100px; height: 100%; background: linear-gradient(-90deg,rgba(11,0,65,0) 17%,#013 70.5%); content: ""; display: block; position: absolute; z-index: 2; }
+    .financial-goals-image::after{top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg,rgba(11,0,65,0) 91.5%,#013 111.5%); content: ""; display: block; position: absolute; z-index: 2;}
+
+    .financial-goals-main.no_financial_image .financial-goals-left {max-width: 100%;}
+    .financial-goals-main.no_financial_image .financial-goals-left .financial-goals-text #goals-desc-1 h1 {max-width: 100%;}
 }
 @media screen and (max-width: 1399px) and (min-width: 1024px) {
     body.page-template-financial-goals-survey .financial-goals-image #goals-image-2 .optional-box-bg.bottom-left, body.page-template-financial-goals-survey .financial-goals-image #goals-image-3 .optional-box-bg.bottom-left{left: auto; right: 20px;}
@@ -48,8 +53,10 @@ body.page-template-financial-goals-survey ul > li::before{background: var(--gree
     .financial-goals-text{padding-bottom: 0;}
     .financial-goals-text p{padding-right: 5px;}
     .financial-goals-image{position: relative;}
+    .financial-goals-image img{min-height: 350px;}
     .financial-goals-image::before{background: linear-gradient(180deg,rgba(11,0,65,0) 62.5%,#013 100.5%); width: 100%; height: 100px; bottom: 0; top: auto;}
     .financial-goals-image .optional-box-bg.bottom-left{left: 19px; bottom: 19px;}
+    .financial-goals-main.no_financial_image .financial-goals-left {padding-top: 250px;}
 }
 
 
