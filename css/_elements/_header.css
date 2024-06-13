@@ -18,7 +18,7 @@ body.page-template-home .site-main-cover, body.page-template-career .site-main-c
 .header-srch-form.open{width: 100%;}
 .search-form{position: relative; overflow: hidden;}
 .custom_icon{position: absolute; top: 50%; transform: translateY(-50%); line-height: normal; left: 12px; color: #a6b1ba;}
-.search-field{padding: 18px 40px; border-radius: 8px;}
+.search-field{padding: 18px 40px; border-radius: 6px;}
 .close-srch{position: absolute; right: 12px; top: 50%; transform: translateY(-50%); line-height: 1; cursor: pointer;}
 
 .header-btns{align-items: center;}
@@ -91,8 +91,8 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
     .languages a{width: 32px; height: 32px; opacity: 0.35;  color: var(--midnight);}
     .languages a.active{opacity: 1; background-color: var(--white); color: var(--midnight);}
     
-    .header-right{flex: 1; margin-left: 14px; gap: 64px; align-items: center; justify-content: flex-end;}
-    .header-right-inner{flex: 1; margin-left: 14px; gap: 64px; align-items: center; justify-content: flex-end;}
+    .header-right{flex: 1; margin-left: 12px; gap: 64px; align-items: center; justify-content: flex-end;}
+    .header-right-inner{flex: 1; gap: 64px; align-items: center; justify-content: flex-end;}
     ul.main-menu{gap: 0 46px; order: 2; width: fit-content; justify-content: flex-end; font-family: 'Century Gothic', sans-serif;}
 
 
