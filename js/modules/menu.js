@@ -65,6 +65,12 @@ function menu(){
         //     jQuery("ul.main-menu > li > ul > li > ul > li.menu-item-has-children > ul").not(jQuery(this).siblings("ul")).slideUp(800);
         //     jQuery(this).siblings("ul").slideToggle(800);
         // });
+
+        jQuery(".sign_btn").on("click", function(e){
+            e.preventDefault();
+            jQuery(this).toggleClass("active");
+            jQuery("ul.signin-menu").fadeToggle(800);
+        });
     }
 }
 jQuery(document).on("ready", function() { menu(); });
