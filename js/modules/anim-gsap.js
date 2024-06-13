@@ -81,13 +81,12 @@ $barChart.each(function () {
   tl.fromTo($self[0], { y: -10, opacity: 0 }, { y: 0, opacity: 1, duration: 1, ease: 'back.inOut'})
   tl.fromTo($chart[0], {  opacity: 0 }, { opacity: 1, duration: 0.75, ease: 'power1.out'},  '>-0.25')
   tl.fromTo($label[0], { y: 10, opacity: 0 }, { y: 0, opacity: 1, duration: 0.75, ease: 'back.out'}, '<')
-
+  
   setInterval(function () {
     for (let i = 0; i < $bars.length; i++) {
-
-      gsap.to($bars[i], { scaleY: getRandomInt(50, 100) / 100, duration: 0.5, ease: 'power1.out' })
+      gsap.to($bars[i], { y: getRandomInt(4, 2), opacity: 1, duration: 1, ease: 'power1.out' })
     }
-  }, 1500)
+  }, 1000)
 
   $self[0].tl = tl
 })
