@@ -32,6 +32,7 @@ body.page-template-become-a-client ul.selectBox-dropdown-menu{ max-height: 100%}
 body.page-template-team ul.selectBox-dropdown-menu{min-width: auto; max-width: 187px; margin: 16px 0 0;}
 body.page-template-team ul.selectBox-dropdown-menu::before{left: 15px; right: auto;}
 body.page-template-team ul.selectBox-dropdown-menu li:hover a{color: var(--green-pear); background-color: transparent;}
+ul.selectBox-dropdown-menu li.first-sign-option{display: none;}
 
 /* media css starts here */
 @media only screen and (max-width: 767px) and (min-width: 200px){

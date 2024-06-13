@@ -3,6 +3,11 @@
 
 jQuery(document).ready(function($){ 
     function initSelectBox() {
+        // Assuming you have a select box with id "mySelectBox"
+        const selectBox = document.getElementById('signin');
+        selectBox.options[0].classList.add('first-sign-option');
+
+
         $('select').selectBox({
             keepInViewport: false,
             menuSpeed: 'slow',
