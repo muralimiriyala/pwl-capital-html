@@ -3,6 +3,10 @@
 .interested-thumb{margin-bottom: 30px;}
 .interested-content{font-size: 21px; line-height: 30px; letter-spacing: -0.42px; font-family: 'Century Gothic';}
 .interested-content p{margin-bottom: 10px;}
+.interested-content p a{color: var(--midnight);}
+.interested-content p a:hover{color: var(--green-pear);}
+.interested-content ul.categorys > li a{color: var(--aquamarine,#10b596);}
+.interested-content ul.categorys > li a:hover{color: var(--green-pear);}
 
 @media screen and (min-width: 1300px) {
     .interested-lists{gap: 50px;}
@@ -20,6 +24,7 @@
     .interested-main{margin: 111px 0 110px;}
     .interested-title{margin-bottom: 45px;}
     .interested-btn{top: 8px; right: 0;} 
+    .interested-thumb img{min-height: 206px; max-height: 206px; object-position: top;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {
