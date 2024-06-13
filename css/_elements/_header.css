@@ -18,7 +18,7 @@ body.page-template-home .site-main-cover, body.page-template-career .site-main-c
 .header-srch-form.open{width: 100%;}
 .search-form{position: relative; overflow: hidden;}
 .custom_icon{position: absolute; top: 50%; transform: translateY(-50%); line-height: normal; left: 12px; color: #a6b1ba;}
-.search-field{padding: 14px 40px; border-radius: 8px;}
+.search-field{padding: 18px 40px; border-radius: 8px;}
 .close-srch{position: absolute; right: 12px; top: 50%; transform: translateY(-50%); line-height: 1; cursor: pointer;}
 
 /* media css starts here */
@@ -69,15 +69,13 @@ body.page-template-home .site-main-cover, body.page-template-career .site-main-c
     .menu-text span{margin-bottom: 10px; color: var(--white); display: block;}
     /*-- nav-services --*/
 
-
-
     .sticky-header .header{padding: 0;}
     .sticky-header ul.main-menu > li > a{padding: 41px 0 45px;}
 
     .humburger-btn{display: none;}
     .header-srch{width: fit-content; margin-left: 72px;}
     
-    .languages{flex: 1; order: 1; gap: 10px; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
+    .languages{flex: 1; order: 1; gap: 10px; flex-wrap: nowrap; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
     .languages a{width: 32px; height: 32px; opacity: 0.35;  color: var(--midnight);}
     .languages a.active{opacity: 1; background-color: var(--white); color: var(--midnight);}
     
