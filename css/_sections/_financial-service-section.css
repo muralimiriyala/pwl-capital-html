@@ -28,7 +28,7 @@
     .financial-item:hover:not(.financial-cta) .financial-content{color: var(--white);}
     .financial-item:hover:not(.financial-cta) .financial-content a{color: var(--white);}
     .financial-item:hover:not(.financial-cta) .financial-content h3{color: var(--white);}
-    .financial-item:hover:not(.financial-cta) .financial-content h3:hover{color: var(--midnight);}
+    .financial-item:hover:not(.financial-cta) .financial-content h3:hover{color: rgba(255, 255, 255, .8);}
     .financial-item:hover:not(.financial-cta) .financial-content .text-link{color: var(--white);}
     .financial-item:hover:not(.financial-cta) .financial-content .text-link::after{color: var(--white);}
     .financial-item:hover:not(.financial-cta) .financial-image{opacity: 1; visibility: visible; } 
@@ -46,7 +46,7 @@
     .financial-item.financial-cta .financial-content .text-link:hover{background-color: var(--aquamarine); color: var(--white);}
     .financial-item:hover:not(.financial-cta)  .financial-content{color: var(--white);}
     .financial-item:hover:not(.financial-cta)  .financial-content h3{color: var(--white);}
-    .financial-item:hover:not(.financial-cta) .financial-content h3:hover{color: var(--midnight);}
+    .financial-item:hover:not(.financial-cta) .financial-content h3:hover{color: rgba(255, 255, 255, .8);}
     .financial-item:hover:not(.financial-cta)  .financial-content .text-link{color: var(--white);}
     .financial-item:hover:not(.financial-cta)  .financial-content .text-link::after{color: var(--white);}
     .financial-item:hover:not(.financial-cta)  .financial-image{opacity: 1; visibility: visible; }

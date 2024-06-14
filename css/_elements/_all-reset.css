@@ -313,45 +313,9 @@ body.search-results-page ::-moz-placeholder { font-family: 'Century Gothic'; fon
 body.search-results-page :-moz-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: var(--midnight); }
 
 /* tooltip css start */
-.tooltip {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .tooltip:hover::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    background-color: var(--white);
-    color: var(--midnight);
-    padding: 10px 15px;
-    border-radius: 15px;
-    font-size: 14px;
-    white-space: normal;
-    z-index: 999;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    width: 500px;
-  }
-  
-  .tooltip:hover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: rotate(180deg);
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent #fff transparent;
-    z-index: 999;
-  }
-  
-  .tooltip:hover::after,
-  .tooltip:hover::before {
-    opacity: 1;
-  }
+.tooltipsall{border: none !important;}
+.qtip{left: -38000px; top: -38000px; max-width: 380px; line-height: 20px;}
+.qtip-dark{background-color: var(--white); color: var(--midnight); padding: 10px 15px; border-radius: 15px; border: none; font-size: 14px; }
   /* tooltip css end */
 
 /*-- media css starts here --*/

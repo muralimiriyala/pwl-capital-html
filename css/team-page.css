@@ -29,8 +29,9 @@
 .team-dropdown .selectBox-dropdown .selectBox-arrow{right: 0;}
 
 .reset{border-bottom: 2px solid var(--ice-blue); }
-.reset a{color: var(--midnight,#121321); line-height: 31px;}
-.reset a:hover{color: var(--green-pear);}
+.reset a{line-height: 31px; color: var(--midnight);}
+.reset.active a{color: var(--green-pear);}
+/* .reset a:hover{color: var(--green-pear);} */
 
 .team-items-row{z-index: 8;}
 .team-item{position: relative;}
@@ -76,6 +77,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
 ul.blog_list{margin: 0;}
 
 .team-item.team-active::after{display: none !important;}
+.team-member-wrap > h4 { margin-bottom: 50px;}
 
 @media screen and (min-width: 1300px){
     .team-col{gap: 0 51px;}
