@@ -57,6 +57,10 @@ body.page-template-financial-goals-survey ul > li::before{background: var(--gree
     .financial-goals-image::before{background: linear-gradient(180deg,rgba(11,0,65,0) 62.5%,#013 100.5%); width: 100%; height: 100px; bottom: 0; top: auto;}
     .financial-goals-image .optional-box-bg.bottom-left{left: 19px; bottom: 19px;}
     .financial-goals-main.no_financial_image .financial-goals-left {padding-top: 250px;}
+
+    body.page-template-home .regulated-by{ position: absolute; top: 100%; left: 50%; transform: translateX(-50%); display: flex; width: calc(100% - 40px); max-width: 100%; border-bottom: 1px solid rgb(231, 236, 241); padding: 38px 0 19px; justify-content: center; align-items: center; gap: 15px; }
+    body.page-template-home .regulated-by span { margin-bottom: 0; color: rgb(136, 149, 165);}
+    body.page-template-home .regulated-img{max-width: 125px;}
 }
 
 
