@@ -25,6 +25,10 @@ jQuery(".humburger-btn").on("click", function(e){
         jQuery(".header-overlay").removeClass("open")
     }
  });
+ jQuery(".flyout_close ").on("click", function(e){
+    e.preventDefault();
+    jQuery("header.header-main").removeClass("nav-open");
+ });
 
 });
 

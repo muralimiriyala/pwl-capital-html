@@ -31,7 +31,7 @@ $ovalChart.each(function () {
   tl.fromTo(
     $progress[0],
     { drawSVG: '0%'},
-    { drawSVG: value + '%', duration: 1, ease: 'power2.out', onStart: function () { counterRef.start(0); }},
+    { drawSVG: value * 5 + '%', duration: 5, ease: 'power2.out', onStart: function () { counterRef.start(0); }},
     '<'
   );
 
