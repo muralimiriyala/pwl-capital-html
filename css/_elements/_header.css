@@ -66,6 +66,7 @@ ul.main-menu > li.nav-services > ul > li.no-cursor > a{cursor: context-menu;}
     ul.main-menu > li:not(.nav-services) > ul > li > a:hover{color: var(--capri-ocean);}
     
     /*-- nav-services --*/
+    ul.main-menu > li.nav-services:hover{border-bottom: 4px solid var(--capri-ocean);}
     ul.main-menu > li.nav-services{position: static;}
     ul.main-menu > li.nav-services > ul{width: 100vw; left: 0; box-shadow: 13px 13px 0 var(--capri-ocean); display: flex; flex-wrap: wrap;}
     ul.main-menu > li.nav-services > ul > li{margin: 0; padding: 72px 0 72px 80px; flex: 0 0 calc(25% - 0px);}
@@ -213,6 +214,7 @@ ul.main-menu > li.nav-services > ul > li.no-cursor > a{cursor: context-menu;}
 }
 @media only screen and (max-width: 1300px) and (min-width: 740px){
     .mobile-logo{position: absolute; top: 20px; left: 20px; width: 213px;}
+    .header-right.open{box-shadow: 0 5px 40px 0 rgba(0,17,51,.15);}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .header-right{max-width: 100%;}
