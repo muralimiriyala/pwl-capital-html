@@ -17,7 +17,7 @@
 .featured-insights-list p > a:hover{color: var(--aquamarine, #10B596);}
 
 .featured-insights-list:not(:last-child){padding-bottom: 22px; margin-bottom: 27px; border-bottom: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14));}
-.featured-insights-list p{margin-bottom: 12px; line-height: 1.4; letter-spacing: -0.4px;}
+.featured-insights-list p{margin-bottom: 12px; line-height: 1.4; letter-spacing: -0.4px; font-weight: 400; font-size: 20px;}
 .featured-insights-list ul.categorys {margin: 0 0 13px; gap: 10px;}
 .featured-insights-list ul.categorys li{ margin: 0; padding: 7px 10px; background-color: var(--aguamarine-light, rgba(16, 181, 150, 0.12)); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--aquamarine, #10B596); text-align: center;font-family:"brother-1816", sans-serif; text-transform: uppercase; }
 .featured-insights-list ul.categorys li a{color: var(--aquamarine, #10B596);}
