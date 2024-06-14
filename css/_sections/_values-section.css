@@ -9,14 +9,21 @@
 /* media css starts here */
 @media screen and (min-width: 1300px){
     .values-main{gap: 50px;}
-    .values-list{flex: 0 0 calc(25% - 38px); padding-right: 24px;}
+    .values1-of-1{flex: 0 0 100%;}
+    .values1-of-2{flex: 0 0 calc(50% - 25px); padding-right: 24px;}
+    .values1-of-3{flex: 0 0 calc(33.3333333% - 34px); padding-right: 24px;}
+    .values1-of-4{flex: 0 0 calc(25% - 38px); padding-right: 24px;}
 }
 @media screen and (min-width: 1024px){
     .values-main{padding: 0 0 89px;}
+    
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .values-main{gap: 32px;}
-    .values-list{flex: 0 0 calc(25% - 24px);}
+    .values1-of-1{flex: 0 0 100%;}
+    .values1-of-2{flex: 0 0 calc(50% - 16px);}
+    .values1-of-3{flex: 0 0 calc(33.3333333% - 22px);}
+    .values1-of-4{flex: 0 0 calc(25% - 24px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .values-main{gap: 40px; padding: 0 0 82px;}

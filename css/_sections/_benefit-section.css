@@ -12,6 +12,7 @@
 /* media css starts here */
 @media screen and (min-width: 1300px){
     .benefit-lists{gap: 74px;}
+    .benefit1-of-1{flex: 0 0 100%;}
     .benefit1-of-2{flex: 0 0 calc(50% - 37px);}
     .benefit1-of-3{flex: 0 0 calc(33.3333333% - 50px);}
     .benefit1-of-4{flex: 0 0 calc(25% - 56px);}
@@ -28,6 +29,7 @@
     .benefit-item{flex: 0 0 calc(25% - 24px);}
     .benefit-title{max-width: 658px; margin-left: 0;}
 
+    .benefit1-of-1{flex: 0 0 100%;}
     .benefit1-of-2{flex: 0 0 calc(50% - 16px);}
     .benefit1-of-3{flex: 0 0 calc(33.3333333% - 22px);}
     .benefit1-of-4{flex: 0 0 calc(25% - 24px);}

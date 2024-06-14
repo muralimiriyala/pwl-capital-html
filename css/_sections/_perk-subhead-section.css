@@ -8,7 +8,10 @@
     .perk-subhead-main{gap: 50px; padding: 0 0 13px;}
     body.page-template-become-a-client .perk-subhead-main, body.page-template-services .perk-subhead-main{padding: 0 0 105px;}
     body.page-template-default .perk-subhead-main{padding: 0 0 150px;}
-    .perk-subhead-list{flex: 0 0 calc(25% - 38px);}
+    .perks1-of-1{flex: 0 0 100%;}
+    .perks1-of-2{flex: 0 0 calc(50% - 25px);}
+    .perks1-of-3{flex: 0 0 calc(33.3333333% - 34px);}
+    .perks1-of-4{flex: 0 0 calc(25% - 38px);}
 }
 
 
