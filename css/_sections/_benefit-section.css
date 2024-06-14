@@ -11,8 +11,10 @@
 
 /* media css starts here */
 @media screen and (min-width: 1300px){
-    .benefit-lists{gap: 50px;}
-    .benefit-item{flex: 0 0 calc(25% - 38px); padding-right: 24px;}
+    .benefit-lists{gap: 74px;}
+    .benefit1-of-2{flex: 0 0 calc(50% - 37px);}
+    .benefit1-of-3{flex: 0 0 calc(33.3333333% - 50px);}
+    .benefit1-of-4{flex: 0 0 calc(25% - 56px);}
     .benefit-title{max-width: 658px; margin-left: 119px;}
 }
 @media screen and (min-width: 1024px){
@@ -20,7 +22,6 @@
     body.page-template-become-a-client .benefit-main{margin-top: 118px; padding: 16px 0 7px;}
     .benefit-watermark svg:first-child{position: absolute; left: 829px; top: 18px;}
     .benefit-watermark svg:not(:first-child){position: absolute; left: 1063px; top: 138px;}
-    
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .benefit-lists{gap: 32px;}
