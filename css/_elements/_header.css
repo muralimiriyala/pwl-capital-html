@@ -29,6 +29,7 @@ header.black-header .header-btns .selectBox-dropdown{color: var(--midnight);}
 header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: var(--white);}
 
 .sticky-header .header-btns .selectBox-dropdown{color: var(--midnight);}
+ul.main-menu > li.nav-services > ul > li.no-cursor > a{cursor: context-menu;}
 
 /* media css starts here */
 @media screen and (min-width: 1600px){
