@@ -30,7 +30,7 @@ jQuery(document).ready(function($){
   financialSlider();
 
   function valuesSlider() {
-      if ($(window).width() <= 739) {
+      if ($(window).width() <= 1023) {
         if (!$('.values-main').hasClass('slick-initialized')) {
           $('.values-main').slick({
             slidesToShow: 1,
