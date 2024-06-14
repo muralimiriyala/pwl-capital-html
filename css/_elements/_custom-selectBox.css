@@ -35,6 +35,5 @@ body.page-template-team ul.selectBox-dropdown-menu li:hover a{color: var(--green
 
 /* media css starts here */
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    ul.selectBox-dropdown-menu{max-width: 100%;}
     body.page-template-team ul.selectBox-dropdown-menu{max-width: 150px;}
 }
