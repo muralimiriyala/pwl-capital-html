@@ -41,6 +41,7 @@ ul.positions-category li::before{width: 3px; height: 3px; right: -17px; left: au
     .open-positions-list{gap: 32px;}
     .open-positions-text{flex: 1;}
     .open-positions-btn{flex: 0 0 130px;}
+    .open-positions-field{flex: 1;}
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
     .open-positions-main{padding: 80px 0 60px; display: block;}
@@ -58,6 +59,7 @@ ul.positions-category li::before{width: 3px; height: 3px; right: -17px; left: au
 }
 @media screen and (max-width: 413px) and (min-width: 200px){
     .open-positions-form{display: block;}
+    .open-positions-field:first-child{width: 100%;}
     .open-positions-field:not(:last-child){margin-bottom: 20px;}
 }
 

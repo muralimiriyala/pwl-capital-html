@@ -21,6 +21,7 @@ ol.meet-form-step > li::before{top: -5px; left: 0; width: 32px; height: 32px; fo
 
 .meet-with-polygon{content: ""; width: 111px; height: 111px; bottom: -110px; left: 0; clip-path: polygon(0% 0,100% 0,100% 0%,0 100%); background-color: var(--french-navy,#013); display: block;}
 body .meet-with-form .frm_forms .frm_form_fields .frm_submit button[type="submit"], button {padding: 14px 43px 15px;}
+body .become-with-form .frm_forms .frm_form_fields .frm_submit button[type="submit"], button {padding: 14px 43px 15px;}
 
 
 .meet-location-thumb{box-shadow: -20px 20px 0 0 rgba(8, 148, 211, 0.3);}
