@@ -27,7 +27,13 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .values-main{gap: 40px; padding: 0 0 82px;}
-    .values-list{flex: 0 0 calc(50% - 20px);}
+    /* .values-list{flex: 0 0 calc(50% - 20px);} */
+    .values-main.slick-slider .slick-list{overflow: inherit;}
+    .values-main .slick-list::before{content: ""; position: absolute; top: 0; right: -20px; width: 85px; height: 100%; background-image: linear-gradient(to left, var(--white) 5%, transparent 100%); z-index: 1;}
+    .values-main.slick-slider ul.slick-dots{margin-top: 38px;}
+    .values-list{width: 307px; margin-right: 30px; border-top: 8px solid rgba(8, 148, 211, 0.20);; padding-top: 21px;}
+    .values-text p{margin-bottom: 17px;}
+    .values-text h2{font-size: 28px; line-height: 34px; margin-bottom: 11px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .values-main{display: block; padding: 0 0 82px;}
