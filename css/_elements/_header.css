@@ -210,7 +210,6 @@ ul.main-menu > li.nav-services > ul > li.no-cursor > a{cursor: context-menu;}
     ul.signin-menu li::before{display: none;}
     ul.signin-menu li a{padding: 8px 16px; transition: none; display: block; width: 100%; color: var(--midnight,#121321); cursor: pointer; font-size: 15px; line-height: 15px; letter-spacing: 0; font-weight: 700; letter-spacing: normal; display: block; text-transform: none; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-family: 'Century Gothic';}
     ul.signin-menu li a:hover{color: var(--capri-ocean); transition: all 0.5s ease;}
-
 }
 @media only screen and (max-width: 1300px) and (min-width: 740px){
     .mobile-logo{position: absolute; top: 20px; left: 20px; width: 213px;}
@@ -222,7 +221,6 @@ ul.main-menu > li.nav-services > ul > li.no-cursor > a{cursor: context-menu;}
     header.header-main.nav-open .logo-black{opacity: 1;}
 }
 @media only screen and (max-width: 520px) and (min-width: 200px){
-    .nav-open .header::before{content: ""; background-color: var(--white); width: 100% ; height: 90px; position: absolute; top: 0; left: 0; z-index: 850;}
     .header-srch-pos svg { width: 17px; height: 17px; top: 1px; position: relative; }
 }
 
