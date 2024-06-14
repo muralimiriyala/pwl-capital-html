@@ -61,14 +61,13 @@ jQuery(function($){
      });
 
      $("body").on("click", function(e){
-        if(!$(e.target).closest(".flyout_btn, .flyout-overlay").length){
+        if(!$(e.target).closest(".flyout_btn, .flyout-overlay, .frm_forms, ul.selectBox-dropdown-menu li a").length){
             $(".flyout-bg-overlay").removeClass("open");
             $(".flyout-overlay").removeClass("open");
         }
      });
 
-
-      // Show the first tab and hide the rest
+     // Show the first tab and hide the rest
       $('.portfolio-lists .portfolio-item:first-child').addClass('active');
       $('.portfolio-table-content').hide();
       $('.portfolio-table-content:first').show();
