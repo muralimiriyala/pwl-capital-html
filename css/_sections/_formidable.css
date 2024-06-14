@@ -40,9 +40,9 @@ body .frm_forms .frm_form_fields .frm_form_field textarea{height: 120px;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field textarea{height: 188px;}
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"],[type="checkbox"]):focus{background-color: var(--white); border: solid 1px rgba(255, 255, 255, 0.2); color: var(--midnight);}
 body .frm_forms .frm_form_fields .frm_form_field.frm_blank_field input{ color: var(--midnight); border: 1px solid var(--Aecon-Red, #DA1A32); background: var(--white);}
-body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
-body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
-body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic'; opacity: 1;}
+body .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic'; line-height: 1.3;}
+body .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic'; line-height: 1.3;}
+body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic'; opacity: 1; line-height: 1.3;}
 
 body .header-main form.search-form input::-webkit-input-placeholder{color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
 body .header-main form.search-form input:-moz-placeholder{color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
@@ -124,11 +124,11 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertica
 body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wrapper #frm_field_13_container{margin-left: 0; flex: 100%;}
 body.page-template-meet-with-us  .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field {flex: 100%;}
 
-body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{color: var(--pacific-blue);}
-body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field_wrapper #frm_field_47_container .frm_primary_label{display: none;}
-body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field input, body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field textarea{ border: solid 1px var(--line-dark);}
-body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{color: var(--midnight);}
-body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{width: 100%; flex: auto;}
+body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{color: var(--pacific-blue); line-height: 1.3;}
+body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields .frm_form_field_wrapper #frm_field_47_container .frm_primary_label{display: none;}
+body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields .frm_form_field input, body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field textarea{ border: solid 1px var(--line-dark);}
+body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{color: var(--midnight);}
+body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{width: 100%; flex: auto;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8px; float: none; clear: none; display: inline-block; vertical-align: top;}
