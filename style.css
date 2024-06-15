@@ -22,3 +22,6 @@ Text Domain:
 @font-face {
     font-family: 'Century Gothic'; src: url('./fonts/CenturyGothic-BoldItalic.woff2') format('woff2'), url('fonts/CenturyGothic-BoldItalic.woff') format('woff'); font-weight: bold; font-style: italic; font-display: swap;
 }
+
+
+.not-found-page-main{padding: 80px 0;}

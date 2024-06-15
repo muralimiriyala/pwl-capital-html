@@ -4,7 +4,7 @@
 .srch-results-watermark svg{z-index: -1;}    
 .srch-results-filter h2{font-weight: 500;}
 .srch-results-form{margin-bottom: 23px;}
-.srch-results-form::after{content: "\f00d"; position: absolute; font-family: "Font Awesome 6 Pro"; font-size: 14px; top: 50%; transform: translateY(-50%); right: 79px; color: var(--midnight); cursor: pointer;}
+/* .srch-results-form::after{content: "\f00d"; position: absolute; font-family: "Font Awesome 6 Pro"; font-size: 14px; top: 50%; transform: translateY(-50%); right: 79px; color: var(--midnight); cursor: pointer;} */
 .srch-results-form input{padding: 10px 40px 10px 17px; width: calc(100% - 58px); height: auto; font-size: 18px; line-height: 18px; letter-spacing: 0; border: 1px solid var(--line-dark, rgba(45, 87, 130, 0.14)); background-color: var(--white, #FFF);}
 .srch-results-form button[type="submit"]{padding: 0; width: 58px; border-radius: 0; border: none;}
 .srch-results-form button[type="submit"] svg{width: 100%; height: 100%; display: block;}
