@@ -44,7 +44,7 @@ ul.meet-location-call  svg > path{fill: var(--capri-ocean);}
 @media screen and (min-width: 1024px) {
     .meet-with-main{padding: 232px 0 148px; gap: 170px;}
     .meet-with-title{width:422px;}
-    .meet-with-form{width:calc(100% - 592px);}
+    .meet-with-form{flex: 1;}
     .meet-location-main{padding: 130px 0 139px; gap: 80px 0;}
     .meet-location-image{flex: 0 0 216px; margin-left: 20px;}
     .meet-location-text{flex: 0 0 calc(100% - 304px); padding-top: 31px;}

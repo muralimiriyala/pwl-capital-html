@@ -3,7 +3,6 @@
 
 jQuery(document).ready(function($){ 
     function initSelectBox() {
-
         $('select').selectBox({
             keepInViewport: false,
             menuSpeed: 'slow',
@@ -16,6 +15,11 @@ jQuery(document).ready(function($){
 
     $('select').selectBox().each(function() {
         const $index = $(this).index();
+        const $width = $(this).outerWidth(true);
+        $('ul.selectBox-dropdown-menu').css({
+            width: $width + 'px',
+            // border: "2px solid red"
+        })
         $('ul.selectBox-dropdown-menu').eq($index).addClass(`select-menu-${$index}`);
     });
 
