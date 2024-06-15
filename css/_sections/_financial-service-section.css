@@ -12,8 +12,6 @@
 .financial-thumb::before{content: ""; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, .3);}
 .financial-thumb::after{content: ""; position: absolute; width: 100%; height: 100%; background-color: #0894d3b8; top: 0; left: 0;}
 
-
-
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px) {
     .financial-main{max-width: 1230px; margin: 0 auto; padding: 121px 0 113px;}
