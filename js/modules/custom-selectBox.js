@@ -15,15 +15,8 @@ jQuery(document).ready(function($){
 
     $('select').selectBox().each(function() {
         const $index = $(this).index();
-        const $width = $(this).outerWidth(true);
-        console.log($index, $width, $(this))
-        $('ul.selectBox-dropdown-menu').css({
-            width: $width + 'px',
-        })
         $('ul.selectBox-dropdown-menu').eq($index).addClass(`select-menu-${$index}`);
     });
-
-    
 
     $('select').on('change', function() {
         let selectedValue = $(this).val();
