@@ -16,6 +16,8 @@
 @media only screen and (min-width: 1300px) {
     .financial-main{max-width: 1230px; margin: 0 auto; padding: 121px 0 113px;}
     body.page-template-default .financial-main{padding: 96px 0 113px;}
+    body.page-template-home .financial-main{padding: 116px 0 113px;}
+    body.page-template-home .financial-heading h2{margin-bottom: 20px;}
     .financial-heading{max-width: 776px; padding: 0 0 77px 50px;}
     .financial-item{flex: 0 0 33.3333%; padding: 50px; border-left: 1px solid rgba(45, 87, 130, 0.14); border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     .financial-item:nth-last-child(-n+3){border-bottom: none;}
@@ -61,7 +63,8 @@
     .financial-lists .slick-list::before{content: ""; position: absolute; top: 0; right: -20px; width: 85px; height: 100%; background-image: linear-gradient(to left ,#fff 15%,transparent 100%); z-index: 1;}
     .financial-lists ul.slick-dots{margin-top: 40px;}
     .financial-item-mob{padding-top: 40px; border-top: 1px solid rgba(45, 87, 130, 0.14); margin-top: 35px;}
-    .financial-item-mob .financial-content h3{font-size: 26px; line-height: 1.23; letter-spacing: -0.78px;}
+    .financial-item-mob .financial-content h3{font-size: 26px; line-height: 1.23; letter-spacing: -0.78px; margin-bottom: 24px;}
+    .financial-item-mob .financial-content .button.btn-normal { padding: 14px 15px 15px; }
 
 }
 
