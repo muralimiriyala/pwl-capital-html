@@ -14,10 +14,10 @@
     .pwl-intro-main{padding: 183px 0 80px;}
     body.page-template-become-a-partner .pwl-intro-main, body.page-template-become-a-client .pwl-intro-main{padding: 19px 0 80px;}
     body.page-template-services .pwl-intro-main{padding: 0 0 80px;}
+    body.page-template-services .pwl-intro-head span.optional-text.muted{margin-bottom: 12px;}
     body.page-template-default .pwl-intro-main{padding: 76px 0 80px;}
     body.page-template-career .pwl-intro-main{padding: 158px 0 80px;}
-    .pwl-para-mob{margin-bottom: 30px;}
-    body.page-template-career .pwl-para-mob{margin-bottom: 23px;}
+    .pwl-para-mob{margin-bottom: 23px;}
 }
 
 

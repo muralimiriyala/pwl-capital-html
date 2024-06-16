@@ -3,7 +3,7 @@
 
 
 .featured-insights-section{background: rgba(16, 181, 150, 0.07); overflow: hidden;}
-.featured-insights-main{padding: 103px 0 134px;}
+.featured-insights-main{padding: 103px 0 140px;}
 .featured-insights-title{padding-bottom: 33px;}
 .featured-insights-row{gap: 50px;}
 .featured-insights-image-main{flex: 0 0 894px;}
@@ -41,12 +41,14 @@
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .featured-insights-main{padding: 103px 0 83px;}
+    body.page-template-services .featured-insights-main{padding: 98px 0 83px;}
     .featured-insights-row{gap: 80px;}
     .featured-insights-image-main{flex: 100%; min-height: 428px; background-color: var(--midnight); box-shadow: 20px 20px rgba(16, 181, 150, 0.12); margin-right: 20px;}
     .featured-insights-thumb::before{left: 0; background: linear-gradient(-175deg,rgba(11,0,65,0) 16.5%,#121321 83.5%);}
     .featured-image-text{padding: 30px;}
     .featured-image-text h2{font-size: 22px; line-height: 30px; letter-spacing: -.44px;}
     .featured-insights-watermark{position: absolute; right: 69px; top: 40px; z-index: -1;}
+    .featured-insights-list:not(:last-child){padding-bottom: 19px;}
     
 }
 

@@ -19,8 +19,9 @@
 @media screen and (max-width: 1023px) and (min-width: 200px) {
   .testimonial-lg-main{padding: 80px 0; margin-bottom: 57px;}
   .testimonial-lg-desc em{font-size: 24px; line-height: 1.58;}
-  .testimonial-lg-watermark{top: -47px; left: auto; right: 8px;}
-  .testimonial-lg-polygon-main{left: -20px; width: 57px; height: 57px; bottom: -57px;}
+  .testimonial-lg-watermark{top: -57px; left: auto; right: 8px;}
+  .testimonial-lg-watermark svg{width: 186px;}
+  .testimonial-lg-polygon-main{left: -20px; width: 57px; height: 57px; bottom: -56px;}
   .testimonial-lg-polygon-light{width: 57px; height: 57px;}
 }
 

@@ -7,8 +7,12 @@ body.page-template-services .accordion-content{padding: 3px 18px 6px 0;}
 body.page-template-become-a-partner .accordion-content ul > li::before{background: var(--capri-ocean);}
 .accordion-item.open::after{content: "\f068"; color: var(--green-pear);}
 
+.accordion-item{margin-bottom: 21px; }
+.accordion-head{padding-bottom: 24px;}
+
 @media screen and (max-width: 739px) and (min-width: 200px) {
     .accordion-head{font-size: 19px; line-height: 1.42; letter-spacing: -0.19px;}
     .accordion-item{margin-bottom: 16px;}
     body.page-template-become-a-partner .accordion-head{line-height: 1.32;}
+    body.page-template-services .accordion-content{padding: 0 18px 3px 0;}
 }

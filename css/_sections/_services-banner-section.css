@@ -51,11 +51,11 @@
     .service-banner-main{padding: 140px 0 0; margin-bottom: 100px;}
     .service-banner-text{margin-bottom: 31px; width: 100%;}
     .service-banner-text span.optional-text{margin-bottom: 0;}
-    .service-banner-text p{max-width: 100%;}
-    .service-banner-rt{flex-direction: row-reverse; align-items: center; justify-content: space-evenly;}
+    .service-banner-text p{max-width: 100%; margin-bottom: 20px;}
+    .service-banner-rt{flex-direction: row-reverse; align-items: end; justify-content: space-evenly;}
     .service-banner-main.no_image .service-banner-rt{justify-content: center; margin-bottom: 30px;}
     .service-banner-image{margin: 0; max-width: 200px;}
-    .service-banner-stats-col{flex: 0 0 174px; z-index: 1;}
+    .service-banner-stats-col{flex: 0 0 174px; z-index: 1; padding-bottom: 38px;}
     .service-banner-polygon-main{width: 50px; height: 50px; bottom: -50px;}
     .service-banner-polygon-light{width: 50px; height: 50px;}
     .service-banner-image .optional-box-bg.bottom-right{right: -10px; bottom: 20px;}
