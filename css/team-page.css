@@ -67,7 +67,7 @@ span.experience-title{font-size: 17px; font-weight: 500; line-height: 1.76; lett
 span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; letter-spacing: -0.17px; color: var(--midnight);}
 .team-cont-logo{gap: 20px; align-items: center;}
 .team-cont-right{font-size: 15px; line-height: 1.67;}
-.team-cont-right h4{font-size: 23px; font-weight: 500; line-height: 1.17; letter-spacing: -0.23px;}
+.team-cont-right > h4{font-size: 23px; font-weight: 500; line-height: 1.17; letter-spacing: -0.23px; margin-bottom: 11px;}
 
 .team-filter-form .selectBox-dropdown{padding: 0 24px 0 0; border-bottom: 1px solid rgba(45, 87, 130, 0.14); border-radius: 0; color: var(--midnight, #121321); background-color: transparent; border: none; border-bottom: 2px solid var(--ice-blue); font-family: "Century Gothic", sans-serif; font-size: 20px; font-weight: 400; line-height: 31px; }
 .team-filter-form .selectBox-dropdown .selectBox-arrow{right: 0; color: var(--midnight, #121321);}
@@ -92,7 +92,7 @@ ul.blog_list{margin: 0;}
     .team-list{padding-bottom: 51px; position: relative; z-index: 1; text-align: center;}
     body.page-template-default .team-col:last-child .team-list{padding-bottom: 0;}
     .team-details{text-align: center; padding: 0 20px; width: 100%;}
-    .team-content{gap: 120px; margin-bottom: 60px;}
+    .team-content{gap: 120px; margin-bottom: 50px;}
     .team-cont-left{flex: 0 0 330px; text-align: left;}
     .team-cont-right{flex: 0 0 calc(100% - 456px);}
     .before-loadmore .team-col:nth-child(3) .team-item::after, .team-col:last-child .team-item::after{height: 155px; width: 100%; top: calc(100% - 26px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
@@ -103,6 +103,7 @@ ul.blog_list{margin: 0;}
     body.page-template-default .team-member-wrap{padding: 100px 0 43px; border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
     #load-more-team .button{max-width: 200px; min-width: 200px;}
     .team-content-main::before{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; top: 1px; color: rgba(137, 203, 62, 0.1); font-size: 45px; font-weight: bold; line-height: .1;}
+    .team-items-row{margin-bottom: 24px;}
     body.page-template-default  .team-items-row{padding-bottom: 73px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
@@ -139,8 +140,8 @@ ul.blog_list{margin: 0;}
     .team-content-main{flex: 0 0 100%; margin-bottom: 30px; position: relative; z-index: 900;}
     .team-content-main::after{content: "\f0de"; position: absolute; font-family: "Font Awesome 6 Pro"; top: -12px; left: 50%; transform: translateX(-50%); color: rgba(137, 203, 62, 0.1); font-size: 35px; font-weight: bold;}
     .team-content{padding: 16px 30px 23px; display: block;}
-    .load-more-btn{margin-top: 75px;}
-    #load-more .button{max-width: 146px; min-width: 146px;}
+    #load-more-team{margin-top: 75px;}
+    #load-more-team .button{max-width: 146px; min-width: 146px;}
     .team-items-row:last-child .team-item:last-child{border: none;}
     .team-col:last-child .team-item:nth-last-child(-n + 5) .team-image::after{height: 75px; width: 100%; top: calc(100% + 41px); display: block; content: ""; background: linear-gradient(var(--ice-blue-light),#fff); position: absolute; z-index: -1;}
     .team-col:last-child .team-item:nth-last-child(-n + 5) .team-details::after{height: 28px; width: 123px; top: calc(100% + 135px); display: block; content: ""; background: rgb(237, 247, 251); position: absolute; z-index: -1;}
@@ -172,8 +173,8 @@ ul.blog_list{margin: 0;}
     .team-col:last-child .team-item:nth-last-child(-n + 5) .team-details::before{height: 16px; width: 100%; top: calc(100% + 107px); display: block; content: ""; background: linear-gradient(rgb(241, 249, 252),#fff); position: absolute; z-index: -1;}
     body.page-template-default .team-col:last-child .team-item:nth-last-child(-n + 5) .team-image::after, body.page-template-default .team-col:last-child .team-item:nth-last-child(-n + 5) .team-details::after, body.page-template-default .team-col:last-child .team-item:nth-last-child(-n + 5) .team-details::before{display: none;}
     body.page-template-default .team-col:last-child .team-item:last-child {border-bottom: 1px solid rgba(45, 87, 130, 0.14);}
-    .load-more-btn{margin-top: 75px;}
-    #load-more .button{max-width: 146px; min-width: 146px;}
+    #load-more-team{margin-top: 75px;}
+    #load-more-team .button{max-width: 146px; min-width: 146px;}
     body.page-template-learn #load-more .button{ min-width: 200px;}
     body.page-template-default .team-member-wrap{padding: 71px 0 0;}
     .team-content{padding: 16px 30px 23px; display: block;}
