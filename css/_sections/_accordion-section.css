@@ -6,6 +6,7 @@
 body.page-template-services .accordion-content{padding: 3px 18px 6px 0;}
 body.page-template-become-a-partner .accordion-content ul > li::before{background: var(--capri-ocean);}
 .accordion-item.open::after{content: "\f068"; color: var(--green-pear);}
+.accordion-item:last-child{margin-bottom: 0;}
 
 .question-right .accordion-item{margin-bottom: 21px; }
 .question-right .accordion-head{padding-bottom: 24px;}
