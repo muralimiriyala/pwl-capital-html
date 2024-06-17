@@ -5,6 +5,7 @@ jQuery(document).ready(function($){
     function initSelectBox() {
         $('select').selectBox({
             keepInViewport: false,
+            menuTransition: 'fade',
             menuSpeed: 'slow',
             mobile:  true,
             hideOnWindowScroll: true,
