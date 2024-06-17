@@ -17,9 +17,9 @@
 @media screen and (min-width: 1024px) {
     .become-banner-main{gap: 80px; padding-top: 110px;}
     .become-banner-text{flex: 0 0 540px;}
-    .become-banner-rt{flex: 0 0 calc(100% - 620px); gap: 66px;}
+    .become-banner-rt{flex: 0 0 calc(100% - 620px); gap: 66px; justify-content: end;}
     .become-banner-image{max-width: 540px; transform: translate(0,40px);}
-    .become-banner-stats-col{flex: 0 0 calc(100% - 606px);}
+    .become-banner-stats-col{flex: 0 0 calc(100% - 626px);}
 
     .become-banner-main.no_image{align-items: center;}
     .become-banner-main.no_image .become-banner-text{flex: 0 0 840px; padding: 210px 0 110px;}
