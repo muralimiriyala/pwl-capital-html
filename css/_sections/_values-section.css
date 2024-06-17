@@ -2,7 +2,7 @@
 
 .values-icon{margin-bottom: 8px;}
 .values-text{font-size: 15px; line-height: 25px;}
-.values-text h2{ margin-bottom: 19px; color: var(--capri-ocean, #0894D3);font-family:"brother-1816", sans-serif; font-size: 30px; font-weight: 500; line-height: 34px; }
+.values-text h2{ margin-bottom: 19px; color: var(--capri-ocean, #0894D3);font-family:"brother-1816", sans-serif; font-size: 28px; font-weight: 500; line-height: 29px; }
 
 
 
@@ -24,6 +24,7 @@
     .values1-of-2{flex: 0 0 calc(50% - 16px);}
     .values1-of-3{flex: 0 0 calc(33.3333333% - 22px);}
     .values1-of-4{flex: 0 0 calc(25% - 24px);}
+    .values-text h2 { font-size: 24px; line-height: 25px; }
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .values-main{gap: 40px; padding: 0 0 82px;}

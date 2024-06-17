@@ -45,6 +45,7 @@ body.page-template-financial-goals-survey ul > li::before{background: var(--gree
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
     body.page-template-financial-goals-survey .financial-goals-image #goals-image-4 .optional-box-bg.bottom-right{right: 20px;}
     body.page-template-financial-goals-survey .financial-goals-image #goals-image-5 .optional-box-bg.bottom-left{left: 450px;}
+    .financial-goals-image .optional-box-bg.top-right{right: 150px; top: 237px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .financial-goals-section .container{padding: 0;}
