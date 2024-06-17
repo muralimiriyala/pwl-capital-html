@@ -31,6 +31,9 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
 .sticky-header .header-btns .selectBox-dropdown{color: var(--midnight);}
 ul.main-menu > li.nav-services > ul > li.no-cursor > a{cursor: context-menu;}
 
+ul.main-menu > li.nav-services > ul > li > ul > li.current-menu-item > a{color: var(--green-pear);}
+ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(--green-pear);}
+
 /* media css starts here */
 @media screen and (min-width: 1600px){
     .header-srch-form{left: 375px;}

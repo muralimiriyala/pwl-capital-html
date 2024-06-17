@@ -11,8 +11,19 @@
 .learn-tablefull{margin-bottom: 37px;}
 .learn-tablefull h4{margin-bottom: 20px;}
 
+.learn-tablefull th { font-family: 'Century Gothic' !important; font-weight: 800 !important; border-width: 0 !important; padding: 16px 22px 18px !important; background-color: rgba(217,238,247,.65) !important; color: var(--pacific-blue) !important; border-radius: 0 !important; font-size: 18px !important; line-height: 1.22 !important; }
+.learn-tablefull td { border-width: 0 !important; padding: 14px 22px 16px !important; text-align: right !important; border-bottom: 1px solid rgba(0,0,0,.1) !important; vertical-align: middle !important; font-size: 1.05rem !important; line-height: 1.5rem !important; font-family: 'Century Gothic'!important; }
+.learn-tablefull table tr td:first-child, table tr th:first-child { text-align: left !important; }
+.learn-tablefull table tr td:first-child{ font-weight: bold; }
+.tablepress > .row-hover > tr.even:hover > * { background-color: transparent !important; color: var(--midnight) !important; }
+.tablepress > :where(tbody) > .odd > * { background-color: #e6f4fa !important; color: var(--midnight) I !important; }
+
 @media screen and (min-width: 1024px) {
     .learn-tablefull-main{margin-bottom: 120px;}
+
+    .learn-circle-main{display: flex; align-items: center; gap: 119px; }
+    .learn-model-table.performance-table{flex: 0 0 776px;}
+    .false-For-Bottom-Text{flex: 1;}
     
 }
 

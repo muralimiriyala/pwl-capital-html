@@ -7,8 +7,8 @@
 .service-banner-stat-num.aquamarine{color: var(--aquamarine);}
 
 .service-banner-image .optional-box-bg{width: 280px;}
-.service-banner-image .optional-box-bg.bottom-right{right: -255px; bottom: 40px;}
-.service-banner-image .optional-box-bg.top-left{left: -197px; top: 244px;}
+.service-banner-image .optional-box-bg.bottom-right { right: 100px; bottom: 40px; }
+.service-banner-image .optional-box-bg.top-left { left: 100px; top: 200px; }
 
 .service-banner-image-bg{background-color: var(--capri-ocean); transform: translate(-20px,20px);}
 .service-banner-stats{padding-bottom: 14px; margin-bottom: 13px; border-bottom: 1px solid rgba(45, 87, 130, 0.14); color: rgba(16, 42, 70, 0.6); font-family: "Century Gothic",sans-serif; font-size: 16px; font-weight: 400; line-height: 20px; letter-spacing: -.32px; text-align: left;}
@@ -23,8 +23,26 @@
     .service-banner-main{gap: 80px; padding-top: 120px;}
     .service-banner-text{flex: 0 0 540px; padding: 150px 0 50px; z-index: 2;}
     .service-banner-rt{flex: 0 0 calc(100% - 620px); gap: 66px; justify-content: end;}
-    .service-banner-image{max-width: 355px;}
-    .service-banner-image::before { content: ""; position: absolute; width: 1325px; height: 1325px; top: -338px; border-radius: 1325px; background: radial-gradient(50% 50% at 50% 50%, #FFF 0%, rgba(255, 255, 255, 0.00) 100%); z-index: -1; left: -443px; }
+    /* .service-banner-image{max-width: 355px;} */
+    .service-banner-image {
+        max-width: 1107px;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        position: absolute;
+      }
+    /* .service-banner-image::before { content: ""; position: absolute; width: 1325px; height: 1325px; top: -338px; border-radius: 1325px; background: radial-gradient(50% 50% at 50% 50%, #FFF 0%, rgba(255, 255, 255, 0.00) 100%); z-index: -1; left: -443px; } */
+    .service-banner-image::before {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(-90deg,rgba(11,0,65,0) 16.5%,#e6f4fa 140.5%);
+        content: "";
+        display: block;
+        position: absolute;
+      }
     .service-banner-stats-col{flex: 0 0 calc(100% - 559px); padding-top: 100px; z-index: 1;}
 
     .service-banner-main.no_image{align-items: center;}
@@ -49,18 +67,22 @@
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .service-banner-main{padding: 140px 0 0; margin-bottom: 100px;}
-    .service-banner-text{margin-bottom: 31px; width: 100%;}
+    .service-banner-text{margin-bottom: 31px; width: 100%; padding: 0 20px;}
     .service-banner-text span.optional-text{margin-bottom: 0;}
     .service-banner-text p{max-width: 100%; margin-bottom: 20px;}
     .service-banner-rt{flex-direction: row-reverse; align-items: end; justify-content: space-evenly;}
     .service-banner-main.no_image .service-banner-rt{justify-content: center; margin-bottom: 30px;}
-    .service-banner-image{margin: 0; max-width: 200px;}
+    /* .service-banner-image{margin: 0; max-width: 200px;} */
     .service-banner-stats-col{flex: 0 0 174px; z-index: 1; padding-bottom: 38px;}
     .service-banner-polygon-main{width: 50px; height: 50px; bottom: -50px;}
     .service-banner-polygon-light{width: 50px; height: 50px;}
-    .service-banner-image .optional-box-bg.bottom-right{right: -10px; bottom: 20px;}
+    .service-banner-image .optional-box-bg.bottom-right { right: 20px; bottom: 20px; }
     .service-banner-image .optional-box-bg{width: 190px;}
-    .service-banner-image::before { content: ""; position: absolute; width: 479px; height: 479px; top: -15px; border-radius: 479px; background: radial-gradient(50% 50% at 50% 50%,#fff 0,rgba(255,255,255,0) 100%); z-index: -1; left: -100%; }
+    /* .service-banner-image::before { content: ""; position: absolute; width: 479px; height: 479px; top: -15px; border-radius: 479px; background: radial-gradient(50% 50% at 50% 50%,#fff 0,rgba(255,255,255,0) 100%); z-index: -1; left: -100%; } */
+    .service-banner-image::before {
+        background: linear-gradient(0deg,rgba(11,0,65,0) 62.5%,#013 100.5%);
+      }
+      .services-banner-section .container { padding: 0; }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 740px) {

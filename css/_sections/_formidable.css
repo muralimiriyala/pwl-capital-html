@@ -208,4 +208,6 @@ body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex-direction: column;}
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, 
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_prev_page{width: 100%;}
+    body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex-direction: column;}
+    body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_prev_page{width: 100%;}
 }
