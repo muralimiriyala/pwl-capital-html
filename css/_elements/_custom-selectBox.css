@@ -36,6 +36,9 @@ body.page-template-team ul.selectBox-dropdown-menu li:hover a{color: var(--green
 body.page-template-team ul.selectBox-dropdown-menu li.selectBox-selected a{color: var(--green-pear);}
 
 /* media css starts here */
+@media only screen and (min-width: 768px){
+    body.page-template-team ul.selectBox-dropdown-menu{min-width: 200px;}
+}
 @media only screen and (max-width: 767px) and (min-width: 200px){
     body.page-template-team ul.selectBox-dropdown-menu{max-width: 150px;}
 }
