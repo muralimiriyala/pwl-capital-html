@@ -5,6 +5,7 @@
 .learn-table-inner{width: 776px;}
 .learn-table-inner table{margin: 25px 0;}
 .learn-tablefull-main table{margin: 0;}
+.learn-tablefull .tablepress caption { display: none; }
 .learn-tablefull-heading{border-bottom: 1px solid var(--line-dark); margin-bottom: 37px;}
 .learn-tablefull-main h3{margin-bottom: 8px;}
 .learn-tablefull{margin-bottom: 37px;}
