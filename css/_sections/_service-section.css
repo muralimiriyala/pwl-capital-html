@@ -10,7 +10,7 @@ body.page-template-services .service-section{background-color: rgba(217, 238, 24
 .service-icon{margin-bottom: 15px; width: 54px;}
 
 @media screen and (min-width: 1024px) {
-    .service-main{gap: 168px; padding: 108px 0 116px;}
+    .service-main{gap: 168px; padding: 108px 0 116px; align-items: center;}
     .service-text{flex: 0 0 540px; padding-right: 115px;}
     .service-accordion{flex: 0 0 calc(100% - 708px);}
 }

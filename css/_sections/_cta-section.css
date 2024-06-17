@@ -23,7 +23,7 @@ body.page-template-become-a-client .cta-image-bg, body.page-template-services .c
 /*-- media css starts here --*/
 
 @media screen and (min-width: 1024px){
-    .cta-main{gap: 75px; padding: 92px 0 95px;}
+    .cta-main{gap: 75px; padding: 92px 0 95px; min-height: 434px;}
     .cta-image{left: 0; top: -43px; max-width: 425px;}
     .cta-reverse .cta-image{left: auto; right: 15px;}
     .cta-text{flex: 1; gap: 91px; padding-left: 503px; flex-direction: row-reverse;}
