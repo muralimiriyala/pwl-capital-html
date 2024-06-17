@@ -338,7 +338,7 @@ Math.easeInOutQuad = function (t, b, c, d) {
 document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('.how-can-links a');
     const slides = document.querySelectorAll('.how-can-slide');
-  
+
     // Scroll event to manage active link highlighting
     window.addEventListener('scroll', () => {
         slides.forEach((slide, index) => {
@@ -352,5 +352,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 Util.addClass(links[index], 'active');
             }
         });
+        const $section = document.querySelector(".how-can-section");
+        const $sectionHeight = $offset.offsetHeight;
+        const $offset = $section.offsetTop;
+        console.log($sectionHeight)
+
     });
   });
