@@ -27,7 +27,7 @@ ul.content-type{ margin-bottom: 15px;}
 ul.content-type li{ margin: 0; padding: 7px 10px; background-color: var(--capri-ocean-light); font-size: 12px; line-height: 12px; letter-spacing: 0.24px; display: inline-block; font-weight: 700; color: var(--capri-ocean); text-align: center;font-family:"brother-1816", sans-serif; text-transform: uppercase; }
 ul.content-type li::before{display: none;}
 
-.srch-results-list:nth-child(n+9) .srch-results-thumb{
+/* .srch-results-list:nth-child(n+9) .srch-results-thumb{
     background-image: linear-gradient(to bottom, red, blue);
     box-shadow: none;
 }
@@ -47,7 +47,7 @@ ul.content-type li::before{display: none;}
     height: 100%;
     backdrop-filter: blur(10px);
 }
-.srch-results-list:nth-child(n+9)  ul.content-type{opacity: 0;}
+.srch-results-list:nth-child(n+9)  ul.content-type{opacity: 0;} */
 
 body.search-results-page #load-more .button{min-width: 200px;}
 

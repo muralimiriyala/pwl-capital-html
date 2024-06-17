@@ -52,7 +52,7 @@ body.home .optional-circle{z-index: 2;}
 @media only screen and (min-width: 1024px){
     .optional-repeater-main{padding: 118px 0 115px;}
     body.page-template-career .optional-repeater-main{padding: 108px 0 138px;}
-    body.page-template-services .optional-repeater-main{padding: 118px 0 101px;}
+    body.page-template-services .optional-repeater-main, body.page-template-become-a-client .optional-repeater-main{padding: 118px 0 101px;}
     .optional-repeater-row{flex-direction: row-reverse; align-items: center;}
     .optional-repeater-row.reverse{flex-direction: row;}
     .optional-repeater-row:not(:last-child){margin-bottom: 124px;}

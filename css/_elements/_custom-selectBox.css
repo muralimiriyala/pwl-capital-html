@@ -31,7 +31,7 @@ ul.selectBox-dropdown-menu li:hover a{color: var(--aquamarine); background-color
 ul.selectBox-dropdown-menu li:hover{background-color: transparent; }
 body.page-template-learn ul.selectBox-dropdown-menu{box-shadow: 0 5px 40px 0 rgba(0, 17, 51, 0.15); max-height: 100%;}
 body.category-resources ul.selectBox-dropdown-menu{ max-height: 240px;}
-body.page-template-team ul.selectBox-dropdown-menu{margin: 16px 0 0;}
+body.page-template-team ul.selectBox-dropdown-menu{margin: 16px 0 0; width: 250px !important;}
 body.page-template-team ul.selectBox-dropdown-menu::before{left: 15px; right: auto;}
 body.page-template-team ul.selectBox-dropdown-menu li:hover a{color: var(--green-pear); background-color: transparent;}
 body.page-template-team ul.selectBox-dropdown-menu li.selectBox-selected a{color: var(--green-pear);}
