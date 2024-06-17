@@ -1,7 +1,7 @@
 
 .financial-content{font-size: 15px; line-height: 1.67;}
 .financial-content p{margin-bottom: 1.3rem;}
-.financial-content h3{font-size: 33px; font-weight: 500; line-height: 1.03;}
+.financial-content h3{font-size: 33px; font-weight: 500; line-height: 1.03; transition: all .3s ease;}
 .financial-content .text-link::after{background-image: none; content: "\f061"; font-family: "Font Awesome 6 Pro"; color: var(--capri-ocean);}
 .financial-item:nth-child(6) .financial-content{max-width: 236px;}
 .financial-item:nth-child(6) .financial-content h3{font-size: 33px; font-weight: 500; line-height: 1.03;}
