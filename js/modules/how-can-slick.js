@@ -25,6 +25,7 @@
         }
       });
   }
+  initializeSlider();
   $(document).ready(function() { initializeSlider(); $(window).on('resize', function() { initializeSlider(); }); });
   $('ul.how-can-links li:first a').addClass('active')
   $howcanlink.on('click', function(e) {
