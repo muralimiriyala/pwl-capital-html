@@ -2,14 +2,19 @@
 jQuery(document).on("ready", function(){
 
 const header = jQuery(".header-main");
-jQuery(window).on("scroll load", function(){
+function scrollHeader(){
     const $scroll = jQuery(this).scrollTop();
-    if ($scroll >= 4) {
-        header.addClass("sticky-header");
-    } else {
-        header.removeClass("sticky-header");
-    }
-});
+    $scroll >= 4 ? header.addClass("sticky-header") : header.removeClass("sticky-header");
+}
+function loadHeader(){
+    const $l_scroll = jQuery(this).scrollTop();
+    const $l_header = header.outerHeight(true);
+    $l_scroll >= $l_header ? header.addClass("sticky-header") : header.removeClass("sticky-header");
+}
+loadHeader();
+jQuery(window).on("scroll", scrollHeader);
+jQuery(window).on("load", loadHeader);
+
 
 jQuery(".humburger-btn").on("click", function(e){
     e.preventDefault();
