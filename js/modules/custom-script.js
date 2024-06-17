@@ -4,8 +4,8 @@ jQuery(function($){
     $('.accordion-item').on("click", function(){
         $(this).toggleClass("open");
         $(this).siblings('.accordion-item').removeClass("open");
-        $(this).find('.accordion-content').slideToggle(900);
-        $(this).siblings('.accordion-item').find('.accordion-content').slideUp(900);  
+        $(this).find('.accordion-content').slideToggle(400);
+        $(this).siblings('.accordion-item').find('.accordion-content').slideUp(400);  
      });
 
     $('.languages > a').on("click", function(e){
