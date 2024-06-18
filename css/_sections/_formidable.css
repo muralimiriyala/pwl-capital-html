@@ -188,6 +188,12 @@ body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{gap: 20px;}
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, 
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_prev_page{width: calc(50% - 10px); padding: 14px 30px 15px;}
+    body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit{gap: 20px;}
+    body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, 
+    body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit button.frm_prev_page{width: calc(50% - 10px); padding: 14px 30px 15px;}
+    body.page-template-become-a-client .frm_forms .frm_form_fields .frm_submit{gap: 20px;}
+    body.page-template-become-a-client .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, 
+    body.page-template-become-a-client .frm_forms .frm_form_fields .frm_submit button.frm_prev_page{width: calc(50% - 10px); padding: 14px 30px 15px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{line-height: 1.13;}
 
     body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
@@ -208,6 +214,10 @@ body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex-direction: column;}
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit, 
     body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_prev_page{width: 100%;}
-    body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex-direction: column;}
-    body.page-template-financial-goals-survey .financial-goals-form .frm_forms .frm_form_fields .frm_submit button.frm_prev_page{width: 100%;}
+    body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit{flex-direction: column;}
+    body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, 
+    body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_submit button.frm_prev_page{width: 100%;}
+    body.page-template-become-a-client .frm_forms .frm_form_fields .frm_submit{flex-direction: column;}
+    body.page-template-become-a-client .frm_forms .frm_form_fields .frm_submit button.frm_button_submit, 
+    body.page-template-become-a-client .frm_forms .frm_form_fields .frm_submit button.frm_prev_page{width: 100%;}
 }

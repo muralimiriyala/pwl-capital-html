@@ -29,8 +29,9 @@ header.black-header .header-btns .selectBox-dropdown{color: var(--midnight);}
 header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: var(--white);}
 
 .sticky-header .header-btns .selectBox-dropdown{color: var(--midnight);}
-ul.main-menu > li.nav-services > ul > li.no-cursor > a{cursor: context-menu;}
+ul.main-menu > li.nav-services > ul > li.no-cursor > a, ul.main-menu > li.nav-services > a{cursor: context-menu;}
 
+ul.main-menu > li.current_page_ancestor a, ul.main-menu > li.current-page-ancestor a{color: var(--green-pear);}
 ul.main-menu > li.nav-services > ul > li > ul > li.current-menu-item > a{color: var(--green-pear);}
 ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(--green-pear);}
 
@@ -71,7 +72,9 @@ ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(
     /*-- nav-services --*/
     ul.main-menu > li.nav-services a{position: relative;}
     ul.main-menu > li.nav-services > a::after{width: 0; height: 4px; margin: auto; bottom: 0; left: 0; right: 0; position: absolute; background-color: var(--capri-ocean); content: ""; display: block; transition: all 0.5s ease;}
+    ul.main-menu > li.nav-services.current_page_ancestor:hover > a::after,
     ul.main-menu > li.nav-services:hover > a::after, ul.main-menu > li.nav-services > a:hover::after{width: 100%;}
+    ul.main-menu > li.nav-services.current_page_ancestor:not(.sticky-header) > a{color: var(--green-pear);}
     ul.main-menu > li.nav-services{position: static;}
     ul.main-menu > li.nav-services > ul{width: 100%; left: 0; box-shadow: -10px 10px 0 var(--capri-ocean); display: flex; flex-wrap: wrap;}
     ul.main-menu > li.nav-services > ul > li{margin: 0; padding: 72px 0 72px 80px; flex: 0 0 calc(25% - 0px);}

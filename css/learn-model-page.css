@@ -23,16 +23,28 @@
 
     .learn-circle-main{display: flex; align-items: center; gap: 119px; }
     .learn-model-table.performance-table{flex: 0 0 776px;}
-    .false-For-Bottom-Text{flex: 1;}
-    
+    .false-For-Bottom-Text{flex: 1;} 
 }
+
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+    .learn-tablefull{overflow-x: scroll;}
+    .learn-tablefull-main table{width: 1199px; max-width: inherit;}
+}
+
+@media only screen and (max-width: 1439px) and (min-width: 200px){
+    .learn-table-section .container{padding: 0;}
+    .learn-tablefull-section .container{padding: 0;}
+}
+
 
 @media screen and (max-width: 1023px) and (min-width: 200px){
     .learn-table-main{padding: 30px 0 0;}
     .learn-tablefull{overflow-x: scroll;}
     .learn-tablefull-main{margin-bottom: 70px;}
-    .learn-tablefull-main table{width: 1010px; max-width: inherit;}
+    .learn-tablefull-main table{width: 1199px; max-width: inherit;}
     .learn-tablefull-main table tr td:first-child{font-weight: bold;}
+    .learn-table-section .container{padding: 0;}
+    .learn-tablefull-section .container{padding: 0;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 740px){

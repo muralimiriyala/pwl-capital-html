@@ -9,6 +9,8 @@
 /* .resource-blog-thumb img{min-height: 228px;} */
 .learn-more-btn{position: relative; z-index: 2;}
 
+.resource-blog-main.no-loadmore .resource-blog-list::after{display: none;}
+
 @media screen and (min-width: 1024px) {
     .resource-blog-wrap{padding: 0 0 117px;}
     .resource-blog-main{gap: 76px 50px; padding: 0 0 109px;}

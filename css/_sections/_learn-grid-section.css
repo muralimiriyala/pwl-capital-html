@@ -10,6 +10,7 @@
 .learn-grid-list:nth-child(10n+4) .learn-grid-text p a{color: var(--white);}
 .learn-grid-list:nth-child(10n+4) .learn-grid-text p a:hover{color: var(--aquamarine);}
 
+.learn-grid-main.no-loadmore .learn-grid-list::after{display: none;}
 
 @media screen and (min-width: 1024px) {
     .learn-grid-wrap{padding: 120px 0 66px;}
