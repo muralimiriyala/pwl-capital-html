@@ -30,6 +30,8 @@ form.career-post-form button{width: 100% !important;}
     .career-post-article ol > li{margin-bottom: 11px;}
     .career-post-article .text-link{margin-top: 30px;}
 	.newsletter-signup  form.career-post-form .newsletter-field-wrap .form-field{margin-bottom: 0 !important;}
+	.newsletter-signup  form.career-post-form .newsletter-field-wrap .form-field:first-child{width: calc(100% - 140px) !important;}
+	.newsletter-signup form.career-post-form .newsletter-field-wrap .form-field.newsletter-submit { right: 0; top: 0; max-width: 140px; height: 100%; position: absolute; }
 }
 @media screen and (max-width: 1023px) and (min-width: 740px){
 	.career-post-main{padding: 0 0 70px; display: block;}
@@ -38,6 +40,8 @@ form.career-post-form button{width: 100% !important;}
 	.career-post-article h3{margin-bottom: 26px;}
 	.career-post-icon{margin-bottom: 7px;}
 	.career-post-bg { padding: 34px 37px 40px; }
+	.newsletter-signup  form.career-post-form .newsletter-field-wrap .form-field:first-child{width: calc(100% - 140px) !important;}
+	.newsletter-signup form.career-post-form .newsletter-field-wrap .form-field.newsletter-submit { right: 0; top: 0; max-width: 140px; min-width: 140px; height: 100%; position: absolute; }
 }
 @media screen and (max-width: 739px) and (min-width: 200px){
 	.career-post-main{padding: 0 0 32px; display: block;}
