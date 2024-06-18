@@ -311,11 +311,10 @@ body.search-results-page ::-webkit-input-placeholder { font-family: 'Century Got
 body.search-results-page ::-moz-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: var(--midnight); opacity: 1;}
 body.search-results-page :-moz-placeholder { font-family: 'Century Gothic'; font-weight: 300; color: var(--midnight); }
 
-/* tooltip css start */
-/* .tooltipsall{border: none !important;}
-.qtip{left: -38000px; top: -38000px; max-width: 380px; line-height: 20px;}
-.qtip-dark{background-color: var(--white); color: var(--midnight); padding: 10px 15px; border-radius: 15px; border: none; font-size: 14px; } */
-  /* tooltip css end */
+span.tooltip{position: relative; padding-top: 2px;}
+.tooltip-text{opacity: 0; visibility: hidden; top: auto; bottom: 100%; width: 100%; padding: 10px 15px; min-width: 350px; font-size: 13px; line-height: 20px; background-color: var(--white); color: var(--midnight); border-radius: 15px; position: absolute; transition: all 0.5s ease;}
+.tooltip-text::after { width: 0; height: 0; bottom: -4px; left: 15px; border-radius: 0; border: 5px solid transparent; border-bottom: 5px solid var(--white); border-right: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; transition: all .5s ease; }
+span.tooltip:hover .tooltip-text{opacity: 1; visibility: visible;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 740px){
@@ -361,5 +360,5 @@ body.search-results-page :-moz-placeholder { font-family: 'Century Gothic'; font
   th, td{font-size: 15px; line-height: 1.47; padding: 16px;}
   .line{margin: 40px 0;}
 
-  .tooltip:hover::after {width: 300px;}
+  .tooltip-text{min-width: 280px;}
 }
