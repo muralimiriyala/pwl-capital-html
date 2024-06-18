@@ -19,6 +19,7 @@
     .career-opps-text{flex: 1; padding-top: 60px; max-width: 423px; margin-left: auto;}
     .career-opps-image{flex: 0 0 425px; transform: translateY(9px);}
     .career-opps-thumb img{max-height: 452px; overflow: hidden;}
+    .career-opps-text h1{font-size: 55px; line-height: 63px;}
 }
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .career-opps-main{gap: 70px;}
