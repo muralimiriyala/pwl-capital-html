@@ -2,7 +2,7 @@
 .become-form-title span.optional-text{color: rgba(16, 42, 70, 0.6);}
 
 @media screen and (min-width: 1024px) {
-    .become-form-heading{gap: 52px; padding-top: 109px; margin-bottom: 44px;}
+    .become-form-heading{gap: 52px; padding-top: 109px; margin-bottom: 28px;}
     .become-form-title{flex: 0 0 656px;}
     .become-form-desc{flex: 0 0 calc(100% - 708px);}
     .become-form{padding-bottom: 120px;}

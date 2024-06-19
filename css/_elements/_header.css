@@ -31,7 +31,7 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
 .sticky-header .header-btns .selectBox-dropdown{color: var(--midnight);}
 ul.main-menu > li.nav-services > ul > li.no-cursor > a, ul.main-menu > li.nav-services > a{cursor: context-menu;}
 
-ul.main-menu > li.current_page_ancestor a, ul.main-menu > li.current-page-ancestor a{color: var(--green-pear);}
+ul.main-menu > li.current_page_ancestor a, ul.main-menu > li.current-page-ancestor a, ul.main-menu > li.current-menu-ancestor a{color: var(--green-pear);}
 ul.main-menu > li.nav-services > ul > li > ul > li.current-menu-item > a{color: var(--green-pear);}
 ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(--green-pear);}
 
@@ -74,7 +74,7 @@ ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(
     ul.main-menu > li.nav-services > a::after{width: 0; height: 4px; margin: auto; bottom: 0; left: 0; right: 0; position: absolute; background-color: var(--capri-ocean); content: ""; display: block; transition: all 0.5s ease;}
     ul.main-menu > li.nav-services.current_page_ancestor:hover > a::after,
     ul.main-menu > li.nav-services:hover > a::after, ul.main-menu > li.nav-services > a:hover::after{width: 100%;}
-    ul.main-menu > li.nav-services.current_page_ancestor:not(.sticky-header) > a{color: var(--green-pear);}
+    ul.main-menu > li.nav-services.current_page_ancestor:not(.sticky-header) > a, ul.main-menu > li.nav-services.current-menu-ancestor:not(.sticky-header) > a{color: var(--green-pear);}
     ul.main-menu > li.nav-services{position: static;}
     ul.main-menu > li.nav-services > ul{width: 100%; left: 0; box-shadow: -10px 10px 0 var(--capri-ocean); display: flex; flex-wrap: wrap;}
     ul.main-menu > li.nav-services > ul > li{margin: 0; padding: 72px 0 72px 80px; flex: 0 0 calc(25% - 0px);}
@@ -107,8 +107,8 @@ ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(
     ul.main-menu{gap: 0 46px; order: 2; width: fit-content; justify-content: flex-end; font-family: 'Century Gothic', sans-serif;}
 
 
-    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent, body.post-template-default header.black-header:not(.sticky-header) .header-btns .btn-transparent {color: #0894d3;}
-    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover, body.post-template-default header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover{color: var(--white);}
+    /* body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent, body.post-template-default header.black-header:not(.sticky-header) .header-btns .btn-transparent {color: #0894d3;}
+    body.page-template-meet-with-us header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover, body.post-template-default header.black-header:not(.sticky-header) .header-btns .btn-transparent:hover{color: var(--white);} */
 
     header.black-header:not(.sticky-header) .header-btns .button{color: var(--white);}
     header.black-header:not(.sticky-header) .header-srch svg path{fill: #fff;}
@@ -131,6 +131,8 @@ ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(
     ul.signin-menu li::before{display: none;}
     ul.signin-menu li a{padding: 8px 16px; transition: none; display: block; width: 100%; color: var(--midnight,#121321); cursor: pointer; font-size: 15px; line-height: 15px; letter-spacing: 0; font-weight: 700; letter-spacing: normal; display: block; text-transform: none; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-family: 'Century Gothic';}
     ul.signin-menu li a:hover{color: var(--capri-ocean); transition: all 0.5s ease;}
+
+    header.black-header:not(.sticky-header) ul.main-menu > li.current_page_item > a { color: var(--green-pear); }
 
 }
 @media only screen and (max-width: 1599px) and (min-width: 1300px){

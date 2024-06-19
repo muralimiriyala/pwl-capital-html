@@ -40,5 +40,5 @@ body.page-template-team ul.selectBox-dropdown-menu li.selectBox-selected a{color
     body.page-template-team ul.selectBox-dropdown-menu{min-width: 200px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    body.page-template-team ul.selectBox-dropdown-menu{max-width: 150px;}
+    /* body.page-template-team ul.selectBox-dropdown-menu{max-width: 150px;} */
 }
