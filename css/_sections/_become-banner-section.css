@@ -48,7 +48,7 @@
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .become-banner-main{padding: 150px 0 36px; margin-bottom: 100px;}
     .become-banner-text{margin-bottom: 70px; width: 100%;}
-    .become-banner-text p{max-width: 100%;}
+    .become-banner-text p{max-width: 100%; margin-bottom: 20px;}
     .become-banner-icon{top: -60px; left: auto; opacity: 1; right: 23px;}
     .become-banner-image{margin: 0 0 55px 20px;}
     .become-banner-stats-col{display: flex; width: 100%; gap: 80px;}

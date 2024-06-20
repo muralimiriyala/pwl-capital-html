@@ -88,6 +88,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background: url("./images/calendar-icon.svg") no-repeat 95% 19px; background-size: 14px 14px;}
 body .frm_forms form .frm_required_field div.frm_error{bottom: -15px; font-size: 12.5px; line-height: 0.875rem; color: var(--white); position: absolute; text-align: right; right: 0; width: 100%;}
 body.page-template-become-a-client .frm_forms form .frm_required_field div.frm_error{color: #f70400;}
+body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: #fff;}
 body .with_frm_style .frm_message, .frm_success_style{color: var(--foreground); padding: 0; font-size: 1rem; line-height: 1.5; text-align: left; border: none; background: none; text-align: left; font-weight: 700;} 
 body .with_frm_style .frm_message p{color: var(--foreground); letter-spacing: 0;}
 body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{gap: 8px; display: flex; flex-wrap: wrap; width: 100%;}
@@ -207,6 +208,8 @@ body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third{width: calc(34% - 8px); float: left; clear: none; margin-left: 8px;}
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third:nth-child(2){margin-left: 0;}     
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span:not(.frm_required){margin: 2px 0 5px; float: none; display: block;}
+
+    body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: #fff; position: relative; bottom: 0;}
 
 }
 

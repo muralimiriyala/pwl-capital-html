@@ -112,7 +112,7 @@ hr.dot-line{ width: 100%; height: 2px; display: block; background-image: linear-
 .btn-aquamarine.btn-transparent:hover{background: var(--aquamarine); border-color: var(--aquamarine); color:var(--white);}
 .btn-aquamarine.btn-transparent.white-text{color: var(--white);}
 
-.button.btn-md{font-size: 14px; line-height: 15px; letter-spacing: 0.28px; padding: 11px 14px 11px;}
+.button.btn-md{font-size: 14px; line-height: 15px; letter-spacing: 0.28px; padding: 11px 15px 10px;}
 .button.btn-sm{font-size: 14px; line-height: 14px; letter-spacing: 0.18px; padding: 11px 20px 11px;}
 .button.btn-normal{padding: 14px 21px 15px;}
 .button.btn-lg{padding: 14px 29px 15px;}
