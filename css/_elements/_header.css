@@ -31,7 +31,7 @@ header.black-header:not(.sticky-header) .header-btns .selectBox-dropdown{color: 
 .sticky-header .header-btns .selectBox-dropdown{color: var(--midnight);}
 ul.main-menu > li.nav-services > ul > li.no-cursor > a, ul.main-menu > li.nav-services > a{cursor: context-menu;}
 
-ul.main-menu > li.current_page_ancestor a, ul.main-menu > li.current-page-ancestor a, ul.main-menu > li.current-menu-ancestor a{color: var(--green-pear);}
+ul.main-menu > li.current_page_ancestor > a, ul.main-menu > li.current-page-ancestor >  a, ul.main-menu > li.current-menu-ancestor > a{color: var(--green-pear);}
 ul.main-menu > li.nav-services > ul > li > ul > li.current-menu-item > a{color: var(--green-pear);}
 ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(--green-pear);}
 
@@ -86,7 +86,7 @@ ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(
     ul.main-menu > li.nav-services > ul > li > ul > li::before{display: none;}
     ul.main-menu > li.nav-services > ul > li > ul > li > a{color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; font-size: 16px; font-weight: 700; line-height: 24px; display: inline-block;}
     ul.main-menu > li.nav-services > ul > li > ul > li > a:hover{color: var(--capri-ocean);}
-    .menu-thumb::after{width: 100%; height: 100%; top: 0; left: 0; background: linear-gradient(-270deg, #013 0%, rgba(0, 17, 51, 0.10) 100%); content: ""; display: block; position: absolute;}
+    .menu-thumb::after{width: 100%; height: 100%; top: 0; left: 0; background: linear-gradient(270deg, transparent 0%, rgb(0, 17, 51) 100%); content: ""; display: block; position: absolute;}
     .menu-text{padding: 65px 88px; max-width: 500px;  color: var(--white); font-family:"brother-1816", sans-serif; letter-spacing: 0;}
     .menu-text span{margin-bottom: 10px; color: var(--white); display: block;}
     ul.main-menu > li.nav-services > ul > li:first-child > ul{border-right: 1px solid rgba(45, 87, 130, 0.14);}
@@ -237,5 +237,6 @@ ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(
 }
 @media only screen and (max-width: 520px) and (min-width: 200px){
     .header-srch-pos svg { width: 17px; height: 17px; top: 1px; position: relative; }
+    ul.main-menu  li{line-height: normal;}
 }
 
