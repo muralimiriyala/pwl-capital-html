@@ -28,8 +28,8 @@
 .team-department{min-width: 171px; max-width: 171px; line-height: normal;}
 .team-dropdown .selectBox-dropdown .selectBox-arrow{right: 0;}
 
-.reset{border-bottom: 2px solid var(--ice-blue); }
-.reset a{line-height: 31px; color: var(--midnight);}
+.reset{border-bottom: 2px solid var(--ice-blue); padding-bottom: 4px;}
+.reset a{ color: var(--midnight);}
 .reset.active a{color: var(--green-pear);}
 .reset.active{border-bottom: 2px solid var(--green-pear);}
 /* .reset a:hover{color: var(--green-pear);} */
@@ -70,7 +70,7 @@ span.education-title{font-size: 17px; font-weight: 500; line-height: 1.76; lette
 .team-cont-right{font-size: 15px; line-height: 1.67;}
 .team-cont-right > h4{font-size: 23px; font-weight: 500; line-height: 1.17; letter-spacing: -0.23px; margin-bottom: 11px;}
 
-.team-filter-form .selectBox-dropdown{padding: 0 24px 0 0; border-bottom: 1px solid rgba(45, 87, 130, 0.14); border-radius: 0; color: var(--midnight, #121321); background-color: transparent; border: none; border-bottom: 2px solid var(--ice-blue); font-family: "Century Gothic", sans-serif; font-size: 20px; font-weight: 400; line-height: 31px; }
+.team-filter-form .selectBox-dropdown{padding: 0 24px 5px 0; border-bottom: 1px solid rgba(45, 87, 130, 0.14); border-radius: 0; color: var(--midnight, #121321); background-color: transparent; border: none; border-bottom: 2px solid var(--ice-blue); font-family: "Century Gothic", sans-serif; font-size: 20px; font-weight: 400; line-height: 31px; }
 .team-filter-form .selectBox-dropdown .selectBox-arrow{right: 0; color: var(--midnight, #121321);}
 .team-filter-form .selectBox-dropdown.selectBox-menuShowing{color: var(--green-pear); border-color: var(--green-pear);}
 .team-filter-form .selectBox-dropdown.selectBox-menuShowing::after{bottom: -21px;  z-index: 999998888; right: 0;}
