@@ -12,6 +12,8 @@
 .default-banner-polygon-light{width: 131px; height: 137px; left: 0; background-color: var(--french-navy); clip-path: polygon(0 0,100% 0,50% 50%,0% 100%);}
 .default-banner-polygon-dark{width: 20px; height: 155px; background-color: #d9eef7; clip-path: polygon(0 0,100% 0,100% 88%,0% 100%); content: ""; left: -20px;}
 
+.default-banner-main.no-default-banner-img .default-banner-text{flex: 1;}
+
 @media screen and (min-width: 1024px) {
     .default-banner-text{padding: 202px 0 115px;}
 }

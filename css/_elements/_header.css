@@ -98,9 +98,9 @@ ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(
     .humburger-btn{display: none;}
     .header-srch{width: fit-content; margin-left: 72px;}
     
-    .languages{flex: 1; order: 1; gap: 10px; flex-wrap: nowrap; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
-    .languages a{width: 32px; height: 32px; opacity: 0.35;  color: var(--midnight);}
-    .languages a.active{opacity: 1; background-color: var(--white); color: var(--midnight);}
+    .h_languages{flex: 1; order: 1; gap: 10px; flex-wrap: nowrap; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
+    .h_languages a{width: 32px; height: 32px; opacity: 0.35;  color: var(--midnight); border-radius: 50%; display: flex; justify-content: center; align-items: center;}
+    .h_languages a.current_language{opacity: 1; background-color: var(--white); color: var(--midnight);}
     
     .header-right{flex: 1; margin-left: 12px; gap: 64px; align-items: center; justify-content: flex-end;}
     .header-right-inner{flex: 1; gap: 64px; align-items: center; justify-content: flex-end;}
@@ -112,12 +112,12 @@ ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(
 
     header.black-header:not(.sticky-header) .header-btns .button{color: var(--white);}
     header.black-header:not(.sticky-header) .header-srch svg path{fill: #fff;}
-    header.black-header:not(.sticky-header) .languages a{opacity: 0.35; color: var(--white);}
-    header.black-header:not(.sticky-header) .languages a.active{opacity: 1; background-color: var(--white-10); color: var(--white);}
+    header.black-header:not(.sticky-header) .h_languages a{opacity: 0.35; color: var(--white);}
+    header.black-header:not(.sticky-header) .h_languages a.current_language{opacity: 1; background-color: var(--white-10); color: var(--white);}
     header.black-header:not(.sticky-header) ul.main-menu > li > a{color: var(--white);}
     header.black-header:not(.sticky-header) ul.main-menu > li:hover > a, 
     header.black-header:not(.sticky-header) ul.main-menu > li > a:hover{color: var(--green-pear);}
-    header.black-header.sticky-header .languages a.active{color: var(--midnight);}
+    header.black-header.sticky-header .h_languages a.current_language{color: var(--midnight);}
 
 
     .header-sign-btn{position: relative; padding: 10px 0;}
@@ -184,10 +184,10 @@ ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(
     .header-btns{padding-bottom: 100px; display: block;}
     .header-btns .button{width: 100%;}
 
-    .languages{flex: 1; order: 1; gap: 10px; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
-    .languages a{width: 42px; height: 42px; color: rgba(18, 19, 33, 0.35);}
-    .languages a.active{background-color: var(--ice-blue-light); color: var(--midnight);}
-    .languages a:hover{background-color: var(--green-pear);}
+    .h_languages{flex: 1; order: 1; gap: 10px; font-size: 12px; font-weight: 700; line-height: 20px; letter-spacing: 0.6px; color: var(--midnight, #121321); font-family: "Century Gothic", sans-serif; }
+    .h_languages a{width: 42px; height: 42px; color: rgba(18, 19, 33, 0.35); border-radius: 50%; display: flex; justify-content: center; align-items: center;}
+    .h_languages a.current_language{background-color: var(--ice-blue-light); color: var(--midnight);}
+    .h_languages a:hover{background-color: var(--green-pear);}
 
     .header-srch-form {left: auto; right: 32px; top: calc(50% - 4px);}
     .header-srch-form.open{width: calc(100% - 32px);}

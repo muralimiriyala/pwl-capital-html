@@ -4,7 +4,7 @@
 .optional-cta-aquamarine .optional-cta-bg{background-color: var(--aquamarine);}
 .optional-cta-green .optional-cta-bg{background-color: var(--green-pear);}
 .optional-cta-bg{opacity: 0.2; transform: translate(10px,10px);}
-.optional-cta-main{padding: 24px 27px 25px 34px; justify-content: space-between; align-items: center; margin: 60px 0 70px;}
+.optional-cta-main{padding: 24px 27px 25px 34px; justify-content: space-between; align-items: center; margin: 60px 0 70px; gap: 30px;}
 .optional-cta-main .button.btn-white.btn-transparent:hover{background: var(--white); border-color: var(--white); color: var(--green-pear); }
 .learn-article .optional-cta-title h4{color: var(--white); margin-bottom: 0; font-weight: 500;}
 

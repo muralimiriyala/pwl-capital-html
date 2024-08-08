@@ -18,6 +18,16 @@
 .tablepress > .row-hover > tr.even:hover > * { background-color: transparent !important; color: var(--midnight) !important; }
 .tablepress > :where(tbody) > .odd > * { background-color: #e6f4fa !important; color: var(--midnight) I !important; }
 
+.negative-value{color: #ff0000;}
+
+.tablepress > :where(tbody) > .odd > .negative-value {color: #ff0000 !important;}
+.tablepress > :where(tbody) > .even > .negative-value {color: #ff0000 !important;}
+.tablepress > :where(tbody) > .odd > .negative-value:hover {color: #ff0000 !important;}
+.tablepress > :where(tbody) > .even > .negative-value:hover {color: #ff0000 !important;}
+.tablepress > .row-hover > tr.even:hover > .negative-value{color: #ff0000 !important;}
+
+.dataTables_length, .dataTables_filter, .dataTables_info, .dataTables_paginate{display: none;}
+
 @media screen and (min-width: 1024px) {
     .learn-tablefull-main{margin-bottom: 120px;}
 

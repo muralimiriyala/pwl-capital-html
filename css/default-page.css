@@ -23,14 +23,16 @@ div#ez-toc-container .ez-toc-title { font-size: 23px !important; line-height: 27
 
 @media screen and (min-width: 1024px) {
     .default-short-main{gap: 168px; padding: 120px 0 130px;}
-    .default-short-content{flex: 894px;}
+    body.page-id-824 .default-short-content{flex: 894px;}
+    body:not(.page-id-824) .default-short-section .container{max-width: 1126px;}
+    .default-short-content{flex: 1;}
     .default-short-content > h2:nth-child(2){font-size: 62px; line-height: 70px; letter-spacing: -0.62px; margin-bottom: 20px;}
     .default-short-sidebar{flex: 0 0 calc(100% - 1062px);}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .default-short-main{gap: 50px;}
-    .default-short-content{flex: 0 0 600px;}
+    body.page-id-824 .default-short-content{flex: 0 0 600px;}
     .default-short-sidebar{flex: 0 0 calc(100% - 650px);}
 }
 

@@ -1,6 +1,6 @@
 
 .breadcrumb{padding: 45px 0; margin-bottom: 10px;}
-ul.breadcrumb-list{margin: 0; gap: 50px;}
+ul.breadcrumb-list{margin: 0; gap:10px 50px;}
 ul.breadcrumb-list > li::before{content: ""; position: absolute; left: -28px; top: 11px; background: url("./images/breadcrumb-arrow.svg"); background-repeat: no-repeat; background-size: cover; width: 9px; height: 9px;}
 ul.breadcrumb-list > li:first-child::before{display: none;}
 .breadcrumb-list > li{margin-bottom: 0;}
