@@ -12,10 +12,9 @@
 
 .learn-grid-main.no-loadmore .learn-grid-list::after{display: none;}
 
-.search-wrap{margin-bottom: 45px;}
 
 @media screen and (min-width: 1024px) {
-    .learn-grid-wrap{padding: 120px 0 66px;}
+    .learn-grid-wrap{padding: 100px 0 66px;}
     .learn-grid-main{gap: 76px 50px; padding: 0 0 128px;}
     .no-post{text-align: center; display: block; width: 100%; padding-top: 95px;}
     .no-post h2{margin: 0;}
@@ -31,12 +30,14 @@
     .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-text p{max-width: 300px; margin-bottom: 9px;} 
     .learn-grid-list:nth-child(10n+4) .learn-grid-text p{margin-bottom: 11px;}
     .learn-grid-list:nth-child(10n+4) .learn-grid-image img{min-height: 578px; max-height: 578px;}
+
+    body.page-template-learn .search-wrap{padding-top: 100px; margin-bottom: -40px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .learn-grid-list:nth-child(10n+4) .learn-grid-text{padding: 60px 50px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
-    .learn-grid-wrap{padding: 40px 0 66px;}
+    .learn-grid-wrap{padding: 0 0 66px;}
     .learn-grid-main{gap: 30px; padding: 0 0 128px;}
     .learn-grid-list{flex: 0 0 calc(33.33333% - 20px);}
     .learn-grid-thumb img{min-height: 180px;}
@@ -46,9 +47,11 @@
     .learn-grid-list:nth-child(10n+4){ left: -40px; flex: 0 0 calc(100% + 80px); width: calc(100% + 80px); }
     .learn-grid-list:nth-child(10n+4) .learn-grid-text{padding: 54px; font-size: 38px; font-weight: 400; line-height: 49px; letter-spacing: -0.76px; }
     .learn-grid-list:nth-child(10n+4) .learn-grid-text p{margin-bottom: 11px;}
+
+    body.page-template-learn .search-wrap{margin-bottom: 80px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
-    .learn-grid-wrap{padding: 32px 0 54px;}
+    .learn-grid-wrap{padding: 40px 0 54px;}
     .learn-grid-main{display: block; padding: 0 0 71px;}
     .learn-grid-list:not(:last-child){margin-bottom: 66px;}
     .learn-grid-text p{margin-bottom: 9px;}
@@ -60,4 +63,6 @@
     .learn-grid-list:nth-child(10n+4) .learn-grid-text p{margin-bottom: 23px;}
     .learn-grid-list:not(:nth-child(10n+4)) .learn-grid-thumb img{max-height: 206px; min-height: 206px; object-position: top;}
     .learn-grid-list:nth-child(10n+4) .learn-grid-image img{min-height: 258px; max-height: 258px;}
+
+    body.page-template-learn .search-wrap{margin-bottom: 0; padding-top: 20px;}
 }

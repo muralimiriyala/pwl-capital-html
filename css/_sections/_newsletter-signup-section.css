@@ -26,7 +26,8 @@
     .newsletter-text{flex: 0 0 540px;}
     .newsletter-signup{flex: 1;}
     .newsletter-signup .frm_forms .frm_form_fields .frm_submit{position: absolute; top: 0; right: 0; min-width: 140px; height: auto;}
-    body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button{height: 100%;}
+    /* body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button{height: 100%;} */
+    body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button{height: 49px;}
     .newsletter-watermark{right: -107px; top: -22px; z-index: -1;}
     .newsletter-field{width: calc(50% - 10px); margin: 0 10px 20px; float: left;}
     .newsletter-field.frm_first{margin-left: 0;}
@@ -49,6 +50,8 @@
     .newsletter-submit{right: 0; top: 0; max-width: 140px; height: 100%; position: absolute;}
     .newsletter-polygon{bottom: -110px;}
     .newsletter-form .newsletter-field-email input{width: calc(100% - 140px);}
+
+    body .newsletter-signup .frm_forms .frm_form_fields .frm_submit button{height: 49px;}
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .newsletter-main{padding: 77px 0 82px; display: block; margin-bottom: 58px;}

@@ -174,7 +174,7 @@ img.aligncenter{margin: 25px auto;}
 .row-reverse{flex-direction: row-reverse;}
 
 /*-- custom css starts here --*/
-body{font-size: 17px; line-height: 30px; letter-spacing: -0.17px; font-weight: 400;font-family:"brother-1816", sans-serif;  position: relative; color: var(--midnight, #121321); background-color: transparent;}
+body{font-size: 17px; line-height: 30px; letter-spacing: -0.17px; font-weight: 400;font-family:"brother-1816", sans-serif;  position: relative; color: var(--midnight, #121321); background-color: transparent; overflow-x: hidden;}
 .d-block{display: block;}
 span.optional-text{margin-bottom: 12px; font-size: 12px; line-height: 21px; letter-spacing: 1.2px; font-weight: 600; display: block; font-family: "brother-1816", sans-serif; text-transform: uppercase; }
 span.optional-text.muted{margin-bottom: 8px; color: var(--muted-dark-2, rgba(33, 82, 131, 0.60));}
@@ -315,6 +315,13 @@ span.tooltip{position: relative; padding-top: 2px;}
 .tooltip-text{opacity: 0; visibility: hidden; top: auto; bottom: 100%; width: 100%; padding: 10px 15px; min-width: 350px; font-size: 13px; line-height: 20px; background-color: var(--white); color: var(--midnight); border-radius: 15px; position: absolute; transition: all 0.5s ease;}
 .tooltip-text::after { width: 0; height: 0; bottom: -4px; left: 15px; border-radius: 0; border: 5px solid transparent; border-bottom: 5px solid var(--white); border-right: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; transition: all .5s ease; }
 span.tooltip:hover .tooltip-text{opacity: 1; visibility: visible;}
+
+.cky-btn.cky-btn-accept{background: var(--capri-ocean) !important; color: var(--white) !important; border: 2px solid var(--capri-ocean) !important;}
+.cky-btn.cky-btn-accept:hover{background: var(--green-pear) !important; border-color: var(--green-pear) !important; opacity: 1 !important;}
+.cky-btn{color: var(--capri-ocean) !important; background-color: transparent !important; border: 2px solid var(--capri-ocean) !important;}
+.cky-btn:hover{color: var(--white) !important; background-color: var(--capri-ocean) !important; border: 2px solid var(--capri-ocean) !important; opacity: 1 !important;}
+.cky-show-desc-btn{color: #008000 !important;}
+.cky-preference-header .cky-btn-close img{height: 15px !important; width: 15px !important;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 740px){

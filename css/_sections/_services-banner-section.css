@@ -1,7 +1,7 @@
 
 .services-banner-section{background-color: rgba(217, 238, 247, 0.65); box-shadow: -20px 20px 0 0 #d9eef7;}
 .service-banner-text{ font-size: 20px; line-height: 1.55; font-weight: normal; font-family: 'Century Gothic';}
-.service-banner-text p{max-width: 421px;}
+.service-banner-text p{max-width: 435px;}
 .service-banner-stat-num.pacific-blue{color: var(--pacific-blue);}
 .service-banner-stat-num.bright-spring{color: var(--bright-Spring);}
 .service-banner-stat-num.aquamarine{color: var(--aquamarine);}
@@ -25,18 +25,11 @@
 
 @media screen and (min-width: 1024px) {
     .service-banner-main{gap: 80px; padding-top: 120px; min-height: 673px;}
-    .service-banner-text{flex: 0 0 540px; padding: 150px 0 50px; z-index: 2;}
+    .service-banner-text{flex: 0 0 540px; padding: 80px 0 50px; z-index: 2;}
     .service-banner-rt{max-width: 1107px; width: 100%; height: 100%; top: 0; right: 0; position: absolute;}
-    .service-banner-pos{width: 100%; height: 100%;}
+    .service-banner-pos{width: 100%; height: auto; margin-top: auto;}
     .service-banner-thumb img{min-height: 673px; max-height: 673px;}
-    .service-banner-image::before { top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(-90deg,rgba(11,0,65,0) 16.5%,#e6f4fa 100%);
-        content: "";
-        display: block;
-        position: absolute;}
+    .service-banner-image::before { top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(-90deg,rgba(11,0,65,0) 16.5%,#e6f4fa 100%); content: ""; display: block; position: absolute;}
     .service-banner-stats-col{position: absolute; top: 218px; right: 35px; z-index: 1;}
 
     .service-banner-main.no_image{align-items: center;}

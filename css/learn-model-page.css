@@ -55,6 +55,8 @@
     .learn-tablefull-main table tr td:first-child{font-weight: bold;}
     .learn-table-section .container{padding: 0;}
     .learn-tablefull-section .container{padding: 0;}
+
+    .learn-article table{width: fit-content !important; max-width: 100%; overflow-x: auto; display: block; height: auto !important;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 740px){

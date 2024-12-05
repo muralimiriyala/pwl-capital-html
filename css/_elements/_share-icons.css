@@ -15,6 +15,7 @@ body.post-template-default .share-icons, body.page-template-learn-model .share-i
 .share-icons #st-1.st-animated .st-btn[data-network="email"]::after{content: "\f0e0"; font-family: "Font Awesome 6 Pro"; font-weight: 900;}
 .share-icons #st-1.st-animated img{display: none;}
 .share-icons #st-1.st-has-labels .st-btn.st-remove-label{min-width: 2rem;}
+.share-icons #st-1 .st-total > span.st-shares{display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1023px) and (min-width: 768px){

@@ -192,7 +192,7 @@ ul.main-menu > li:not(.nav-services) > ul > li.current-menu-item > a{color: var(
     .header-srch-form {left: auto; right: 32px; top: calc(50% - 4px);}
     .header-srch-form.open{width: calc(100% - 32px);}
 
-    ul.main-menu > li > ul{margin: 0; max-height: 0; width: 100%; opacity: 0; visibility: hidden; transform: translateX(100%); left: 68px; display: block; transition: all 0.75s ease; background-color: var(--white); position: relative;} 
+    ul.main-menu > li > ul{margin: 0; max-height: 0; width: 100%; opacity: 0; visibility: hidden; transform: translateX(100%); left: 68px; display: block; transition: all 0.75s ease; background-color: var(--white); position: relative; overflow: hidden;} 
     ul.main-menu > li > ul.submenu-1{opacity: 1; max-height: inherit; visibility: visible; transform: translateX(0); left: 0; display: block;}
     ul.main-menu > li.menu-item-has-children > a.active{transform: translateX(0);}
     ul.main-menu > li.menu-item-has-children > a::after{content: "\f054"; position: absolute; top: calc(50% + 1px); transform: translateY(-50%); right: 0; font-family: "Font Awesome 6 Pro"; font-size: 15px; font-weight: 500; color: var(--capri-ocean);}

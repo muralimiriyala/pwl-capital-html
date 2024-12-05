@@ -77,7 +77,7 @@ body.home .optional-circle{z-index: 2;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .optional-repeater-main{padding: 0 0 120px;}
-    body.page-template-services .optional-repeater-main{padding: 80px 0 120px;}
+    body.page-template-services .optional-repeater-main{padding: 105px 0 100px;}
     body.page-template-default .optional-repeater-main{padding: 100px 0;}
     .optional-repeater-row{display: block;}
     .optional-repeater-row:not(:last-child){margin-bottom: 101px;}
@@ -94,7 +94,7 @@ body.home .optional-circle{z-index: 2;}
     .optional-repeater-main{padding: 0 0 120px;}
     body.page-template-default .optional-repeater-main{padding: 100px 0;}
     body.page-template-become-a-partner .optional-repeater-main, body.page-template-become-a-client .optional-repeater-main{padding: 0 0 80px;}
-    body.page-template-services .optional-repeater-main{padding: 32px 0 120px;}
+    body.page-template-services .optional-repeater-main{padding: 105px 0 80px;}
     .optional-repeater-row{display: block;}
     .optional-repeater-row:not(:last-child){margin-bottom: 90px;}
     body.page-template-career  .optional-repeater-main{padding: 0 0 100px;}

@@ -10,7 +10,7 @@
 .color-red{color: #ff0000;}
 .learn-article h4{margin-bottom: 25px;}
 
-.learn-article a{word-break: break-all;}
+.learn-article a{word-break: break-word;}
 @media screen and (min-width: 1024px) {
     .learn-main{gap: 167px; margin-bottom: 112px;}
     body.page-template-learn-model .learn-main{margin-bottom: 50px;}

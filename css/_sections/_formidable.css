@@ -26,6 +26,8 @@ body .gated-post-form .frm_forms .frm_form_fields .frm_submit{margin-top: 32px;}
 body .gated-post-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; margin: 0;}
 body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field #field_s9ekf_label{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 16px; line-height:  0.94; font-weight: bold; font-family: 'Century Gothic'; color: var(--white); text-transform: none; padding: 0 0 9px;}
+body .newsletter-signup .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{padding: 0;}
+body .frm_forms .frm_form_fields .newsletter-field-wrap .frm_form_field .frm_primary_label{padding: 0;}
 body.page-template-meet-with-us .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{line-height:  1.3;}
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 23px; line-height:  27px; font-weight: 500; font-family: brother-1816,sans-serif; color: var(--white); text-transform: none; padding: 0 0 14px;}
 body.page-template-become-a-partner .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{color: var(--pacific-blue);}
@@ -64,14 +66,14 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox la
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a{color: var(--accent); position: relative; display: inline-block;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a::after{width: 100%; height: 1px; left: 0; bottom: 1px; background-color: var(--accent); content: ""; display: block; position: absolute; transition: all .45s ease-in-out;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label a:hover::after{background-color: transparent;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 8px; left: 0; width: 20px; height: 20px; margin: 0; border-radius: 0; border: 1px solid var(--white); background-color: var(--white); }
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{top: 8px; left: 0; width: 20px !important; height: 20px !important; margin: 0; border-radius: 0; border: 1px solid var(--white); background-color: var(--white); }
 body.page-template-financial-goals-survey .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{left: 10px; border: 1px solid rgba(255, 255, 255, 0.2); background-color: transparent; }
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input{border: solid 1px rgba(45, 87, 130, 0.14); }
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]{border: solid 1px rgba(94, 103, 131, 0.25); border-radius: 50%;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 3px 0 0 3px; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: auto; left: auto; transform: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--white); clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); top: 50%; position: relative; transform: translate(-50% , -50%); left: 50%;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked{background-color: var(--capri-ocean);}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 4px 0 0 3px; box-shadow: inset 8px 8px var(--white); top: auto; left: auto; transform: none;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--white); top: auto; left: auto; transform: none; background-color: var(--white) !important; border-color: transparent !important;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked{background-color: var(--capri-ocean); border-color: var(--capri-ocean); box-shadow: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]::before{box-shadow: inset 10px 10px var(--white);}
 body .frm_forms .frm_form_fields .frm_submit{position: relative; z-index: 1; justify-content: space-between; width: auto;}
@@ -87,6 +89,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{dis
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: fit-content;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background: url("./images/calendar-icon.svg") no-repeat 95% 19px; background-size: 14px 14px;}
 body .frm_forms form .frm_required_field div.frm_error{bottom: -15px; font-size: 12.5px; line-height: 0.875rem; color: var(--white); position: absolute; text-align: right; right: 0; width: 100%;}
+body .career-post-aside .frm_forms form .frm_required_field div.frm_error{color: #f70400;}
 body.page-template-become-a-client .frm_forms form .frm_required_field div.frm_error{color: #f70400;}
 body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: #fff;}
 body .with_frm_style .frm_message, .frm_success_style{color: var(--foreground); padding: 0; font-size: 1rem; line-height: 1.5; text-align: left; border: none; background: none; text-align: left; font-weight: 700;} 
@@ -130,6 +133,11 @@ body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields
 body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields .frm_form_field input, body.page-template-become-a-client .frm_forms .frm_form_fields .frm_form_field textarea{ border: solid 1px var(--line-dark);}
 body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{color: var(--midnight);}
 body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{width: 100%; flex: auto;}
+
+body .meet-with-form .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0 0 0 35px;}
+body .meet-with-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{left: 4px;}
+
+body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type=checkbox]:not([disabled]):checked{border-color: transparent !important;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8px; float: none; clear: none; display: inline-block; vertical-align: top;}
