@@ -90,7 +90,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{dis
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: fit-content;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background: url("./images/calendar-icon.svg") no-repeat 95% 19px; background-size: 14px 14px;}
 body .frm_forms form .frm_required_field div.frm_error, .flyout-overlay .hbspt-form form .hs-form-field label.hs-error-msg{bottom: -15px; font-size: 12.5px; line-height: 0.875rem; font-weight: 400; color: var(--white); position: absolute; text-align: right; right: 0; width: 100%;}
-.flyout-overlay .hbspt-form form .hs-form-field label.hs-error-msg{position: static;}
+.flyout-overlay .hbspt-form form .hs-form-field label.hs-error-msg{position: relative; bottom: -4px;}
 body .career-post-aside .frm_forms form .frm_required_field div.frm_error{color: #f70400;}
 body.page-template-become-a-client .frm_forms form .frm_required_field div.frm_error{color: #f70400;}
 body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: #fff;}
@@ -147,7 +147,7 @@ body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type=ch
 .meet-with-form ul.no-list.inputs-list{margin: 0;}
 .meet-with-form ul.no-list.inputs-list li{margin: 0;}
 .meet-with-form ul.no-list.inputs-list li::before {display: none; top: 9px; left: -18px; border-radius: 50%; }
-.meet-with-form ul.no-list.inputs-list li label{margin: 0; padding: 0;}
+.meet-with-form ul.no-list.inputs-list li label{margin: 0; padding: 5px 0 0; color: #fff; font-weight: 400; font-size: 12.5px; line-height: .875rem;}
 .meet-with-form .hbspt-form form fieldset .hs-input{width: 100%;}
 .meet-with-form .hbspt-form form fieldset select.hs-input{display: none;}
 .meet-with-form .hbspt-form form fieldset .hs-input.invalid{border: 1px solid #da1a32;}
@@ -162,7 +162,7 @@ body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type=ch
 .meet-with-form .hbspt-form form fieldset input[type="checkbox"]{top: 2px; left: 0; width: 20px !important; height: 20px !important; margin: 0; border-radius: 0; border: 1px solid var(--white); background-color: var(--white); position: absolute;}
 .meet-with-form .hbspt-form form fieldset input[type="checkbox"]::before{box-shadow: inset 10px 10px var(--white); content: ""; display: block; position: absolute;}
 .meet-with-form .hbspt-form form fieldset input[type="checkbox"]:checked{background-color: var(--capri-ocean); border-color: var(--capri-ocean); box-shadow: none;}
-.meet-with-form .hbspt-form form fieldset input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--white); top: 2px; left: 3px; transform: none; background-color: var(--white) !important; border-color: transparent !important; position: absolute; clip-path: polygon(14% 44%,0 65%,50% 100%,100% 16%,80% 0%,43% 62%);}
+.meet-with-form .hbspt-form form fieldset input[type="checkbox"]:checked::before{width: 12px; height: 11px; margin: 0; box-shadow: inset 8px 8px var(--white); top: 3px; left: 3px; transform: none; background-color: var(--white) !important; border-color: transparent !important; position: absolute; clip-path: polygon(14% 44%,0 65%,50% 100%,100% 16%,80% 0%,43% 62%);}
 .meet-with-form .hbspt-form form .hs_submit {margin-top: 20px;}
 .meet-with-form .hbspt-form form .hs_submit input{width: auto;} 
 /* .next-step{display: none;}
