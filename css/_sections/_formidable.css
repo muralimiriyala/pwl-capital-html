@@ -154,6 +154,7 @@ body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type=ch
 .meet-with-form .hbspt-form form fieldset .hs-input{width: 100%; border: 1px solid transparent;}
 .meet-with-form .hbspt-form form fieldset select.hs-input{display: none;}
 .meet-with-form .hbspt-form form fieldset .hs-input.invalid{border: 1px solid #da1a32;}
+
 .meet-with-form .hbspt-form form fieldset textarea.hs-input{min-height: 160px;}
 .meet-with-form ul.inputs-list:not(.no-list){margin: 0;}
 .meet-with-form ul.inputs-list:not(.no-list) li::before{display: none;}

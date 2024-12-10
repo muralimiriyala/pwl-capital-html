@@ -14,7 +14,7 @@ body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow::after{content: 
 body.page-template-meet-with-us .selectBox-dropdown{padding: 16px 34px 14px 14px; width: 100%; font-size: 1rem; line-height: 1.25; letter-spacing: -0.32px; height: auto; border: none; background-color: var(--white); border-radius: 0; color: rgba(16,42,70,.6); font-family: 'Century Gothic'; display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 body.page-template-meet-with-us .selectBox-dropdown::placeholder{color: rgba(16,42,70,.6); font-family: 'Century Gothic';}
 body.page-template-meet-with-us .selectBox-dropdown .selectBox-arrow{color: var(--capri-ocean);}
-body.page-template-meet-with-us ul.selectBox-dropdown-menu{margin: 0;}
+body.page-template-meet-with-us ul.selectBox-dropdown-menu{margin: 0; border: 1px solid transparent;}
 body.page-template-meet-with-us ul.selectBox-dropdown-menu::before{display: none;}
 
 body .selectBox-dropdown::after { opacity: 0; width: 0; height: 0; bottom: -14px; right: 15px; border-radius: 0; border: 5px solid transparent; border-top: 5px solid var(--white); border-left: 5px solid var(--white); content: ""; display: block; transform: rotate(45deg); position: absolute; transition: all 0.5s ease; transition-delay: 0.5s;}
