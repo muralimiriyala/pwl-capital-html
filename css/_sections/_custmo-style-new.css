@@ -1,0 +1,88 @@
+/* Custom */
+.portfolio-item {text-align: center; line-height: normal;}
+ul.post-department li:last-child:before {display: none;}
+
+
+/* Default form - for default form style use "common-form class for the form" */
+body .frm_forms .common-form .frm_form_fields .frm_form_field .frm_primary_label {color: #666; line-height: 112.5%;}
+body .frm_forms .common-form .frm_form_fields .frm_form_field.vertical_radio .frm_radio label {color: #666;}
+body .frm_forms .common-form .frm_form_fields .frm_form_field .frm_dropzone .dz-message .frm_small_text {padding-right: 10px;}
+body .frm_forms .common-form .frm_form_fields .frm_form_field input, body .frm_forms .common-form .frm_form_fields .frm_form_field textarea {
+  padding: 13px 17px 14px 17px;
+  width: 100% ;
+  color: rgba(16, 42, 70, .6) !important;
+  display: block;
+  border: 1px solid var(--line-dark, rgba(45, 87, 130, .14)) !important;
+  background: var(--white, #fff);
+  font-family: "Century Gothic", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 15px !important
+}
+body .frm_forms .common-form .frm_form_fields .frm_form_field .frm_dropzone {
+  border: 1px solid var(--line-dark, rgba(45, 87, 130, .14)) !important;
+  max-height: 54px;
+  min-height: 48px;
+  border-radius: 0
+}
+body .frm_forms .common-form .frm_form_fields .frm_form_field .frm_dropzone input {
+  opacity: 0
+}
+body .frm_forms .common-form .frm_form_fields .frm_form_field .frm_dropzone::before {
+  content: "Attach your CV";
+  color: rgba(16, 42, 70, .6);
+  font-family: 'Century Gothic';
+  font-size: 15px;
+  line-height: 15px;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  padding: 16px 0 0 17px
+}
+body .frm_forms .common-form .frm_form_fields .frm_form_field .frm_dropzone input {
+  height: 46px
+}
+body .frm_forms .common-form .frm_form_fields .frm_form_field .frm_dropzone .dz-message {
+  display: none !important
+}
+body .frm_forms .common-form .frm_form_fields .frm_form_field button {
+  width: 100% !important
+}
+body .frm_forms .common-form .frm_required_field div.frm_error {color: var(--error-text);}
+body .frm_style_formidable-style.with_frm_style .common-form .frm_error_style {display: none;}
+body .frm_forms .common-form .frm_form_fields .frm_form_field {margin-bottom: 20px;}
+body.fr .footer-logos.footer-logos-extra .footer-thumb:first-child img {width: auto; height: 42px;}
+body.fr .footer-logos.footer-logos-extra .footer-thumb:nth-child(2) img {width: auto; height: 42px;}
+.meet-our-btns {gap: 20px;}
+
+.language-modal-inner { display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center;}
+.language-modal-inner h4{font-size: 24px; line-height: 30px;}
+
+form.language-modal-form input[type="radio"]{position: relative; border: solid 1px rgba(0, 0, 0, 0.55); padding: 12px; cursor: pointer;}
+form.language-modal-form input[type="radio"]:checked{background: #0893d3; border-color: #0893d3;}
+form.language-modal-form input[type="radio"]:checked::before{background: var(--white);
+  border-radius: 50%;
+  content: "";
+  height: 12px;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 12px;
+}
+
+@media screen and (min-width: 1024px) {
+.meet-our-desc p {font-size: 16px; line-height: 26px;}
+body .our-story-text h1 {font-size: 66px; line-height: 76px;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+    .portfolio-model-slider .slick-track {display: flex;}
+    .portfolio-item {height: inherit !important; display: flex !important; align-items: center;}
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+  .language-modal-inner{width: calc(100% - 20px) !important;}
+}
