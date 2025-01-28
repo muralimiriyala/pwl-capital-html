@@ -53,7 +53,7 @@ body .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .
 body .header-main form.search-form input::-webkit-input-placeholder{color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
 body .header-main form.search-form input:-moz-placeholder{color: rgba(16, 42, 70, 0.6); font-family: 'Century Gothic';}
 
-.vertical_radio .frm_opt_container{margin-top: 0;}
+.vertical_radio .frm_opt_container{margin-top: 0; }
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{margin-bottom: 0;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding: 9px 13px 12px 35px; cursor: pointer; display: block; font-size: 1rem; line-height: 1.13; letter-spacing: normal; text-indent: 0; color: var(--white); position: relative; font-family: 'Century Gothic';}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input{width: 20px; height: 20px; left: 0; padding: 0; cursor: pointer; position: absolute; margin:0; border: none;}
