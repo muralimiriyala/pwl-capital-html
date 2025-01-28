@@ -134,6 +134,15 @@ body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields
 body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{color: var(--midnight);}
 body.page-template-become-a-client .become-with-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{width: 100%; flex: auto;}
 
+body.page-template-default .frm_forms{background-color: var(--ice-blue-light); padding: 40px;}
+body.page-template-default .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{color: var(--pacific-blue); line-height: 1.3; position: relative;}
+body.page-template-default .frm_forms .frm_form_fields .frm_form_field_wrapper #frm_field_47_container .frm_primary_label{display: none;}
+body.page-template-default .frm_forms .frm_form_fields .frm_form_field input, body.page-template-default .frm_forms .frm_form_fields .frm_form_field textarea{ border: solid 1px var(--line-dark);}
+body.page-template-default .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox label{color: var(--midnight);}
+body.page-template-default .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{width: 100%; flex: auto;}
+body.page-template-default .selectBox-dropdown .selectBox-arrow{ color: var(--capri-ocean); }
+body.page-template-default .frm_forms form .frm_required_field div.frm_error{color: #f70400;}
+
 body .meet-with-form .frm_forms .frm_form_fields .frm_form_field_wrapper .vertical_radio .frm_checkbox label{padding: 0 0 0 35px;}
 body .meet-with-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field .frm_checkbox input{left: 4px;}
 
@@ -187,6 +196,8 @@ body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type=ch
 
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third{width: calc(33% - 4px); float: left; clear: none; margin-left: 9px;}
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third:nth-child(2){margin-left: 0;}
+
+    body.page-template-default .frm_forms{padding: 30px 15px; }
 }
 @media only screen and (max-width: 739px) and (min-width: 200px){
     .frm_form_field_wrapper{gap: 20px; justify-content: space-between;}
@@ -219,6 +230,7 @@ body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type=ch
 
     body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: #fff; position: relative; bottom: 0;}
 
+    body.page-template-default .frm_forms{padding: 30px 15px;}
 }
 
 @media only screen and (max-width: 414px) and (min-width: 200px){

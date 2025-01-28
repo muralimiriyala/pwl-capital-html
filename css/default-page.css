@@ -38,5 +38,6 @@ div#ez-toc-container .ez-toc-title { font-size: 23px !important; line-height: 27
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .default-short-main{flex-direction: column-reverse; padding: 111px 0; gap: 70px;}
+    .default-short-content { width: 100%; display: block; }
     .default-short-content > h2:nth-child(2){font-size: 43px; line-height: 51px; letter-spacing: -0.43px;}
 }
