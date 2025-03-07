@@ -20,6 +20,29 @@
 .newsletter-signup .frm_forms .frm_form_fields .frm_submit button{background-color: var(--green-pear) !important;}
 .newsletter-signup .frm_forms .frm_form_fields .frm_submit button:hover{background-color: var(--capri-ocean) !important;}
 
+.newsletter-signup .hs-button.primary.large {background-color: var(--green-pear); }
+.newsletter-signup .hs-button.primary.large:hover{background-color: var(--capri-ocean);}
+.form-columns-2 { max-width: 100% !important; display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px !important;}
+.form-columns-2 > .hs-fieldtype-text{ flex: 0 0 calc(50% - 10px);}
+.form-columns-2 > .hs-fieldtype-text label{padding: 0 !important;}
+.form-columns-2 > .hs-fieldtype-text .input{margin: 0 !important;}
+
+.form-columns-1{ max-width: 100% !important; margin-bottom: 20px !important;}
+.form-columns-1 > .hs-fieldtype-text label{padding: 0 !important;}
+.form-columns-1 > .hs-fieldtype-text .input{margin: 0 !important;}
+.form-columns-1 > .hs-fieldtype-text .input .hs-input{width: 100% !important;}
+
+.form-columns-0{ max-width: 100% !important; margin-bottom: 20px !important;}
+.hs-richtext{padding: 0 0 0 28px; color: var(--muted-light); font-size: .875rem; line-height: 1.25rem; letter-spacing: -.28px; position: relative;}
+.hs-richtext::before{content: "\f06a"; font-family: "Font Awesome 6 Pro"; position: absolute; top: 3px; left: 0; font-size: 18px; transform: rotate(180deg);}
+
+ul.hs-error-msgs{margin: 0 !important;}
+ul.hs-error-msgs > li{margin: 0 !important;}
+ul.hs-error-msgs > li::before{display: none !important;}
+ul.hs-error-msgs > li label.hs-main-font-element{bottom: -15px; font-size: 12.5px; padding: 0 !important; line-height: .875rem; font-weight: 400; color: var(--white); position: absolute; text-align: right; right: 0; width: 100%;}
+
+.hs_submit.hs-submit{margin-top: 25px;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .newsletter-main{gap: 168px; padding: 100px 0;} 
@@ -38,6 +61,8 @@
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .newsletter-main{gap: 50px;}
     .newsletter-text{flex: 0 0 450px;}
+
+    ul.hs-error-msgs > li label.hs-main-font-element {font-size: 11px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 740px){
     .newsletter-main{display: block; padding: 80px 0; margin-bottom: 111px;} 
@@ -61,6 +86,15 @@
     .newsletter-field{margin-bottom: 10px;}
     .newsletter-field-email{margin-bottom: 10px;}
     .newsletter-polygon{width: 58px; height: 58px; bottom: -57px;}
+
+    .form-columns-2 {gap: 10px; margin-bottom: 10px !important;} 
+    .form-columns-2 .hs-form-field .hs-input{width: 100% !important;}
+    .form-columns-2 > .hs-fieldtype-text{ flex: 100%;}
+
+    .form-columns-1{margin-bottom: 10px !important;}
+    .form-columns-0{margin-bottom: 10px !important;}
+    .hs_submit.hs-submit{margin-top: 15px;}
+    ul.hs-error-msgs > li label.hs-main-font-element{position: relative; bottom: 0;}
 }
 
 
